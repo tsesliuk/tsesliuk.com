@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="1823px" viewBox="0 0 1024 1823" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>ui_standards_2_popups_and_tooltips</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M122.166417,71.3774194 L222.005755,71.3774194 C224.213865,71.3774194 226,69.5863061 226,67.376856 L226,4.50701495 C226,2.29377341 224.211716,0.506451613 222.005755,0.506451613 L4.00804703,0.506451613 C1.79993704,0.506451613 0.0138019245,2.29756483 0.0138019245,4.50701495 L0.0138019245,67.376856 C0.0138019245,69.5900976 1.80208637,71.3774194 4.00804703,71.3774194 L103.723671,71.3774194 L112.945044,80.5987927 L122.166417,71.3774194 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225.986198" height="80.0923411" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M104.238853,8.61038961 L4.00804703,8.61038961 C1.79993704,8.61038961 0.0138019245,10.4018099 0.0138019245,12.6116387 L0.0138019245,75.4922574 C0.0138019245,77.7058783 1.80208637,79.4935065 4.00804703,79.4935065 L222.005755,79.4935065 C224.213865,79.4935065 226,77.7020862 226,75.4922574 L226,12.6116387 C226,10.3980178 224.211716,8.61038961 222.005755,8.61038961 L121.266785,8.61038961 L112.752819,0.096423652 L104.238853,8.61038961 Z" id="path-4"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225.986198" height="79.3970828" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+        <path d="M10.0138019,45.8472805 L10.0138019,67.4989066 C10.0138019,69.7029202 11.8020864,71.4931507 14.008047,71.4931507 L232.005755,71.4931507 C234.213865,71.4931507 236,69.7048667 236,67.4989066 L236,4.50109338 C236,2.29707975 234.211716,0.506849315 232.005755,0.506849315 L14.008047,0.506849315 C11.799937,0.506849315 10.0138019,2.2951333 10.0138019,4.50109338 L10.0138019,27.6162624 L0.89829286,36.7317715 L10.0138019,45.8472805 Z" id="path-7"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="235.101707" height="70.9863014" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M226,28.1349938 L226,4.50109338 C226,2.29707975 224.211716,0.506849315 222.005755,0.506849315 L4.00804703,0.506849315 C1.79993704,0.506849315 0.0138019245,2.2951333 0.0138019245,4.50109338 L0.0138019245,67.4989066 C0.0138019245,69.7029202 1.80208637,71.4931507 4.00804703,71.4931507 L222.005755,71.4931507 C224.213865,71.4931507 226,69.7048667 226,67.4989066 L226,45.7353777 L234.800192,36.9351857 L226,28.1349938 Z" id="path-10"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="234.78639" height="70.9863014" fill="white">
+            <use xlink:href="#path-10"></use>
+        </mask>
+        <path d="M122.166417,68.3774194 L222.005755,68.3774194 C224.213865,68.3774194 226,66.5900277 226,64.3851684 L226,4.49870259 C226,2.30435338 224.211716,0.506451613 222.005755,0.506451613 L4.00804703,0.506451613 C1.79993704,0.506451613 0.0138019245,2.29384326 0.0138019245,4.49870259 L0.0138019245,64.3851684 C0.0138019245,66.5795176 1.80208637,68.3774194 4.00804703,68.3774194 L103.723671,68.3774194 L112.945044,77.5987927 L122.166417,68.3774194 Z" id="path-13"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225.986198" height="77.0923411" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <path d="M104.238853,8.61038961 L4.00804703,8.61038961 C1.79993704,8.61038961 0.0138019245,10.4017813 0.0138019245,12.6115749 L0.0138019245,73.4923212 C0.0138019245,75.7040414 1.80208637,77.4935065 4.00804703,77.4935065 L222.005755,77.4935065 C224.213865,77.4935065 226,75.7021148 226,73.4923212 L226,12.6115749 C226,10.3998547 224.211716,8.61038961 222.005755,8.61038961 L121.266785,8.61038961 L112.752819,0.096423652 L104.238853,8.61038961 Z" id="path-16"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225.986198" height="77.3970828" fill="white">
+            <use xlink:href="#path-16"></use>
+        </mask>
+        <path d="M10.0138019,45.8472805 L10.0138019,66.4917518 C10.0138019,68.692812 11.8020864,70.4931507 14.008047,70.4931507 L232.005755,70.4931507 C234.213865,70.4931507 236,68.7016634 236,66.4917518 L236,4.50824824 C236,2.30718797 234.211716,0.506849315 232.005755,0.506849315 L14.008047,0.506849315 C11.799937,0.506849315 10.0138019,2.29833663 10.0138019,4.50824824 L10.0138019,27.6162624 L0.89829286,36.7317715 L10.0138019,45.8472805 Z" id="path-19"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-21" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="235.101707" height="69.9863014" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <path d="M226,28.1349938 L226,4.50109338 C226,2.29707975 224.211716,0.506849315 222.005755,0.506849315 L4.00804703,0.506849315 C1.79993704,0.506849315 0.0138019245,2.2951333 0.0138019245,4.50109338 L0.0138019245,67.4989066 C0.0138019245,69.7029202 1.80208637,71.4931507 4.00804703,71.4931507 L222.005755,71.4931507 C224.213865,71.4931507 226,69.7048667 226,67.4989066 L226,45.7353777 L234.800192,36.9351857 L226,28.1349938 Z" id="path-22"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-23">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="234.78639" height="70.9863014" fill="white">
+            <use xlink:href="#path-22"></use>
+        </mask>
+        <path d="M0.0138019245,4.49145066 C0.0138019245,2.28703333 1.81046401,0.5 4.0112385,0.5 L241.002563,0.5 C243.210287,0.5 245,2.28102301 245,4.49145066 L245,141.508549 C245,143.712967 243.203338,145.5 241.002563,145.5 L4.0112385,145.5 C1.80351524,145.5 0.0138019245,143.718977 0.0138019245,141.508549 L0.0138019245,4.49145066 Z" id="path-25"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-26">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-27" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="244.986198" height="145" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <rect id="path-28" x="0.0138019245" y="0.5" width="699.986198" height="255" rx="4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-29">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="699.986198" height="255" fill="white">
+            <use xlink:href="#path-28"></use>
+        </mask>
+        <rect id="path-31" x="0.0138019245" y="0.5" width="699.986198" height="255" rx="4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-32">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-33" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="699.986198" height="255" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <rect id="path-34" x="0.0138019245" y="0.5" width="464.972396" height="155" rx="4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-35">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="464.972396" height="155" fill="white">
+            <use xlink:href="#path-34"></use>
+        </mask>
+        <rect id="path-37" x="0" y="0" width="415" height="75"></rect>
+        <rect id="path-39" x="0" y="0" width="10" height="75" rx="2"></rect>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="75" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <rect id="path-41" x="2" y="52" width="6" height="20" rx="2"></rect>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6" height="20" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+        <rect id="path-43" x="0.0138019245" y="0.5" width="464.972396" height="155" rx="4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-44">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-45" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="464.972396" height="155" fill="white">
+            <use xlink:href="#path-43"></use>
+        </mask>
+        <rect id="path-46" x="0" y="0" width="415" height="75"></rect>
+        <rect id="path-48" x="0" y="0" width="10" height="75" rx="2"></rect>
+        <mask id="mask-49" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="10" height="75" fill="white">
+            <use xlink:href="#path-48"></use>
+        </mask>
+        <rect id="path-50" x="2" y="2" width="6" height="20" rx="2"></rect>
+        <mask id="mask-51" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="6" height="20" fill="white">
+            <use xlink:href="#path-50"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui_standards_2_popups_and_tooltips">
+            <g id="Simple-tooltip-on-click-(bottom-arrow)-Copy" transform="translate(778.000000, 1715.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-3)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="11" y="21.1290323">Lorem Ipsum</tspan>
+                    <tspan x="86.3457031" y="21.1290323" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy </tspan>
+                    <tspan x="11" y="39.5216104" font-family="ArialMT, Arial" font-weight="normal">text of the printing and </tspan>
+                    <tspan x="11" y="57.9141885" font-family="ArialMT, Arial" font-weight="normal">typesetting industry. </tspan>
+                    <tspan x="11" y="76.3067666" font-family="ArialMT, Arial" font-weight="normal">Lorem Ipsum has been the </tspan>
+                    <tspan x="11" y="94.6993448" font-family="ArialMT, Arial" font-weight="normal">industry’s.</tspan>
+                </text>
+                <polygon id="Close_X" fill="#898989" fill-rule="evenodd" points="215.7 12.575 214.05 11 209.85 15.275 205.575 11 204 12.575 208.275 16.85 204 21.05 205.575 22.7 209.85 18.425 214.05 22.7 215.7 21.05 211.425 16.85"></polygon>
+            </g>
+            <g id="Simple-tooltip-on-click-(top-arrow)-Copy" transform="translate(528.000000, 1707.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-6)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="11" y="29.2337662">Lorem Ipsum</tspan>
+                    <tspan x="86.3457031" y="29.2337662" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy </tspan>
+                    <tspan x="11" y="47.6263444" font-family="ArialMT, Arial" font-weight="normal">text of the printing and typesetting </tspan>
+                    <tspan x="11" y="66.0189225" font-family="ArialMT, Arial" font-weight="normal">industry. </tspan>
+                    <tspan x="11" y="84.4115006" font-family="ArialMT, Arial" font-weight="normal">Lorem Ipsum has been the </tspan>
+                    <tspan x="11" y="102.804079" font-family="ArialMT, Arial" font-weight="normal">industry’s.</tspan>
+                </text>
+                <polygon id="Close_X" fill="#898989" fill-rule="evenodd" points="215.7 20.575 214.05 19 209.85 23.275 205.575 19 204 20.575 208.275 24.85 204 29.05 205.575 30.7 209.85 26.425 214.05 30.7 215.7 29.05 211.425 24.85"></polygon>
+            </g>
+            <g id="Simple-tooltip-on-click-(left-arrow)-Copy" transform="translate(266.000000, 1715.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-9)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="21" y="21.1369863">Lorem Ipsum</tspan>
+                    <tspan x="96.3457031" y="21.1369863" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy </tspan>
+                    <tspan x="21" y="39.5295644" font-family="ArialMT, Arial" font-weight="normal">text of the printing and typesetting </tspan>
+                    <tspan x="21" y="57.9221426" font-family="ArialMT, Arial" font-weight="normal">industry. </tspan>
+                    <tspan x="21" y="76.3147207" font-family="ArialMT, Arial" font-weight="normal">Lorem Ipsum has been the </tspan>
+                    <tspan x="21" y="94.7072988" font-family="ArialMT, Arial" font-weight="normal">industry’s.</tspan>
+                </text>
+                <g id="Close" stroke-width="1" fill-rule="evenodd" transform="translate(214.000000, 11.000000)" fill="#898989">
+                    <polygon id="Close_X" points="11.7 1.575 10.05 0 5.85 4.275 1.575 0 0 1.575 4.275 5.85 0 10.05 1.575 11.7 5.85 7.425 10.05 11.7 11.7 10.05 7.425 5.85"></polygon>
+                </g>
+            </g>
+            <g id="Simple-tooltip-on-click-(right-arrow)-Copy-2" transform="translate(20.000000, 1715.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-12)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="11" y="21.1369863">Lorem Ipsum</tspan>
+                    <tspan x="86.3457031" y="21.1369863" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy </tspan>
+                    <tspan x="11" y="39.5295644" font-family="ArialMT, Arial" font-weight="normal">text of the printing and </tspan>
+                    <tspan x="11" y="57.9221426" font-family="ArialMT, Arial" font-weight="normal">typesetting industry. </tspan>
+                    <tspan x="11" y="76.3147207" font-family="ArialMT, Arial" font-weight="normal">Lorem Ipsum has been the </tspan>
+                    <tspan x="11" y="94.7072988" font-family="ArialMT, Arial" font-weight="normal">industry’s.</tspan>
+                </text>
+                <g id="Close" stroke-width="1" fill-rule="evenodd" transform="translate(204.000000, 11.000000)" fill="#898989">
+                    <polygon id="Close_X" points="11.7 1.575 10.05 0 5.85 4.275 1.575 0 0 1.575 4.275 5.85 0 10.05 1.575 11.7 5.85 7.425 10.05 11.7 11.7 10.05 7.425 5.85"></polygon>
+                </g>
+            </g>
+            <g id="group-title" transform="translate(20.000000, 1676.000000)">
+                <text id="The-simple-tooltip-w" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                    <tspan x="0" y="13">The simple tooltip with close icon</tspan>
+                </text>
+                <path d="M5.16654593e-15,19 L985,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+            </g>
+            <g id="Simple-tooltip-on-hover-(bottom-arrow)" transform="translate(778.000000, 1567.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-15)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="11" y="21.1290323">Lorem Ipsum</tspan>
+                    <tspan x="86.3457031" y="21.1290323" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy text of </tspan>
+                    <tspan x="11" y="39.5216104" font-family="ArialMT, Arial" font-weight="normal">the printing and typesetting industry. </tspan>
+                    <tspan x="11" y="57.9141885" font-family="ArialMT, Arial" font-weight="normal">Lorem Ipsum has been the industry's.</tspan>
+                </text>
+            </g>
+            <g id="Simple-tooltip-on-hover-(top-arrow)" transform="translate(528.000000, 1559.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-18)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-16"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="11" y="29.2337662">Lorem Ipsum</tspan>
+                    <tspan x="86.3457031" y="29.2337662" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy text of </tspan>
+                    <tspan x="11" y="47.6263444" font-family="ArialMT, Arial" font-weight="normal">the printing and typesetting industry. </tspan>
+                    <tspan x="11" y="66.0189225" font-family="ArialMT, Arial" font-weight="normal">Lorem Ipsum has been the industry’s.</tspan>
+                </text>
+            </g>
+            <g id="Simple-tooltip-on-hover-(left-arrow)" transform="translate(266.000000, 1567.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-21)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="21" y="21.1369863">Lorem Ipsum</tspan>
+                    <tspan x="96.3457031" y="21.1369863" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy text of </tspan>
+                    <tspan x="21" y="39.5295644" font-family="ArialMT, Arial" font-weight="normal">the printing and typesetting industry. </tspan>
+                    <tspan x="21" y="57.9221426" font-family="ArialMT, Arial" font-weight="normal">Lorem Ipsum has been the industry’s.</tspan>
+                </text>
+            </g>
+            <g id="Simple-tooltip-on-hover-(right-arrow)-Copy" transform="translate(20.000000, 1567.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-23)" xlink:href="#path-22"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-24)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-22"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="11" y="21.1369863">Lorem Ipsum</tspan>
+                    <tspan x="86.3457031" y="21.1369863" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy text of </tspan>
+                    <tspan x="11" y="39.5295644" font-family="ArialMT, Arial" font-weight="normal">the printing and typesetting industry. </tspan>
+                    <tspan x="11" y="57.9221426" font-family="ArialMT, Arial" font-weight="normal">Lorem Ipsum has been the industry's.</tspan>
+                </text>
+            </g>
+            <g id="Simple-tooltip-on-hover" transform="translate(20.000000, 1392.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-26)" xlink:href="#path-25"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-27)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-25"></use>
+                </g>
+                <text id="Lorem-Ipsum-is-simpl" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" line-spacing="18" fill="#666666">
+                    <tspan x="11" y="21">Lorem Ipsum</tspan>
+                    <tspan x="86.3457031" y="21" font-family="ArialMT, Arial" font-weight="normal"> is simply dummy text of the </tspan>
+                    <tspan x="11" y="39.3925781" font-family="ArialMT, Arial" font-weight="normal">printing and typesetting industry. Lorem </tspan>
+                    <tspan x="11" y="57.7851562" font-family="ArialMT, Arial" font-weight="normal">Ipsum has been the industry's standard </tspan>
+                    <tspan x="11" y="76.1777344" font-family="ArialMT, Arial" font-weight="normal">dummy text ever since the 1500s, when </tspan>
+                    <tspan x="11" y="94.5703125" font-family="ArialMT, Arial" font-weight="normal">an unknown printer took a galley of type </tspan>
+                    <tspan x="11" y="112.962891" font-family="ArialMT, Arial" font-weight="normal">and scrambled it to make a type </tspan>
+                    <tspan x="11" y="131.355469" font-family="ArialMT, Arial" font-weight="normal">specimen book. </tspan>
+                </text>
+            </g>
+            <g id="group-title" transform="translate(20.000000, 1303.000000)">
+                <text id="The-simple-tooltip-f" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                    <tspan x="0" y="13">The simple tooltip for the "hover" or "click" actions.</tspan>
+                </text>
+                <path d="M5.16654593e-15,19 L985,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                <text id="This-is-very-simple-" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" fill="#666666">
+                    <tspan x="0" y="48">This is very simple tooltip. This tooltip we should use for every places where we need to show </tspan>
+                    <tspan x="0" y="66.3925781">something on mouse over. This tooltip can be with arrow at the any of the sides.</tspan>
+                </text>
+            </g>
+            <g id="Popup-with-Gray-footer" transform="translate(20.000000, 1008.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-29)" xlink:href="#path-28"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-30)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-28"></use>
+                </g>
+                <rect id="Rectangle-342" fill="#F5F5F5" fill-rule="evenodd" x="1" y="175" width="698" height="78.7714286" rx="2"></rect>
+                <g id="Action-or-Cancel-(button+link)" stroke-width="1" fill-rule="evenodd" transform="translate(21.000000, 196.000000)">
+                    <g id="or--+-cancel" transform="translate(84.000000, 8.000000)">
+                        <text id="or-" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#898989">
+                            <tspan x="0" y="16">or </tspan>
+                        </text>
+                        <text id="cancel" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#666666">
+                            <tspan x="19" y="16">cancel</tspan>
+                        </text>
+                        <polygon id="Fill-1-Copy-2" fill="#666666" points="19 20 65 20 65 21 19 21"></polygon>
+                    </g>
+                    <g id="Button">
+                        <path d="M70.6081081,38 L4.39189189,38 C1.96668919,38 0,35.761 0,33 L0,5 C0,2.239 1.96668919,0 4.39189189,0 L70.6081081,0 C73.0333108,0 75,2.239 75,5 L75,33 C75,35.761 73.0333108,38 70.6081081,38 Z" id="Fill-2" fill="#37809F"></path>
+                        <text id="Submit" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="11" y="25">Submit</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Title-for-popup-with" font-family="DroidSerif, Droid Serif" font-size="22" font-weight="normal" fill="#37809F">
+                    <tspan x="20.2910156" y="37.1133831">Title for popup with the gray color of footer.</tspan>
+                </text>
+                <g id="Close" stroke-width="1" fill-rule="evenodd" transform="translate(664.000000, 22.000000)" fill="#898989">
+                    <polygon id="Close_X" points="15.6850394 2.15384615 13.4730466 0 7.84251969 5.84615385 2.11144761 0 0 2.15384615 5.73107208 8 0 13.7435897 2.11144761 16 7.84251969 10.1538462 13.4730466 16 15.6850394 13.7435897 9.95396729 8"></polygon>
+                </g>
+            </g>
+            <g id="group-title" transform="translate(20.000000, 864.000000)">
+                <text id="Simple-popup-with-gr" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                    <tspan x="0" y="13">Simple popup with gray footer</tspan>
+                </text>
+                <path d="M5.16654593e-15,19 L985,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                <text id="This-is-the-popup-fo" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" fill="#666666">
+                    <tspan x="0" y="48">This is the popup for forms. This popup with buttons for applying any of actions and with cancel </tspan>
+                    <tspan x="0" y="66.3925781">link for closing. This popup you can use if user should pay attention to the button in the footer.</tspan>
+                    <tspan x="0" y="84.7851562"></tspan>
+                    <tspan x="0" y="102.785156">The height of this popup is can not be more then window height. When content is more than </tspan>
+                    <tspan x="0" y="121.177734">screen height, content will be scrolled inside the popup.</tspan>
+                </text>
+            </g>
+            <g id="Popup" transform="translate(20.000000, 571.000000)">
+                <g id="background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-32)" xlink:href="#path-31"></use>
+                    <use stroke="#CCCCCC" mask="url(#mask-33)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-31"></use>
+                </g>
+                <g id="Action-or-Cancel-(button+link)" stroke-width="1" fill-rule="evenodd" transform="translate(21.000000, 196.000000)">
+                    <g id="or--+-cancel" transform="translate(84.000000, 8.000000)">
+                        <text id="or-" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#898989">
+                            <tspan x="0" y="16">or </tspan>
+                        </text>
+                        <text id="cancel" font-family="HelveticaNeue, Helvetica Neue" font-size="16" font-weight="normal" fill="#666666">
+                            <tspan x="19" y="16">cancel</tspan>
+                        </text>
+                        <polygon id="Fill-1-Copy-2" fill="#666666" points="19 20 65 20 65 21 19 21"></polygon>
+                    </g>
+                    <g id="Button">
+                        <path d="M70.6081081,38 L4.39189189,38 C1.96668919,38 0,35.761 0,33 L0,5 C0,2.239 1.96668919,0 4.39189189,0 L70.6081081,0 C73.0333108,0 75,2.239 75,5 L75,33 C75,35.761 73.0333108,38 70.6081081,38 Z" id="Fill-2" fill="#37809F"></path>
+                        <text id="Submit" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="11" y="25">Submit</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Title-for-popup-with" font-family="DroidSerif, Droid Serif" font-size="22" font-weight="normal">
+                    <tspan x="20.2910156" y="37.1133831" fill="#37809F">Title for popup with buttons</tspan>
+                    <tspan x="20.2910156" y="62.1133831" font-size="14" line-spacing="20" fill="#666666">This is subheader</tspan>
+                </text>
+                <g id="Close" stroke-width="1" fill-rule="evenodd" transform="translate(664.000000, 22.000000)" fill="#898989">
+                    <polygon id="Close_X" points="15.6850394 2.15384615 13.4730466 0 7.84251969 5.84615385 2.11144761 0 0 2.15384615 5.73107208 8 0 13.7435897 2.11144761 16 7.84251969 10.1538462 13.4730466 16 15.6850394 13.7435897 9.95396729 8"></polygon>
+                </g>
+            </g>
+            <g id="group-title" transform="translate(20.000000, 427.000000)">
+                <text id="Simple-popup-with-bu" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                    <tspan x="0" y="13">Simple popup with buttons</tspan>
+                </text>
+                <path d="M5.16654593e-15,19 L985,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                <text id="This-is-the-popup-fo" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" fill="#666666">
+                    <tspan x="0" y="48">This is the popup for forms. This popup with button for applying any of actions and with cancel link </tspan>
+                    <tspan x="0" y="66.3925781">for closing.</tspan>
+                    <tspan x="0" y="84.7851562"></tspan>
+                    <tspan x="0" y="102.785156">The height of this popup is can not be more then window height. When content is more than </tspan>
+                    <tspan x="0" y="121.177734">screen height, content will be scrolled inside the popup.</tspan>
+                </text>
+            </g>
+            <g id="Popup-(no-buttons)" transform="translate(20.000000, 233.000000)">
+                <g id="scrolled-to-bottom" transform="translate(519.000000, 0.000000)">
+                    <g id="background">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-35)" xlink:href="#path-34"></use>
+                        <use stroke="#CCCCCC" mask="url(#mask-36)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-34"></use>
+                    </g>
+                    <text id="History-of-Expert-co" font-family="DroidSerif, Droid Serif" font-size="22" font-weight="normal" fill="#37809F">
+                        <tspan x="20.2910156" y="37.1133831">History of Expert commentary</tspan>
+                    </text>
+                    <g id="Content" transform="translate(20.000000, 57.000000)">
+                        <mask id="mask-38" fill="white">
+                            <use xlink:href="#path-37"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <text id="Daily-Sales-tracks-g" mask="url(#mask-38)" font-family="ArialMT, Arial" font-size="14" font-weight="normal" line-spacing="18">
+                            <tspan x="1" y="-74" fill="#666666">Daily Sales tracks global sales, daily – this is our bread and butter, </tspan>
+                            <tspan x="1" y="-55.5419922" fill="#666666">and fluctuations found here should be watched carefully and </tspan>
+                            <tspan x="1" y="-37.0839844" fill="#666666">thoughtfully – markets the world over have impact, especially the </tspan>
+                            <tspan x="1" y="-18.6259766" fill="#666666">US and China.</tspan>
+                            <tspan x="1" y="-0.16796875" fill="#666666"></tspan>
+                            <tspan x="1" y="17.8320312" fill="#666666">Poor performance could be an indicator of many other things, so </tspan>
+                            <tspan x="1" y="36.2900391" fill="#666666">please do your research before you react.</tspan>
+                            <tspan x="1" y="54.7480469" fill="#000000"></tspan>
+                            <tspan x="1" y="70.7480469" font-family="DroidSerif-Italic, Droid Serif" font-style="italic" fill="#999999">- Grayson Stebbins 11/23/2015 at 10:14AM</tspan>
+                        </text>
+                    </g>
+                    <g id="scrolling-bar-(vertical)-" transform="translate(435.000000, 60.000000)" stroke="#979797" stroke-width="2" opacity="0.2">
+                        <use id="Rectangle-333" mask="url(#mask-40)" fill="#F2F2F2" xlink:href="#path-39"></use>
+                        <use id="Rectangle-333-Copy" mask="url(#mask-42)" fill="#CCCCCC" xlink:href="#path-41"></use>
+                    </g>
+                    <g id="Close" transform="translate(429.000000, 21.000000)" fill="#898989">
+                        <polygon id="Close_X" points="15.6850394 2.15384615 13.4730466 0 7.84251969 5.84615385 2.11144761 0 0 2.15384615 5.73107208 8 0 13.7435897 2.11144761 16 7.84251969 10.1538462 13.4730466 16 15.6850394 13.7435897 9.95396729 8"></polygon>
+                    </g>
+                </g>
+                <g id="scrolled-to-top">
+                    <g id="background">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-44)" xlink:href="#path-43"></use>
+                        <use stroke="#CCCCCC" mask="url(#mask-45)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-43"></use>
+                    </g>
+                    <text id="History-of-Expert-co" font-family="DroidSerif, Droid Serif" font-size="22" font-weight="normal" fill="#37809F">
+                        <tspan x="20.2910156" y="37.1133831">History of Expert commentary</tspan>
+                    </text>
+                    <g id="Content" transform="translate(20.000000, 57.000000)">
+                        <mask id="mask-47" fill="white">
+                            <use xlink:href="#path-46"></use>
+                        </mask>
+                        <g id="Mask"></g>
+                        <text id="Daily-Sales-tracks-g" mask="url(#mask-47)" font-family="ArialMT, Arial" font-size="14" font-weight="normal" line-spacing="18">
+                            <tspan x="1" y="18" fill="#666666">Daily Sales tracks global sales, daily – this is our bread and butter, </tspan>
+                            <tspan x="1" y="36.4580078" fill="#666666">and fluctuations found here should be watched carefully and </tspan>
+                            <tspan x="1" y="54.9160156" fill="#666666">thoughtfully – markets the world over have impact, especially the </tspan>
+                            <tspan x="1" y="73.3740234" fill="#666666">US and China.</tspan>
+                            <tspan x="1" y="91.8320312" fill="#666666"></tspan>
+                            <tspan x="1" y="109.832031" fill="#666666">Poor performance could be an indicator of many other things, so </tspan>
+                            <tspan x="1" y="128.290039" fill="#666666">please do your research before you react.</tspan>
+                            <tspan x="1" y="146.748047" fill="#000000"></tspan>
+                            <tspan x="1" y="162.748047" font-family="DroidSerif-Italic, Droid Serif" font-style="italic" fill="#999999">- Grayson Stebbins 11/23/2015 at 10:14AM</tspan>
+                        </text>
+                    </g>
+                    <g id="scrolling-bar-(vertical)-" transform="translate(435.000000, 60.000000)" stroke="#979797" stroke-width="2" opacity="0.2">
+                        <use id="Rectangle-333" mask="url(#mask-49)" fill="#F2F2F2" xlink:href="#path-48"></use>
+                        <use id="Rectangle-333-Copy" mask="url(#mask-51)" fill="#CCCCCC" xlink:href="#path-50"></use>
+                    </g>
+                    <g id="Close" transform="translate(429.000000, 21.000000)" fill="#898989">
+                        <polygon id="Close_X" points="15.6850394 2.15384615 13.4730466 0 7.84251969 5.84615385 2.11144761 0 0 2.15384615 5.73107208 8 0 13.7435897 2.11144761 16 7.84251969 10.1538462 13.4730466 16 15.6850394 13.7435897 9.95396729 8"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="group-title" transform="translate(20.000000, 89.000000)">
+                <text id="Simple-popup-without" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                    <tspan x="0" y="13">Simple popup without action buttons</tspan>
+                </text>
+                <path d="M5.16654593e-15,19 L985,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                <text id="hint" font-family="ArialMT, Arial" font-size="12" font-weight="normal" line-spacing="18" fill="#666666">
+                    <tspan x="0" y="48">This is the simple popup for alerts and messages. This popup without buttons because the user is </tspan>
+                    <tspan x="0" y="66.3925781">can not apply any of actions. This popup can be closed by click to the close icon.</tspan>
+                    <tspan x="0" y="84.7851562"></tspan>
+                    <tspan x="0" y="102.785156">The height of this popup is can not be more then window height. When content is more than </tspan>
+                    <tspan x="0" y="121.177734">screen height, content will be scrolled inside the popup.</tspan>
+                </text>
+            </g>
+            <g id="page-Tile" transform="translate(20.000000, 21.000000)">
+                <text id="Popup-and-tooltips" font-family="Times-Roman, Times" font-size="18" font-weight="normal" fill="#666666">
+                    <tspan x="0" y="18">Popup and tooltips</tspan>
+                </text>
+                <path d="M0,30 L984,30" id="Stroke-5" stroke="#CCCCCC"></path>
+            </g>
+        </g>
+    </g>
+</svg>

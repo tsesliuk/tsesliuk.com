@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1615px" height="725px" viewBox="0 0 1615 725" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>mobile_web_application_preview_2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="423" y="29" width="377" height="667" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0823529412   0 0 0 0 0.705882353   0 0 0 0 0.945098039  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.5" y="-0.5" width="378" height="668">
+            <rect x="422.5" y="28.5" width="378" height="668" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <rect id="path-5" x="20" y="29" width="377" height="667" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0823529412   0 0 0 0 0.705882353   0 0 0 0 0.945098039  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.5" y="-0.5" width="378" height="668">
+            <rect x="19.5" y="28.5" width="378" height="668" fill="white"></rect>
+            <use xlink:href="#path-5" fill="black"></use>
+        </mask>
+        <rect id="path-9" x="820" y="30" width="377" height="667" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-11">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0823529412   0 0 0 0 0.705882353   0 0 0 0 0.945098039  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.5" y="-0.5" width="378" height="668">
+            <rect x="819.5" y="29.5" width="378" height="668" fill="white"></rect>
+            <use xlink:href="#path-9" fill="black"></use>
+        </mask>
+        <rect id="path-13" x="1217" y="30" width="377" height="667" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-15">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0823529412   0 0 0 0 0.705882353   0 0 0 0 0.945098039  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.5" y="-0.5" width="378" height="668">
+            <rect x="1216.5" y="29.5" width="378" height="668" fill="white"></rect>
+            <use xlink:href="#path-13" fill="black"></use>
+        </mask>
+        <path d="M0,3.00954757 C0,1.34742034 1.33638309,-2.14358573e-16 3.00872589,-2.13315457e-16 L341.991274,-1.87667869e-18 C343.652948,-8.40217671e-19 345,1.35126437 345,3.00954757 L345,514.990452 C345,516.65258 343.663617,518 341.991274,518 L3.00872589,518 C1.34705246,518 0,516.648736 0,514.990452 L0,3.00954757 Z" id="path-17"></path>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="345" height="518" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <rect id="path-19" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <rect id="path-21" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <rect id="path-23" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <rect id="path-25" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <rect id="path-27" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-28" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-27"></use>
+        </mask>
+        <rect id="path-29" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-29"></use>
+        </mask>
+        <rect id="path-31" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <rect id="path-33" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-33"></use>
+        </mask>
+        <rect id="path-35" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-35"></use>
+        </mask>
+        <rect id="path-37" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-37"></use>
+        </mask>
+        <rect id="path-39" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <rect id="path-41" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+        <rect id="path-43" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-44" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-43"></use>
+        </mask>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-45">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-46" x="0" y="0" width="314" height="77" rx="4"></rect>
+        <mask id="mask-47" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="314" height="77" fill="white">
+            <use xlink:href="#path-46"></use>
+        </mask>
+        <path d="M0,3.00954757 C0,1.34742034 1.33638309,-2.14358573e-16 3.00872589,-2.13315457e-16 L341.991274,-1.87667869e-18 C343.652948,-8.40217671e-19 345,1.35126437 345,3.00954757 L345,514.990452 C345,516.65258 343.663617,518 341.991274,518 L3.00872589,518 C1.34705246,518 0,516.648736 0,514.990452 L0,3.00954757 Z" id="path-48"></path>
+        <mask id="mask-49" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="345" height="518" fill="white">
+            <use xlink:href="#path-48"></use>
+        </mask>
+        <rect id="path-50" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-51" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-50"></use>
+        </mask>
+        <rect id="path-52" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-53" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-52"></use>
+        </mask>
+        <rect id="path-54" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-55" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-54"></use>
+        </mask>
+        <rect id="path-56" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-57" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-56"></use>
+        </mask>
+        <rect id="path-58" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-59" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-58"></use>
+        </mask>
+        <rect id="path-60" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-61" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-60"></use>
+        </mask>
+        <rect id="path-62" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-63" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-62"></use>
+        </mask>
+        <rect id="path-64" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-65" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-64"></use>
+        </mask>
+        <rect id="path-66" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-67" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-66"></use>
+        </mask>
+        <rect id="path-68" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-69" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-68"></use>
+        </mask>
+        <rect id="path-70" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-71" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-70"></use>
+        </mask>
+        <rect id="path-72" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-73" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-72"></use>
+        </mask>
+        <rect id="path-74" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-75" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-74"></use>
+        </mask>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-76">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-77" x="0" y="0" width="313" height="34"></rect>
+        <mask id="mask-78" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="313" height="34" fill="white">
+            <use xlink:href="#path-77"></use>
+        </mask>
+        <path d="M148.157895,34 L4.47368421,34 C2.00331579,34 1.11022302e-16,31.9975789 1.11022302e-16,29.5263158 L1.11022302e-16,4.47368421 C1.11022302e-16,2.00331579 2.00331579,0 4.47368421,0 L148.157895,0 C150.628263,0 152.631579,2.00331579 152.631579,4.47368421 L152.631579,29.5263158 C152.631579,31.9975789 150.628263,34 148.157895,34 Z" id="path-79"></path>
+        <mask id="mask-80" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="152.631579" height="34" fill="white">
+            <use xlink:href="#path-79"></use>
+        </mask>
+        <path d="M0,3.00954757 C0,1.34742034 1.33638309,-2.14358573e-16 3.00872589,-2.13315457e-16 L341.991274,-1.87667869e-18 C343.652948,-8.40217671e-19 345,1.35126437 345,3.00954757 L345,514.990452 C345,516.65258 343.663617,518 341.991274,518 L3.00872589,518 C1.34705246,518 0,516.648736 0,514.990452 L0,3.00954757 Z" id="path-81"></path>
+        <mask id="mask-82" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="345" height="518" fill="white">
+            <use xlink:href="#path-81"></use>
+        </mask>
+        <rect id="path-83" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-84" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-83"></use>
+        </mask>
+        <rect id="path-85" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-86" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-85"></use>
+        </mask>
+        <rect id="path-87" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-88" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-87"></use>
+        </mask>
+        <rect id="path-89" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-90" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-89"></use>
+        </mask>
+        <rect id="path-91" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-92" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-91"></use>
+        </mask>
+        <rect id="path-93" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-94" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-93"></use>
+        </mask>
+        <rect id="path-95" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-96" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-95"></use>
+        </mask>
+        <rect id="path-97" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-98" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-97"></use>
+        </mask>
+        <rect id="path-99" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-100" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-99"></use>
+        </mask>
+        <rect id="path-101" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-102" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-101"></use>
+        </mask>
+        <rect id="path-103" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-104" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-103"></use>
+        </mask>
+        <rect id="path-105" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-106" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-105"></use>
+        </mask>
+        <rect id="path-107" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-108" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-107"></use>
+        </mask>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-109">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-110" x="0" y="0" width="313" height="34"></rect>
+        <mask id="mask-111" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="313" height="34" fill="white">
+            <use xlink:href="#path-110"></use>
+        </mask>
+        <path d="M148.157895,34 L4.47368421,34 C2.00331579,34 1.11022302e-16,31.9975789 1.11022302e-16,29.5263158 L1.11022302e-16,4.47368421 C1.11022302e-16,2.00331579 2.00331579,0 4.47368421,0 L148.157895,0 C150.628263,0 152.631579,2.00331579 152.631579,4.47368421 L152.631579,29.5263158 C152.631579,31.9975789 150.628263,34 148.157895,34 Z" id="path-112"></path>
+        <mask id="mask-113" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="152.631579" height="34" fill="white">
+            <use xlink:href="#path-112"></use>
+        </mask>
+        <path d="M0,3.00232559 C0,1.34418695 1.33638309,-2.20979687e-16 3.00872589,-2.19904351e-16 L341.991274,-1.9346456e-18 C343.652948,-8.6617034e-19 345,1.34940591 345,3.00232559 L345,180.997674 C345,182.655813 343.663617,184 341.991274,184 L3.00872589,184 C1.34705246,184 0,182.650594 0,180.997674 L0,3.00232559 Z" id="path-114"></path>
+        <mask id="mask-115" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="345" height="184" fill="white">
+            <use xlink:href="#path-114"></use>
+        </mask>
+        <rect id="path-116" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-117" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-116"></use>
+        </mask>
+        <rect id="path-118" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-119" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-118"></use>
+        </mask>
+        <rect id="path-120" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-121" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-120"></use>
+        </mask>
+        <rect id="path-122" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-123" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-122"></use>
+        </mask>
+        <rect id="path-124" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-125" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-124"></use>
+        </mask>
+        <rect id="path-126" x="0" y="0" width="16" height="16" rx="2"></rect>
+        <mask id="mask-127" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-126"></use>
+        </mask>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile_web_application_preview_2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use stroke-opacity="0.5" stroke="#15B4F1" mask="url(#mask-4)" stroke-width="1" xlink:href="#path-1"></use>
+            </g>
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                <use stroke-opacity="0.5" stroke="#15B4F1" mask="url(#mask-8)" stroke-width="1" xlink:href="#path-5"></use>
+            </g>
+            <mask id="mask-10" fill="white">
+                <use xlink:href="#path-9"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-9"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                <use stroke-opacity="0.5" stroke="#15B4F1" mask="url(#mask-12)" stroke-width="1" xlink:href="#path-9"></use>
+            </g>
+            <mask id="mask-14" fill="white">
+                <use xlink:href="#path-13"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-13"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                <use stroke-opacity="0.5" stroke="#15B4F1" mask="url(#mask-16)" stroke-width="1" xlink:href="#path-13"></use>
+            </g>
+        </g>
+        <g id="AddToFavoriteFolderPage(NewElementError(folder))" transform="translate(1218.000000, 29.000000)">
+            <g id="Selectable-list" transform="translate(16.000000, 138.000000)">
+                <use id="HolderSelectable-list" stroke="#CCCCCC" mask="url(#mask-18)" stroke-width="2" xlink:href="#path-17"></use>
+                <g id="itemSelectable-list--Copy" transform="translate(1.000000, 503.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users4</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-20)" xlink:href="#path-19"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-Copy-3" transform="translate(1.000000, 443.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites3</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-22)" stroke-width="2" xlink:href="#path-21"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-Copy-2" transform="translate(11.000000, 419.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites3</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-24)" xlink:href="#path-23"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 381.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites2</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-26)" stroke-width="2" xlink:href="#path-25"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(11.000000, 357.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites2</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-28)" xlink:href="#path-27"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(11.000000, 298.000000)">
+                    <text id="Check-Label-Copy-5" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="25" y="13">Favorite Website Visitors</tspan>
+                    </text>
+                    <g id="checkbox-(check)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-30)" stroke-width="2" xlink:href="#path-29"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(1.000000, 321.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users2</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-32)" xlink:href="#path-31"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 261.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-34)" stroke-width="2" xlink:href="#path-33"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(11.000000, 237.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-36)" xlink:href="#path-35"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(11.000000, 178.000000)">
+                    <text id="Check-Label-Copy-5" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="25" y="13">Favorite Website Visitors</tspan>
+                    </text>
+                    <g id="checkbox-(check)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-38)" stroke-width="2" xlink:href="#path-37"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 201.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-40)" xlink:href="#path-39"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 141.000000)">
+                    <rect id="Rectangle-237-Copy" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="35" y="20">Test Folder</tspan>
+                    </text>
+                    <g id="checkbox" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-42)" xlink:href="#path-41"></use>
+                    </g>
+                </g>
+                <path d="M0.5,32.5 L344.537201,32.5" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                <g id="CheckAllButtonSelectable-list" transform="translate(11.000000, 9.000000)">
+                    <text id="Check-Label-Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="26" y="13">All Folders</tspan>
+                    </text>
+                    <g id="checkbox" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-44)" xlink:href="#path-43"></use>
+                    </g>
+                </g>
+                <g id="CreateNewElementButtonSelectable-list" transform="translate(250.000000, 0.000000)">
+                    <path d="M1.5,0.5 L1.5,31.5161247" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11" y="22"></tspan>
+                    </text>
+                    <text id="New-folder" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="27" y="21">New folder</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="FixedFooter" filter="url(#filter-45)" transform="translate(1.000000, 602.000000)">
+                <rect id="Background" fill="#FFFFFF" x="0" y="0" width="375" height="64"></rect>
+                <g id="Action-or-Cancel-(button+link)" transform="translate(15.000000, 15.000000)">
+                    <g id="or--+-cancel" transform="translate(120.000000, 8.000000)">
+                        <text id="or-" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#898989">
+                            <tspan x="0" y="13">or </tspan>
+                        </text>
+                        <text id="cancel" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="18" y="13">cancel</tspan>
+                        </text>
+                        <polygon id="Fill-1-Copy-2" fill="#666666" points="19 16 59 16 59 17 19 17"></polygon>
+                    </g>
+                    <g id="Button">
+                        <path d="M107.175676,34 L3.92958748,34 C1.75966927,34 0,31.9966842 0,29.5263158 L0,4.47368421 C0,2.00331579 1.75966927,0 3.92958748,0 L107.175676,0 C109.345594,0 111.105263,2.00331579 111.105263,4.47368421 L111.105263,29.5263158 C111.105263,31.9966842 109.345594,34 107.175676,34 Z" id="Fill-2" fill="#37809F"></path>
+                        <text id="Save-changes" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9.84210526" y="21.0526316">Save changes</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="HeaderH1" transform="translate(17.000000, 65.000000)" font-size="18" font-family="DroidSerif, Droid Serif" line-spacing="22" font-weight="normal">
+                <text id="Include/Exclude-“Dai">
+                    <tspan x="0" y="17" fill="#37809F">Include/Exclude “Daily Sales”</tspan>
+                    <tspan x="251.666016" y="17" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="22" fill="#37809F"></tspan>
+                    <tspan x="0" y="39" font-size="14" fill="#666666">in Favorites by checking folder(s)</tspan>
+                </text>
+            </g>
+            <g id="TopBar" transform="translate(0.000000, 12.000000)">
+                <text id="Favorite-Folders" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#999999">
+                    <tspan x="138.079" y="13">Favorite Folders</tspan>
+                </text>
+                <path d="M17.4193136,8.08403925 L23.9872652,2.08612301 C24.216563,1.85857561 24.216563,1.48516448 23.9872652,1.25761708 C23.7579675,1.03006967 23.3857232,1.03006967 23.1570089,1.25761708 L16.1666359,7.64061353 C16.0446939,7.76313906 15.9921829,7.92650643 16.0009347,8.08403925 C15.9921829,8.24740662 16.0446939,8.41077398 16.1666359,8.53329951 L23.1570089,14.916296 C23.3857232,15.1438434 23.7579675,15.1438434 23.9872652,14.916296 C24.216563,14.682914 24.216563,14.3153374 23.9872652,14.08779 L17.4193136,8.08403925" id="Fill-6" fill="#3780A0"></path>
+                <text id="Daily-Sales" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#3780A0">
+                    <tspan x="28" y="13">Daily Sales</tspan>
+                </text>
+                <path d="M0.5,28.5 L376.5,28.5" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+            </g>
+            <g id="Error-message" transform="translate(32.000000, 186.000000)">
+                <use id="Rectangle-green" stroke="#D34839" mask="url(#mask-47)" stroke-width="2" stroke-dasharray="3" xlink:href="#path-46"></use>
+                <text id="Wrong-Name!-The-name" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" line-spacing="20" fill="#D34839">
+                    <tspan x="14" y="31">Wrong Name! </tspan>
+                    <tspan x="108.636719" y="31" font-family="ArialMT, Arial" font-weight="normal">The name is already used</tspan>
+                    <tspan x="14" y="51" font-family="ArialMT, Arial" font-weight="normal">by a FAvorite or a Category. It must be unique.</tspan>
+                </text>
+                <text id="Type-something" font-family="FontAwesome" font-size="12" font-weight="normal" fill="#D34839">
+                    <tspan x="299" y="14"></tspan>
+                </text>
+            </g>
+        </g>
+        <g id="AddToFavoriteFolderPage(NewElementActiveName(folder))" transform="translate(821.000000, 29.000000)">
+            <g id="Selectable-list" transform="translate(16.000000, 138.000000)">
+                <use id="HolderSelectable-list" stroke="#CCCCCC" mask="url(#mask-49)" stroke-width="2" xlink:href="#path-48"></use>
+                <g id="itemSelectable-list--Copy" transform="translate(1.000000, 503.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users4</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-51)" xlink:href="#path-50"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-Copy-3" transform="translate(1.000000, 443.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites3</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-53)" stroke-width="2" xlink:href="#path-52"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-Copy-2" transform="translate(11.000000, 419.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites3</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-55)" xlink:href="#path-54"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 381.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites2</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-57)" stroke-width="2" xlink:href="#path-56"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(11.000000, 357.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites2</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-59)" xlink:href="#path-58"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(11.000000, 298.000000)">
+                    <text id="Check-Label-Copy-5" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="25" y="13">Favorite Website Visitors</tspan>
+                    </text>
+                    <g id="checkbox-(check)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-61)" stroke-width="2" xlink:href="#path-60"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(1.000000, 321.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users2</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-63)" xlink:href="#path-62"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 261.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-65)" stroke-width="2" xlink:href="#path-64"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(11.000000, 237.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-67)" xlink:href="#path-66"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(11.000000, 178.000000)">
+                    <text id="Check-Label-Copy-5" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="25" y="13">Favorite Website Visitors</tspan>
+                    </text>
+                    <g id="checkbox-(check)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-69)" stroke-width="2" xlink:href="#path-68"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 201.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-71)" xlink:href="#path-70"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 141.000000)">
+                    <rect id="Rectangle-237-Copy" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="35" y="20">Test Folder</tspan>
+                    </text>
+                    <g id="checkbox" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-73)" xlink:href="#path-72"></use>
+                    </g>
+                </g>
+                <path d="M0.5,32.5 L344.537201,32.5" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                <g id="CheckAllButtonSelectable-list" transform="translate(11.000000, 9.000000)">
+                    <text id="Check-Label-Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="26" y="13">All Folders</tspan>
+                    </text>
+                    <g id="checkbox" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-75)" xlink:href="#path-74"></use>
+                    </g>
+                </g>
+                <g id="CreateNewElementButtonSelectable-list" transform="translate(250.000000, 0.000000)">
+                    <path d="M1.5,0.5 L1.5,31.5161247" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11" y="22"></tspan>
+                    </text>
+                    <text id="New-folder" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="27" y="21">New folder</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="FixedFooter" filter="url(#filter-76)" transform="translate(2.000000, 602.000000)">
+                <rect id="Background" fill="#FFFFFF" x="0" y="0" width="375" height="64"></rect>
+                <g id="Action-or-Cancel-(button+link)" transform="translate(15.000000, 15.000000)">
+                    <g id="or--+-cancel" transform="translate(120.000000, 8.000000)">
+                        <text id="or-" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#898989">
+                            <tspan x="0" y="13">or </tspan>
+                        </text>
+                        <text id="cancel" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="18" y="13">cancel</tspan>
+                        </text>
+                        <polygon id="Fill-1-Copy-2" fill="#666666" points="19 16 59 16 59 17 19 17"></polygon>
+                    </g>
+                    <g id="Button">
+                        <path d="M107.175676,34 L3.92958748,34 C1.75966927,34 0,31.9966842 0,29.5263158 L0,4.47368421 C0,2.00331579 1.75966927,0 3.92958748,0 L107.175676,0 C109.345594,0 111.105263,2.00331579 111.105263,4.47368421 L111.105263,29.5263158 C111.105263,31.9966842 109.345594,34 107.175676,34 Z" id="Fill-2" fill="#37809F"></path>
+                        <text id="Save-changes" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9.84210526" y="21.0526316">Save changes</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="HeaderH1" transform="translate(17.000000, 65.000000)" font-size="18" font-family="DroidSerif, Droid Serif" line-spacing="22" font-weight="normal">
+                <text id="Include/Exclude-“Dai">
+                    <tspan x="0" y="17" fill="#37809F">Include/Exclude “Daily Sales”</tspan>
+                    <tspan x="251.666016" y="17" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="22" fill="#37809F"></tspan>
+                    <tspan x="0" y="39" font-size="14" fill="#666666">in Favorites by checking folder(s)</tspan>
+                </text>
+            </g>
+            <g id="TopBar" transform="translate(0.000000, 12.000000)">
+                <text id="Favorite-Folders" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#999999">
+                    <tspan x="138.079" y="13">Favorite Folders</tspan>
+                </text>
+                <path d="M17.4193136,8.08403925 L23.9872652,2.08612301 C24.216563,1.85857561 24.216563,1.48516448 23.9872652,1.25761708 C23.7579675,1.03006967 23.3857232,1.03006967 23.1570089,1.25761708 L16.1666359,7.64061353 C16.0446939,7.76313906 15.9921829,7.92650643 16.0009347,8.08403925 C15.9921829,8.24740662 16.0446939,8.41077398 16.1666359,8.53329951 L23.1570089,14.916296 C23.3857232,15.1438434 23.7579675,15.1438434 23.9872652,14.916296 C24.216563,14.682914 24.216563,14.3153374 23.9872652,14.08779 L17.4193136,8.08403925" id="Fill-6" fill="#3780A0"></path>
+                <text id="Daily-Sales" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#3780A0">
+                    <tspan x="28" y="13">Daily Sales</tspan>
+                </text>
+                <path d="M0.5,28.5 L376.5,28.5" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+            </g>
+            <g id="input[text]MediumEnabled" transform="translate(32.000000, 186.000000)">
+                <g id="input" stroke="#CCCCCC" stroke-width="2" fill="#F2F2F2">
+                    <use id="Rectangle-1" mask="url(#mask-78)" xlink:href="#path-77"></use>
+                </g>
+                <text id="MyNewFolder" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                    <tspan x="10" y="22">MyNewFolder</tspan>
+                </text>
+            </g>
+            <g id="Action+cancel-(Buttons-combo)" transform="translate(31.000000, 230.000000)">
+                <g id="buttonActive2-Light-Copy" transform="translate(161.000000, 0.000000)">
+                    <use id="Stroke-3" stroke="#CCCCCC" mask="url(#mask-80)" stroke-width="2" xlink:href="#path-79"></use>
+                    <text id="Cancel" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                        <tspan x="53" y="22">Cancel</tspan>
+                    </text>
+                </g>
+                <g id="Action-or-Cancel-combo-Copy">
+                    <g id="Button">
+                        <path d="M150.280939,34 L3.92958748,34 C1.75966927,34 0,31.9966842 0,29.5263158 L0,4.47368421 C0,2.00331579 1.75966927,0 3.92958748,0 L150.280939,0 C152.450857,0 154.210526,2.00331579 154.210526,4.47368421 L154.210526,29.5263158 C154.210526,31.9966842 152.450857,34 150.280939,34 Z" id="Fill-2" fill="#37809F"></path>
+                        <text id="Create" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="55" y="22">Create</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="AddToFavoriteFolderPage(NewElement(folder))" transform="translate(424.000000, 29.000000)">
+            <g id="Selectable-list" transform="translate(16.000000, 138.000000)">
+                <use id="HolderSelectable-list" stroke="#CCCCCC" mask="url(#mask-82)" stroke-width="2" xlink:href="#path-81"></use>
+                <g id="itemSelectable-list--Copy" transform="translate(1.000000, 503.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users4</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-84)" xlink:href="#path-83"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-Copy-3" transform="translate(1.000000, 443.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites3</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-86)" stroke-width="2" xlink:href="#path-85"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-Copy-2" transform="translate(11.000000, 419.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites3</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-88)" xlink:href="#path-87"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 381.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites2</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-90)" stroke-width="2" xlink:href="#path-89"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(11.000000, 357.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites2</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-92)" xlink:href="#path-91"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(11.000000, 298.000000)">
+                    <text id="Check-Label-Copy-5" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="25" y="13">Favorite Website Visitors</tspan>
+                    </text>
+                    <g id="checkbox-(check)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-94)" stroke-width="2" xlink:href="#path-93"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list-" transform="translate(1.000000, 321.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users2</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-96)" xlink:href="#path-95"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 261.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-98)" stroke-width="2" xlink:href="#path-97"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(11.000000, 237.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-100)" xlink:href="#path-99"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(11.000000, 178.000000)">
+                    <text id="Check-Label-Copy-5" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="25" y="13">Favorite Website Visitors</tspan>
+                    </text>
+                    <g id="checkbox-(check)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-102)" stroke-width="2" xlink:href="#path-101"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 201.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-104)" xlink:href="#path-103"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 141.000000)">
+                    <rect id="Rectangle-237-Copy" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="35" y="20">Test Folder</tspan>
+                    </text>
+                    <g id="checkbox" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-106)" xlink:href="#path-105"></use>
+                    </g>
+                </g>
+                <path d="M0.5,32.5 L344.537201,32.5" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                <g id="CheckAllButtonSelectable-list" transform="translate(11.000000, 9.000000)">
+                    <text id="Check-Label-Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="26" y="13">All Folders</tspan>
+                    </text>
+                    <g id="checkbox" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-108)" xlink:href="#path-107"></use>
+                    </g>
+                </g>
+                <g id="CreateNewElementButtonSelectable-list" transform="translate(250.000000, 0.000000)">
+                    <path d="M1.5,0.5 L1.5,31.5161247" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11" y="22"></tspan>
+                    </text>
+                    <text id="New-folder" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="27" y="21">New folder</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="FixedFooter" filter="url(#filter-109)" transform="translate(1.000000, 601.000000)">
+                <rect id="Background" fill="#FFFFFF" x="0" y="0" width="375" height="64"></rect>
+                <g id="Action-or-Cancel-(button+link)" transform="translate(15.000000, 15.000000)">
+                    <g id="or--+-cancel" transform="translate(120.000000, 8.000000)">
+                        <text id="or-" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#898989">
+                            <tspan x="0" y="13">or </tspan>
+                        </text>
+                        <text id="cancel" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="18" y="13">cancel</tspan>
+                        </text>
+                        <polygon id="Fill-1-Copy-2" fill="#666666" points="19 16 59 16 59 17 19 17"></polygon>
+                    </g>
+                    <g id="Button">
+                        <path d="M107.175676,34 L3.92958748,34 C1.75966927,34 0,31.9966842 0,29.5263158 L0,4.47368421 C0,2.00331579 1.75966927,0 3.92958748,0 L107.175676,0 C109.345594,0 111.105263,2.00331579 111.105263,4.47368421 L111.105263,29.5263158 C111.105263,31.9966842 109.345594,34 107.175676,34 Z" id="Fill-2" fill="#37809F"></path>
+                        <text id="Save-changes" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9.84210526" y="21.0526316">Save changes</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="HeaderH1" transform="translate(17.000000, 65.000000)" font-size="18" font-family="DroidSerif, Droid Serif" line-spacing="22" font-weight="normal">
+                <text id="Include/Exclude-“Dai">
+                    <tspan x="0" y="17" fill="#37809F">Include/Exclude “Daily Sales”</tspan>
+                    <tspan x="251.666016" y="17" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="22" fill="#37809F"></tspan>
+                    <tspan x="0" y="39" font-size="14" fill="#666666">in Favorites by checking folder(s)</tspan>
+                </text>
+            </g>
+            <g id="TopBar" transform="translate(0.000000, 12.000000)">
+                <text id="Favorite-Folders" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#999999">
+                    <tspan x="138.079" y="13">Favorite Folders</tspan>
+                </text>
+                <path d="M17.4193136,8.08403925 L23.9872652,2.08612301 C24.216563,1.85857561 24.216563,1.48516448 23.9872652,1.25761708 C23.7579675,1.03006967 23.3857232,1.03006967 23.1570089,1.25761708 L16.1666359,7.64061353 C16.0446939,7.76313906 15.9921829,7.92650643 16.0009347,8.08403925 C15.9921829,8.24740662 16.0446939,8.41077398 16.1666359,8.53329951 L23.1570089,14.916296 C23.3857232,15.1438434 23.7579675,15.1438434 23.9872652,14.916296 C24.216563,14.682914 24.216563,14.3153374 23.9872652,14.08779 L17.4193136,8.08403925" id="Fill-6" fill="#3780A0"></path>
+                <text id="Daily-Sales" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#3780A0">
+                    <tspan x="28" y="13">Daily Sales</tspan>
+                </text>
+                <path d="M0.5,28.5 L376.5,28.5" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+            </g>
+            <g id="input[text]MediumEnabled" transform="translate(32.000000, 186.000000)">
+                <g id="input" stroke="#CCCCCC" stroke-width="2" fill="#F2F2F2">
+                    <use id="Rectangle-1" mask="url(#mask-111)" xlink:href="#path-110"></use>
+                </g>
+                <text id="Type-the-name-for-ne" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                    <tspan x="10" y="22">Type the name for new  Folder</tspan>
+                </text>
+            </g>
+            <g id="Action+cancel-(Buttons-combo)" transform="translate(31.000000, 230.000000)">
+                <g id="buttonActive2-Light-Copy" transform="translate(161.000000, 0.000000)">
+                    <use id="Stroke-3" stroke="#CCCCCC" mask="url(#mask-113)" stroke-width="2" xlink:href="#path-112"></use>
+                    <text id="Cancel" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                        <tspan x="53" y="22">Cancel</tspan>
+                    </text>
+                </g>
+                <g id="Action-or-Cancel-combo-Copy" opacity="0.8">
+                    <g id="Button">
+                        <path d="M150.280939,34 L3.92958748,34 C1.75966927,34 0,31.9966842 0,29.5263158 L0,4.47368421 C0,2.00331579 1.75966927,0 3.92958748,0 L150.280939,0 C152.450857,0 154.210526,2.00331579 154.210526,4.47368421 L154.210526,29.5263158 C154.210526,31.9966842 152.450857,34 150.280939,34 Z" id="Fill-2" fill="#CCCCCC"></path>
+                        <text id="Create" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="55" y="22">Create</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="AddToFavoriteFolderPage" transform="translate(20.000000, 29.000000)">
+            <g id="Action-or-Cancel-(button+link)" transform="translate(15.000000, 337.000000)">
+                <g id="or--+-cancel" transform="translate(120.000000, 8.000000)">
+                    <text id="or-" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#898989">
+                        <tspan x="0" y="13">or </tspan>
+                    </text>
+                    <text id="cancel" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="18" y="13">cancel</tspan>
+                    </text>
+                    <polygon id="Fill-1-Copy-2" fill="#666666" points="19 16 59 16 59 17 19 17"></polygon>
+                </g>
+                <g id="Button">
+                    <path d="M107.175676,34 L3.92958748,34 C1.75966927,34 0,31.9966842 0,29.5263158 L0,4.47368421 C0,2.00331579 1.75966927,0 3.92958748,0 L107.175676,0 C109.345594,0 111.105263,2.00331579 111.105263,4.47368421 L111.105263,29.5263158 C111.105263,31.9966842 109.345594,34 107.175676,34 Z" id="Fill-2" fill="#37809F"></path>
+                    <text id="Save-changes" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="14" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="9.84210526" y="21.0526316">Save changes</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Selectable-list" transform="translate(15.000000, 138.000000)">
+                <use id="HolderSelectable-list" stroke="#CCCCCC" mask="url(#mask-115)" stroke-width="2" xlink:href="#path-114"></use>
+                <g id="itemSelectable-list" transform="translate(1.000000, 153.000000)">
+                    <rect id="Rectangle-237-Copy-7" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="35" y="19">Daily Favorites</tspan>
+                    </text>
+                    <g id="checkbox-(check)" transform="translate(10.000000, 7.000000)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-117)" stroke-width="2" xlink:href="#path-116"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(11.000000, 129.000000)">
+                    <text id="Check-Label-Copy-9" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="25" y="13">HR Favorites</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-2" transform="translate(0.000000, 1.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-119)" xlink:href="#path-118"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(11.000000, 70.000000)">
+                    <text id="Check-Label-Copy-5" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="25" y="13">Favorite Website Visitors</tspan>
+                    </text>
+                    <g id="checkbox-(check)">
+                        <use id="Check-Background" stroke="#37809F" mask="url(#mask-121)" stroke-width="2" xlink:href="#path-120"></use>
+                        <polygon id="Rectangle-34" fill="#37809F" points="8 12 3 7 5 5 8 8 16 0 18 2"></polygon>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 93.000000)">
+                    <rect id="Rectangle-237-Copy-5" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label-Copy-7" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="36" y="19">Favorites Users</tspan>
+                    </text>
+                    <g id="Check-Background-+-Rectangle-34-Copy-3" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-123)" xlink:href="#path-122"></use>
+                    </g>
+                </g>
+                <g id="itemSelectable-list" transform="translate(1.000000, 33.000000)">
+                    <rect id="Rectangle-237-Copy" fill="#F4F4F4" x="0" y="0" width="343" height="30"></rect>
+                    <text id="Check-Label" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="35" y="20">Test Folder</tspan>
+                    </text>
+                    <g id="checkbox" transform="translate(10.000000, 7.000000)" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-125)" xlink:href="#path-124"></use>
+                    </g>
+                </g>
+                <path d="M0.5,32.5 L344.537201,32.5" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                <g id="CheckAllButtonSelectable-list" transform="translate(11.000000, 9.000000)">
+                    <text id="Check-Label-Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="26" y="13">All Folders</tspan>
+                    </text>
+                    <g id="checkbox" stroke="#999999" stroke-width="2">
+                        <use id="Check-Background" mask="url(#mask-127)" xlink:href="#path-126"></use>
+                    </g>
+                </g>
+                <g id="CreateNewElementButtonSelectable-list" transform="translate(250.000000, 0.000000)">
+                    <path d="M1.5,0.5 L1.5,31.5161247" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11" y="22"></tspan>
+                    </text>
+                    <text id="New-folder" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="27" y="21">New folder</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="HeaderH1" transform="translate(16.000000, 65.000000)" font-size="18" font-family="DroidSerif, Droid Serif" line-spacing="22" font-weight="normal">
+                <text id="Include/Exclude-“Dai">
+                    <tspan x="0" y="17" fill="#37809F">Include/Exclude “Daily Sales”</tspan>
+                    <tspan x="251.666016" y="17" font-family=".SFNSDisplay-Regular, .SF NS Display" font-size="22" fill="#37809F"></tspan>
+                    <tspan x="0" y="39" font-size="14" fill="#666666">in Favorites by checking folder(s)</tspan>
+                </text>
+            </g>
+            <g id="TopBar" transform="translate(-1.000000, 12.000000)">
+                <text id="Favorite-Folders" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#999999">
+                    <tspan x="138.079" y="13">Favorite Folders</tspan>
+                </text>
+                <path d="M17.4193136,8.08403925 L23.9872652,2.08612301 C24.216563,1.85857561 24.216563,1.48516448 23.9872652,1.25761708 C23.7579675,1.03006967 23.3857232,1.03006967 23.1570089,1.25761708 L16.1666359,7.64061353 C16.0446939,7.76313906 15.9921829,7.92650643 16.0009347,8.08403925 C15.9921829,8.24740662 16.0446939,8.41077398 16.1666359,8.53329951 L23.1570089,14.916296 C23.3857232,15.1438434 23.7579675,15.1438434 23.9872652,14.916296 C24.216563,14.682914 24.216563,14.3153374 23.9872652,14.08779 L17.4193136,8.08403925" id="Fill-6" fill="#3780A0"></path>
+                <text id="Daily-Sales" font-family="HelveticaNeue, Helvetica Neue" font-size="14" font-weight="normal" fill="#3780A0">
+                    <tspan x="28" y="13">Daily Sales</tspan>
+                </text>
+                <path d="M0.5,28.5 L376.5,28.5" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,2020 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1024px" height="5231px" viewBox="0 0 1024 5231" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>ui_standards_2_forms</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M33.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L33.7777778,0 C36.1095,0 38,1.96432258 38,4.38709677 L38,29.6129032 C38,32.0356774 36.1095,34 33.7777778,34 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="38" height="34" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M33.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L33.7777778,0 C36.1095,0 38,1.96432258 38,4.38709677 L38,29.6129032 C38,32.0356774 36.1095,34 33.7777778,34 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="38" height="34" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M33.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L33.7777778,0 C36.1095,0 38,1.96432258 38,4.38709677 L38,29.6129032 C38,32.0356774 36.1095,34 33.7777778,34 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="38" height="34" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="76" height="34" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="76" height="34" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-11"></path>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="76" height="34" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="76" height="34" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <path d="M33.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L33.7777778,0 C36.1095,0 38,1.96432258 38,4.38709677 L38,29.6129032 C38,32.0356774 36.1095,34 33.7777778,34 Z" id="path-15"></path>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="38" height="34" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <path d="M4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L113.873684,0 C116.143158,0 118,1.92857143 118,4.28571429 L118,25.7142857 C118,28.0714286 116.143158,30 113.873684,30 L4.12631579,30 Z" id="path-17"></path>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="118" height="30" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+        <path d="M4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L113.873684,0 C116.143158,0 118,1.92857143 118,4.28571429 L118,25.7142857 C118,28.0714286 116.143158,30 113.873684,30 L4.12631579,30 Z" id="path-19"></path>
+        <mask id="mask-20" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="118" height="30" fill="white">
+            <use xlink:href="#path-19"></use>
+        </mask>
+        <path d="M93.8736842,30 L4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L93.8736842,0 C96.1431579,0 98,1.92857143 98,4.28571429 L98,25.7142857 C98,28.0714286 96.1431579,30 93.8736842,30 L93.8736842,30 Z" id="path-21"></path>
+        <mask id="mask-22" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="98" height="30" fill="white">
+            <use xlink:href="#path-21"></use>
+        </mask>
+        <path d="M93.8736842,30 L4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L93.8736842,0 C96.1431579,0 98,1.92857143 98,4.28571429 L98,25.7142857 C98,28.0714286 96.1431579,30 93.8736842,30 L93.8736842,30 Z" id="path-23"></path>
+        <mask id="mask-24" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="98" height="30" fill="white">
+            <use xlink:href="#path-23"></use>
+        </mask>
+        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L129.873684,0 C132.143158,0 134,2.18571429 134,4.85714286 L134,29.1428571 C134,31.8142857 132.143158,34 129.873684,34 L4.12631579,34 Z" id="path-25"></path>
+        <mask id="mask-26" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="134" height="34" fill="white">
+            <use xlink:href="#path-25"></use>
+        </mask>
+        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L129.873684,0 C132.143158,0 134,2.18571429 134,4.85714286 L134,29.1428571 C134,31.8142857 132.143158,34 129.873684,34 L4.12631579,34 Z" id="path-27"></path>
+        <mask id="mask-28" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="134" height="34" fill="white">
+            <use xlink:href="#path-27"></use>
+        </mask>
+        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L105.873684,0 C108.143158,0 110,2.18571429 110,4.85714286 L110,29.1428571 C110,31.8142857 108.143158,34 105.873684,34 L4.12631579,34 Z" id="path-29"></path>
+        <mask id="mask-30" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="110" height="34" fill="white">
+            <use xlink:href="#path-29"></use>
+        </mask>
+        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L104.873684,0 C107.143158,0 109,2.18571429 109,4.85714286 L109,29.1428571 C109,31.8142857 107.143158,34 104.873684,34 L4.12631579,34 Z" id="path-31"></path>
+        <mask id="mask-32" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="109" height="34" fill="white">
+            <use xlink:href="#path-31"></use>
+        </mask>
+        <path d="M60.3571429,38 L4.64285714,38 C2.07907143,38 0,35.762 0,33 L0,5 C0,2.239 2.07907143,0 4.64285714,0 L60.3571429,0 C62.9209286,0 65,2.239 65,5 L65,33 C65,35.762 62.9209286,38 60.3571429,38 Z" id="path-33"></path>
+        <mask id="mask-34" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="65" height="38" fill="white">
+            <use xlink:href="#path-33"></use>
+        </mask>
+        <path d="M60.3571429,38 L4.64285714,38 C2.07907143,38 0,35.762 0,33 L0,5 C0,2.239 2.07907143,0 4.64285714,0 L60.3571429,0 C62.9209286,0 65,2.239 65,5 L65,33 C65,35.762 62.9209286,38 60.3571429,38 Z" id="path-35"></path>
+        <mask id="mask-36" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="65" height="38" fill="white">
+            <use xlink:href="#path-35"></use>
+        </mask>
+        <path d="M59.3571429,38 L4.64285714,38 C2.07907143,38 0,35.762 0,33 L0,5 C0,2.239 2.07907143,0 4.64285714,0 L59.3571429,0 C61.9209286,0 64,2.239 64,5 L64,33 C64,35.762 61.9209286,38 59.3571429,38 Z" id="path-37"></path>
+        <mask id="mask-38" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="64" height="38" fill="white">
+            <use xlink:href="#path-37"></use>
+        </mask>
+        <path d="M58.3571429,38 L4.64285714,38 C2.07907143,38 0,35.762 0,33 L0,5 C0,2.239 2.07907143,0 4.64285714,0 L58.3571429,0 C60.9209286,0 63,2.239 63,5 L63,33 C63,35.762 60.9209286,38 58.3571429,38 Z" id="path-39"></path>
+        <mask id="mask-40" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="63" height="38" fill="white">
+            <use xlink:href="#path-39"></use>
+        </mask>
+        <path d="M60.3571429,38 L4.64285714,38 C2.07907143,38 0,35.762 0,33 L0,5 C0,2.239 2.07907143,0 4.64285714,0 L60.3571429,0 C62.9209286,0 65,2.239 65,5 L65,33 C65,35.762 62.9209286,38 60.3571429,38 Z" id="path-41"></path>
+        <mask id="mask-42" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="65" height="38" fill="white">
+            <use xlink:href="#path-41"></use>
+        </mask>
+        <path d="M58.3571429,38 L4.64285714,38 C2.07907143,38 0,35.762 0,33 L0,5 C0,2.239 2.07907143,0 4.64285714,0 L58.3571429,0 C60.9209286,0 63,2.239 63,5 L63,33 C63,35.762 60.9209286,38 58.3571429,38 Z" id="path-43"></path>
+        <mask id="mask-44" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="63" height="38" fill="white">
+            <use xlink:href="#path-43"></use>
+        </mask>
+        <path d="M65,38 L5,38 C2.239,38 0,35.762 0,33 L0,5 C0,2.239 2.239,0 5,0 L65,0 C67.761,0 70,2.239 70,5 L70,33 C70,35.762 67.761,38 65,38 Z" id="path-45"></path>
+        <mask id="mask-46" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="70" height="38" fill="white">
+            <use xlink:href="#path-45"></use>
+        </mask>
+        <rect id="path-47" x="0" y="22" width="177" height="95"></rect>
+        <mask id="mask-48" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="177" height="95" fill="white">
+            <use xlink:href="#path-47"></use>
+        </mask>
+        <rect id="path-49" x="0" y="0" width="177" height="34"></rect>
+        <mask id="mask-50" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="177" height="34" fill="white">
+            <use xlink:href="#path-49"></use>
+        </mask>
+        <rect id="path-51" x="10" y="10" width="380" height="74"></rect>
+        <mask id="mask-52" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="380" height="74" fill="white">
+            <use xlink:href="#path-51"></use>
+        </mask>
+        <rect id="path-53" x="0" y="0" width="400" height="171"></rect>
+        <mask id="mask-54" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="171" fill="white">
+            <use xlink:href="#path-53"></use>
+        </mask>
+        <rect id="path-55" x="0" y="0" width="104" height="34" rx="4"></rect>
+        <mask id="mask-56" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="104" height="34" fill="white">
+            <use xlink:href="#path-55"></use>
+        </mask>
+        <rect id="path-57" x="0" y="0" width="400" height="9"></rect>
+        <mask id="mask-58" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="9" fill="white">
+            <use xlink:href="#path-57"></use>
+        </mask>
+        <rect id="path-59" x="0" y="0" width="400" height="180"></rect>
+        <mask id="mask-60" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="180" fill="white">
+            <use xlink:href="#path-59"></use>
+        </mask>
+        <rect id="path-61" x="0" y="0" width="104" height="34" rx="4"></rect>
+        <mask id="mask-62" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="104" height="34" fill="white">
+            <use xlink:href="#path-61"></use>
+        </mask>
+        <rect id="path-63" x="0" y="0" width="400" height="9"></rect>
+        <mask id="mask-64" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="9" fill="white">
+            <use xlink:href="#path-63"></use>
+        </mask>
+        <rect id="path-65" x="0" y="0" width="400" height="9"></rect>
+        <mask id="mask-66" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="9" fill="white">
+            <use xlink:href="#path-65"></use>
+        </mask>
+        <rect id="path-67" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-68" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-67"></use>
+        </mask>
+        <rect id="path-69" x="0" y="0" width="400" height="9"></rect>
+        <mask id="mask-70" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="9" fill="white">
+            <use xlink:href="#path-69"></use>
+        </mask>
+        <rect id="path-71" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-72" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-71"></use>
+        </mask>
+        <rect id="path-73" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-74" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-73"></use>
+        </mask>
+        <rect id="path-75" x="0" y="0" width="400" height="9"></rect>
+        <mask id="mask-76" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="9" fill="white">
+            <use xlink:href="#path-75"></use>
+        </mask>
+        <rect id="path-77" x="0" y="0" width="400" height="9"></rect>
+        <mask id="mask-78" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="9" fill="white">
+            <use xlink:href="#path-77"></use>
+        </mask>
+        <rect id="path-79" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-80" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-79"></use>
+        </mask>
+        <rect id="path-81" x="0" y="0" width="400" height="9"></rect>
+        <mask id="mask-82" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="9" fill="white">
+            <use xlink:href="#path-81"></use>
+        </mask>
+        <rect id="path-83" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-84" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-83"></use>
+        </mask>
+        <rect id="path-85" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-86" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-85"></use>
+        </mask>
+        <rect id="path-87" x="0" y="0" width="400" height="9"></rect>
+        <mask id="mask-88" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="9" fill="white">
+            <use xlink:href="#path-87"></use>
+        </mask>
+        <rect id="path-89" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-90" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-89"></use>
+        </mask>
+        <rect id="path-91" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-92" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-91"></use>
+        </mask>
+        <rect id="path-93" x="0" y="0" width="400" height="74"></rect>
+        <mask id="mask-94" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="400" height="74" fill="white">
+            <use xlink:href="#path-93"></use>
+        </mask>
+        <rect id="path-95" x="0" y="0" width="285" height="30" rx="4"></rect>
+        <mask id="mask-96" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-95"></use>
+        </mask>
+        <rect id="path-97" x="0" y="0" width="285" height="30" rx="4"></rect>
+        <mask id="mask-98" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-97"></use>
+        </mask>
+        <rect id="path-99" x="0" y="0" width="285" height="30" rx="4"></rect>
+        <mask id="mask-100" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-99"></use>
+        </mask>
+        <rect id="path-101" x="0" y="0" width="285" height="30" rx="4"></rect>
+        <mask id="mask-102" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-101"></use>
+        </mask>
+        <rect id="path-103" x="0" y="0" width="285" height="30"></rect>
+        <mask id="mask-104" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-103"></use>
+        </mask>
+        <rect id="path-105" x="0" y="0" width="285" height="30"></rect>
+        <mask id="mask-106" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-105"></use>
+        </mask>
+        <rect id="path-107" x="0" y="0" width="285" height="30"></rect>
+        <mask id="mask-108" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-107"></use>
+        </mask>
+        <rect id="path-109" x="0" y="0" width="285" height="34" rx="4"></rect>
+        <mask id="mask-110" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-109"></use>
+        </mask>
+        <rect id="path-111" x="0" y="0" width="285" height="91" rx="4"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-112">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <mask id="mask-113" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="91" fill="white">
+            <use xlink:href="#path-111"></use>
+        </mask>
+        <rect id="path-114" x="0" y="0" width="285" height="34" rx="4"></rect>
+        <mask id="mask-115" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-114"></use>
+        </mask>
+        <rect id="path-116" x="0" y="0" width="285" height="34" rx="4"></rect>
+        <mask id="mask-117" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-116"></use>
+        </mask>
+        <rect id="path-118" x="0" y="0" width="285" height="34"></rect>
+        <mask id="mask-119" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-118"></use>
+        </mask>
+        <rect id="path-120" x="0" y="0" width="285" height="34"></rect>
+        <mask id="mask-121" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-120"></use>
+        </mask>
+        <rect id="path-122" x="0" y="0" width="285" height="34"></rect>
+        <mask id="mask-123" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-122"></use>
+        </mask>
+        <rect id="path-124" x="0" y="24" width="225" height="34"></rect>
+        <mask id="mask-125" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225" height="34" fill="white">
+            <use xlink:href="#path-124"></use>
+        </mask>
+        <rect id="path-126" x="0" y="24" width="225" height="34"></rect>
+        <mask id="mask-127" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225" height="34" fill="white">
+            <use xlink:href="#path-126"></use>
+        </mask>
+        <rect id="path-128" x="0" y="23" width="225" height="34"></rect>
+        <mask id="mask-129" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225" height="34" fill="white">
+            <use xlink:href="#path-128"></use>
+        </mask>
+        <rect id="path-130" x="0" y="0" width="225" height="34"></rect>
+        <mask id="mask-131" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225" height="34" fill="white">
+            <use xlink:href="#path-130"></use>
+        </mask>
+        <rect id="path-132" x="0" y="0" width="225" height="34"></rect>
+        <mask id="mask-133" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225" height="34" fill="white">
+            <use xlink:href="#path-132"></use>
+        </mask>
+        <rect id="path-134" x="0" y="0" width="225" height="34"></rect>
+        <mask id="mask-135" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="225" height="34" fill="white">
+            <use xlink:href="#path-134"></use>
+        </mask>
+        <rect id="path-136" x="0" y="17" width="285" height="30"></rect>
+        <mask id="mask-137" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-136"></use>
+        </mask>
+        <rect id="path-138" x="0" y="17" width="285" height="30"></rect>
+        <mask id="mask-139" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-138"></use>
+        </mask>
+        <rect id="path-140" x="0" y="17" width="285" height="30"></rect>
+        <mask id="mask-141" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-140"></use>
+        </mask>
+        <rect id="path-142" x="0" y="0" width="285" height="30"></rect>
+        <mask id="mask-143" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-142"></use>
+        </mask>
+        <rect id="path-144" x="0" y="0" width="285" height="30"></rect>
+        <mask id="mask-145" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-144"></use>
+        </mask>
+        <rect id="path-146" x="0" y="0" width="285" height="30"></rect>
+        <mask id="mask-147" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="30" fill="white">
+            <use xlink:href="#path-146"></use>
+        </mask>
+        <rect id="path-148" x="0" y="23" width="285" height="34"></rect>
+        <mask id="mask-149" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-148"></use>
+        </mask>
+        <rect id="path-150" x="0" y="23" width="285" height="34"></rect>
+        <mask id="mask-151" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-150"></use>
+        </mask>
+        <rect id="path-152" x="0" y="23" width="285" height="34"></rect>
+        <mask id="mask-153" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-152"></use>
+        </mask>
+        <rect id="path-154" x="0" y="0" width="285" height="34"></rect>
+        <mask id="mask-155" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-154"></use>
+        </mask>
+        <rect id="path-156" x="0" y="0" width="285" height="34"></rect>
+        <mask id="mask-157" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-156"></use>
+        </mask>
+        <rect id="path-158" x="0" y="0" width="285" height="34"></rect>
+        <mask id="mask-159" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="285" height="34" fill="white">
+            <use xlink:href="#path-158"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui_standards_2_forms">
+            <g id="Toggle-control-(radio)" transform="translate(20.000000, 5114.000000)">
+                <g id="toggle-(disabled)" transform="translate(0.000000, 74.000000)">
+                    <text id="This-Toggle-is-disab" fill="#D34839" font-family="Helvetica" font-size="14" font-weight="normal">
+                        <tspan x="34" y="15">This Toggle is disabled</tspan>
+                    </text>
+                    <text id="(additional-informat" fill="#666666" font-family="Helvetica" font-size="14" font-weight="normal">
+                        <tspan x="179" y="14">(additional information)</tspan>
+                    </text>
+                    <path d="M20.6791975,2 L8.32080253,2 C3.72553716,2 5.68434189e-14,5.58190177 5.68434189e-14,10 C5.68434189e-14,14.4180982 3.72553716,18 8.32080253,18 L20.6791975,18 C25.2744628,18 29,14.4180982 29,10 C29,5.58190177 25.2744628,2 20.6791975,2 L20.6791975,2 Z M21,15 C18.236338,15 16,12.7626538 16,10 C16,7.23936277 18.2373462,5 21,5 C23.7606372,5 26,7.24037104 26,10 C26,12.7626538 23.759629,15 21,15 L21,15 Z" id="Shape" fill="#D34839"></path>
+                </g>
+                <g id="toggle-(enabled)" transform="translate(0.000000, 38.000000)">
+                    <text id="This-Toggle-is-enabl" fill="#188983" font-family="Helvetica" font-size="14" font-weight="normal">
+                        <tspan x="34" y="15">This Toggle is enabled</tspan>
+                    </text>
+                    <text id="(additional-informat" fill="#666666" font-family="Helvetica" font-size="14" font-weight="normal">
+                        <tspan x="179" y="14">(additional information)</tspan>
+                    </text>
+                    <path d="M20.6791975,2 L8.32080253,2 C3.72553716,2 5.68434189e-14,5.58190177 5.68434189e-14,10 C5.68434189e-14,14.4180982 3.72553716,18 8.32080253,18 L20.6791975,18 C25.2744628,18 29,14.4180982 29,10 C29,5.58190177 25.2744628,2 20.6791975,2 L20.6791975,2 Z M21,15 C18.236338,15 16,12.7626538 16,10 C16,7.23936277 18.2373462,5 21,5 C23.7606372,5 26,7.24037104 26,10 C26,12.7626538 23.759629,15 21,15 L21,15 Z" id="Shape" fill="#188983"></path>
+                </g>
+                <g id="group-title">
+                    <text id="Radio-toggle" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Radio toggle</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Radio-(ver)" transform="translate(20.000000, 4973.000000)">
+                <g id="radio-group" transform="translate(0.000000, 39.000000)">
+                    <g id="item" transform="translate(0.000000, 25.000000)">
+                        <text id="the-one-of-the-items" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                            <tspan x="19" y="13">the one of the items</tspan>
+                        </text>
+                        <path d="M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape-Copy-3" fill="#CCCCCC"></path>
+                    </g>
+                    <g id="item-copy" transform="translate(0.000000, 49.000000)">
+                        <text id="the-one-of-the-items" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                            <tspan x="19" y="13">the one of the items</tspan>
+                        </text>
+                        <path d="M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape-Copy-3" fill="#CCCCCC"></path>
+                    </g>
+                    <g id="item-(chosen)" fill="#37809F">
+                        <path d="M10,7.5 C10,8.19010417 9.75585938,8.77929688 9.26757812,9.26757812 C8.77929688,9.75585938 8.19010417,10 7.5,10 C6.80989583,10 6.22070312,9.75585938 5.73242188,9.26757812 C5.24414062,8.77929688 5,8.19010417 5,7.5 C5,6.80989583 5.24414062,6.22070312 5.73242188,5.73242188 C6.22070312,5.24414062 6.80989583,5 7.5,5 C8.19010417,5 8.77929688,5.24414062 9.26757812,5.73242188 C9.75585938,6.22070312 10,6.80989583 10,7.5 L10,7.5 Z M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape"></path>
+                        <text id="Chosen-item" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="19" y="13">Chosen item</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="group-title">
+                    <text id="Radio-buttons-vertic" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Radio buttons vertical</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Radio-important-(hor)" transform="translate(535.000000, 4882.000000)">
+                <g id="radio-group" transform="translate(0.000000, 39.000000)">
+                    <g id="item" transform="translate(123.000000, 0.000000)">
+                        <text id="the-one-of-the-items" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                            <tspan x="19" y="13">the one of the items</tspan>
+                        </text>
+                        <path d="M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape-Copy-3" fill="#CCCCCC"></path>
+                    </g>
+                    <g id="item-(chosen)" fill="#D34839">
+                        <path d="M10,7.5 C10,8.19010417 9.75585938,8.77929688 9.26757812,9.26757812 C8.77929688,9.75585938 8.19010417,10 7.5,10 C6.80989583,10 6.22070312,9.75585938 5.73242188,9.26757812 C5.24414062,8.77929688 5,8.19010417 5,7.5 C5,6.80989583 5.24414062,6.22070312 5.73242188,5.73242188 C6.22070312,5.24414062 6.80989583,5 7.5,5 C8.19010417,5 8.77929688,5.24414062 9.26757812,5.73242188 C9.75585938,6.22070312 10,6.80989583 10,7.5 L10,7.5 Z M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape"></path>
+                        <text id="Chosen-item" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="19" y="13">Chosen item</tspan>
+                        </text>
+                    </g>
+                    <path d="M113,1 L113,15" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                </g>
+                <g id="group-title">
+                    <text id="Radio-buttons-horizo" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Radio buttons horizontal (very important)</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Radio-(hor)" transform="translate(20.000000, 4882.000000)">
+                <g id="radio-group" transform="translate(0.000000, 39.000000)">
+                    <g id="item" transform="translate(123.000000, 0.000000)">
+                        <text id="the-one-of-the-items" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                            <tspan x="19" y="13">the one of the items</tspan>
+                        </text>
+                        <path d="M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape-Copy-3" fill="#CCCCCC"></path>
+                    </g>
+                    <g id="item-(chosen)" fill="#37809F">
+                        <path d="M10,7.5 C10,8.19010417 9.75585938,8.77929688 9.26757812,9.26757812 C8.77929688,9.75585938 8.19010417,10 7.5,10 C6.80989583,10 6.22070312,9.75585938 5.73242188,9.26757812 C5.24414062,8.77929688 5,8.19010417 5,7.5 C5,6.80989583 5.24414062,6.22070312 5.73242188,5.73242188 C6.22070312,5.24414062 6.80989583,5 7.5,5 C8.19010417,5 8.77929688,5.24414062 9.26757812,5.73242188 C9.75585938,6.22070312 10,6.80989583 10,7.5 L10,7.5 Z M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape"></path>
+                        <text id="Chosen-item" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="19" y="13">Chosen item</tspan>
+                        </text>
+                    </g>
+                    <path d="M113,1 L113,15" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                </g>
+                <g id="group-title">
+                    <text id="Radio-buttons-horizo" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Radio buttons horizontal</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Section-Tile-(The-radio-and-toggle-controls)" transform="translate(20.000000, 4814.000000)">
+                <text id="The-radio-and-toggle" font-family="Times-Roman, Times" font-size="18" font-weight="normal" fill="#666666">
+                    <tspan x="0" y="18">The radio and toggle controls</tspan>
+                </text>
+                <path d="M0,31 L984,31" id="Stroke-5" stroke="#CCCCCC"></path>
+            </g>
+            <g id="ButtonsGroupLine" transform="translate(20.000000, 4716.000000)">
+                <rect id="Rectangle-113-Copy-2" stroke="#37809F" fill="#37809F" x="60" y="40" width="62" height="22" rx="2"></rect>
+                <text id="Select-Option-Copy-4" font-family="ArialMT, Arial" font-size="13" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="65" y="56">Stoplight</tspan>
+                </text>
+                <text id="Select-Option-Copy-5" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#37809F">
+                    <tspan x="131" y="55">Statistical</tspan>
+                </text>
+                <text id="Select-Option-Copy-6" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#37809F">
+                    <tspan x="201" y="55">Target</tspan>
+                </text>
+                <text id="Select-Option-Copy-7" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#37809F">
+                    <tspan x="254" y="55">Projection</tspan>
+                </text>
+                <text id="Select-Option-Copy-3" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#37809F">
+                    <tspan x="1" y="55">Standard</tspan>
+                </text>
+                <g id="Title">
+                    <g id="group-title">
+                        <text id="Linear-group-of-butt" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                            <tspan x="0" y="13">Linear group of buttons</tspan>
+                        </text>
+                        <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Buttons-group-with-Dropdowns-Copy" transform="translate(529.000000, 4517.000000)">
+                <g id="MoreThen1ButtonGroup" transform="translate(246.000000, 39.000000)">
+                    <use id="Shape" stroke="#CCCCCC" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="12.9285714" y="25"></tspan>
+                    </text>
+                </g>
+                <g id="MoreThen1ButtonGroup-Copy" transform="translate(246.000000, 84.000000)">
+                    <use id="Shape" stroke="#CCCCCC" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="12.9285714" y="25"></tspan>
+                    </text>
+                </g>
+                <g id="MoreThen1ButtonGroup-Copy-2" transform="translate(246.000000, 127.000000)">
+                    <use id="Shape" stroke="#CCCCCC" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                    <text id="" fill="#CCCCCC" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="12.9285714" y="25"></tspan>
+                    </text>
+                </g>
+                <g id="Dropdown-Active" transform="translate(59.000000, 83.000000)" fill="#37809F">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                </g>
+                <g id="Dropdown-Disabled" transform="translate(59.000000, 127.000000)" fill="#CCCCCC">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                </g>
+                <g id="Dropdown" transform="translate(59.000000, 39.000000)">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill="#CCCCCC"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#37809F">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polyline id="Fill-3" fill="#999999" points="167 14 161.5 23 156 14 167 14"></polyline>
+                    </g>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="0.97265625" y="147">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="14" y="104">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="60">Enabled:</tspan>
+                </text>
+                <g id="Title" transform="translate(1.000000, 0.000000)">
+                    <g id="group-title">
+                        <text id="Group-of-buttons(one" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                            <tspan x="0" y="13">Group of buttons(one button) with dropdowns</tspan>
+                        </text>
+                        <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Buttons-group-with-Dropdowns" transform="translate(19.000000, 4517.000000)">
+                <g id="MoreThen1ButtonGroup" transform="translate(246.000000, 39.000000)">
+                    <use id="Shape" stroke="#CCCCCC" mask="url(#mask-8)" stroke-width="2" xlink:href="#path-7"></use>
+                    <path d="M38.5,0.5 L38.5,33.6360817" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="12.9285714" y="25"></tspan>
+                    </text>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="50.2857143" y="24"></tspan>
+                    </text>
+                </g>
+                <g id="MoreThen1ButtonGroup-Copy" transform="translate(246.000000, 84.000000)">
+                    <use id="Shape" stroke="#CCCCCC" mask="url(#mask-10)" stroke-width="2" xlink:href="#path-9"></use>
+                    <path d="M38.5,0.5 L38.5,33.6360817" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="12.9285714" y="25"></tspan>
+                    </text>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="50.2857143" y="24"></tspan>
+                    </text>
+                </g>
+                <g id="MoreThen1ButtonGroup-Copy-2" transform="translate(246.000000, 127.000000)">
+                    <use id="Shape" stroke="#CCCCCC" mask="url(#mask-12)" stroke-width="2" xlink:href="#path-11"></use>
+                    <path d="M38.5,0.5 L38.5,33.6360817" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <text id="" fill="#CCCCCC" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="12.9285714" y="25"></tspan>
+                    </text>
+                    <text id="" fill="#CCCCCC" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="50.2857143" y="24"></tspan>
+                    </text>
+                </g>
+                <g id="Dropdown-Active" transform="translate(59.000000, 83.000000)" fill="#37809F">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                </g>
+                <g id="Dropdown-Disable" transform="translate(59.000000, 127.000000)" fill="#CCCCCC">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                </g>
+                <g id="Dropdown" transform="translate(59.000000, 39.000000)">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill="#CCCCCC"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#37809F">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polyline id="Fill-3" fill="#999999" points="167 14 161.5 23 156 14 167 14"></polyline>
+                    </g>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="0.97265625" y="147">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="14" y="104">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="60">Enabled:</tspan>
+                </text>
+                <g id="Title" transform="translate(1.000000, 0.000000)">
+                    <g id="group-title">
+                        <text id="Group-of-buttons-wit" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                            <tspan x="0" y="13">Group of buttons with dropdowns</tspan>
+                        </text>
+                        <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Buttons-group" transform="translate(20.000000, 4406.000000)">
+                <g id="MoreThen1ButtonGroup" transform="translate(58.000000, 39.000000)">
+                    <use id="Shape" stroke="#CCCCCC" mask="url(#mask-14)" stroke-width="2" xlink:href="#path-13"></use>
+                    <path d="M38.5,0.5 L38.5,33.6360817" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="12.9285714" y="25"></tspan>
+                    </text>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="50.2857143" y="24"></tspan>
+                    </text>
+                </g>
+                <g id="ButtonGroup" transform="translate(0.000000, 39.000000)">
+                    <use id="Shape" stroke="#CCCCCC" mask="url(#mask-16)" stroke-width="2" xlink:href="#path-15"></use>
+                    <text id="" fill="#999999" font-family="FontAwesome" font-size="18" font-weight="normal">
+                        <tspan x="12" y="25"></tspan>
+                    </text>
+                </g>
+                <g id="Title">
+                    <g id="group-title">
+                        <text id="Group-of-buttons" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                            <tspan x="0" y="13">Group of buttons</tspan>
+                        </text>
+                        <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="xs-Small-+-icon" transform="translate(19.000000, 4302.000000)">
+                <g id="xs-samllButtonsWithIcon" transform="translate(0.000000, 39.000000)">
+                    <g id="xs-smallButtonWithIconLight2" transform="translate(257.000000, 0.000000)">
+                        <use id="Stroke-2" stroke="#CCCCCC" mask="url(#mask-18)" stroke-width="2" xlink:href="#path-17"></use>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#666666">
+                            <tspan x="29" y="19">Post comment</tspan>
+                        </text>
+                        <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="10" y="21"></tspan>
+                        </text>
+                    </g>
+                    <g id="xs-smallButtonWithIconLight" transform="translate(127.000000, 0.000000)">
+                        <use id="Stroke-2" stroke="#37809F" mask="url(#mask-20)" stroke-width="2" xlink:href="#path-19"></use>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#37809F">
+                            <tspan x="29" y="19">Post comment</tspan>
+                        </text>
+                        <text id="icon" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#37809F">
+                            <tspan x="10" y="20"></tspan>
+                        </text>
+                    </g>
+                    <g id="xs-smallButtonWithIcon">
+                        <path d="M4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L111.873684,0 C114.143158,0 116,1.92857143 116,4.28571429 L116,25.7142857 C116,28.0714286 114.143158,30 111.873684,30 L4.12631579,30 Z" id="Fill-1" fill="#37809F" fill-rule="evenodd"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="28" y="20">Post comment</tspan>
+                        </text>
+                        <text id="icon" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="9" y="21"></tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="group-title" transform="translate(1.000000, 0.000000)">
+                    <text id="xs-small-with-icons" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">xs-small with icons</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="xs-Small" transform="translate(20.000000, 4140.000000)">
+                <g id="xs-samllButtons" transform="translate(70.000000, 57.000000)">
+                    <g id="xs-samllButtonLight2Disabled" transform="translate(218.000000, 40.000000)">
+                        <path d="M93.8736842,30 L4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L93.8736842,0 C96.1431579,0 98,1.92857143 98,4.28571429 L98,25.7142857 C98,28.0714286 96.1431579,30 93.8736842,30 L93.8736842,30 Z" id="Stroke-2" stroke="#CCCCCC" stroke-width="1"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#CCCCCC">
+                            <tspan x="10" y="19">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="xs-samllButtonLight2" transform="translate(218.000000, 0.000000)">
+                        <use id="Stroke-2" stroke="#CCCCCC" mask="url(#mask-22)" stroke-width="2" xlink:href="#path-21"></use>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#666666">
+                            <tspan x="10" y="19">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="xs-samllButtonLightDisabled" transform="translate(110.000000, 40.000000)">
+                        <path d="M93.8736842,30 L4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L93.8736842,0 C96.1431579,0 98,1.92857143 98,4.28571429 L98,25.7142857 C98,28.0714286 96.1431579,30 93.8736842,30 L93.8736842,30 Z" id="Stroke-2" stroke="#CCCCCC" stroke-width="1"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#CCCCCC">
+                            <tspan x="10" y="19">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="xs-samllButtonLight" transform="translate(110.000000, 0.000000)">
+                        <use id="Stroke-2" stroke="#37809F" mask="url(#mask-24)" stroke-width="2" xlink:href="#path-23"></use>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#37809F">
+                            <tspan x="10" y="19">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="xs-samllButtonDisabled" transform="translate(1.000000, 40.000000)">
+                        <path d="M93.8736842,30 L4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L93.8736842,0 C96.1431579,0 98,1.92857143 98,4.28571429 L98,25.7142857 C98,28.0714286 96.1431579,30 93.8736842,30" id="Fill-1" fill="#CCCCCC" fill-rule="evenodd"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="9" y="19">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="xs-samllButton">
+                        <path d="M93.8736842,30 L4.12631579,30 C1.85684211,30 0,28.0714286 0,25.7142857 L0,4.28571429 C0,1.92857143 1.85684211,0 4.12631579,0 L93.8736842,0 C96.1431579,0 98,1.92857143 98,4.28571429 L98,25.7142857 C98,28.0714286 96.1431579,30 93.8736842,30" id="Fill-1" fill="#37809F" fill-rule="evenodd"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="9" y="19">Post comment</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="76">Enabled:</tspan>
+                </text>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="0" y="115">Disabled:</tspan>
+                </text>
+                <g id="group-title">
+                    <text id="xs-small" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">xs-small</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="102" y="47">Style 1</tspan>
+                </text>
+                <text id="Style-2" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="209" y="47">Style 2</tspan>
+                </text>
+                <text id="Style-3" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="318" y="47">Style 3</tspan>
+                </text>
+            </g>
+            <g id="Small-+-icon" transform="translate(19.000000, 4015.000000)">
+                <g id="SamllButtons" transform="translate(0.000000, 39.000000)">
+                    <g id="SmallButtonWithIconLight2" transform="translate(307.000000, 0.000000)">
+                        <use id="Stroke-2" stroke="#CCCCCC" mask="url(#mask-26)" stroke-width="2" xlink:href="#path-25"></use>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="34" y="22">Post comment</tspan>
+                        </text>
+                        <text id="" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#666666">
+                            <tspan x="11" y="25"></tspan>
+                        </text>
+                    </g>
+                    <g id="SmallButtonWithIconLight" transform="translate(153.000000, 0.000000)">
+                        <use id="Stroke-2" stroke="#37809F" mask="url(#mask-28)" stroke-width="2" xlink:href="#path-27"></use>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                            <tspan x="34" y="22">Post comment</tspan>
+                        </text>
+                        <text id="icon" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#37809F">
+                            <tspan x="11" y="24"></tspan>
+                        </text>
+                    </g>
+                    <g id="SmallButtonWithIcon">
+                        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L128.873684,0 C131.143158,0 133,2.18571429 133,4.85714286 L133,29.1428571 C133,31.8142857 131.143158,34 128.873684,34 L4.12631579,34 Z" id="Fill-1" fill="#37809F" fill-rule="evenodd"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="33" y="21">Post comment</tspan>
+                        </text>
+                        <text id="icon" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="10" y="24"></tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="group-title" transform="translate(1.000000, 0.000000)">
+                    <text id="Small-with-icons" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Small with icons</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Small" transform="translate(20.000000, 3813.000000)">
+                <g id="SamllButtons" transform="translate(70.000000, 59.000000)">
+                    <g id="SmallButtonLight2Disabled" transform="translate(258.000000, 44.000000)">
+                        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L105.873684,0 C108.143158,0 110,2.18571429 110,4.85714286 L110,29.1428571 C110,31.8142857 108.143158,34 105.873684,34 L4.12631579,34 Z" id="Stroke-2" stroke="#CCCCCC" stroke-width="1"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                            <tspan x="10" y="22">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="SmallButtonLight2" transform="translate(258.000000, 0.000000)">
+                        <use id="Stroke-2" stroke="#CCCCCC" mask="url(#mask-30)" stroke-width="2" xlink:href="#path-29"></use>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="10" y="21">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="SmallButtonLightDisabled" transform="translate(129.000000, 44.000000)">
+                        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L104.873684,0 C107.143158,0 109,2.18571429 109,4.85714286 L109,29.1428571 C109,31.8142857 107.143158,34 104.873684,34 L4.12631579,34 Z" id="Stroke-2" stroke="#CCCCCC" stroke-width="1"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                            <tspan x="10" y="21">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="SmallButtonLight" transform="translate(129.000000, 0.000000)">
+                        <use id="Stroke-2" stroke="#37809F" mask="url(#mask-32)" stroke-width="2" xlink:href="#path-31"></use>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                            <tspan x="10" y="21">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="SmallButtonDisabled" transform="translate(0.000000, 44.000000)">
+                        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L105.873684,0 C108.143158,0 110,2.18571429 110,4.85714286 L110,29.1428571 C110,31.8142857 108.143158,34 105.873684,34 L4.12631579,34 Z" id="Fill-1" fill="#CCCCCC" fill-rule="evenodd"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="9" y="21">Post comment</tspan>
+                        </text>
+                    </g>
+                    <g id="SmallButton">
+                        <path d="M4.12631579,34 C1.85684211,34 0,31.8142857 0,29.1428571 L0,4.85714286 C0,2.18571429 1.85684211,0 4.12631579,0 L104.873684,0 C107.143158,0 109,2.18571429 109,4.85714286 L109,29.1428571 C109,31.8142857 107.143158,34 104.873684,34 L4.12631579,34 Z" id="Fill-1" fill="#37809F" fill-rule="evenodd"></path>
+                        <text id="Post-comment" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="9" y="21">Post comment</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="79">Enabled:</tspan>
+                </text>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="1" y="124">Disabled:</tspan>
+                </text>
+                <g id="group-title">
+                    <text id="Small" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Small</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="106" y="47">Style 1</tspan>
+                </text>
+                <text id="Style-2" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="235" y="47">Style 2</tspan>
+                </text>
+                <text id="Style-3" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="366" y="47">Style 3</tspan>
+                </text>
+            </g>
+            <g id="Medium-+-icon" transform="translate(20.000000, 3678.000000)">
+                <g id="MediumButtons" transform="translate(0.000000, 60.000000)">
+                    <g id="buttonMediumWithIconLightActive2" transform="translate(196.000000, 0.000000)">
+                        <path d="M70.3571429,38 L4.64285714,38 C2.07907143,38 0,35.762 0,33 L0,5 C0,2.239 2.07907143,0 4.64285714,0 L70.3571429,0 C72.9209286,0 75,2.239 75,5 L75,33 C75,35.762 72.9209286,38 70.3571429,38 Z" id="Stroke-3" stroke="#CCCCCC" stroke-width="1"></path>
+                        <text id="Icon" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#666666">
+                            <tspan x="33" y="24">Icon</tspan>
+                        </text>
+                        <text id="Type-something" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#666666">
+                            <tspan x="10" y="26"> </tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumWithIconLightActive" transform="translate(98.000000, 0.000000)">
+                        <path d="M71.3571429,38 L4.64285714,38 C2.07907143,38 0,35.762 0,33 L0,5 C0,2.239 2.07907143,0 4.64285714,0 L71.3571429,0 C73.9209286,0 76,2.239 76,5 L76,33 C76,35.762 73.9209286,38 71.3571429,38 Z" id="Stroke-3" stroke="#37809F" stroke-width="1"></path>
+                        <text id="Icon" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#37809F">
+                            <tspan x="33" y="24">Icon</tspan>
+                        </text>
+                        <text id="Type-something" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#37809F">
+                            <tspan x="11" y="26"> </tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumWithIconActive">
+                        <path d="M72,38 L5,38 C2.239,38 0,35.762 0,33 L0,5 C0,2.239 2.239,0 5,0 L72,0 C74.761,0 77,2.239 77,5 L77,33 C77,35.762 74.761,38 72,38 Z" id="Fill-1-Copy" fill="#37809F" fill-rule="evenodd"></path>
+                        <text id="Icon" font-family="HelveticaNeue-Bold, Helvetica Neue" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="34" y="24">Icon</tspan>
+                        </text>
+                        <text id="-" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="11" y="26"> </tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="group-title">
+                    <text id="Medium-with-icons" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Medium with icons</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Style-1" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="21" y="48">Style 1</tspan>
+                </text>
+                <text id="Style-2" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="119" y="48">Style 2</tspan>
+                </text>
+                <text id="Style-3" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="217" y="48">Style 3</tspan>
+                </text>
+            </g>
+            <g id="Medium" transform="translate(20.000000, 3447.000000)">
+                <g id="MediumButtons" transform="translate(1.000000, 31.000000)">
+                    <g id="buttonMediumLightActive2Disabled" transform="translate(245.000000, 122.000000)">
+                        <use id="Stroke-3" stroke="#CCCCCC" mask="url(#mask-34)" stroke-width="2" xlink:href="#path-33"></use>
+                        <text id="Apply-Copy-3" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#CCCCCC">
+                            <tspan x="11" y="24">Apply</tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumLightActive2" transform="translate(245.000000, 27.000000)">
+                        <use id="Stroke-3" stroke="#CCCCCC" mask="url(#mask-36)" stroke-width="2" xlink:href="#path-35"></use>
+                        <text id="Apply-Copy-3" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#666666">
+                            <tspan x="10" y="24">Apply</tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumLightDisabled" transform="translate(160.000000, 123.000000)">
+                        <use id="Stroke-4" stroke="#CCCCCC" mask="url(#mask-38)" stroke-width="2" xlink:href="#path-37"></use>
+                        <text id="Apply" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#CCCCCC">
+                            <tspan x="10" y="24">Apply</tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumLightActive" transform="translate(160.000000, 27.000000)">
+                        <use id="Stroke-3" stroke="#37809F" mask="url(#mask-40)" stroke-width="2" xlink:href="#path-39"></use>
+                        <text id="Apply-Copy-3" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#37809F">
+                            <tspan x="10" y="25">Apply</tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumDisabled" transform="translate(69.000000, 122.000000)">
+                        <path d="M65,38 L5,38 C2.239,38 0,35.762 0,33 L0,5 C0,2.239 2.239,0 5,0 L65,0 C67.761,0 70,2.239 70,5 L70,33 C70,35.762 67.761,38 65,38 Z" id="Fill-2-Copy" fill="#CCCCCC" fill-rule="evenodd"></path>
+                        <text id="Apply-Copy-2" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="13" y="24">Apply</tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumActive" transform="translate(69.000000, 27.000000)">
+                        <path d="M65,38 L5,38 C2.239,38 0,35.762 0,33 L0,5 C0,2.239 2.239,0 5,0 L65,0 C67.761,0 70,2.239 70,5 L70,33 C70,35.762 67.761,38 65,38 Z" id="Fill-1-Copy" fill="#37809F" fill-rule="evenodd"></path>
+                        <text id="Apply-Copy" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="13" y="24">Apply</tspan>
+                        </text>
+                    </g>
+                    <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="2" y="51">Enabled:</tspan>
+                    </text>
+                    <g id="buttonMediumLightHover2" opacity="0.8" transform="translate(245.000000, 75.000000)">
+                        <use id="Stroke-3" stroke="#CCCCCC" mask="url(#mask-42)" stroke-width="2" xlink:href="#path-41"></use>
+                        <text id="Apply-Copy-3" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#666666">
+                            <tspan x="10" y="24">Apply</tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumLightHover" transform="translate(160.000000, 75.000000)">
+                        <use id="Stroke-3" stroke="#5F9AB3" mask="url(#mask-44)" stroke-width="2" fill="#5F9AB3" xlink:href="#path-43"></use>
+                        <text id="Apply-Copy-3" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="10" y="24">Apply</tspan>
+                        </text>
+                    </g>
+                    <g id="buttonMediumHover" opacity="0.8" transform="translate(69.000000, 75.000000)">
+                        <path d="M65,38 L5,38 C2.239,38 0,35.762 0,33 L0,5 C0,2.239 2.239,0 5,0 L65,0 C67.761,0 70,2.239 70,5 L70,33 C70,35.762 67.761,38 65,38 Z" id="Fill-1-Copy" fill="#37809F"></path>
+                        <text id="Apply-Copy" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="13" y="24">Apply</tspan>
+                        </text>
+                    </g>
+                    <g id="Hand" transform="translate(133.064917, 107.436165) rotate(-16.000000) translate(-133.064917, -107.436165) translate(124.564917, 96.936165)">
+                        <g id="Path-Copy-4-+-Shape" transform="translate(0.000000, 0.000000)">
+                            <path d="M15.8375762,10.4364712 L15.8375762,10.6013779 L15.8375762,15.2171805 C15.8285941,15.3902665 15.493878,15.8741686 15.294158,16.163085 C14.8944536,16.7414455 14.5166762,17.2873525 14.5166762,17.8572698 L14.5166763,19.0966395 L5.61094826,19.7069798 L5.61094826,19.0473532 C5.61094826,18.336012 4.93285574,16.8087279 4.21111594,16.1630854 C3.82831909,15.8206073 3.39453551,15.4324831 3.23787676,15.1617724 L0.92630163,11.1631163 C0.838065505,11.0106106 0.814817663,10.8327753 0.860256626,10.6625917 C0.905959768,10.492408 1.39516339,9.86497045 1.54812362,9.77684435 C1.70081967,9.68871824 2.47482272,9.87737178 2.64574719,9.92328179 C2.8161433,9.96892795 2.95853633,10.0781621 3.04677246,10.2306678 L5.35834759,14.2293238 C5.44156429,14.3731224 5.46512072,12.0731806 5.61094808,12.1227845 C5.64449895,12.1343939 5.61094798,10.6013779 5.61094798,10.6013779 L5.61094798,10.2715646 L5.61094798,9.28212479 L5.82092682,1.16999911 C5.82092682,0.80614911 6.88768569,0.706979788 7.25172576,0.706979788 C7.61576582,0.706979788 7.91191161,3.64321938 7.91191161,4.78152591 L7.91191161,6.64361864 L8.53295863,6.3714965 C8.53295863,6.0076465 9.52922167,5.9839921 9.89352591,5.9839921 C10.2578301,5.9839921 10.5539759,6.27976864 10.5539759,6.64361864 L10.5539759,7.30324518 L11.1653157,6.83176686 C11.1653157,6.46791687 12.1710218,6.64361864 12.5353261,6.64361864 C12.8996303,6.64361864 13.1957761,6.93939518 13.1957761,7.30324518 L13.1957761,8.62249825 L13.1957761,9.7768447 L13.1957761,9.94175133 C13.1957761,10.306129 13.7103145,8.36030432 13.7103145,8.36030432 C13.7103145,7.99645432 14.812822,7.96287172 15.1771262,7.96287172 C15.5414304,7.96287172 15.8375762,8.25864826 15.8375762,8.62249825 L15.8375762,9.28212479" id="Path-Copy-4" fill="#FFFFFF"></path>
+                            <path d="M14.9788901,7.4516129 C14.7150679,7.4516129 14.4636418,7.50418065 14.2324268,7.59685161 C13.999056,6.73409032 13.2151348,6.09677419 12.2840769,6.09677419 C11.9232414,6.09677419 11.5850423,6.19323871 11.2915771,6.36069677 C10.9320891,5.79572903 10.3041976,5.41935484 9.58926363,5.41935484 C9.35265903,5.41935484 9.1265642,5.46243871 8.91556032,5.53803871 L8.91556032,2.03225806 C8.91556032,0.911535484 8.00902515,0 6.89471989,0 C5.78014514,0 4.87360997,0.911535484 4.87360997,2.03225806 L4.87360997,9.48387097 L4.87360997,11.516129 L4.87360997,12.3761806 L3.7722398,10.458 C3.50221952,9.98787097 3.06646822,9.6516 2.54502186,9.51123871 C2.02330602,9.37006452 1.47841478,9.44295484 1.01167313,9.71419355 C0.544123038,9.98543226 0.209696717,10.4235871 0.0698359103,10.9481806 C-0.0700248961,11.4727742 0.00165713571,12.020129 0.271677421,12.4902581 L2.62963899,16.5967742 C2.89696447,17.0622968 3.40197246,17.5169806 3.89027262,17.9570323 C4.23089701,18.2637677 4.79707727,18.773729 4.87360997,18.992671 L4.87334048,20.3223097 C4.87334048,20.5022323 4.94421407,20.6745677 5.07060081,20.8016516 C5.19698755,20.9287355 5.36837767,21 5.54704379,21 L14.9788901,21 C15.3510438,21 15.6525934,20.6967871 15.6525934,20.3225806 L15.6525934,18.9693677 C15.6617558,18.7916129 16.0031886,18.2946581 16.2069165,17.9979484 C16.6146417,17.4039871 17,16.8433548 17,16.2580645 L17,11.516129 L17,9.48387097 C17,8.36314839 16.0934648,7.4516129 14.9788901,7.4516129 L14.9788901,7.4516129 Z M15.5991765,11.5122525 L15.5991765,11.6789192 L15.5991765,16.3439859 C15.5902094,16.5189192 15.2560525,17.0079859 15.0566661,17.2999859 C14.6576295,17.8845192 14.2804833,18.4362525 14.2804833,19.0122525 L14.2804833,19.6789192 L6.3683236,19.6789192 L6.3683236,19.0122525 C6.3683236,18.2933192 5.68761413,17.6767859 4.96708013,17.0242525 C4.58492282,16.6781192 4.15186395,16.2858525 3.99546692,16.0122525 L1.68775369,11.9709192 C1.59966498,11.8167859 1.57645598,11.6370525 1.62181903,11.4650525 C1.66744581,11.2930525 1.77636988,11.1493192 1.92907456,11.0602525 C2.0815155,10.9711859 2.25874788,10.9471859 2.42938679,10.9935859 C2.59949822,11.0397192 2.74165336,11.1501192 2.82974207,11.3042525 L5.1374553,15.3455859 C5.22053298,15.4909192 5.34950118,15.5927859 5.49508492,15.6429192 C5.52857973,15.6546525 5.56339323,15.6634525 5.59926169,15.6698525 C5.66915243,15.6815859 5.74036187,15.6823859 5.81104383,15.6709192 C6.126739,15.6213192 6.3683236,15.3453192 6.3683236,15.0122525 L6.3683236,11.6789192 L6.3683236,11.3455859 L6.3683236,10.3455859 L6.3683236,2.34558587 C6.3683236,1.97785254 6.66423838,1.67891921 7.02767024,1.67891921 C7.39110211,1.67891921 7.68675314,1.97785254 7.68675314,2.34558587 L7.68675314,7.67891921 L7.68675314,10.3455859 C7.68675314,10.4527859 7.71418196,10.5527859 7.75875379,10.6423859 C7.86741412,10.8610525 8.08816337,11.0122525 8.34636352,11.0122525 C8.7105866,11.0122525 9.00571016,10.7138525 9.00571016,10.3455859 L9.00571016,7.67891921 C9.00571016,7.31118587 9.30136119,7.01225254 9.66505679,7.01225254 C10.0287524,7.01225254 10.3244034,7.31118587 10.3244034,7.67891921 L10.3244034,8.34558587 L10.3244034,10.3455859 C10.3244034,10.7138525 10.619527,11.0122525 10.9837501,11.0122525 C11.292588,11.0122525 11.5497332,10.7965192 11.6214701,10.5066525 C11.6343933,10.4549192 11.6430967,10.4015859 11.6430967,10.3455859 L11.6430967,8.34558587 C11.6430967,7.97785254 11.9387477,7.67891921 12.3024433,7.67891921 C12.666139,7.67891921 12.96179,7.97785254 12.96179,8.34558587 L12.96179,9.67891921 L12.96179,10.8455859 L12.96179,11.0122525 C12.96179,11.3805192 13.2569135,11.6789192 13.6211366,11.6789192 C13.9299746,11.6789192 14.1871198,11.4631859 14.2588567,11.1733192 C14.2717799,11.1215859 14.2804833,11.0682525 14.2804833,11.0122525 L14.2804833,9.67891921 C14.2804833,9.31118587 14.5761343,9.01225254 14.9398299,9.01225254 C15.3035255,9.01225254 15.5991765,9.31118587 15.5991765,9.67891921 L15.5991765,10.3455859 L15.5991765,11.5122525 Z" id="Shape" fill="#666666"></path>
+                        </g>
+                    </g>
+                    <g id="Hand" transform="translate(220.064917, 107.436165) rotate(-16.000000) translate(-220.064917, -107.436165) translate(211.564917, 96.936165)">
+                        <g id="Path-Copy-4-+-Shape" transform="translate(0.000000, 0.000000)">
+                            <path d="M15.8375762,10.4364712 L15.8375762,10.6013779 L15.8375762,15.2171805 C15.8285941,15.3902665 15.493878,15.8741686 15.294158,16.163085 C14.8944536,16.7414455 14.5166762,17.2873525 14.5166762,17.8572698 L14.5166763,19.0966395 L5.61094826,19.7069798 L5.61094826,19.0473532 C5.61094826,18.336012 4.93285574,16.8087279 4.21111594,16.1630854 C3.82831909,15.8206073 3.39453551,15.4324831 3.23787676,15.1617724 L0.92630163,11.1631163 C0.838065505,11.0106106 0.814817663,10.8327753 0.860256626,10.6625917 C0.905959768,10.492408 1.39516339,9.86497045 1.54812362,9.77684435 C1.70081967,9.68871824 2.47482272,9.87737178 2.64574719,9.92328179 C2.8161433,9.96892795 2.95853633,10.0781621 3.04677246,10.2306678 L5.35834759,14.2293238 C5.44156429,14.3731224 5.46512072,12.0731806 5.61094808,12.1227845 C5.64449895,12.1343939 5.61094798,10.6013779 5.61094798,10.6013779 L5.61094798,10.2715646 L5.61094798,9.28212479 L5.82092682,1.16999911 C5.82092682,0.80614911 6.88768569,0.706979788 7.25172576,0.706979788 C7.61576582,0.706979788 7.91191161,3.64321938 7.91191161,4.78152591 L7.91191161,6.64361864 L8.53295863,6.3714965 C8.53295863,6.0076465 9.52922167,5.9839921 9.89352591,5.9839921 C10.2578301,5.9839921 10.5539759,6.27976864 10.5539759,6.64361864 L10.5539759,7.30324518 L11.1653157,6.83176686 C11.1653157,6.46791687 12.1710218,6.64361864 12.5353261,6.64361864 C12.8996303,6.64361864 13.1957761,6.93939518 13.1957761,7.30324518 L13.1957761,8.62249825 L13.1957761,9.7768447 L13.1957761,9.94175133 C13.1957761,10.306129 13.7103145,8.36030432 13.7103145,8.36030432 C13.7103145,7.99645432 14.812822,7.96287172 15.1771262,7.96287172 C15.5414304,7.96287172 15.8375762,8.25864826 15.8375762,8.62249825 L15.8375762,9.28212479" id="Path-Copy-4" fill="#FFFFFF"></path>
+                            <path d="M14.9788901,7.4516129 C14.7150679,7.4516129 14.4636418,7.50418065 14.2324268,7.59685161 C13.999056,6.73409032 13.2151348,6.09677419 12.2840769,6.09677419 C11.9232414,6.09677419 11.5850423,6.19323871 11.2915771,6.36069677 C10.9320891,5.79572903 10.3041976,5.41935484 9.58926363,5.41935484 C9.35265903,5.41935484 9.1265642,5.46243871 8.91556032,5.53803871 L8.91556032,2.03225806 C8.91556032,0.911535484 8.00902515,0 6.89471989,0 C5.78014514,0 4.87360997,0.911535484 4.87360997,2.03225806 L4.87360997,9.48387097 L4.87360997,11.516129 L4.87360997,12.3761806 L3.7722398,10.458 C3.50221952,9.98787097 3.06646822,9.6516 2.54502186,9.51123871 C2.02330602,9.37006452 1.47841478,9.44295484 1.01167313,9.71419355 C0.544123038,9.98543226 0.209696717,10.4235871 0.0698359103,10.9481806 C-0.0700248961,11.4727742 0.00165713571,12.020129 0.271677421,12.4902581 L2.62963899,16.5967742 C2.89696447,17.0622968 3.40197246,17.5169806 3.89027262,17.9570323 C4.23089701,18.2637677 4.79707727,18.773729 4.87360997,18.992671 L4.87334048,20.3223097 C4.87334048,20.5022323 4.94421407,20.6745677 5.07060081,20.8016516 C5.19698755,20.9287355 5.36837767,21 5.54704379,21 L14.9788901,21 C15.3510438,21 15.6525934,20.6967871 15.6525934,20.3225806 L15.6525934,18.9693677 C15.6617558,18.7916129 16.0031886,18.2946581 16.2069165,17.9979484 C16.6146417,17.4039871 17,16.8433548 17,16.2580645 L17,11.516129 L17,9.48387097 C17,8.36314839 16.0934648,7.4516129 14.9788901,7.4516129 L14.9788901,7.4516129 Z M15.5991765,11.5122525 L15.5991765,11.6789192 L15.5991765,16.3439859 C15.5902094,16.5189192 15.2560525,17.0079859 15.0566661,17.2999859 C14.6576295,17.8845192 14.2804833,18.4362525 14.2804833,19.0122525 L14.2804833,19.6789192 L6.3683236,19.6789192 L6.3683236,19.0122525 C6.3683236,18.2933192 5.68761413,17.6767859 4.96708013,17.0242525 C4.58492282,16.6781192 4.15186395,16.2858525 3.99546692,16.0122525 L1.68775369,11.9709192 C1.59966498,11.8167859 1.57645598,11.6370525 1.62181903,11.4650525 C1.66744581,11.2930525 1.77636988,11.1493192 1.92907456,11.0602525 C2.0815155,10.9711859 2.25874788,10.9471859 2.42938679,10.9935859 C2.59949822,11.0397192 2.74165336,11.1501192 2.82974207,11.3042525 L5.1374553,15.3455859 C5.22053298,15.4909192 5.34950118,15.5927859 5.49508492,15.6429192 C5.52857973,15.6546525 5.56339323,15.6634525 5.59926169,15.6698525 C5.66915243,15.6815859 5.74036187,15.6823859 5.81104383,15.6709192 C6.126739,15.6213192 6.3683236,15.3453192 6.3683236,15.0122525 L6.3683236,11.6789192 L6.3683236,11.3455859 L6.3683236,10.3455859 L6.3683236,2.34558587 C6.3683236,1.97785254 6.66423838,1.67891921 7.02767024,1.67891921 C7.39110211,1.67891921 7.68675314,1.97785254 7.68675314,2.34558587 L7.68675314,7.67891921 L7.68675314,10.3455859 C7.68675314,10.4527859 7.71418196,10.5527859 7.75875379,10.6423859 C7.86741412,10.8610525 8.08816337,11.0122525 8.34636352,11.0122525 C8.7105866,11.0122525 9.00571016,10.7138525 9.00571016,10.3455859 L9.00571016,7.67891921 C9.00571016,7.31118587 9.30136119,7.01225254 9.66505679,7.01225254 C10.0287524,7.01225254 10.3244034,7.31118587 10.3244034,7.67891921 L10.3244034,8.34558587 L10.3244034,10.3455859 C10.3244034,10.7138525 10.619527,11.0122525 10.9837501,11.0122525 C11.292588,11.0122525 11.5497332,10.7965192 11.6214701,10.5066525 C11.6343933,10.4549192 11.6430967,10.4015859 11.6430967,10.3455859 L11.6430967,8.34558587 C11.6430967,7.97785254 11.9387477,7.67891921 12.3024433,7.67891921 C12.666139,7.67891921 12.96179,7.97785254 12.96179,8.34558587 L12.96179,9.67891921 L12.96179,10.8455859 L12.96179,11.0122525 C12.96179,11.3805192 13.2569135,11.6789192 13.6211366,11.6789192 C13.9299746,11.6789192 14.1871198,11.4631859 14.2588567,11.1733192 C14.2717799,11.1215859 14.2804833,11.0682525 14.2804833,11.0122525 L14.2804833,9.67891921 C14.2804833,9.31118587 14.5761343,9.01225254 14.9398299,9.01225254 C15.3035255,9.01225254 15.5991765,9.31118587 15.5991765,9.67891921 L15.5991765,10.3455859 L15.5991765,11.5122525 Z" id="Shape" fill="#666666"></path>
+                        </g>
+                    </g>
+                    <g id="Hand" transform="translate(310.064917, 107.436165) rotate(-16.000000) translate(-310.064917, -107.436165) translate(301.564917, 96.936165)">
+                        <g id="Path-Copy-4-+-Shape" transform="translate(0.000000, 0.000000)">
+                            <path d="M15.8375762,10.4364712 L15.8375762,10.6013779 L15.8375762,15.2171805 C15.8285941,15.3902665 15.493878,15.8741686 15.294158,16.163085 C14.8944536,16.7414455 14.5166762,17.2873525 14.5166762,17.8572698 L14.5166763,19.0966395 L5.61094826,19.7069798 L5.61094826,19.0473532 C5.61094826,18.336012 4.93285574,16.8087279 4.21111594,16.1630854 C3.82831909,15.8206073 3.39453551,15.4324831 3.23787676,15.1617724 L0.92630163,11.1631163 C0.838065505,11.0106106 0.814817663,10.8327753 0.860256626,10.6625917 C0.905959768,10.492408 1.39516339,9.86497045 1.54812362,9.77684435 C1.70081967,9.68871824 2.47482272,9.87737178 2.64574719,9.92328179 C2.8161433,9.96892795 2.95853633,10.0781621 3.04677246,10.2306678 L5.35834759,14.2293238 C5.44156429,14.3731224 5.46512072,12.0731806 5.61094808,12.1227845 C5.64449895,12.1343939 5.61094798,10.6013779 5.61094798,10.6013779 L5.61094798,10.2715646 L5.61094798,9.28212479 L5.82092682,1.16999911 C5.82092682,0.80614911 6.88768569,0.706979788 7.25172576,0.706979788 C7.61576582,0.706979788 7.91191161,3.64321938 7.91191161,4.78152591 L7.91191161,6.64361864 L8.53295863,6.3714965 C8.53295863,6.0076465 9.52922167,5.9839921 9.89352591,5.9839921 C10.2578301,5.9839921 10.5539759,6.27976864 10.5539759,6.64361864 L10.5539759,7.30324518 L11.1653157,6.83176686 C11.1653157,6.46791687 12.1710218,6.64361864 12.5353261,6.64361864 C12.8996303,6.64361864 13.1957761,6.93939518 13.1957761,7.30324518 L13.1957761,8.62249825 L13.1957761,9.7768447 L13.1957761,9.94175133 C13.1957761,10.306129 13.7103145,8.36030432 13.7103145,8.36030432 C13.7103145,7.99645432 14.812822,7.96287172 15.1771262,7.96287172 C15.5414304,7.96287172 15.8375762,8.25864826 15.8375762,8.62249825 L15.8375762,9.28212479" id="Path-Copy-4" fill="#FFFFFF"></path>
+                            <path d="M14.9788901,7.4516129 C14.7150679,7.4516129 14.4636418,7.50418065 14.2324268,7.59685161 C13.999056,6.73409032 13.2151348,6.09677419 12.2840769,6.09677419 C11.9232414,6.09677419 11.5850423,6.19323871 11.2915771,6.36069677 C10.9320891,5.79572903 10.3041976,5.41935484 9.58926363,5.41935484 C9.35265903,5.41935484 9.1265642,5.46243871 8.91556032,5.53803871 L8.91556032,2.03225806 C8.91556032,0.911535484 8.00902515,0 6.89471989,0 C5.78014514,0 4.87360997,0.911535484 4.87360997,2.03225806 L4.87360997,9.48387097 L4.87360997,11.516129 L4.87360997,12.3761806 L3.7722398,10.458 C3.50221952,9.98787097 3.06646822,9.6516 2.54502186,9.51123871 C2.02330602,9.37006452 1.47841478,9.44295484 1.01167313,9.71419355 C0.544123038,9.98543226 0.209696717,10.4235871 0.0698359103,10.9481806 C-0.0700248961,11.4727742 0.00165713571,12.020129 0.271677421,12.4902581 L2.62963899,16.5967742 C2.89696447,17.0622968 3.40197246,17.5169806 3.89027262,17.9570323 C4.23089701,18.2637677 4.79707727,18.773729 4.87360997,18.992671 L4.87334048,20.3223097 C4.87334048,20.5022323 4.94421407,20.6745677 5.07060081,20.8016516 C5.19698755,20.9287355 5.36837767,21 5.54704379,21 L14.9788901,21 C15.3510438,21 15.6525934,20.6967871 15.6525934,20.3225806 L15.6525934,18.9693677 C15.6617558,18.7916129 16.0031886,18.2946581 16.2069165,17.9979484 C16.6146417,17.4039871 17,16.8433548 17,16.2580645 L17,11.516129 L17,9.48387097 C17,8.36314839 16.0934648,7.4516129 14.9788901,7.4516129 L14.9788901,7.4516129 Z M15.5991765,11.5122525 L15.5991765,11.6789192 L15.5991765,16.3439859 C15.5902094,16.5189192 15.2560525,17.0079859 15.0566661,17.2999859 C14.6576295,17.8845192 14.2804833,18.4362525 14.2804833,19.0122525 L14.2804833,19.6789192 L6.3683236,19.6789192 L6.3683236,19.0122525 C6.3683236,18.2933192 5.68761413,17.6767859 4.96708013,17.0242525 C4.58492282,16.6781192 4.15186395,16.2858525 3.99546692,16.0122525 L1.68775369,11.9709192 C1.59966498,11.8167859 1.57645598,11.6370525 1.62181903,11.4650525 C1.66744581,11.2930525 1.77636988,11.1493192 1.92907456,11.0602525 C2.0815155,10.9711859 2.25874788,10.9471859 2.42938679,10.9935859 C2.59949822,11.0397192 2.74165336,11.1501192 2.82974207,11.3042525 L5.1374553,15.3455859 C5.22053298,15.4909192 5.34950118,15.5927859 5.49508492,15.6429192 C5.52857973,15.6546525 5.56339323,15.6634525 5.59926169,15.6698525 C5.66915243,15.6815859 5.74036187,15.6823859 5.81104383,15.6709192 C6.126739,15.6213192 6.3683236,15.3453192 6.3683236,15.0122525 L6.3683236,11.6789192 L6.3683236,11.3455859 L6.3683236,10.3455859 L6.3683236,2.34558587 C6.3683236,1.97785254 6.66423838,1.67891921 7.02767024,1.67891921 C7.39110211,1.67891921 7.68675314,1.97785254 7.68675314,2.34558587 L7.68675314,7.67891921 L7.68675314,10.3455859 C7.68675314,10.4527859 7.71418196,10.5527859 7.75875379,10.6423859 C7.86741412,10.8610525 8.08816337,11.0122525 8.34636352,11.0122525 C8.7105866,11.0122525 9.00571016,10.7138525 9.00571016,10.3455859 L9.00571016,7.67891921 C9.00571016,7.31118587 9.30136119,7.01225254 9.66505679,7.01225254 C10.0287524,7.01225254 10.3244034,7.31118587 10.3244034,7.67891921 L10.3244034,8.34558587 L10.3244034,10.3455859 C10.3244034,10.7138525 10.619527,11.0122525 10.9837501,11.0122525 C11.292588,11.0122525 11.5497332,10.7965192 11.6214701,10.5066525 C11.6343933,10.4549192 11.6430967,10.4015859 11.6430967,10.3455859 L11.6430967,8.34558587 C11.6430967,7.97785254 11.9387477,7.67891921 12.3024433,7.67891921 C12.666139,7.67891921 12.96179,7.97785254 12.96179,8.34558587 L12.96179,9.67891921 L12.96179,10.8455859 L12.96179,11.0122525 C12.96179,11.3805192 13.2569135,11.6789192 13.6211366,11.6789192 C13.9299746,11.6789192 14.1871198,11.4631859 14.2588567,11.1733192 C14.2717799,11.1215859 14.2804833,11.0682525 14.2804833,11.0122525 L14.2804833,9.67891921 C14.2804833,9.31118587 14.5761343,9.01225254 14.9398299,9.01225254 C15.3035255,9.01225254 15.5991765,9.31118587 15.5991765,9.67891921 L15.5991765,10.3455859 L15.5991765,11.5122525 Z" id="Shape" fill="#666666"></path>
+                        </g>
+                    </g>
+                    <text id="Hover:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="15" y="99">Hover:</tspan>
+                    </text>
+                    <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="0" y="145">Disabled:</tspan>
+                    </text>
+                    <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="86" y="11">Style 1</tspan>
+                    </text>
+                    <text id="Style-2" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="173" y="11">Style 2</tspan>
+                    </text>
+                    <text id="Style-3" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="259" y="11">Style 3</tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Medium" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Medium</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Share+cancel-(Combo)" transform="translate(525.000000, 3447.000000)">
+                <g id="Action+cancel-(Buttons-combo)" transform="translate(170.000000, 40.000000)">
+                    <g id="buttonActive2-Light-Copy" transform="translate(84.000000, 0.000000)">
+                        <use id="Stroke-3" stroke="#CCCCCC" mask="url(#mask-46)" stroke-width="2" xlink:href="#path-45"></use>
+                        <text id="Cancel" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#666666">
+                            <tspan x="10" y="24">Cancel</tspan>
+                        </text>
+                    </g>
+                    <g id="Action-or-Cancel-combo-Copy">
+                        <g id="Button">
+                            <path d="M69.6081081,38 L4.39189189,38 C1.96668919,38 0,35.761 0,33 L0,5 C0,2.239 1.96668919,0 4.39189189,0 L69.6081081,0 C72.0333108,0 74,2.239 74,5 L74,33 C74,35.761 72.0333108,38 69.6081081,38 Z" id="Fill-2" fill="#37809F"></path>
+                            <text id="Submit" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#FFFFFF">
+                                <tspan x="10" y="25">Submit</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Action-or-Cancel-(button+link)" transform="translate(0.000000, 40.000000)">
+                    <g id="or--+-cancel" transform="translate(84.000000, 10.000000)">
+                        <text id="or-" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#898989">
+                            <tspan x="0" y="14">or </tspan>
+                        </text>
+                        <text id="cancel" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#666666">
+                            <tspan x="19" y="14">cancel</tspan>
+                        </text>
+                        <polygon id="Fill-1-Copy-2" fill="#666666" points="19 17 65 17 65 18 19 18"></polygon>
+                    </g>
+                    <g id="Button">
+                        <path d="M70.6081081,38 L4.39189189,38 C1.96668919,38 0,35.761 0,33 L0,5 C0,2.239 1.96668919,0 4.39189189,0 L70.6081081,0 C73.0333108,0 75,2.239 75,5 L75,33 C75,35.761 73.0333108,38 70.6081081,38 Z" id="Fill-2" fill="#37809F"></path>
+                        <text id="Submit" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="11" y="25">Submit</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="group-title">
+                    <text id="Yes-or-No&quot;-logic-(Th" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Yes or No" logic </tspan>
+                        <tspan x="111.665039" y="13" font-family="ArialMT, Arial" font-weight="normal">(The main action made by button and second action by link)</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Section-Tile-(The-Buttons-and-groups-of-buttons)" transform="translate(20.000000, 3378.000000)">
+                <text id="The-Buttons-and-grou" font-family="Times-Roman, Times" font-size="18" font-weight="normal" fill="#666666">
+                    <tspan x="0" y="18">The Buttons and groups of buttons</tspan>
+                </text>
+                <path d="M0,31 L984,31" id="Stroke-5" stroke="#CCCCCC"></path>
+            </g>
+            <g id="Dropdown-medium-with-search-field" transform="translate(20.000000, 3147.000000)">
+                <g id="DropdownMediumWithSearchDisabled" transform="translate(809.000000, 40.000000)" fill="#CCCCCC">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="Sample" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">Sample</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                </g>
+                <g id="DropdownMediumWithSearchActive" transform="translate(401.000000, 40.000000)">
+                    <g id="Select" fill="#37809F">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="Sample" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">Sample</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                    <g id="search-dropdown" transform="translate(0.000000, 34.000000)">
+                        <use id="Rectangle-206" stroke="#CCCCCC" mask="url(#mask-48)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-47"></use>
+                        <rect id="Rectangle-207" fill="#37809F" x="1" y="61" width="175" height="28"></rect>
+                        <text id="Sample1" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="9" y="52">Sample1</tspan>
+                        </text>
+                        <text id="Samp" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                            <tspan x="9" y="18">Samp</tspan>
+                        </text>
+                        <text id="Sample2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="9" y="79">Sample2</tspan>
+                        </text>
+                        <text id="Sample3" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="9" y="106">Sample3</tspan>
+                        </text>
+                        <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-50)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-49"></use>
+                        <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                            <tspan x="11" y="22">Added some text</tspan>
+                        </text>
+                        <text id="search-icon" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#666666">
+                            <tspan x="149" y="23"></tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="DropdownMediumWithSearch" transform="translate(59.000000, 40.000000)">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill="#CCCCCC"></path>
+                        <text id="Sample" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#37809F">
+                            <tspan x="10" y="23">Sample</tspan>
+                        </text>
+                        <polyline id="Fill-3" fill="#999999" points="167 14 161.5 23 156 14 167 14"></polyline>
+                    </g>
+                </g>
+                <g id="group-title">
+                    <text id="Medium-with-search-f" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Medium with search field</tspan>
+                    </text>
+                    <path d="M5.1644288e-15,20 L985,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="750.972656" y="61">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="356" y="61">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="61">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="DropdownSmall-with-Label" transform="translate(538.000000, 2870.000000)">
+                <g id="DropdownSmallWithLabelDisabled" transform="translate(59.000000, 177.000000)" fill="#CCCCCC">
+                    <g id="Select" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 17.000000)">
+                        <path d="M173,0.882352941 C174.654,0.882352941 176,2.07 176,3.52941176 L176,26.4705882 C176,27.93 174.986,29.1176471 173.332,29.1176471 L4.457,29.1176471 C2.803,29.1176471 1,27.93 1,26.4705882 L1,3.52941176 C1,2.07 2.803,0.882352941 4.457,0.882352941 L173,0.882352941 M173.332,0 L4.457,0 C2.257,0 0,1.58823529 0,3.52941176 L0,26.4705882 C0,28.4117647 2.257,30 4.457,30 L173.332,30 C175.532,30 177,28.4117647 177,26.4705882 L177,3.52941176 C177,1.58823529 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="10" y="20">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="160.5 21 155 12 166 12"></polygon>
+                    </g>
+                    <text id="Label-text" font-family="ArialMT, Arial" font-size="12" font-weight="normal">
+                        <tspan x="1" y="11">Label text</tspan>
+                    </text>
+                </g>
+                <g id="DropdownSmallWithLabelActive" transform="translate(60.000000, 111.000000)">
+                    <g id="Select" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 17.000000)" fill="#37809F">
+                        <path d="M173,0.882352941 C174.654,0.882352941 176,2.07 176,3.52941176 L176,26.4705882 C176,27.93 174.986,29.1176471 173.332,29.1176471 L4.457,29.1176471 C2.803,29.1176471 1,27.93 1,26.4705882 L1,3.52941176 C1,2.07 2.803,0.882352941 4.457,0.882352941 L173,0.882352941 M173.332,0 L4.457,0 C2.257,0 0,1.58823529 0,3.52941176 L0,26.4705882 C0,28.4117647 2.257,30 4.457,30 L173.332,30 C175.532,30 177,28.4117647 177,26.4705882 L177,3.52941176 C177,1.58823529 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="10" y="20">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="160.5 21 155 12 166 12"></polygon>
+                    </g>
+                    <text id="Label-text" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="1" y="11">Label text</tspan>
+                    </text>
+                </g>
+                <g id="DropdownSmallWithLabel" transform="translate(61.000000, 51.000000)">
+                    <g id="Select" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 17.000000)">
+                        <path d="M173,0.882352941 C174.654,0.882352941 176,2.07 176,3.52941176 L176,26.4705882 C176,27.93 174.986,29.1176471 173.332,29.1176471 L4.457,29.1176471 C2.803,29.1176471 1,27.93 1,26.4705882 L1,3.52941176 C1,2.07 2.803,0.882352941 4.457,0.882352941 L173,0.882352941 M173.332,0 L4.457,0 C2.257,0 0,1.58823529 0,3.52941176 L0,26.4705882 C0,28.4117647 2.257,30 4.457,30 L173.332,30 C175.532,30 177,28.4117647 177,26.4705882 L177,3.52941176 C177,1.58823529 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill="#CCCCCC"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#37809F">
+                            <tspan x="10" y="20">My Favorites</tspan>
+                        </text>
+                        <polyline id="Fill-3" fill="#999999" points="166 12 160.5 21 155 12 166 12"></polyline>
+                    </g>
+                    <text id="Label-text" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="1" y="11">Label text</tspan>
+                    </text>
+                </g>
+                <g id="group-title" transform="translate(1.000000, 0.000000)">
+                    <text id="Small-with-Label" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Small with Label</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="0.97265625" y="213">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="15" y="147">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="82">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="DropdownSmall" transform="translate(20.000000, 2870.000000)">
+                <g id="DropdownSmallDisabled" transform="translate(59.000000, 130.000000)" fill="#CCCCCC">
+                    <g id="Select">
+                        <path d="M173,0.882352941 C174.654,0.882352941 176,2.07 176,3.52941176 L176,26.4705882 C176,27.93 174.986,29.1176471 173.332,29.1176471 L4.457,29.1176471 C2.803,29.1176471 1,27.93 1,26.4705882 L1,3.52941176 C1,2.07 2.803,0.882352941 4.457,0.882352941 L173,0.882352941 M173.332,0 L4.457,0 C2.257,0 0,1.58823529 0,3.52941176 L0,26.4705882 C0,28.4117647 2.257,30 4.457,30 L173.332,30 C175.532,30 177,28.4117647 177,26.4705882 L177,3.52941176 C177,1.58823529 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="10" y="20">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 20 156 11 167 11"></polygon>
+                    </g>
+                </g>
+                <g id="DropdownSmallActive" transform="translate(59.000000, 86.000000)" fill="#37809F">
+                    <g id="Select">
+                        <path d="M173,0.882352941 C174.654,0.882352941 176,2.07 176,3.52941176 L176,26.4705882 C176,27.93 174.986,29.1176471 173.332,29.1176471 L4.457,29.1176471 C2.803,29.1176471 1,27.93 1,26.4705882 L1,3.52941176 C1,2.07 2.803,0.882352941 4.457,0.882352941 L173,0.882352941 M173.332,0 L4.457,0 C2.257,0 0,1.58823529 0,3.52941176 L0,26.4705882 C0,28.4117647 2.257,30 4.457,30 L173.332,30 C175.532,30 177,28.4117647 177,26.4705882 L177,3.52941176 C177,1.58823529 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="10" y="20">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="160.5 21 155 12 166 12"></polygon>
+                    </g>
+                </g>
+                <g transform="translate(59.000000, 40.000000)" id="Select">
+                    <g>
+                        <path d="M173,0.882352941 C174.654,0.882352941 176,2.07 176,3.52941176 L176,26.4705882 C176,27.93 174.986,29.1176471 173.332,29.1176471 L4.457,29.1176471 C2.803,29.1176471 1,27.93 1,26.4705882 L1,3.52941176 C1,2.07 2.803,0.882352941 4.457,0.882352941 L173,0.882352941 M173.332,0 L4.457,0 C2.257,0 0,1.58823529 0,3.52941176 L0,26.4705882 C0,28.4117647 2.257,30 4.457,30 L173.332,30 C175.532,30 177,28.4117647 177,26.4705882 L177,3.52941176 C177,1.58823529 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill="#CCCCCC"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#37809F">
+                            <tspan x="10" y="20">My Favorites</tspan>
+                        </text>
+                        <polyline id="Fill-3" fill="#999999" points="167 12 161.5 21 156 12 167 12"></polyline>
+                    </g>
+                </g>
+                <g id="group-title">
+                    <text id="Small" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Small</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="0.97265625" y="148">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="14" y="105">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="61">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="Dropdown-medium-with-Label" transform="translate(539.000000, 2591.000000)">
+                <g id="DropdownMediumWithLabelDisabled" transform="translate(59.000000, 184.000000)" fill="#CCCCCC">
+                    <g id="Select" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 22.000000)">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                    <text id="Label-text" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                        <tspan x="1" y="13">Label text</tspan>
+                    </text>
+                </g>
+                <g id="DropdownMediumWithLabelActive" transform="translate(59.000000, 111.000000)">
+                    <g id="Select" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 22.000000)" fill="#37809F">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                    <text id="Label-text" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="1" y="13">Label text</tspan>
+                    </text>
+                </g>
+                <g id="DropdownMediumWithLabel" transform="translate(59.000000, 37.000000)">
+                    <g id="Select" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 23.000000)">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill="#CCCCCC"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#37809F">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polyline id="Fill-3" fill="#999999" points="167 14 161.5 23 156 14 167 14"></polyline>
+                    </g>
+                    <text id="Label-text" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="1" y="13">Label text</tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Medium-with-Label" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Medium with Label</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="0.97265625" y="227">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="14" y="155">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="82">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="Dropdown-medium" transform="translate(20.000000, 2591.000000)">
+                <g id="DropdownMediumDisabled" transform="translate(59.000000, 128.000000)" fill="#CCCCCC">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                </g>
+                <g id="DropdownMediumActive" transform="translate(59.000000, 84.000000)" fill="#37809F">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polygon id="Fill-3" points="161.5 23 156 14 167 14"></polygon>
+                    </g>
+                </g>
+                <g id="DropdownMedium" transform="translate(59.000000, 40.000000)">
+                    <g id="Select">
+                        <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill="#CCCCCC"></path>
+                        <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold" fill="#37809F">
+                            <tspan x="10" y="23">My Favorites</tspan>
+                        </text>
+                        <polyline id="Fill-3" fill="#999999" points="167 14 161.5 23 156 14 167 14"></polyline>
+                    </g>
+                </g>
+                <g id="group-title">
+                    <text id="Medium" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Medium</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="0.97265625" y="148">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="14" y="105">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="3" y="61">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="Section-Tile-(The-Buttons-and-groups-of-buttons)-Copy-2" transform="translate(20.000000, 2522.000000)">
+                <text id="Dropdowns" font-family="Times-Roman, Times" font-size="18" font-weight="normal" fill="#666666">
+                    <tspan x="0" y="18">Dropdowns</tspan>
+                </text>
+                <path d="M0,30 L984,30" id="Stroke-5" stroke="#CCCCCC"></path>
+            </g>
+            <g id="Textarea-(fetch_command)" transform="translate(538.000000, 1871.000000)">
+                <g id="textarea[unvalid]" transform="translate(66.000000, 293.000000)">
+                    <g id="Fetch">
+                        <g id="Error-monitor" transform="translate(0.000000, 180.000000)">
+                            <rect id="validation-background-copy" fill="#E5E5E5" x="0" y="0" width="400" height="95"></rect>
+                            <use id="Rectangle-208" stroke="#D34839" mask="url(#mask-52)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-51"></use>
+                            <text id="Validation-did-not-r" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                                <tspan x="22" y="32" fill="#666666">Validation did not return expected results.</tspan>
+                                <tspan x="302.047852" y="32" font-family="ArialMT, Arial" font-weight="normal" fill="#666666"></tspan>
+                                <tspan x="22" y="52.4580078" font-family="ArialMT, Arial" font-weight="normal" fill="#D34839">Field list is empty</tspan>
+                                <tspan x="129.358398" y="52.4580078" font-family="ArialMT, Arial" font-weight="normal" fill="#666666"></tspan>
+                                <tspan x="22" y="72.9160156" fill="#666666">Fetch command:</tspan>
+                                <tspan x="134.013672" y="72.9160156" font-family="ArialMT, Arial" font-weight="normal" fill="#666666"> 1</tspan>
+                            </text>
+                        </g>
+                        <use id="textarea" stroke="#D34839" mask="url(#mask-54)" stroke-width="2" fill="#FCC5C5" xlink:href="#path-53"></use>
+                        <g id="validation-button" transform="translate(0.000000, 276.000000)">
+                            <polygon id="validation-background" fill="#E5E5E5" points="1.1105755e-16 0 400 0 400 53 1.1105755e-16 53"></polygon>
+                            <text id="visual-editor-link" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#37809F">
+                                <tspan x="305" y="30">Visual editor</tspan>
+                            </text>
+                            <g id="Validate-small-button" transform="translate(10.000000, 9.000000)">
+                                <use id="Button-Background-Copy" stroke="#CCDFDD" mask="url(#mask-56)" stroke-width="2" fill="#F3F8F8" xlink:href="#path-55"></use>
+                                <text id="OK-Copy" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#128680">
+                                    <tspan x="40" y="22">Validate</tspan>
+                                </text>
+                                <path d="M12.3127933,17.813319 L18.1045738,23.6838922 C18.3124839,23.8946307 18.5835095,24 18.8963028,24 C19.2090961,24 19.4791935,23.8946307 19.6880318,23.6838922 L29.6881349,13.5477454 C29.896045,13.3153686 30,13.0622942 30,12.7452456 C30,12.428197 29.896045,12.1534843 29.6881349,11.9427458 L28.1046769,10.3377461 C27.8958387,10.1053693 27.6257412,10 27.312948,10 C27.0001547,10 26.7291291,10.1053693 26.521219,10.3377461 L18.8963028,18.0663934 L15.4797092,14.6033197 C15.2708709,14.3709428 15.0007735,14.2655736 14.6879802,14.2655736 C14.3751869,14.2655736 14.1041613,14.3709428 13.8962512,14.6033197 L12.3127933,16.2083193 C12.1048832,16.4190579 12,16.6937706 12,17.0108192 C12,17.3278678 12.1048832,17.5809421 12.3127933,17.813319" id="Fill-112" fill="#128680"></path>
+                            </g>
+                        </g>
+                        <text id="Text-in-area" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="13" y="21">1</tspan>
+                        </text>
+                        <g id="drag-bar" transform="translate(0.000000, 171.000000)" stroke="#CCCCCC">
+                            <use id="Rectangle-186" mask="url(#mask-58)" stroke-width="2" fill="#EEEEEE" xlink:href="#path-57"></use>
+                            <path d="M187.5,6.5 L213.5,6.5" id="Line" stroke-linecap="square"></path>
+                            <path d="M187.5,4.5 L213.5,4.5" id="Line-Copy" stroke-linecap="square"></path>
+                            <path d="M187.5,2.5 L213.5,2.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="textarea[Enabled]" transform="translate(66.000000, 40.000000)">
+                    <g id="Fetch">
+                        <polygon id="validation-background" fill="#E5E5E5" points="1.1105755e-16 180 400 180 400 233 1.1105755e-16 233"></polygon>
+                        <use id="textarea" stroke="#CCCCCC" mask="url(#mask-60)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-59"></use>
+                        <text id="visual-editor-link" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#37809F">
+                            <tspan x="305" y="210">Visual editor</tspan>
+                        </text>
+                        <g id="Validate-small-button" transform="translate(10.000000, 189.000000)">
+                            <use id="Button-Background-Copy" stroke="#CCDFDD" mask="url(#mask-62)" stroke-width="2" fill="#F3F8F8" xlink:href="#path-61"></use>
+                            <text id="OK-Copy" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#128680">
+                                <tspan x="40" y="22">Validate</tspan>
+                            </text>
+                            <path d="M12.3127933,17.813319 L18.1045738,23.6838922 C18.3124839,23.8946307 18.5835095,24 18.8963028,24 C19.2090961,24 19.4791935,23.8946307 19.6880318,23.6838922 L29.6881349,13.5477454 C29.896045,13.3153686 30,13.0622942 30,12.7452456 C30,12.428197 29.896045,12.1534843 29.6881349,11.9427458 L28.1046769,10.3377461 C27.8958387,10.1053693 27.6257412,10 27.312948,10 C27.0001547,10 26.7291291,10.1053693 26.521219,10.3377461 L18.8963028,18.0663934 L15.4797092,14.6033197 C15.2708709,14.3709428 15.0007735,14.2655736 14.6879802,14.2655736 C14.3751869,14.2655736 14.1041613,14.3709428 13.8962512,14.6033197 L12.3127933,16.2083193 C12.1048832,16.4190579 12,16.6937706 12,17.0108192 C12,17.3278678 12.1048832,17.5809421 12.3127933,17.813319" id="Fill-112" fill="#128680"></path>
+                        </g>
+                        <text id="Text-in-area" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                            <tspan x="13" y="21">dimensions = Order Date, Measure Values</tspan>
+                            <tspan x="13" y="37.4580078">filter = Measure Names == 'Total Sales'</tspan>
+                        </text>
+                        <g id="drag-bar" transform="translate(0.000000, 171.000000)" stroke="#CCCCCC">
+                            <use id="Rectangle-186" mask="url(#mask-64)" stroke-width="2" fill="#EEEEEE" xlink:href="#path-63"></use>
+                            <path d="M187.5,6.5 L213.5,6.5" id="Line" stroke-linecap="square"></path>
+                            <path d="M187.5,4.5 L213.5,4.5" id="Line-Copy" stroke-linecap="square"></path>
+                            <path d="M187.5,2.5 L213.5,2.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Unvalid:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="14.6464844" y="447">Unvalid:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="8" y="156">Enabled:</tspan>
+                </text>
+                <g id="group-title">
+                    <text id="Textarea-(Fetch_comm" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                        <tspan x="0" y="13" fill="#757575">Textarea (</tspan>
+                        <tspan x="65.1054688" y="13" fill="#666666">Fetch_command</tspan>
+                        <tspan x="176.353516" y="13" fill="#757575">)</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="Textarea-(Validation_box)" transform="translate(20.000000, 1871.000000)">
+                <g id="textarea[text]Disabled" transform="translate(66.000000, 244.000000)">
+                    <g id="drag-bar" transform="translate(0.000000, 73.000000)" stroke="#CCCCCC">
+                        <use id="Rectangle-186" mask="url(#mask-66)" stroke-width="2" fill="#EEEEEE" xlink:href="#path-65"></use>
+                        <path d="M187.5,6.5 L213.5,6.5" id="Line" stroke-linecap="square"></path>
+                        <path d="M187.5,4.5 L213.5,4.5" id="Line-Copy" stroke-linecap="square"></path>
+                        <path d="M187.5,2.5 L213.5,2.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                    </g>
+                    <use id="Rectangle-1" stroke="#D34839" mask="url(#mask-68)" stroke-width="2" fill="#FCC5C5" xlink:href="#path-67"></use>
+                    <text id="Value" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill-opacity="0.600000024" fill="#666666">
+                        <tspan x="10" y="22">Value</tspan>
+                    </text>
+                </g>
+                <g id="textarea[text]Active" transform="translate(66.000000, 142.000000)">
+                    <g id="drag-bar" transform="translate(0.000000, 73.000000)" stroke="#CCCCCC">
+                        <use id="Rectangle-186" mask="url(#mask-70)" stroke-width="2" fill="#EEEEEE" xlink:href="#path-69"></use>
+                        <path d="M187.5,6.5 L213.5,6.5" id="Line" stroke-linecap="square"></path>
+                        <path d="M187.5,4.5 L213.5,4.5" id="Line-Copy" stroke-linecap="square"></path>
+                        <path d="M187.5,2.5 L213.5,2.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                    </g>
+                    <use id="Rectangle-1" stroke="#188983" mask="url(#mask-72)" stroke-width="2" fill="#DEF1E7" xlink:href="#path-71"></use>
+                    <text id="Value" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="11" y="22">Value</tspan>
+                    </text>
+                </g>
+                <g id="textarea[text]Enabled" transform="translate(66.000000, 40.000000)">
+                    <g id="textarea" stroke="#CCCCCC" stroke-width="2" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-74)" xlink:href="#path-73"></use>
+                    </g>
+                    <text id="This-is-style-of-pla" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="7" y="22">This is style of placeholder (sometimes our textareas had it)</tspan>
+                    </text>
+                    <g id="drag-bar" transform="translate(0.000000, 73.000000)" stroke="#CCCCCC">
+                        <use id="Rectangle-186" mask="url(#mask-76)" stroke-width="2" fill="#EEEEEE" xlink:href="#path-75"></use>
+                        <path d="M187.5,6.5 L213.5,6.5" id="Line" stroke-linecap="square"></path>
+                        <path d="M187.5,4.5 L213.5,4.5" id="Line-Copy" stroke-linecap="square"></path>
+                        <path d="M187.5,2.5 L213.5,2.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="group-title">
+                    <text id="Textarea-(Validation" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                        <tspan x="0" y="13" fill="#757575">Textarea (</tspan>
+                        <tspan x="65.1054688" y="13" fill="#666666">Validation_box</tspan>
+                        <tspan x="164.677734" y="13" fill="#757575">)</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Unvalid:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="14.6464844" y="289">Unvalid:</tspan>
+                </text>
+                <text id="Valid:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="28.8730469" y="186">Valid:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="8" y="86">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="Textarea-(with-a-custom-height)" transform="translate(538.000000, 1505.000000)">
+                <g id="textarea[text]Disabled" transform="translate(66.000000, 244.000000)">
+                    <g id="drag-bar" transform="translate(0.000000, 73.000000)" stroke="#CCCCCC">
+                        <use id="Rectangle-186" mask="url(#mask-78)" stroke-width="2" fill="#EEEEEE" xlink:href="#path-77"></use>
+                        <path d="M187.5,6.5 L213.5,6.5" id="Line" stroke-linecap="square"></path>
+                        <path d="M187.5,4.5 L213.5,4.5" id="Line-Copy" stroke-linecap="square"></path>
+                        <path d="M187.5,2.5 L213.5,2.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                    </g>
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-80)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-79"></use>
+                    <text id="Search-by-name--Copy-2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11.0556641" y="22">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="textarea[text]Active" transform="translate(66.000000, 142.000000)">
+                    <g id="drag-bar" transform="translate(0.000000, 73.000000)" stroke="#CCCCCC">
+                        <use id="Rectangle-186" mask="url(#mask-82)" stroke-width="2" fill="#EEEEEE" xlink:href="#path-81"></use>
+                        <path d="M187.5,6.5 L213.5,6.5" id="Line" stroke-linecap="square"></path>
+                        <path d="M187.5,4.5 L213.5,4.5" id="Line-Copy" stroke-linecap="square"></path>
+                        <path d="M187.5,2.5 L213.5,2.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                    </g>
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-84)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-83"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="11" y="22">Added some text</tspan>
+                    </text>
+                </g>
+                <g id="textarea[text]Enabled" transform="translate(66.000000, 40.000000)">
+                    <g id="textarea" stroke="#CCCCCC" stroke-width="2" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-86)" xlink:href="#path-85"></use>
+                    </g>
+                    <text id="This-is-style-of-pla" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="7" y="22">This is style of placeholder (sometimes our textareas had it)</tspan>
+                    </text>
+                    <g id="drag-bar" transform="translate(0.000000, 73.000000)" stroke="#CCCCCC">
+                        <use id="Rectangle-186" mask="url(#mask-88)" stroke-width="2" fill="#EEEEEE" xlink:href="#path-87"></use>
+                        <path d="M187.5,6.5 L213.5,6.5" id="Line" stroke-linecap="square"></path>
+                        <path d="M187.5,4.5 L213.5,4.5" id="Line-Copy" stroke-linecap="square"></path>
+                        <path d="M187.5,2.5 L213.5,2.5" id="Line-Copy-2" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="group-title">
+                    <text id="Textarea-(With-a-cus" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Textarea (With a custom height)</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="7" y="289">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="21" y="186">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="8" y="86">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="Textarea" transform="translate(20.000000, 1505.000000)">
+                <g id="textarea[text]Disabled" transform="translate(66.000000, 228.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-90)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-89"></use>
+                    <text id="Search-by-name--Copy-2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11.0556641" y="22">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="textarea[text]Active" transform="translate(66.000000, 134.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-92)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-91"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#666666">
+                        <tspan x="11" y="22">Added some text</tspan>
+                    </text>
+                </g>
+                <g id="textarea[text]Enabled" transform="translate(66.000000, 40.000000)">
+                    <g id="textarea" stroke="#CCCCCC" stroke-width="2" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-94)" xlink:href="#path-93"></use>
+                    </g>
+                    <text id="This-is-style-of-pla" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="7" y="22">This is style of placeholder (sometimes our textareas had it)</tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Textarea" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Textarea</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="7" y="267">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="21" y="174">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="8" y="80">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="inputSmall+search" transform="translate(402.000000, 1246.000000)">
+                <g id="inputSmall[Search]Disabled" transform="translate(207.000000, 190.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-96)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-95"></use>
+                    <text id="Search…" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="35.6416016" y="20">Search…</tspan>
+                    </text>
+                    <text id="Type-something" font-family="FontAwesome" font-size="16" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11" y="20"></tspan>
+                    </text>
+                </g>
+                <g id="inputSmall[Search]Active" transform="translate(207.000000, 140.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-98)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-97"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="34" y="21">Added some text</tspan>
+                    </text>
+                    <text id="Type-something" font-family="FontAwesome" font-size="16" font-weight="normal" fill="#37809F">
+                        <tspan x="11" y="21"></tspan>
+                    </text>
+                </g>
+                <g id="inputSmall[Search]ByClickEnabled" transform="translate(207.000000, 90.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd" stroke="#CCCCCC" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-100)" stroke-width="2" xlink:href="#path-99"></use>
+                    </g>
+                    <text id="Search…" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="35.6416016" y="20">Search…</tspan>
+                    </text>
+                    <text id="Type-something" font-family="FontAwesome" font-size="16" font-weight="normal" fill="#666666">
+                        <tspan x="11" y="20"></tspan>
+                    </text>
+                </g>
+                <text id="Enabled:-(the-icon-i" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="139.626953" y="102">Enabled:</tspan>
+                    <tspan x="75.625" y="116.392578">(the icon is clickable)</tspan>
+                </text>
+                <g id="inputSmall[Search]Enabled" transform="translate(207.000000, 40.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd" stroke="#CCCCCC" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-102)" stroke-width="2" xlink:href="#path-101"></use>
+                    </g>
+                    <text id="Search…" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="35.6416016" y="20">Search…</tspan>
+                    </text>
+                    <text id="Type-something" font-family="FontAwesome" font-size="16" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11" y="20"></tspan>
+                    </text>
+                </g>
+                <g id="group-title" transform="translate(137.000000, 0.000000)">
+                    <text id="Small-Input-+-Search" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Small Input + Search functionality </tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="139" y="209">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="152" y="159">Active:</tspan>
+                </text>
+                <text id="Enabled-(the-icon-is" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="143.960938" y="53">Enabled</tspan>
+                    <tspan x="0.810546875" y="67.3925781">(the icon is not clickable | realtime):</tspan>
+                </text>
+            </g>
+            <g id="inputSmall[type=&quot;text&quot;]+revert" transform="translate(20.000000, 1246.000000)">
+                <g id="inputSmall[text]RevertDisabled" transform="translate(70.000000, 140.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-104)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-103"></use>
+                    <text id="Search-by-name--Copy-2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11.0556641" y="20">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="inputSmall[text]RevertActive" transform="translate(70.000000, 90.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-106)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-105"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="11" y="20">Added some text</tspan>
+                    </text>
+                    <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="262" y="20"></tspan>
+                    </text>
+                </g>
+                <g id="inputSmall[text]RevertEnabled" transform="translate(70.000000, 40.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd" stroke="#CCCCCC" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-108)" stroke-width="2" xlink:href="#path-107"></use>
+                    </g>
+                    <text id="Search-by-name--Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11.0556641" y="20">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Small-Input--[type=“" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Small Input  [type=“text”] + revert functionality </tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="159">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="15" y="108">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="59">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="input+search" transform="translate(539.000000, 934.000000)">
+                <g id="input[Search]Disabled" transform="translate(70.000000, 240.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-110)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-109"></use>
+                    <text id="Search…" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="30.6416016" y="22">Search…</tspan>
+                    </text>
+                    <text id="Type-something" font-family="FontAwesome" font-size="17" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="10" y="22"></tspan>
+                    </text>
+                </g>
+                <g id="SearchFieldDropDown" transform="translate(70.000000, 128.000000)">
+                    <g id="Rectangle-313">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-112)" xlink:href="#path-111"></use>
+                        <use stroke="#CCCCCC" mask="url(#mask-113)" stroke-width="2" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-111"></use>
+                    </g>
+                    <text id="Total-Monthly-New-Cu" font-family="ArialMT, Arial" font-size="14" font-weight="normal">
+                        <tspan x="11" y="21" fill="#666666">Tot</tspan>
+                        <tspan x="31.2275391" y="21" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#333333">a</tspan>
+                        <tspan x="39.0136719" y="21" fill="#666666">l Monthly New Customers in the space</tspan>
+                    </text>
+                    <rect id="Rectangle-837" fill="#37809F" fill-rule="evenodd" x="1" y="31" width="283" height="30"></rect>
+                    <text id="Manual-element" font-family="ArialMT, Arial" font-size="14" font-weight="normal">
+                        <tspan x="11" y="51" fill="#E5E5E5">M</tspan>
+                        <tspan x="22.6621094" y="51" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#FFFFFF">a</tspan>
+                        <tspan x="30.4482422" y="51" fill="#E5E5E5">nu</tspan>
+                        <tspan x="46.0205078" y="51" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#FFFFFF">a</tspan>
+                        <tspan x="53.8066406" y="51" fill="#E5E5E5">l element</tspan>
+                    </text>
+                    <text id="Manager-element" font-family="ArialMT, Arial" font-size="14" font-weight="normal">
+                        <tspan x="11" y="80" fill="#666666">M</tspan>
+                        <tspan x="22.6621094" y="80" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#333333">a</tspan>
+                        <tspan x="30.4482422" y="80" fill="#666666">n</tspan>
+                        <tspan x="38.234375" y="80" font-family="Arial-BoldMT, Arial" font-weight="bold" fill="#333333">a</tspan>
+                        <tspan x="46.0205078" y="80" fill="#666666">ger element</tspan>
+                    </text>
+                </g>
+                <g id="input[Search]Active" transform="translate(70.000000, 94.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-115)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-114"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="34" y="22">Added some text</tspan>
+                    </text>
+                    <text id="Type-something" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#37809F">
+                        <tspan x="12" y="23"></tspan>
+                    </text>
+                </g>
+                <g id="input[Search]Enabled" transform="translate(70.000000, 40.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd" stroke="#CCCCCC" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-117)" stroke-width="2" xlink:href="#path-116"></use>
+                    </g>
+                    <text id="Search…" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="34.6416016" y="22">Search…</tspan>
+                    </text>
+                    <text id="Type-something" font-family="FontAwesome" font-size="17" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="10" y="23"></tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Input-+-Search-funct" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Input + Search functionality</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="260">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="15" y="115">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="61">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="input[type=&quot;text&quot;]+revert" transform="translate(20.000000, 934.000000)">
+                <g id="input[text]RevertDisabled" transform="translate(70.000000, 147.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-119)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-118"></use>
+                    <text id="Search-by-name--Copy-2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11.0556641" y="22">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="input[text]RevertActive" transform="translate(70.000000, 94.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-121)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-120"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="11" y="22">Added some text</tspan>
+                    </text>
+                    <text id="" font-family="FontAwesome" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="262" y="22"></tspan>
+                    </text>
+                </g>
+                <g id="input[text]RevertEnabled" transform="translate(70.000000, 40.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd" stroke="#CCCCCC" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-123)" stroke-width="2" xlink:href="#path-122"></use>
+                    </g>
+                    <text id="Search-by-name--Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11.0556641" y="22">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Input-[type=“text”]-" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Input [type=“text”] + revert functionality</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="167">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="15" y="115">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="61">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="input[type=&quot;file&quot;]-+-Label" transform="translate(539.000000, 650.000000)">
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="228">Disabled:</tspan>
+                </text>
+                <text id="Chosen:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="6" y="155">Chosen:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="81">Enabled:</tspan>
+                </text>
+                <g id="input[type=file]+LabelDisabled" transform="translate(70.000000, 184.000000)">
+                    <g id="browse_button" transform="translate(235.000000, 24.000000)">
+                        <path d="M64,34 L5,34 C2.239,34 0,31.9975789 0,29.5263158 L0,4.47368421 C0,2.00331579 2.239,0 5,0 L64,0 C66.761,0 69,2.00331579 69,4.47368421 L69,29.5263158 C69,31.9975789 66.761,34 64,34 Z" id="Fill-1-Copy" fill="#CCCCCC"></path>
+                        <text id="Browse" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9" y="22">Browse</tspan>
+                        </text>
+                    </g>
+                    <use id="Input" stroke="#CCCCCC" mask="url(#mask-125)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-124"></use>
+                    <text id="Choose-file" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="10" y="46">Choose file</tspan>
+                    </text>
+                    <text id="Please,-upload-you-d" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#CCCCCC">
+                        <tspan x="0" y="13">Please, upload you document</tspan>
+                    </text>
+                </g>
+                <g id="input[type=file]+LabelChosen" transform="translate(70.000000, 110.000000)">
+                    <g id="browse_button" transform="translate(235.000000, 24.000000)">
+                        <path d="M64,34 L5,34 C2.239,34 0,31.9975789 0,29.5263158 L0,4.47368421 C0,2.00331579 2.239,0 5,0 L64,0 C66.761,0 69,2.00331579 69,4.47368421 L69,29.5263158 C69,31.9975789 66.761,34 64,34 Z" id="Fill-1-Copy" fill="#37809F"></path>
+                        <text id="Browse" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9" y="22">Browse</tspan>
+                        </text>
+                    </g>
+                    <use id="Input" stroke="#CCCCCC" mask="url(#mask-127)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-126"></use>
+                    <text id="myDoc.txt" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="10" y="46">myDoc.txt</tspan>
+                    </text>
+                    <text id="Please,-upload-your-" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                        <tspan x="0" y="13">Please, upload your document</tspan>
+                    </text>
+                </g>
+                <g id="input[type=file]+Label" transform="translate(70.000000, 37.000000)">
+                    <g id="browse_button" transform="translate(235.000000, 23.000000)">
+                        <path d="M64,34 L5,34 C2.239,34 0,31.9975789 0,29.5263158 L0,4.47368421 C0,2.00331579 2.239,0 5,0 L64,0 C66.761,0 69,2.00331579 69,4.47368421 L69,29.5263158 C69,31.9975789 66.761,34 64,34 Z" id="Fill-1-Copy" fill="#37809F"></path>
+                        <text id="Browse" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9" y="22">Browse</tspan>
+                        </text>
+                    </g>
+                    <use id="Input" stroke="#CCCCCC" mask="url(#mask-129)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-128"></use>
+                    <text id="Choose-file" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="10.9589844" y="45">Choose file</tspan>
+                    </text>
+                    <text id="Please,-upload-your-" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                        <tspan x="0" y="13">Please, upload your document</tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Input-[type=“file”]-" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Input [type=“file”] + label</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="input[type=&quot;file&quot;]" transform="translate(20.000000, 648.000000)">
+                <g id="group-title">
+                    <text id="Input-[type=“file”]" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Input [type=“file”]</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="168">Disabled:</tspan>
+                </text>
+                <text id="Chosen:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="7" y="115">Chosen:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="61">Enabled:</tspan>
+                </text>
+                <g id="input[type=file]Disabled" transform="translate(70.000000, 148.000000)">
+                    <g id="browse_button" transform="translate(235.000000, 0.000000)">
+                        <path d="M64,34 L5,34 C2.239,34 0,31.9975789 0,29.5263158 L0,4.47368421 C0,2.00331579 2.239,0 5,0 L64,0 C66.761,0 69,2.00331579 69,4.47368421 L69,29.5263158 C69,31.9975789 66.761,34 64,34 Z" id="Fill-1-Copy" fill="#CCCCCC"></path>
+                        <text id="Browse" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9" y="22">Browse</tspan>
+                        </text>
+                    </g>
+                    <use id="Input" stroke="#CCCCCC" mask="url(#mask-131)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-130"></use>
+                    <text id="Choose-file" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="10" y="22">Choose file</tspan>
+                    </text>
+                </g>
+                <g id="input[type=file]Chosen" transform="translate(70.000000, 94.000000)">
+                    <g id="browse_button" transform="translate(235.000000, 0.000000)">
+                        <path d="M64,34 L5,34 C2.239,34 0,31.9975789 0,29.5263158 L0,4.47368421 C0,2.00331579 2.239,0 5,0 L64,0 C66.761,0 69,2.00331579 69,4.47368421 L69,29.5263158 C69,31.9975789 66.761,34 64,34 Z" id="Fill-1-Copy" fill="#37809F"></path>
+                        <text id="Browse" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9" y="22">Browse</tspan>
+                        </text>
+                    </g>
+                    <use id="Input" stroke="#CCCCCC" mask="url(#mask-133)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-132"></use>
+                    <text id="myDoc.txt" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="10" y="22">myDoc.txt</tspan>
+                    </text>
+                </g>
+                <g id="input[type=file]" transform="translate(70.000000, 40.000000)">
+                    <g id="browse_button" transform="translate(235.000000, 0.000000)">
+                        <path d="M64,34 L5,34 C2.239,34 0,31.9975789 0,29.5263158 L0,4.47368421 C0,2.00331579 2.239,0 5,0 L64,0 C66.761,0 69,2.00331579 69,4.47368421 L69,29.5263158 C69,31.9975789 66.761,34 64,34 Z" id="Fill-1-Copy" fill="#37809F"></path>
+                        <text id="Browse" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="9" y="22">Browse</tspan>
+                        </text>
+                    </g>
+                    <use id="Input" stroke="#CCCCCC" mask="url(#mask-135)" stroke-width="2" fill="#F4F4F4" xlink:href="#path-134"></use>
+                    <text id="Choose-file" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="10.9589844" y="22">Choose file</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="inputSmall[type=&quot;text&quot;]-+-Label" transform="translate(539.000000, 368.000000)">
+                <g id="inputSmall[text]withLabelDisabled" transform="translate(71.000000, 174.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-137)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-136"></use>
+                    <text id="Search-by-name--Copy-2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="10.0556641" y="37">Search by name </tspan>
+                    </text>
+                    <text id="This-is-the-custom-L" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="0" y="11">This is the custom Label</tspan>
+                    </text>
+                </g>
+                <g id="inputSmall[text]withLabelActive" transform="translate(71.000000, 109.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-139)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-138"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="11" y="37">Added some text</tspan>
+                    </text>
+                    <text id="This-is-the-custom-L" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                        <tspan x="0" y="11">This is the custom Label</tspan>
+                    </text>
+                </g>
+                <g id="inputSmall[text]withLabelEnabled" transform="translate(71.000000, 44.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd">
+                        <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-141)" stroke-width="2" fill="#F2F2F2" xlink:href="#path-140"></use>
+                        <text id="This-is-the-custom-L" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                            <tspan x="0" y="11">This is the custom Label</tspan>
+                        </text>
+                    </g>
+                    <text id="Search-by-name--Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="10.0556641" y="37">Search by name </tspan>
+                    </text>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="211">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="15" y="145">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="81">Enabled:</tspan>
+                </text>
+                <g id="group-title">
+                    <text id="Small-Input-[type=“t" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Small Input [type=“text”] + label</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="inputSmall[type=&quot;text&quot;]" transform="translate(20.000000, 368.000000)">
+                <g id="inputSmall[text]Disabled" transform="translate(70.000000, 140.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-143)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-142"></use>
+                    <text id="Search-by-name--Copy-2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11.0556641" y="20">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="inputSmall[text]Active" transform="translate(70.000000, 90.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-145)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-144"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="11" y="19.9411765">Added some text</tspan>
+                    </text>
+                </g>
+                <g id="inputSmall[text]Enabled" transform="translate(70.000000, 40.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd" stroke="#CCCCCC" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-147)" stroke-width="2" xlink:href="#path-146"></use>
+                    </g>
+                    <text id="Search-by-name--Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11.0556641" y="20">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Small-Input-[type=“t" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Small Input [type=“text”]</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="159">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="15" y="109">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="59">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="input[type=&quot;text&quot;]-+-Label" transform="translate(539.000000, 89.000000)">
+                <g id="input[text]MediumWithLabelDisabled" transform="translate(70.000000, 184.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-149)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-148"></use>
+                    <text id="Search-by-name--Copy-2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11.0556641" y="45">Search by name </tspan>
+                    </text>
+                    <text id="This-is-the-custom-L" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#CCCCCC">
+                        <tspan x="0" y="13">This is the custom Label</tspan>
+                    </text>
+                </g>
+                <g id="input[text]MediumWithLabelActive" transform="translate(70.000000, 111.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-151)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-150"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="11" y="45">Added some text</tspan>
+                    </text>
+                    <text id="This-is-the-custom-L" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                        <tspan x="0" y="13">This is the custom Label</tspan>
+                    </text>
+                </g>
+                <g id="input[text]MediumWithLabelEnabled" transform="translate(70.000000, 37.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd">
+                        <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-153)" stroke-width="2" fill="#F2F2F2" xlink:href="#path-152"></use>
+                        <text id="This-is-the-custom-L" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#666666">
+                            <tspan x="0" y="13">This is the custom Label</tspan>
+                        </text>
+                    </g>
+                    <text id="Search-by-name--Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11.0556641" y="45">Search by name </tspan>
+                    </text>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="227">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="15" y="155">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="81">Enabled:</tspan>
+                </text>
+                <g id="group-title">
+                    <text id="Input-[type=“text”]-" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Input [type=“text”] + label</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+            </g>
+            <g id="input[type=&quot;text&quot;]" transform="translate(20.000000, 89.000000)">
+                <g id="input[text]MediumDisabled" transform="translate(70.000000, 147.000000)">
+                    <use id="Rectangle-1" stroke="#CCCCCC" mask="url(#mask-155)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-154"></use>
+                    <text id="Search-by-name--Copy-2" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#CCCCCC">
+                        <tspan x="11.0556641" y="22">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="input[text]MediumActive" transform="translate(70.000000, 94.000000)">
+                    <use id="Rectangle-1" stroke="#37809F" mask="url(#mask-157)" stroke-width="2" fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-156"></use>
+                    <text id="Added-some-text" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#37809F">
+                        <tspan x="11" y="22">Added some text</tspan>
+                    </text>
+                </g>
+                <g id="input[text]MediumEnabled" transform="translate(70.000000, 40.000000)">
+                    <g id="input" stroke-width="1" fill-rule="evenodd" stroke="#CCCCCC" fill="#F2F2F2">
+                        <use id="Rectangle-1" mask="url(#mask-159)" stroke-width="2" xlink:href="#path-158"></use>
+                    </g>
+                    <text id="Search-by-name--Copy" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#999999">
+                        <tspan x="11.0556641" y="22">Search by name </tspan>
+                    </text>
+                </g>
+                <g id="group-title">
+                    <text id="Input-[type=“text”]" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold" fill="#757575">
+                        <tspan x="0" y="13">Input [type=“text”]</tspan>
+                    </text>
+                    <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                </g>
+                <text id="Disabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="2" y="167">Disabled:</tspan>
+                </text>
+                <text id="Active:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="15" y="115">Active:</tspan>
+                </text>
+                <text id="Enabled:" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#999999">
+                    <tspan x="4" y="61">Enabled:</tspan>
+                </text>
+            </g>
+            <g id="Section-Tile-(The-Buttons-and-groups-of-buttons)-Copy" transform="translate(20.000000, 21.000000)">
+                <text id="The-inputs-and-texta" font-family="Times-Roman, Times" font-size="18" font-weight="normal" fill="#666666">
+                    <tspan x="0" y="18">The inputs and textareas</tspan>
+                </text>
+                <path d="M0,30 L984,30" id="Stroke-5" stroke="#CCCCCC"></path>
+            </g>
+        </g>
+    </g>
+</svg>
