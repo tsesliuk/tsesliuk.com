@@ -1928,6 +1928,10 @@ b, strong { font-weight: bold; }
 	margin: 0 20px 0 0;
 }
 
+.contacts_line.va {
+	
+}
+
 @media screen and (max-width:1300px){
 	#header h1 a {
 		font-size: 74px;
