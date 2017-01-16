@@ -1507,7 +1507,7 @@ b, strong { font-weight: bold; }
 
 		/* Map */
 		section#contact #map {
-			height: 430px;
+			height: 350px;
 			margin-bottom: 30px;
 			background: url("../images/banners/map-lines-exp.svg") top center no-repeat;
 		}
