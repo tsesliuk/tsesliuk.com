@@ -1929,7 +1929,15 @@ b, strong { font-weight: bold; }
 }
 
 .contacts_line.va {
-	
+	text-align: left;
+}
+
+.contacts_line.va .contacts_cell {
+	margin: 0 0 20px 0;
+}
+
+.contacts_line.va .contacts_cell span {
+	display: block;
 }
 
 @media screen and (max-width:1300px){
