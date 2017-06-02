@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="417px" height="866px" viewBox="0 0 417 866" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="285" height="34"></rect>
+        <rect id="path-3" x="0" y="0" width="285" height="34"></rect>
+        <rect id="path-5" x="0" y="0" width="285" height="34"></rect>
+        <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-7"></path>
+        <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-9"></path>
+        <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-11"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="bd_ui" transform="translate(4.000000, 16.000000)">
+                <g id="input[type=&quot;text&quot;]" transform="translate(1.000000, 0.000000)">
+                    <g id="input[text]MediumDisabled" transform="translate(70.000000, 147.000000)">
+                        <g id="Rectangle-1">
+                            <g id="path-154-Clipped">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="path-154"></g>
+                                <rect id="path-154" stroke="#CCCCCC" stroke-width="2" fill="#F4F4F4" mask="url(#mask-2)" x="0" y="0" width="285" height="34"></rect>
+                            </g>
+                        </g>
+                        <g id="Search-by-name--Copy-2" transform="translate(11.000000, 9.000000)" font-size="14" font-family="ArialMT, Arial" fill="#CCCCCC" font-weight="normal">
+                            <text id="Search-by-name">
+                                <tspan x="0.0556641" y="13">Search by name</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="input[text]MediumActive" transform="translate(70.000000, 94.000000)">
+                        <g id="Rectangle-1">
+                            <g id="path-156-Clipped">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="path-156"></g>
+                                <rect id="path-156" stroke="#37809F" stroke-width="2" fill="#F4F4F4" mask="url(#mask-4)" x="0" y="0" width="285" height="34"></rect>
+                            </g>
+                        </g>
+                        <g id="Added-some-text" transform="translate(11.000000, 9.000000)" font-size="14" font-family="ArialMT, Arial" fill="#37809F" font-weight="normal">
+                            <text>
+                                <tspan x="0" y="13">Added some text</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="input[text]MediumEnabled" transform="translate(70.000000, 40.000000)">
+                        <g id="input">
+                            <g id="Rectangle-1">
+                                <g id="path-158-Clipped">
+                                    <mask id="mask-6" fill="white">
+                                        <use xlink:href="#path-5"></use>
+                                    </mask>
+                                    <g id="path-158"></g>
+                                    <rect id="path-158" stroke="#CCCCCC" stroke-width="2" fill="#F2F2F2" mask="url(#mask-6)" x="0" y="0" width="285" height="34"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Search-by-name--Copy" transform="translate(11.000000, 9.000000)" font-size="14" font-family="ArialMT, Arial" fill="#999999" font-weight="normal">
+                            <text id="Search-by-name">
+                                <tspan x="0.0556641" y="13">Search by name</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="group-title">
+                        <text id="Input-[type=“text”]" fill="#757575" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="0" y="13">Input [type=“text”]</tspan>
+                        </text>
+                        <path d="M5.16654593e-15,19 L465,19" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    </g>
+                    <g id="Disabled:" transform="translate(2.000000, 156.000000)" font-size="12" font-family="ArialMT, Arial" fill="#999999" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="11">Disabled:</tspan>
+                        </text>
+                    </g>
+                    <g id="Active:" transform="translate(15.000000, 104.000000)" font-size="12" font-family="ArialMT, Arial" fill="#999999" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="11">Active:</tspan>
+                        </text>
+                    </g>
+                    <g id="Enabled:" transform="translate(4.000000, 50.000000)" font-size="12" font-family="ArialMT, Arial" fill="#999999" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="11">Enabled:</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Toggle-control-(radio)" transform="translate(1.000000, 733.000000)">
+                    <g id="toggle-(disabled)" transform="translate(0.000000, 74.000000)">
+                        <g id="This-Toggle-is-disab" transform="translate(34.000000, 1.000000)" font-size="14" font-family="Helvetica" fill="#D34839" font-weight="normal">
+                            <text id="This-Toggle-is-disabled">
+                                <tspan x="0" y="14">This Toggle is disabled</tspan>
+                            </text>
+                        </g>
+                        <g id="(additional-informat" transform="translate(179.000000, 0.000000)" font-size="14" font-family="Helvetica" fill="#666666" font-weight="normal">
+                            <text id="(additional-information)">
+                                <tspan x="0" y="14">(additional information)</tspan>
+                            </text>
+                        </g>
+                        <path d="M20.6791975,2 L8.32080253,2 C3.72553716,2 5.68434189e-14,5.58190177 5.68434189e-14,10 C5.68434189e-14,14.4180982 3.72553716,18 8.32080253,18 L20.6791975,18 C25.2744628,18 29,14.4180982 29,10 C29,5.58190177 25.2744628,2 20.6791975,2 L20.6791975,2 Z M21,15 C18.236338,15 16,12.7626538 16,10 C16,7.23936277 18.2373462,5 21,5 C23.7606372,5 26,7.24037104 26,10 C26,12.7626538 23.759629,15 21,15 L21,15 Z" id="Shape" fill="#D34839" fill-rule="nonzero"></path>
+                    </g>
+                    <g id="toggle-(enabled)" transform="translate(0.000000, 38.000000)">
+                        <g id="This-Toggle-is-enabl" transform="translate(34.000000, 1.000000)" font-size="14" font-family="Helvetica" fill="#188983" font-weight="normal">
+                            <text id="This-Toggle-is-enabled">
+                                <tspan x="0" y="14">This Toggle is enabled</tspan>
+                            </text>
+                        </g>
+                        <g id="(additional-informat" transform="translate(179.000000, 0.000000)" font-size="14" font-family="Helvetica" fill="#666666" font-weight="normal">
+                            <text id="(additional-information)">
+                                <tspan x="0" y="14">(additional information)</tspan>
+                            </text>
+                        </g>
+                        <path d="M20.6791975,2 L8.32080253,2 C3.72553716,2 5.68434189e-14,5.58190177 5.68434189e-14,10 C5.68434189e-14,14.4180982 3.72553716,18 8.32080253,18 L20.6791975,18 C25.2744628,18 29,14.4180982 29,10 C29,5.58190177 25.2744628,2 20.6791975,2 L20.6791975,2 Z M21,15 C18.236338,15 16,12.7626538 16,10 C16,7.23936277 18.2373462,5 21,5 C23.7606372,5 26,7.24037104 26,10 C26,12.7626538 23.759629,15 21,15 L21,15 Z" id="Shape" fill="#188983" fill-rule="nonzero"></path>
+                    </g>
+                    <g id="group-title">
+                        <text id="Radio-toggle" fill="#757575" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="0" y="13">Radio toggle</tspan>
+                        </text>
+                        <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="Radio-(ver)" transform="translate(1.000000, 592.000000)">
+                    <g id="radio-group" transform="translate(0.000000, 39.000000)">
+                        <g id="item" transform="translate(0.000000, 25.000000)">
+                            <g id="the-one-of-the-items" transform="translate(19.000000, 0.000000)" font-size="14" font-family="Arial-BoldMT, Arial" fill="#666666" font-weight="bold">
+                                <text>
+                                    <tspan x="0" y="13">the one of the items</tspan>
+                                </text>
+                            </g>
+                            <path d="M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape-Copy-3" fill="#CCCCCC" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="item-copy" transform="translate(0.000000, 49.000000)">
+                            <g id="the-one-of-the-items" transform="translate(19.000000, 0.000000)" font-size="14" font-family="Arial-BoldMT, Arial" fill="#666666" font-weight="bold">
+                                <text>
+                                    <tspan x="0" y="13">the one of the items</tspan>
+                                </text>
+                            </g>
+                            <path d="M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape-Copy-3" fill="#CCCCCC" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="item-(chosen)" fill="#37809F">
+                            <path d="M10,7.5 C10,8.19010417 9.75585938,8.77929688 9.26757812,9.26757812 C8.77929688,9.75585938 8.19010417,10 7.5,10 C6.80989583,10 6.22070312,9.75585938 5.73242188,9.26757812 C5.24414062,8.77929688 5,8.19010417 5,7.5 C5,6.80989583 5.24414062,6.22070312 5.73242188,5.73242188 C6.22070312,5.24414062 6.80989583,5 7.5,5 C8.19010417,5 8.77929688,5.24414062 9.26757812,5.73242188 C9.75585938,6.22070312 10,6.80989583 10,7.5 L10,7.5 Z M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape" fill-rule="nonzero"></path>
+                            <text id="Chosen-item" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                                <tspan x="19" y="13">Chosen item</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="group-title">
+                        <text id="Radio-buttons-vertical" fill="#757575" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="0" y="13">Radio buttons vertical</tspan>
+                        </text>
+                        <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="Radio-(hor)" transform="translate(1.000000, 501.000000)">
+                    <g id="radio-group" transform="translate(0.000000, 39.000000)">
+                        <g id="item" transform="translate(123.000000, 0.000000)">
+                            <g id="the-one-of-the-items" transform="translate(19.000000, 0.000000)" font-size="14" font-family="Arial-BoldMT, Arial" fill="#666666" font-weight="bold">
+                                <text>
+                                    <tspan x="0" y="13">the one of the items</tspan>
+                                </text>
+                            </g>
+                            <path d="M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape-Copy-3" fill="#CCCCCC" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="item-(chosen)" fill="#37809F">
+                            <path d="M10,7.5 C10,8.19010417 9.75585938,8.77929688 9.26757812,9.26757812 C8.77929688,9.75585938 8.19010417,10 7.5,10 C6.80989583,10 6.22070312,9.75585938 5.73242188,9.26757812 C5.24414062,8.77929688 5,8.19010417 5,7.5 C5,6.80989583 5.24414062,6.22070312 5.73242188,5.73242188 C6.22070312,5.24414062 6.80989583,5 7.5,5 C8.19010417,5 8.77929688,5.24414062 9.26757812,5.73242188 C9.75585938,6.22070312 10,6.80989583 10,7.5 L10,7.5 Z M7.5,2 C6.50245098,2 5.58241422,2.24601716 4.73988971,2.73805147 C3.8973652,3.23008578 3.23008578,3.8973652 2.73805147,4.73988971 C2.24601716,5.58241422 2,6.50245098 2,7.5 C2,8.49754902 2.24601716,9.41758578 2.73805147,10.2601103 C3.23008578,11.1026348 3.8973652,11.7699142 4.73988971,12.2619485 C5.58241422,12.7539828 6.50245098,13 7.5,13 C8.49754902,13 9.41758578,12.7539828 10.2601103,12.2619485 C11.1026348,11.7699142 11.7699142,11.1026348 12.2619485,10.2601103 C12.7539828,9.41758578 13,8.49754902 13,7.5 C13,6.50245098 12.7539828,5.58241422 12.2619485,4.73988971 C11.7699142,3.8973652 11.1026348,3.23008578 10.2601103,2.73805147 C9.41758578,2.24601716 8.49754902,2 7.5,2 L7.5,2 Z M15,7.5 C15,8.86067708 14.6647135,10.1155599 13.9941406,11.2646484 C13.3235677,12.413737 12.413737,13.3235677 11.2646484,13.9941406 C10.1155599,14.6647135 8.86067708,15 7.5,15 C6.13932292,15 4.8844401,14.6647135 3.73535156,13.9941406 C2.58626302,13.3235677 1.67643229,12.413737 1.00585938,11.2646484 C0.335286458,10.1155599 0,8.86067708 0,7.5 C0,6.13932292 0.335286458,4.8844401 1.00585938,3.73535156 C1.67643229,2.58626302 2.58626302,1.67643229 3.73535156,1.00585938 C4.8844401,0.335286458 6.13932292,0 7.5,0 C8.86067708,0 10.1155599,0.335286458 11.2646484,1.00585938 C12.413737,1.67643229 13.3235677,2.58626302 13.9941406,3.73535156 C14.6647135,4.8844401 15,6.13932292 15,7.5 L15,7.5 Z" id="Shape" fill-rule="nonzero"></path>
+                            <text id="Chosen-item" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                                <tspan x="19" y="13">Chosen item</tspan>
+                            </text>
+                        </g>
+                        <path d="M113,1 L113,15" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                    </g>
+                    <g id="group-title">
+                        <text id="Radio-buttons-horizontal" fill="#757575" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                            <tspan x="0" y="13">Radio buttons horizontal</tspan>
+                        </text>
+                        <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                    </g>
+                </g>
+                <g id="ButtonsGroupLine" transform="translate(1.000000, 405.000000)">
+                    <rect id="Rectangle-113-Copy-2" stroke="#37809F" fill="#37809F" fill-rule="nonzero" x="60" y="40" width="62" height="22" rx="2"></rect>
+                    <g id="Select-Option-Copy-4" transform="translate(65.000000, 44.000000)" font-size="13" font-family="ArialMT, Arial" fill="#FFFFFF" font-weight="normal">
+                        <text id="Stoplight">
+                            <tspan x="0" y="12">Stoplight</tspan>
+                        </text>
+                    </g>
+                    <g id="Select-Option-Copy-5" transform="translate(131.000000, 44.000000)" font-size="12" font-family="ArialMT, Arial" fill="#37809F" font-weight="normal">
+                        <text id="Statistical">
+                            <tspan x="0" y="11">Statistical</tspan>
+                        </text>
+                    </g>
+                    <g id="Select-Option-Copy-6" transform="translate(201.000000, 44.000000)" font-size="12" font-family="ArialMT, Arial" fill="#37809F" font-weight="normal">
+                        <text id="Target">
+                            <tspan x="0" y="11">Target</tspan>
+                        </text>
+                    </g>
+                    <g id="Select-Option-Copy-7" transform="translate(254.000000, 44.000000)" font-size="12" font-family="ArialMT, Arial" fill="#37809F" font-weight="normal">
+                        <text id="Projection">
+                            <tspan x="0" y="11">Projection</tspan>
+                        </text>
+                    </g>
+                    <g id="Select-Option-Copy-3" transform="translate(1.000000, 44.000000)" font-size="12" font-family="ArialMT, Arial" fill="#37809F" font-weight="normal">
+                        <text id="Standard">
+                            <tspan x="0" y="11">Standard</tspan>
+                        </text>
+                    </g>
+                    <g id="Title">
+                        <g id="group-title">
+                            <text id="Linear-group-of-buttons" fill="#757575" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                                <tspan x="0" y="13">Linear group of buttons</tspan>
+                            </text>
+                            <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Buttons-group-with-Dropdowns" transform="translate(0.000000, 206.000000)">
+                    <g id="MoreThen1ButtonGroup" transform="translate(246.000000, 39.000000)">
+                        <g id="Shape">
+                            <g id="path-7-Clipped">
+                                <mask id="mask-8" fill="white">
+                                    <use xlink:href="#path-7"></use>
+                                </mask>
+                                <g id="path-7"></g>
+                                <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-7" stroke="#CCCCCC" stroke-width="2" mask="url(#mask-8)"></path>
+                            </g>
+                        </g>
+                        <path d="M38.5,0.5 L38.5,33.6360817" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                        <g id="" transform="translate(12.000000, 10.000000)" font-size="18" font-family="FontAwesome" fill="#999999" font-weight="normal">
+                            <text>
+                                <tspan x="0.9285714" y="15"></tspan>
+                            </text>
+                        </g>
+                        <g id="" transform="translate(50.000000, 9.000000)" font-size="18" font-family="FontAwesome" fill="#999999" font-weight="normal">
+                            <text>
+                                <tspan x="0.2857143" y="15"></tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="MoreThen1ButtonGroup-Copy" transform="translate(246.000000, 84.000000)">
+                        <g id="Shape">
+                            <g id="path-9-Clipped">
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
+                                </mask>
+                                <g id="path-9"></g>
+                                <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-9" stroke="#CCCCCC" stroke-width="2" mask="url(#mask-10)"></path>
+                            </g>
+                        </g>
+                        <path d="M38.5,0.5 L38.5,33.6360817" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                        <g id="" transform="translate(12.000000, 10.000000)" font-size="18" font-family="FontAwesome" fill="#999999" font-weight="normal">
+                            <text>
+                                <tspan x="0.9285714" y="15"></tspan>
+                            </text>
+                        </g>
+                        <g id="" transform="translate(50.000000, 9.000000)" font-size="18" font-family="FontAwesome" fill="#999999" font-weight="normal">
+                            <text>
+                                <tspan x="0.2857143" y="15"></tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="MoreThen1ButtonGroup-Copy-2" transform="translate(246.000000, 127.000000)">
+                        <g id="Shape">
+                            <g id="path-11-Clipped">
+                                <mask id="mask-12" fill="white">
+                                    <use xlink:href="#path-11"></use>
+                                </mask>
+                                <g id="path-11"></g>
+                                <path d="M71.7777778,34 L4.22222222,34 C1.8905,34 0,32.0356774 0,29.6129032 L0,4.38709677 C0,1.96432258 1.8905,0 4.22222222,0 L71.7777778,0 C74.1095,0 76,1.96432258 76,4.38709677 L76,29.6129032 C76,32.0356774 74.1095,34 71.7777778,34 Z" id="path-11" stroke="#CCCCCC" stroke-width="2" mask="url(#mask-12)"></path>
+                            </g>
+                        </g>
+                        <path d="M38.5,0.5 L38.5,33.6360817" id="Line" stroke="#CCCCCC" stroke-linecap="square"></path>
+                        <g id="" transform="translate(12.000000, 10.000000)" font-size="18" font-family="FontAwesome" fill="#CCCCCC" font-weight="normal">
+                            <text>
+                                <tspan x="0.9285714" y="15"></tspan>
+                            </text>
+                        </g>
+                        <g id="" transform="translate(50.000000, 9.000000)" font-size="18" font-family="FontAwesome" fill="#CCCCCC" font-weight="normal">
+                            <text>
+                                <tspan x="0.2857143" y="15"></tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Dropdown-Active" transform="translate(59.000000, 83.000000)" fill="#37809F">
+                        <g id="Select">
+                            <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill-rule="nonzero"></path>
+                            <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                                <tspan x="10" y="23">My Favorites</tspan>
+                            </text>
+                            <polygon id="Fill-3" fill-rule="nonzero" points="161.5 23 156 14 167 14"></polygon>
+                        </g>
+                    </g>
+                    <g id="Dropdown-Disable" transform="translate(59.000000, 127.000000)" fill="#CCCCCC">
+                        <g id="Select">
+                            <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill-rule="nonzero"></path>
+                            <text id="My-Favorites" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                                <tspan x="10" y="23">My Favorites</tspan>
+                            </text>
+                            <polygon id="Fill-3" fill-rule="nonzero" points="161.5 23 156 14 167 14"></polygon>
+                        </g>
+                    </g>
+                    <g id="Dropdown" transform="translate(59.000000, 39.000000)">
+                        <g id="Select">
+                            <path d="M173,1 C174.654,1 176,2.346 176,4 L176,30 C176,31.654 174.986,33 173.332,33 L4.457,33 C2.803,33 1,31.654 1,30 L1,4 C1,2.346 2.803,1 4.457,1 L173,1 M173.332,0 L4.457,0 C2.257,0 0,1.8 0,4 L0,30 C0,32.2 2.257,34 4.457,34 L173.332,34 C175.532,34 177,32.2 177,30 L177,4 C177,1.8 175.366,0 173.166,0 L173.332,0" id="Fill-2" fill="#CCCCCC" fill-rule="nonzero"></path>
+                            <text id="My-Favorites" fill="#37809F" font-family="Arial-BoldMT, Arial" font-size="16" font-weight="bold">
+                                <tspan x="10" y="23">My Favorites</tspan>
+                            </text>
+                            <polyline id="Fill-3" fill="#999999" fill-rule="nonzero" points="167 14 161.5 23 156 14 167 14"></polyline>
+                        </g>
+                    </g>
+                    <g id="Disabled:" transform="translate(0.000000, 136.000000)" font-size="12" font-family="ArialMT, Arial" fill="#999999" font-weight="normal">
+                        <text>
+                            <tspan x="0.97265625" y="11">Disabled:</tspan>
+                        </text>
+                    </g>
+                    <g id="Active:" transform="translate(14.000000, 93.000000)" font-size="12" font-family="ArialMT, Arial" fill="#999999" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="11">Active:</tspan>
+                        </text>
+                    </g>
+                    <g id="Enabled:" transform="translate(3.000000, 49.000000)" font-size="12" font-family="ArialMT, Arial" fill="#999999" font-weight="normal">
+                        <text>
+                            <tspan x="0" y="11">Enabled:</tspan>
+                        </text>
+                    </g>
+                    <g id="Title" transform="translate(1.000000, 0.000000)">
+                        <g id="group-title">
+                            <text id="Group-of-buttons-with-dropdowns" fill="#757575" font-family="Arial-BoldMT, Arial" font-size="14" font-weight="bold">
+                                <tspan x="0" y="13">Group of buttons with dropdowns</tspan>
+                            </text>
+                            <path d="M5.16654593e-15,20 L465,20" id="Line-Copy-6" stroke="#E8E8E8" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
