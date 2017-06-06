@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="292px" viewBox="0 0 150 292" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>device-iwatch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.9989192%" y1="-1.1793934%" x2="49.9989192%" y2="101.793244%" id="linearGradient-1">
+            <stop stop-color="#DBDBDB" offset="0%"></stop>
+            <stop stop-color="#BFBFBF" stop-opacity="0.79" offset="5.52%"></stop>
+            <stop stop-color="#FFFFFF" offset="14.11%"></stop>
+            <stop stop-color="#BFBFBF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9996352%" y1="-3.29103215%" x2="49.9996352%" y2="107.942576%" id="linearGradient-2">
+            <stop stop-color="#DBDBDB" offset="0%"></stop>
+            <stop stop-color="#BFBFBF" offset="5.52%"></stop>
+            <stop stop-color="#FFFFFF" offset="14.11%"></stop>
+            <stop stop-color="#BFBFBF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0005472%" y1="97.9120724%" x2="50.0005472%" y2="-7.91561275%" id="linearGradient-3">
+            <stop stop-color="#DBDBDB" offset="0%"></stop>
+            <stop stop-color="#BFBFBF" offset="5.52%"></stop>
+            <stop stop-color="#E6E6E6" offset="14.11%"></stop>
+            <stop stop-color="#BFBFBF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="device-iwatch" transform="translate(-11.000000, 0.000000)">
+            <g id="Group" opacity="0.7" transform="translate(0.000000, 239.000000)">
+                <image id="Bitmap" x="0.4243" y="0.6895" width="165.17" height="76.615" xlink:href="data:image/png;base64,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"></image>
+            </g>
+            <path d="M160.85,118.678 C160.85,121.26 158.756,123.354 156.174,123.354 L137.768,123.354 C135.186,123.354 133.092,121.26 133.092,118.678 L133.092,99.048 C133.092,96.466 135.186,94.373 137.768,94.373 L156.174,94.373 C158.756,94.373 160.85,96.466 160.85,99.048 L160.85,118.678 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(157.000000, 100.000000)" stroke="#B3B3B3" stroke-width="0.4675">
+                <path d="M3.85,0.412 L0.619,0.412" id="Shape"></path>
+                <path d="M3.85,2.291 L0.619,2.291" id="Shape"></path>
+                <path d="M3.85,4.167 L0.619,4.167" id="Shape"></path>
+                <path d="M3.85,6.046 L0.619,6.046" id="Shape"></path>
+                <path d="M3.85,7.924 L0.619,7.924" id="Shape"></path>
+                <path d="M3.85,9.802 L0.619,9.802" id="Shape"></path>
+                <path d="M3.85,11.682 L0.619,11.682" id="Shape"></path>
+                <path d="M3.85,13.559 L0.619,13.559" id="Shape"></path>
+                <path d="M3.85,15.438 L0.619,15.438" id="Shape"></path>
+                <path d="M3.85,17.314 L0.619,17.314" id="Shape"></path>
+            </g>
+            <path d="M155.475,143.792 C155.994,143.792 156.412,144.212 156.412,144.729 L156.412,185.859 C156.412,186.376 155.994,186.796 155.475,186.796 L149.862,186.796 C149.346,186.796 148.926,186.376 148.926,185.859 L148.926,144.729 C148.926,144.212 149.346,143.792 149.862,143.792 L155.475,143.792 Z" id="Shape" fill="#E6E6E6" fill-rule="nonzero"></path>
+            <path d="M137.736,56.736 C133.845,54.595 131.941,52.373 130.195,46.579 C127.232,36.749 126.703,23.721 126.383,14.501 C126.168,8.24 121.727,4.001 116.578,2.796 C100.654,-0.932 64.894,-0.932 49.25,2.796 C44.109,4.02 39.66,8.238 39.445,14.501 C39.127,23.72 38.596,36.749 35.633,46.579 C33.887,52.373 31.984,54.596 28.092,56.736 L137.736,56.736 Z" id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+            <path d="M137.736,221.736 C133.845,223.881 131.941,226.101 130.195,231.896 C127.232,241.724 126.703,256.626 126.383,265.845 C126.168,272.107 121.727,276.345 116.578,277.55 C100.654,281.279 64.894,281.279 49.25,277.55 C44.109,276.325 39.66,272.107 39.445,265.845 C39.127,256.626 38.596,241.724 35.633,231.896 C33.887,226.101 31.984,223.878 28.092,221.736 L137.736,221.736 L137.736,221.736 Z" id="Shape" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+            <path d="M152.082,198.105 C152.082,210.556 141.986,220.654 129.531,220.654 L36.3,220.654 C23.847,220.654 13.751,210.556 13.751,198.105 L13.751,81.199 C13.751,68.745 23.847,58.648 36.3,58.648 L129.531,58.648 C141.986,58.648 152.082,68.746 152.082,81.199 L152.082,198.105 L152.082,198.105 Z" id="Shape" fill="#1A1A1A" fill-rule="nonzero"></path>
+            <path d="M130.852,62.246 C140.059,62.246 147.547,69.734 147.547,78.941 L147.547,199.16 C147.547,208.367 140.059,215.855 130.852,215.855 L34.98,215.855 C25.773,215.855 18.285,208.367 18.285,199.16 L18.285,78.941 C18.285,69.734 25.773,62.246 34.98,62.246 L130.852,62.246 L130.852,62.246 Z M130.852,55.753 L34.98,55.753 C22.173,55.753 11.792,66.136 11.792,78.941 L11.792,199.16 C11.792,211.967 22.176,222.348 34.98,222.348 L130.852,222.348 C143.662,222.348 154.04,211.965 154.04,199.16 L154.04,78.941 C154.041,66.136 143.66,55.753 130.852,55.753 L130.852,55.753 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            <path d="M131.236,58.025 C142.578,58.025 151.804,67.254 151.804,78.595 L151.804,199.776 C151.804,211.118 142.575,220.342 131.236,220.342 L34.597,220.342 C23.254,220.342 14.028,211.115 14.028,199.776 L14.028,78.596 C14.028,67.253 23.256,58.026 34.597,58.026 L131.236,58.025 L131.236,58.025 Z M131.236,55.221 L34.597,55.221 C21.687,55.221 11.222,65.686 11.222,78.596 L11.222,199.775 C11.222,212.683 21.687,223.148 34.597,223.148 L131.236,223.148 C144.144,223.148 154.609,212.683 154.609,199.775 L154.609,78.596 C154.609,65.688 144.145,55.221 131.236,55.221 L131.236,55.221 Z" id="Shape" fill="#EAEAEA" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

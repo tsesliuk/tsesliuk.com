@@ -384,16 +384,21 @@ b, strong { font-weight: bold; }
     box-shadow: 1px 0px 5px rgba(0,0,0,0.25);
 }
 
-.landing_all_devices .blue-bar a {
-	display:block;
-	text-transform: initial;
+.landing_all_devices a {
+	display: block;
 }
 
-.landing_all_devices > div .blue-bar a {
+.landing_all_devices .blue-bar strong {
+	display:block;
+	text-transform: initial;
+	color: #1d607d;
+}
+
+.landing_all_devices a img{
   	transition: all .5s ease-in-out;
 }
 
-.landing_all_devices > div:hover .blue-bar a {
+.landing_all_devices a:hover img{
   	transform: scale(1.025); 
 }
 
@@ -419,7 +424,7 @@ b, strong { font-weight: bold; }
     line-height: 24px;
 }
 
-.landing_all_devices .desktop .blue-bar a {
+.landing_all_devices .desktop .blue-bar strong {
 	font-size: 21px;
 }
 
@@ -451,22 +456,30 @@ b, strong { font-weight: bold; }
 }
 
 .landing_all_devices .watch .blue-bar {
-    width: 150px;
-    left: -145px;
+	width: 150px;
+    left: -148px;
     font-size: 16px;
     top: 100px;
     padding: 10px 10px;
     text-align: right;
-    top: 42px;
+    top: 46px;
 }
 
-.landing_all_devices .watch .blue-bar a {
+.landing_all_devices .watch .blue-bar strong {
     font-size: 15px;
 }
 
 .landing_all_devices * {
 	box-sizing: border-box;
     position: relative;
+}
+
+.landing_all_devices .watch .inside {
+	padding: 41% 5%;
+    width: 94%;
+    height: auto;
+    border-radius: 30px;
+    padding-right: 3%;
 }
 
 .all_services .one_service {
@@ -881,7 +894,7 @@ b, strong { font-weight: bold; }
 			ul#nav > li a span.count {
 				color: #999;
 				display: block;
-				font-size: 11px;
+				font-size: 12px;
 			}
 
 		ul#nav > li a:hover {
@@ -1235,20 +1248,23 @@ b, strong { font-weight: bold; }
 
 
 		#works .item h3 {
-			color: #555;
-			font-size: 12px;
-			line-height: 22px;
-			font-weight: bold;
+		color: #555;
+	    font-size: 16px;
+	    line-height: 22px;
+	    font-weight: bold;
+	    text-align: center;
+	    margin-bottom: 5px;
 		}
 
 		#works a.permalink:hover h3 { color: #111; }
 
 	#works .item span.category {
-		color: #999;
-		display: block;
-		font-size: 12px;
-		line-height: 18px;
-		margin-bottom: 10px;
+    color: #777;
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    text-align: center;
 	}
 
 		#works a.permalink:hover span.category { color: #1d607d; }
@@ -1369,6 +1385,14 @@ b, strong { font-weight: bold; }
 				#works.single .box-info p {
 					font-size: 12px; 
 					line-height: 24px; 
+				}
+
+				#header .logo-wrap {
+					border-top:0;
+				}
+
+				#works .item {
+					text-align: center;
 				}
 			}
 
@@ -2775,17 +2799,43 @@ article.landing#mob_and_watch .landing_heroshot .iphone figure .inside{
 	width:234px;
 }
 
+
+article.landing#mob_and_watch .landing_heroshot .watch figure {
+    margin: 0;
+    padding: 15px 7px 0 5px;
+}
+
 article.landing#mob_and_watch .landing_heroshot .watch {
   	right:100px;
-  	height: 332px;
+  	height: 345px;
     width: 180px;
     bottom:0;
     position: absolute;
 }
 
 article.landing#mob_and_watch .landing_heroshot .watch .inside {
-	width: 150px;
+    width: 135px;
     height: auto;
+}
+
+article.landing#mob_and_watch img[src*="fj_ico.png"] {
+	float:left;
+	margin-right:5px;
+}
+
+article.landing#mob_and_watch img[src*="fj_ico.png"]+span {
+	line-height: 32px;
+}
+
+article.landing#mob_and_watch img[src*="fj_ico.png"]+span:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 1px;
+} 
+
+article.landing#mob_and_watch img[src*="i_m_ico.png"] {
+	height:40px;
 }
 
 article.landing#wireframes_and_spec .landing_text h2 + p {

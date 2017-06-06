@@ -53,6 +53,18 @@ $(document).ready(function(){
 	// this plugin was specifically written for Typefolio
 	$('#nav').typeMenu();
 
+	// Select all links with hashes
+	$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+
+  $(function() {
+    $("#top").on('click', function() {
+        var bottom = $(document).height() - $(window).height();
+        $("HTML, BODY").animate({
+            scrollTop: bottom
+        }, 1000);
+    });
+});
 
 });
 
