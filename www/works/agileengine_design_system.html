@@ -110,24 +110,11 @@
 	</section><!-- // #header -->
 
 
-	<!-- HERO — video demo
+	<!-- HERO
 	================================================== -->
 	<article class="page single landing first ffe9d1" id="ae_ds_hero">
 
 		<div class="container">
-
-			<section class="landing_heroshot">
-				<div class="newbrowser">
-					<div>
-						<figure>
-							<video class="inside" autoplay loop muted playsinline controls preload="metadata" poster="../images/ae_ds/ae_ds_poster.jpg">
-								<source src="../images/ae_ds/ae_ds_demo.mp4" type="video/mp4">
-								Your browser does not support embedded video.
-							</video>
-						</figure>
-					</div>
-				</div>
-			</section><!-- // .landing_heroshot -->
 
 			<header class="landing_text center">
 				<h1>
@@ -135,17 +122,22 @@
 					<small>For AgileEngine and its sub-services</small>
 				</h1>
 				<p>
-					Multi-year program owned end-to-end since 2021.<br>
-					My role wasn't to design the system — it was to set it up to run:<br>
-					team, technology, methodology, stakeholder workshops, and the handoff that made it self-sustaining.
+					A multi-year corporate design system, owned end-to-end since 2021. My role wasn't to design the system — it was to set it up so a team could grow it on their own. Picked the foundation, bootstrapped brand identity through cross-department workshops, defined the roadmap, then delegated facilitation. Today it powers internal products and every department's daily brand assets — emails, letterheads, document templates.
 				</p>
-				<p>
-					<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener">
+				<p class="ae_ds_cta">
+					<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener" class="ae_ds_pdf_link">
 						<i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;
-						View the AE DS deck (PDF, 7.4 MB)
+						View the full deck (PDF, 7.4 MB)
 					</a>
 				</p>
 			</header>
+
+			<section class="landing_heroshot ae_ds_hero_video">
+				<video autoplay loop muted playsinline controls preload="metadata" poster="../images/ae_ds/ae_ds_poster.jpg">
+					<source src="../images/ae_ds/ae_ds_demo.mp4" type="video/mp4">
+					Your browser does not support embedded video.
+				</video>
+			</section>
 
 		</div>
 
@@ -183,6 +175,48 @@
 		</div>
 
 	</article><!-- // services -->
+
+
+	<!-- STRATEGY — three decisions that made the program self-sustaining
+	================================================== -->
+	<article class="page landing cdeffd" id="ae_ds_strategy">
+
+		<div class="container">
+
+			<div class="desktop-12 columns">
+				<header class="landing_text center">
+					<h2>MY APPROACH</h2>
+					<p>three decisions that made the program self-sustaining</p>
+				</header>
+			</div>
+
+			<div class="desktop-4 columns one_service">
+				<i class="fa fa-cubes" aria-hidden="true"></i>
+				<div>
+					<strong>1. Foundation, not bespoke</strong>
+					Picked MUI + Material Design as the base — engineers ship faster and the system survives team transitions. No vanity in-house framework to maintain.
+				</div>
+			</div>
+			<div class="desktop-4 columns one_service">
+				<i class="fa fa-users" aria-hidden="true"></i>
+				<div>
+					<strong>2. Stakeholders own identity</strong>
+					Department logos came out of cross-functional workshops — owners generated, voted, and cared about the result. Designers polished, didn't dictate.
+				</div>
+			</div>
+			<div class="desktop-4 columns one_service">
+				<i class="fa fa-handshake-o" aria-hidden="true"></i>
+				<div>
+					<strong>3. Delegated facilitation</strong>
+					Once the workshop format was proven, I handed it off. The system kept producing aligned identities without me in the room — the only way to scale.
+				</div>
+			</div>
+
+			<div class="clear"></div>
+
+		</div>
+
+	</article><!-- // strategy -->
 
 
 	<!-- FOUNDATIONS — colors and accessibility
@@ -399,25 +433,23 @@
 				</header>
 				<div class="preview_box">
 					<strong>
-						<span>Stakeholder-driven process</span>
+						<span>Sub-brand: Rocky</span>
 					</strong>
 					<span>
-						I bootstrapped department identities through cross-functional
-						workshops — stakeholders generated directions and voted on what
-						fit them; designers polished the winners. Once the format was
-						proven, I delegated facilitation, and the system kept producing
-						aligned identities without me in the room.
+						The Rocky logotype, mark variants, and reverse-on-dark
+						applications were folded into the same system — so the engineering
+						studio and its sub-services share infrastructure but keep distinct identities.
 					</span>
 				</div>
 
 				<div class="preview_box">
 					<strong>
-						<span>Sub-brand: Rocky</span>
+						<span>Department identities</span>
 					</strong>
 					<span>
-						The Rocky logotype, mark variants, and reverse-on-dark
-						applications were folded into the same DS — so the engineering
-						studio and its sub-services share infrastructure but keep distinct identities.
+						Each department got its own logotype, voice, and asset set — generated
+						in stakeholder workshops, polished by designers, and folded into the
+						same library. One source of truth, many faces.
 					</span>
 				</div>
 			</div>
@@ -442,36 +474,48 @@
 			<div class="desktop-12 columns">
 				<header class="landing_text center">
 					<h2>
-						ADOPTION &amp; OUTCOMES
+						OUTCOMES
 					</h2>
 					<p>
-						Strategy, ownership, and a system that keeps producing without me in the loop.
+						a system that keeps producing — without me in the room
 					</p>
 				</header>
 			</div>
 
 			<div class="desktop-4 columns one_service">
+				<i class="fa fa-th-large" aria-hidden="true"></i>
 				<div>
-					<strong>Set up the program</strong>
-					Picked the team, chose MUI as the foundation, defined the roadmap and methodology. Workshops bootstrapped department identities — stakeholders generated, voted, designers polished.
+					<strong>Powers multiple internal products</strong>
+					Engineers consume MUI components and Figma variants from one matrix — no forks, no drift across product lines.
 				</div>
 			</div>
 			<div class="desktop-4 columns one_service">
+				<i class="fa fa-envelope-o" aria-hidden="true"></i>
 				<div>
-					<strong>Delegated and scaled</strong>
-					Once the format was running, I handed facilitation to the team. Versioned releases through internal digests keep distributed teams aligned without manual coordination.
+					<strong>Company-wide brand assets</strong>
+					Department logos, email signatures, letterheads, and document templates all draw from the same library. One source of truth, every team aligned.
 				</div>
 			</div>
 			<div class="desktop-4 columns one_service">
+				<i class="fa fa-refresh" aria-hidden="true"></i>
 				<div>
-					<strong>What it powers today</strong>
-					Multiple internal AgileEngine products. Department logos run on email signatures, document templates, and letterheads — one source of truth for company-wide assets.
+					<strong>Multi-year, self-sustaining</strong>
+					Survives team transitions and technology updates. Versioned releases through internal digests keep distributed teams in sync — adoption is automatic, not enforced.
 				</div>
+			</div>
+
+			<div class="clear"></div>
+
+			<div class="desktop-12 columns" style="text-align:center; margin-top:2rem;">
+				<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener" class="ae_ds_pdf_link">
+					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;
+					Get the full deck (PDF, 7.4 MB)
+				</a>
 			</div>
 
 		</div>
 
-	</article><!-- // adoption -->
+	</article><!-- // outcomes -->
 
 
 	<!-- Footer
