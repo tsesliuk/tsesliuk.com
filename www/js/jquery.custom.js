@@ -69,3 +69,38 @@ $(document).ready(function(){
 });
 
 
+// Back to top button — vanilla JS, no jQuery dependency
+(function () {
+	var btn = document.createElement('button');
+	btn.type = 'button';
+	btn.className = 'back-to-top';
+	btn.setAttribute('aria-label', 'Back to top');
+	btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg>';
+	document.body.appendChild(btn);
+
+	var threshold = 400;
+	var ticking = false;
+
+	function update() {
+		if (window.pageYOffset > threshold) {
+			btn.classList.add('is-visible');
+		} else {
+			btn.classList.remove('is-visible');
+		}
+		ticking = false;
+	}
+
+	window.addEventListener('scroll', function () {
+		if (!ticking) {
+			window.requestAnimationFrame(update);
+			ticking = true;
+		}
+	}, { passive: true });
+
+	btn.addEventListener('click', function () {
+		var prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
+	});
+})();
+
+
