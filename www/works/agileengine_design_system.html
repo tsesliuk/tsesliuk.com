@@ -114,29 +114,26 @@
 	================================================== -->
 	<article class="page single landing first ffe9d1" id="ae_ds_hero">
 
-		<div class="container">
+		<div class="container ae_ds_container">
 
-			<header class="landing_text center">
-				<h1>
-					AE DESIGN SYSTEM
-					<small>For AgileEngine and its sub-services</small>
-				</h1>
-				<p>
-					A multi-year corporate design system, owned end-to-end since 2021. My role wasn't to design the system — it was to set it up so a team could grow it on their own. Picked the foundation, bootstrapped brand identity through cross-department workshops, defined the roadmap, then delegated facilitation. Today it powers internal products and every department's daily brand assets — emails, letterheads, document templates.
-				</p>
-				<p class="ae_ds_cta">
-					<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener" class="ae_ds_pdf_link">
-						<i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;
-						View the full deck (PDF, 7.4 MB)
-					</a>
-				</p>
+			<header class="ae_ds_hero_header">
+				<span class="ae_ds_eyebrow">Multi-year program · 2021 → today</span>
+				<h1 class="ae_ds_title">AE Design System</h1>
+				<p class="ae_ds_lead">A corporate design system for AgileEngine and its sub-services. I owned strategy, technology, and stakeholder alignment — not the pixel craft.</p>
+				<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener" class="ae_ds_pdf_link ae_ds_pdf_link_hero">
+					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;
+					View the full deck (PDF, 7.4 MB)
+				</a>
 			</header>
 
-			<section class="landing_heroshot ae_ds_hero_video">
-				<video autoplay loop muted playsinline controls preload="metadata" poster="../images/ae_ds/ae_ds_poster.jpg">
+			<section class="ae_ds_hero_video" id="ae_ds_video_wrap">
+				<video id="ae_ds_video" autoplay loop muted playsinline controls preload="metadata" poster="../images/ae_ds/ae_ds_poster.jpg">
 					<source src="../images/ae_ds/ae_ds_demo.mp4" type="video/mp4">
 					Your browser does not support embedded video.
 				</video>
+				<button type="button" class="ae_ds_play_overlay" aria-label="Play demo video">
+					<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+				</button>
 			</section>
 
 		</div>
@@ -507,9 +504,8 @@
 			<div class="clear"></div>
 
 			<div class="desktop-12 columns" style="text-align:center; margin-top:2rem;">
-				<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener" class="ae_ds_pdf_link">
-					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;
-					Get the full deck (PDF, 7.4 MB)
+				<a href="../contact.html" class="ae_ds_pdf_link">
+					Let's talk about your design system &rarr;
 				</a>
 			</div>
 
@@ -547,6 +543,23 @@
 
 	<script src="../js/jquery.custom.js"></script>
 
+	<script>
+		// Hero video — overlay play button (visible when paused, hidden when playing)
+		(function () {
+			var v = document.getElementById('ae_ds_video');
+			var wrap = document.getElementById('ae_ds_video_wrap');
+			if (!v || !wrap) return;
+			function sync() {
+				wrap.classList.toggle('is-playing', !v.paused && !v.ended);
+			}
+			v.addEventListener('play', sync);
+			v.addEventListener('pause', sync);
+			v.addEventListener('ended', sync);
+			var btn = wrap.querySelector('.ae_ds_play_overlay');
+			if (btn) btn.addEventListener('click', function () { v.play(); });
+			sync();
+		})();
+	</script>
 
 <!-- End Document
 ================================================== -->
