@@ -2851,3 +2851,64 @@ article.landing#wireframes_and_spec .preview_box img {
 article.landing#wireframes_and_spec .landing_text {
     padding-top: 120px;
 }
+
+/* Back to top button
+================================================== */
+.back-to-top {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	width: 48px;
+	height: 48px;
+	padding: 0;
+	border: none;
+	border-radius: 50%;
+	background: #1d607d;
+	color: #fff;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(10px);
+	transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease, background 0.2s ease;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+}
+.back-to-top.is-visible {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+.back-to-top:hover {
+	background: #144860;
+	transform: translateY(-2px);
+}
+.back-to-top:focus-visible {
+	outline: 2px solid #5bbad5;
+	outline-offset: 3px;
+}
+.back-to-top svg {
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+}
+@media (max-width: 768px) {
+	.back-to-top {
+		right: 18px;
+		bottom: 18px;
+		width: 44px;
+		height: 44px;
+	}
+}
+@media (prefers-reduced-motion: reduce) {
+	.back-to-top {
+		transition: opacity 0.2s ease, visibility 0.2s ease;
+		transform: none;
+	}
+	.back-to-top.is-visible,
+	.back-to-top:hover {
+		transform: none;
+	}
+}
