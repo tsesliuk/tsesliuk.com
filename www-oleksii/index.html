@@ -32,16 +32,22 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Oleksii Tsesliuk",
-  "alternateName": "Olexiy Tsesliuk",
+  "alternateName": ["Olexiy Tsesliuk", "Alexey Tsesliuk", "Олексій Цеслюк"],
   "jobTitle": "UI/UX Director, System Analyst, PhD Candidate",
   "url": "http://oleksii.tsesliuk.com/",
   "image": "http://oleksii.tsesliuk.com/img/photo.png",
   "email": "email@tsesliuk.com",
   "description": "UI/UX Director, System Analyst, and PhD Candidate researching AI-driven UX evaluation. 20+ years in product design and data-driven platforms.",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "State University of Trade and Economics",
+    "url": "https://knute.edu.ua/"
+  },
   "sameAs": [
     "https://www.linkedin.com/in/tsesliuk",
     "https://iso9241.org",
-    "https://tsesliuk.com"
+    "https://tsesliuk.com",
+    "https://knute.edu.ua/blog/read/?pid=50670"
   ]
 }
 </script>
@@ -221,6 +227,27 @@ footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-si
   .companies-row span{font-size:.8rem}
   .companies-employers{gap:1rem 1.5rem}
 }
+
+/* Back to top */
+.back-to-top{
+  position:fixed;right:24px;bottom:24px;width:44px;height:44px;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:50%;color:var(--text);cursor:pointer;
+  opacity:0;visibility:hidden;transform:translateY(8px);
+  transition:opacity .25s ease,visibility .25s ease,transform .25s ease,
+    border-color .25s ease,color .25s ease,background .25s ease;
+  z-index:200;padding:0;
+}
+.back-to-top.is-visible{opacity:1;visibility:visible;transform:translateY(0)}
+.back-to-top:hover{border-color:var(--accent);color:var(--accent);background:var(--bg-card-hover)}
+.back-to-top:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.back-to-top svg{width:16px;height:16px}
+@media (max-width:768px){.back-to-top{right:16px;bottom:16px;width:40px;height:40px}}
+@media (prefers-reduced-motion:reduce){
+  .back-to-top{transition:opacity .2s ease,visibility .2s ease;transform:none}
+  .back-to-top.is-visible,.back-to-top:hover{transform:none}
+}
 </style>
 
 <!-- Google tag (gtag.js) -->
@@ -249,6 +276,7 @@ footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-si
 <nav>
   <div class="logo">OT</div>
   <div class="links">
+    <a href="https://tsesliuk.com/">Works</a>
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
     <a href="#research">Research</a>
@@ -274,7 +302,7 @@ footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-si
       </div>
     </div>
     <div class="hero-photo fade-in">
-      <img src="img/photo.png" alt="Oleksii Tsesliuk">
+      <img src="img/photo.png" alt="Oleksii Tsesliuk — UI/UX Director and PhD researcher">
     </div>
   </div>
 </section>
@@ -373,7 +401,7 @@ footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-si
     <div class="companies-employers">
       <span>AgileEngine</span>
       <span>GlobalLogic</span>
-      <span>DXC Technology</span>
+      <span>Luxoft, a DXC Technology Company</span>
       <span>Developex</span>
     </div>
   </div>
@@ -388,7 +416,7 @@ footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-si
       <h3>Systems Modeling of Heuristic User Interface Evaluation</h3>
       <div class="meta">
         PhD Candidate · F4 «Systems Analysis and Data Science» · 2025–2029<br>
-        State University of Trade and Economics (SUTE), Kyiv<br>
+        <a href="https://knute.edu.ua/blog/read/?pid=50670" target="_blank" rel="noopener">State University of Trade and Economics (SUTE), Kyiv — faculty profile ↗</a><br>
         Supervisor: Prof. Andrii Roskladka, Dr. of Economic Sciences
       </div>
       <p style="font-size:.9rem;color:var(--text-dim);line-height:1.7">Building a system that ingests UI screenshots, recognises interface patterns using computer vision, collects expert assessments as training data, and trains models to simulate expert-level UX quality judgments — grounded in Nielsen-Norman heuristics, ISO 9241, and WCAG 2.1.</p>
@@ -547,6 +575,28 @@ window.addEventListener('scroll', () => {
   nav.style.transform = y > lastY && y > 80 ? 'translateY(-100%)' : 'translateY(0)';
   lastY = y;
 });
+
+// Back to top
+(function(){
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'back-to-top';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><polyline points="6 14 12 8 18 14"/></svg>';
+  document.body.appendChild(btn);
+  let ticking = false;
+  function update(){
+    btn.classList.toggle('is-visible', window.pageYOffset > 400);
+    ticking = false;
+  }
+  window.addEventListener('scroll', () => {
+    if (!ticking) { window.requestAnimationFrame(update); ticking = true; }
+  }, { passive: true });
+  btn.addEventListener('click', () => {
+    const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+  });
+})();
 </script>
 </body>
 </html>
