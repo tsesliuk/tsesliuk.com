@@ -2680,6 +2680,44 @@ article.ffe9d1 .landing_text p {
 }
 
 
+/* AE Design System — case-specific
+================================================== */
+.ae_ds_hero_video {
+	max-width: 1024px;
+	margin: 2rem auto 0;
+	padding: 0 20px;
+}
+.ae_ds_hero_video video {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-height: 65vh;
+	border-radius: 12px;
+	box-shadow: 0 12px 40px rgba(122, 74, 0, 0.18);
+	background: #fff;
+}
+
+.ae_ds_cta {
+	margin-top: 1.2rem;
+}
+.ae_ds_pdf_link {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.7rem 1.2rem;
+	border: 1px solid rgba(122, 74, 0, 0.35);
+	border-radius: 6px;
+	font-weight: 600;
+	color: #7a4a00;
+	text-decoration: none;
+	transition: background 0.2s ease, border-color 0.2s ease;
+}
+.ae_ds_pdf_link:hover {
+	background: rgba(122, 74, 0, 0.08);
+	border-color: #7a4a00;
+}
+
+
 
 
 /* -- unique styles --*/
