@@ -2691,8 +2691,8 @@ article.ffe9d1 .landing_text p {
 .ae_ds_hero_header {
 	text-align: center;
 	max-width: 760px;
-	margin: 0 auto 2.5rem;
-	padding: 1rem 0 0;
+	margin: 2.5rem auto 1.5rem;
+	padding: 0;
 }
 .ae_ds_eyebrow {
 	display: inline-block;
@@ -2706,20 +2706,30 @@ article.ffe9d1 .landing_text p {
 }
 .ae_ds_title {
 	font-family: 'Yantramanav', 'Helvetica Neue', sans-serif;
-	font-size: clamp(2.4rem, 5.2vw, 4rem);
+	font-size: clamp(2.2rem, 4.8vw, 3.6rem);
 	line-height: 1.05;
 	font-weight: 700;
 	color: #4a2d00;
-	margin: 0 0 0.9rem;
+	margin: 0 0 0.6rem;
 	letter-spacing: -0.01em;
+}
+.ae_ds_tagline {
+	font-family: 'Yantramanav', 'Helvetica Neue', sans-serif;
+	font-size: clamp(1rem, 1.4vw, 1.15rem);
+	line-height: 1.4;
+	color: #7a4a00;
+	opacity: 0.85;
+	margin: 0 auto 1.4rem;
+	font-weight: 400;
 }
 .ae_ds_lead {
 	font-family: 'Yantramanav', 'Helvetica Neue', sans-serif;
-	font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+	font-size: clamp(1.05rem, 1.55vw, 1.2rem);
 	line-height: 1.55;
-	color: #6a3f00;
-	margin: 0 auto 1.6rem;
-	max-width: 640px;
+	color: #4a2d00;
+	margin: 0 auto 1.8rem;
+	max-width: 600px;
+	font-weight: 500;
 }
 
 .ae_ds_pdf_link {
@@ -2803,9 +2813,16 @@ article.ffe9d1 .landing_text p {
 	pointer-events: none;
 }
 
+.ae_ds_outcomes_cta {
+	text-align: center;
+	margin-top: 2.5rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid rgba(122, 74, 0, 0.18);
+}
+
 @media (max-width: 768px) {
 	.ae_ds_container { padding: 0 16px; }
-	.ae_ds_hero_header { padding-top: 0.5rem; margin-bottom: 1.5rem; }
+	.ae_ds_hero_header { margin-top: 1.8rem; margin-bottom: 1rem; }
 	.ae_ds_play_overlay { width: 64px; height: 64px; }
 	.ae_ds_play_overlay svg { width: 26px; height: 26px; }
 }
