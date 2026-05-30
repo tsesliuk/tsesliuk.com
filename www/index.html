@@ -3,34 +3,24 @@
 <html lang="en">
 <head>
 
-	<!-- Basic Page Needs
-	================================================== -->
 	<meta charset="utf-8">
 	<title>Oleksii Tsesliuk · UI/UX Director & Design Systems</title>
-	<meta name="description" content="Portfolio of Oleksii Tsesliuk. UI/UX Director and System Analyst with 20+ years across BigData platforms, healthcare, mobile apps, and design systems.">
+	<meta name="description" content="Portfolio of Oleksii Tsesliuk. UI/UX Director and System Analyst with 20 years across BigData platforms, healthcare, mobile apps, and design systems.">
 	<meta name="author" content="Oleksii Tsesliuk">
 
-	<!-- Mobile Specific Metas
-	================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Open Graph / Twitter Card -->
+	<!-- Open Graph -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://tsesliuk.com/">
 	<meta property="og:title" content="Oleksii Tsesliuk · UI/UX Director & Design Systems">
-	<meta property="og:description" content="Portfolio of Oleksii Tsesliuk. UI/UX Director and System Analyst with 20+ years across BigData platforms, healthcare, mobile apps, and design systems.">
-	<meta name="twitter:card" content="summary">
-	
-	<!-- CSS Files
-	* cssreset-min.css 			- CSS reset
-	* typegrid.css				- Responsive grid system
-	* style.css					- Main CSS file
-	
-	Original LESS Stylesheet
-	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
-	================================================== -->
-	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta property="og:description" content="UI/UX Director and System Analyst. 20 years turning complex platforms into clear, consistent products.">
+	<meta property="og:image" content="https://tsesliuk.com/images/ae_ds/ae_ds_poster.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEB8CH9ZB"></script>
@@ -53,265 +43,298 @@
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
 
-
-	<!-- Favicons
-	================================================== -->
+	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1d607d">
 	<meta name="theme-color" content="#ffffff">
 
+	<style>
+	:root{
+		--ink:#1d1d1f;
+		--ink-soft:#6e6e73;
+		--ink-faint:#86868b;
+		--bg:#ffffff;
+		--bg-soft:#f5f5f7;
+		--bg-card:#f5f5f7;
+		--line:#d2d2d7;
+		--line-soft:#e8e8ed;
+		--accent:#1d607d;
+		--accent-ink:#16465c;
+		--radius:18px;
+		--maxw:1120px;
+	}
+	*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+	html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+	body{
+		font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+		color:var(--ink);background:var(--bg);line-height:1.5;
+		-webkit-font-smoothing:antialiased;
+	}
+	img{max-width:100%;display:block}
+	a{color:inherit;text-decoration:none}
+	.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+	/* Nav */
+	.nav{
+		position:sticky;top:0;z-index:100;
+		background:rgba(255,255,255,0.8);backdrop-filter:saturate(180%) blur(20px);
+		-webkit-backdrop-filter:saturate(180%) blur(20px);
+		border-bottom:1px solid var(--line-soft);
+	}
+	.nav__inner{max-width:var(--maxw);margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
+	.nav__brand{font-weight:700;font-size:0.95rem;letter-spacing:-0.01em;color:var(--ink)}
+	.nav__links{display:flex;gap:2rem;list-style:none}
+	.nav__links a{font-size:0.85rem;color:var(--ink-soft);transition:color 0.2s}
+	.nav__links a:hover{color:var(--ink)}
+	@media(max-width:560px){.nav__links{gap:1.2rem}.nav__links a{font-size:0.8rem}}
+
+	/* Hero */
+	.hero{padding:clamp(3rem,9vw,6rem) 0 clamp(2.5rem,6vw,4rem)}
+	.hero__grid{display:grid;grid-template-columns:1.25fr 0.85fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+	.hero__eyebrow{font-size:0.82rem;font-weight:600;letter-spacing:0.02em;color:var(--accent);margin-bottom:1.4rem}
+	.hero h1{
+		font-size:clamp(2.4rem,5.5vw,4.4rem);line-height:1.05;font-weight:800;
+		letter-spacing:-0.03em;max-width:16ch;margin-bottom:1.4rem;color:var(--ink);
+	}
+	.hero__sub{font-size:clamp(1.05rem,1.7vw,1.3rem);line-height:1.45;color:var(--ink-soft);max-width:42ch;margin-bottom:1.6rem;font-weight:400}
+	.hero__tags{display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.8rem}
+	.hero__tags span{
+		font-size:0.78rem;font-weight:500;color:var(--ink-soft);
+		padding:0.35rem 0.8rem;border:1px solid var(--line);border-radius:980px;
+	}
+	.hero__art{position:relative}
+	.hero__art img{width:100%;max-width:460px;margin:0 auto;display:block;filter:saturate(0.95)}
+	@media(max-width:760px){
+		.hero__grid{grid-template-columns:1fr;gap:1.5rem}
+		.hero__art{order:-1;max-width:360px}
+	}
+	.hero__cta{display:flex;gap:0.8rem;flex-wrap:wrap}
+	.btn{
+		display:inline-flex;align-items:center;gap:0.45rem;
+		padding:0.8rem 1.5rem;border-radius:980px;font-size:0.92rem;font-weight:500;
+		transition:transform 0.15s ease,background 0.2s ease,border-color 0.2s ease;
+		border:1px solid transparent;cursor:pointer;
+	}
+	.btn--primary{background:var(--ink);color:#fff}
+	.btn--primary:hover{background:#000;transform:translateY(-1px)}
+	.btn--ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+	.btn--ghost:hover{border-color:var(--ink)}
+
+	/* Section heading */
+	.sec{padding:clamp(2.5rem,6vw,4rem) 0}
+	.sec__head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:2rem;gap:1rem}
+	.sec__head h2{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:700;letter-spacing:-0.02em}
+	.sec__head .count{font-size:0.9rem;color:var(--ink-faint);font-weight:500;white-space:nowrap}
+
+	/* Featured */
+	.featured{
+		display:grid;grid-template-columns:1.4fr 1fr;gap:0;
+		background:var(--bg-card);border-radius:var(--radius);overflow:hidden;
+		transition:transform 0.3s ease,box-shadow 0.3s ease;
+	}
+	.featured:hover{transform:translateY(-4px);box-shadow:0 30px 60px rgba(0,0,0,0.10)}
+	.featured__media{position:relative;overflow:hidden;background:#0d0d0f}
+	.featured__media img{width:100%;height:100%;object-fit:cover;transition:transform 0.5s ease}
+	.featured:hover .featured__media img{transform:scale(1.03)}
+	.featured__body{padding:clamp(1.8rem,3vw,2.8rem);display:flex;flex-direction:column;justify-content:center}
+	.featured__tag{font-size:0.74rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:0.9rem}
+	.featured__body h3{font-size:clamp(1.5rem,2.6vw,2rem);font-weight:700;letter-spacing:-0.02em;margin-bottom:0.7rem;line-height:1.1}
+	.featured__body p{font-size:1rem;color:var(--ink-soft);margin-bottom:1.4rem;line-height:1.5}
+	.featured__link{font-size:0.92rem;font-weight:600;color:var(--ink);display:inline-flex;align-items:center;gap:0.4rem}
+	.featured__link span{transition:transform 0.2s ease}
+	.featured:hover .featured__link span{transform:translateX(4px)}
+	@media(max-width:760px){.featured{grid-template-columns:1fr}.featured__media{aspect-ratio:16/10}}
+
+	/* Work grid */
+	.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.4rem,2.5vw,2rem)}
+	@media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
+	@media(max-width:520px){.grid{grid-template-columns:1fr}}
+	.card{display:flex;flex-direction:column;transition:transform 0.25s ease}
+	.card:hover{transform:translateY(-4px)}
+	.card__media{
+		aspect-ratio:4/3;background:var(--bg-card);border-radius:var(--radius);
+		overflow:hidden;display:flex;align-items:center;justify-content:center;
+		margin-bottom:1rem;transition:background 0.25s ease;
+	}
+	.card:hover .card__media{background:#ececf0}
+	.card__media img{width:100%;height:100%;object-fit:cover;transition:transform 0.4s ease}
+	.card:hover .card__media img{transform:scale(1.04)}
+	.card__title{font-size:1.02rem;font-weight:600;letter-spacing:-0.01em;margin-bottom:0.25rem;color:var(--ink)}
+	.card__cat{font-size:0.82rem;color:var(--ink-faint);line-height:1.4}
+
+	/* Footer */
+	.footer{border-top:1px solid var(--line-soft);margin-top:clamp(3rem,7vw,5rem);padding:clamp(2.5rem,5vw,3.5rem) 0}
+	.footer__inner{display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+	.footer__brand{font-weight:700;font-size:1.05rem;margin-bottom:0.3rem}
+	.footer__role{font-size:0.85rem;color:var(--ink-faint)}
+	.footer__links{display:flex;flex-direction:column;gap:0.5rem;text-align:right}
+	.footer__links a{font-size:0.9rem;color:var(--ink-soft);transition:color 0.2s}
+	.footer__links a:hover{color:var(--accent)}
+	.footer__copy{font-size:0.78rem;color:var(--ink-faint);margin-top:2rem}
+	@media(max-width:520px){.footer__links{text-align:left}}
+	</style>
+
 </head>
+<body>
 
-<body id="works-p">
+	<!-- Nav -->
+	<nav class="nav">
+		<div class="nav__inner">
+			<a href="/" class="nav__brand">Oleksii Tsesliuk</a>
+			<ul class="nav__links">
+				<li><a href="#work">Work</a></li>
+				<li><a href="https://oleksii.tsesliuk.com/">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 
-
-	<!-- Header - Half Logo
-	================================================== -->
-	<section id="header">
-
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
-
-			Top Bar & Menu (#nav)
-
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
-					
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				<ul id="nav" class="full">
-					<li>
-						<a href="index.html">
-							Works
-							<span class="count hide-on-mobile">Design, Coding, Management</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://oleksii.tsesliuk.com/">
-							About
-							<span class="count hide-on-mobile">Skills, Experience, Goals</span>
-						</a>
-					</li>
-					<li>
-						<a href="contact.html">
-							Contacts
-							<span class="count hide-on-mobile">Email, LinkedIn</span>
-						</a>
-					</li>
-				</ul><!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-		<div class="logo-wrap">
-			<div class="container">
-				<div class="desktop-10 tablet-12 columns">
-					<h1>
-						<a href="https://tsesliuk.com" title="Oleksii Tsesliuk - Designer">TSESLIUK</a>
-						<p class="site-desc">
-							DESIGN<br>
-							CODING<br>
-							MANAGEMENT
-						</p><!-- // .site-desc -->
-					</h1>
-				</div><!-- // .desktop-6 -->
-
-				<div class="desktop-2 tablet-12 columns">
-				</div><!-- // .desktop-6 -->
-
-				<div class="clear"></div>
-			</div><!-- // .container -->
-		</div><!-- // .logo-wrap -->
-	</section><!-- // #header -->
-
-
-	<!-- Works
-	================================================== -->
-	<section id="works">
-		<div class="container">
-			<div class="desktop-12 columns"><div class="border-top"></div></div>
-
-				<a href="/works/agileengine_design_system.html" class="permalink" title="AgileEngine Design System. Multi-year corporate design system.">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/ae_ds_thumbnail.jpg" alt='AgileEngine Design System case study' loading="lazy" decoding="async" />
-							<h3>AgileEngine Design System</h3>
-							<span class="category">Design System, Multi-brand, Figma + MUI</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<a href="/works/bigdata.html" class="permalink" title="Design for BigData Web Application (B2B)">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/mi_preview.svg" alt='UI/UX Design for BigData project' />
-							<h3>BigData Web Application (B2B)</h3>
-							<span class="category">UI/UX Design, Front-End, Management</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-			
-				<a href="/works/onboarding.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/onboarding_hoop.svg" alt='Design of Ondoarding for Mobile Application "Hoop messenger"' />
-							<h3>Onboarding for Mobile App</h3>
-							<span class="category">UI/UX Design, Illustrations</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<a href="/works/messenger.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/hoop_thumbnail.svg" alt='Design of Mobile Messenger' />
-							<h3>Messenger Mobile App</h3>
-							<span class="category">UI/UX Design, Motion Design</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<div class="clear"></div>
-
-				<a href="/works/slideshow.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/slideshow_preview.svg" alt='UI and UX design for slideshow on the large screens' />
-							<h3>Slideshow for large screens</h3>
-							<span class="category">UI/UX Design</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<a href="/works/headphone_framework.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/headphone_framework.png" alt='Design of the Framework for Headphone hardware' loading="lazy" decoding="async" />
-							<h3>Headphone Framework for Hardware</h3>
-							<span class="category">UI/UX Design</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<a href="/works/uistandards.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/ui_standards.svg" alt='Design of UI framework for Big Data project' loading="lazy" decoding="async" />
-							<h3>Standards for BIG DATA project</h3>
-							<span class="category">UI/UX Design, HTML/CSS</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<a href="/works/bigdata_grids.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/bigdata_grid.svg" alt='Design of the grids for BIG DATA project' loading="lazy" decoding="async" />
-							<h3>Grids redesign for BIG DATA</h3>
-							<span class="category">UI/UX Design, HTML/CSS</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<div class="clear"></div>
-
-				<a href="/works/themeable_ui.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/themeable_ui.svg" alt='Themeable UI for BIG DATA project' loading="lazy" decoding="async" />
-							<h3>Themeable UI for BIG DATA project</h3>
-							<span class="category">MANAGEMENT, UI/UX Design, HTML/SCSS</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<a href="/works/emails_bigdata.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/emails_bigdata.svg" alt='Design of Emails for the BIG DATA web app' loading="lazy" decoding="async" />
-							<h3>Emails for BIG DATA</h3>
-							<span class="category">UI/UX Design, HTML/CSS</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<a href="/works/apple_watch_bigdata_app.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/apple_watch_bigdata.svg" alt='Design of Apple Watch Application for the BIG DATA project' loading="lazy" decoding="async" />
-							<h3>Application for Apple Watch</h3>
-							<span class="category">UI/UX Design</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-				<a href="/works/mobile_web_app.html" class="permalink">
-					<div class="desktop-3 mobile-1 columns">
-						<div class="item first-row">
-							<img src="images/thumbnails/mobile_web_application.svg" alt='Design of Ondoarding for Mobile Application "Hoop messenger"' loading="lazy" decoding="async" />
-							<h3>Mobile Web Application</h3>
-							<span class="category">UI/UX Design, Motion design</span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-3 -->
-				</a>
-
-
-				<div class="clear"></div>
-			
-		</div><!-- // .container -->
-	</section><!-- // section#works -->
-
-
-
-
-	<!-- Footer
-	================================================== -->
-	<section id="footer">
-		<div class="container">
-
-			<div class="contacts_line">
-				<span class="contacts_cell"><span>Email:</span> <a href="mailto:email@tsesliuk.com" title="Designer: Oleksii Tsesliuk (Email)" target="_blank">email@tsesliuk.com</a></span>
-				<span class="contacts_cell"><span>linkedIn:</span> <a href="https://ua.linkedin.com/in/tsesliuk" target="_blank" title="Designer: Oleksii Tsesliuk (LinkedIn account)">linkedin.com/in/tsesliuk</a></span>
+	<!-- Hero -->
+	<header class="hero">
+		<div class="wrap">
+			<div class="hero__grid">
+				<div class="hero__text">
+					<div class="hero__eyebrow">UI/UX Director · System Analyst · 20 years</div>
+					<h1>Design programs that scale across platforms.</h1>
+					<p class="hero__sub">I lead design end to end. Design systems, consistent GUI across web and desktop, and AI product ownership.</p>
+					<div class="hero__tags">
+						<span>Design Strategy</span>
+						<span>Design Systems</span>
+						<span>AI Product Ownership</span>
+						<span>Multi-platform GUI</span>
+						<span>Redesign Programs</span>
+					</div>
+					<div class="hero__cta">
+						<a href="#work" class="btn btn--primary">View work</a>
+						<a href="https://oleksii.tsesliuk.com/" class="btn btn--ghost">About me</a>
+					</div>
+				</div>
+				<div class="hero__art">
+					<img src="images/banners/works-banner.svg" alt="Oleksii Tsesliuk illustrated portrait with skills and projects" width="460" height="210">
+				</div>
 			</div>
+		</div>
+	</header>
 
-			<div class="clear"></div>
+	<!-- Featured -->
+	<section class="sec" id="work">
+		<div class="wrap">
+			<div class="sec__head">
+				<h2>Featured</h2>
+			</div>
+			<a href="/works/agileengine_design_system.html" class="featured" title="AgileEngine Design System case study">
+				<div class="featured__media">
+					<img src="images/ae_ds/ae_ds_poster.jpg" alt="AgileEngine Design System case study" loading="lazy" decoding="async">
+				</div>
+				<div class="featured__body">
+					<div class="featured__tag">Design System Program</div>
+					<h3>AgileEngine Design System</h3>
+					<p>A company-wide design system I led end to end. Strategy, stakeholder workshops, team direction, and adoption across products and sub-brands.</p>
+					<span class="featured__link">View case study <span>&rarr;</span></span>
+				</div>
+			</a>
+		</div>
+	</section>
 
-		</div><!-- // .container -->
+	<!-- Selected work grid -->
+	<section class="sec">
+		<div class="wrap">
+			<div class="sec__head">
+				<h2>Selected work</h2>
+				<span class="count">11 projects</span>
+			</div>
+			<div class="grid">
 
-	</section><!-- // section#footer -->
+				<a href="/works/bigdata.html" class="card" title="BigData Web Application">
+					<div class="card__media"><img src="images/thumbnails/mi_preview.svg" alt="UI/UX design for BigData web application" loading="lazy" decoding="async"></div>
+					<div class="card__title">BigData Web Application</div>
+					<div class="card__cat">UI/UX Design, Front-End, Management</div>
+				</a>
 
+				<a href="/works/themeable_ui.html" class="card" title="Themeable UI for BigData">
+					<div class="card__media"><img src="images/thumbnails/themeable_ui.svg" alt="Themeable UI for BigData project" loading="lazy" decoding="async"></div>
+					<div class="card__title">Themeable UI</div>
+					<div class="card__cat">Management, UI/UX Design, HTML/SCSS</div>
+				</a>
 
-	<!-- JS
-	================================================== -->
-	<!-- 
-		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
-		Use jQuery 1.8 until Flexslider 2.2 stable version is released
-	-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-	<script src="js/jQuery.BlackAndWhite.min.js"></script>
-	<script src="js/modernizr.js"></script>
-	<script src="js/less-1.4.0.min.js"></script>
-	<script src="js/jquery.typeMenu.js"></script>
-	<script src="js/jquery.typeSticky.js"></script>
+				<a href="/works/uistandards.html" class="card" title="UI Standards for BigData">
+					<div class="card__media"><img src="images/thumbnails/ui_standards.svg" alt="UI framework standards for BigData project" loading="lazy" decoding="async"></div>
+					<div class="card__title">UI Standards</div>
+					<div class="card__cat">UI/UX Design, HTML/CSS</div>
+				</a>
 
+				<a href="/works/bigdata_grids.html" class="card" title="Grids redesign for BigData">
+					<div class="card__media"><img src="images/thumbnails/bigdata_grid.svg" alt="Grids redesign for BigData project" loading="lazy" decoding="async"></div>
+					<div class="card__title">Grids Redesign</div>
+					<div class="card__cat">UI/UX Design, HTML/CSS</div>
+				</a>
 
-	
+				<a href="/works/onboarding.html" class="card" title="Onboarding for mobile app">
+					<div class="card__media"><img src="images/thumbnails/onboarding_hoop.svg" alt="Onboarding for mobile application" loading="lazy" decoding="async"></div>
+					<div class="card__title">Mobile Onboarding</div>
+					<div class="card__cat">UI/UX Design, Illustrations</div>
+				</a>
 
-	
+				<a href="/works/messenger.html" class="card" title="Messenger mobile app">
+					<div class="card__media"><img src="images/thumbnails/hoop_thumbnail.svg" alt="Mobile messenger design" loading="lazy" decoding="async"></div>
+					<div class="card__title">Messenger App</div>
+					<div class="card__cat">UI/UX Design, Motion Design</div>
+				</a>
 
+				<a href="/works/mobile_web_app.html" class="card" title="Mobile web application">
+					<div class="card__media"><img src="images/thumbnails/mobile_web_application.svg" alt="Mobile web application design" loading="lazy" decoding="async"></div>
+					<div class="card__title">Mobile Web App</div>
+					<div class="card__cat">UI/UX Design, Motion Design</div>
+				</a>
 
-	
+				<a href="/works/apple_watch_bigdata_app.html" class="card" title="Apple Watch application">
+					<div class="card__media"><img src="images/thumbnails/apple_watch_bigdata.svg" alt="Apple Watch application for BigData" loading="lazy" decoding="async"></div>
+					<div class="card__title">Apple Watch App</div>
+					<div class="card__cat">UI/UX Design</div>
+				</a>
 
+				<a href="/works/emails_bigdata.html" class="card" title="Email design system for BigData">
+					<div class="card__media"><img src="images/thumbnails/emails_bigdata.svg" alt="Email templates for BigData web app" loading="lazy" decoding="async"></div>
+					<div class="card__title">Email System</div>
+					<div class="card__cat">UI/UX Design, HTML/CSS</div>
+				</a>
 
-	<script src="js/jquery.custom.js"></script>
+				<a href="/works/slideshow.html" class="card" title="Slideshow for large screens">
+					<div class="card__media"><img src="images/thumbnails/slideshow_preview.svg" alt="Slideshow UI for large screens" loading="lazy" decoding="async"></div>
+					<div class="card__title">Large-Screen Slideshow</div>
+					<div class="card__cat">UI/UX Design</div>
+				</a>
 
+				<a href="/works/headphone_framework.html" class="card" title="Headphone hardware framework">
+					<div class="card__media"><img src="images/thumbnails/headphone_framework.png" alt="Design framework for headphone hardware" loading="lazy" decoding="async"></div>
+					<div class="card__title">Headphone Framework</div>
+					<div class="card__cat">UI/UX Design, Hardware</div>
+				</a>
 
-<!-- End Document
-================================================== -->
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="wrap">
+			<div class="footer__inner">
+				<div>
+					<div class="footer__brand">Oleksii Tsesliuk</div>
+					<div class="footer__role">UI/UX Director · System Analyst</div>
+				</div>
+				<div class="footer__links">
+					<a href="mailto:email@tsesliuk.com">email@tsesliuk.com</a>
+					<a href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a>
+					<a href="https://oleksii.tsesliuk.com/">About me</a>
+				</div>
+			</div>
+			<div class="footer__copy">&copy; 2026 Oleksii Tsesliuk. Kyiv, Ukraine.</div>
+		</div>
+	</footer>
+
 </body>
 </html>
