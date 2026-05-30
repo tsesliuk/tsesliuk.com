@@ -1,39 +1,26 @@
 
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
 
-	<!-- Basic Page Needs
-	================================================== -->
 	<meta charset="utf-8">
-	<title>Oleksii Tsesliuk | AgileEngine Design System</title>
-	<meta name="description" content="Multi-year corporate design system for AgileEngine. MUI based Figma library. Owned and led by Oleksii Tsesliuk.">
+	<title>AgileEngine Design System · Case Study · Oleksii Tsesliuk</title>
+	<meta name="description" content="How I led AgileEngine's company-wide design system as a program. Strategy, stakeholder workshops, team direction, and adoption across products and sub-brands.">
 	<meta name="author" content="Oleksii Tsesliuk">
 
 	<!-- Open Graph -->
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="AgileEngine Design System. Case Study">
-	<meta property="og:description" content="Multi-year corporate design system: foundations, components, multi-brand scaling. MUI + Material Design + WCAG 2.1 AA.">
-	<meta property="og:image" content="../images/ae_ds/ae_ds_poster.jpg">
+	<meta property="og:description" content="How I led a company-wide design system end to end. Strategy, workshops, team direction, and adoption across products.">
+	<meta property="og:image" content="https://tsesliuk.com/images/ae_ds/ae_ds_poster.jpg">
 
-	<!-- Mobile Specific Metas
-	================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- CSS Files
-	================================================== -->
-	<link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;500;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/typegrid.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
-	<!--[if lt IE 9]>
-		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-		<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEB8CH9ZB"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -56,14 +43,182 @@
 
 	<script src="https://use.fontawesome.com/a675879d09.js"></script>
 
-	<!-- Favicons
-	================================================== -->
+	<!-- Favicons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
+
+	<style>
+	/* AgileEngine Design System case study, scoped styles
+	================================================== */
+	.aeds {
+		--ink: #16181d;
+		--ink-soft: #5b6068;
+		--ink-faint: #9aa0a8;
+		--accent: #ff6a00;
+		--accent-soft: #fff3ea;
+		--line: #e7e8eb;
+		--surface: #ffffff;
+		--surface-alt: #f7f5f2;
+		--surface-dark: #16181d;
+		--radius: 14px;
+		--shadow: 0 18px 50px rgba(22, 24, 29, 0.10);
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+		color: var(--ink);
+		background: var(--surface);
+		-webkit-font-smoothing: antialiased;
+		line-height: 1.6;
+	}
+	.aeds * { box-sizing: border-box; }
+	.aeds img { max-width: 100%; display: block; }
+	.aeds-wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+	.aeds-section { padding: clamp(3rem, 8vw, 6rem) 0; }
+	.aeds-section--alt { background: var(--surface-alt); }
+	.aeds h2 {
+		font-family: 'Yantramanav', sans-serif;
+		font-size: clamp(1.7rem, 3.4vw, 2.5rem);
+		line-height: 1.12;
+		font-weight: 700;
+		letter-spacing: -0.01em;
+		margin: 0 0 0.6rem;
+		color: var(--ink);
+	}
+	.aeds-eyebrow {
+		display: inline-block;
+		font-size: 0.72rem;
+		font-weight: 700;
+		letter-spacing: 0.16em;
+		text-transform: uppercase;
+		color: var(--accent);
+		margin-bottom: 0.9rem;
+	}
+	.aeds-section__intro { max-width: 680px; margin: 0 auto clamp(2rem, 5vw, 3rem); text-align: center; }
+	.aeds-section__intro p { font-size: clamp(1rem, 1.5vw, 1.15rem); color: var(--ink-soft); margin: 0; }
+
+	/* Hero */
+	.aeds-hero { padding: clamp(2.5rem, 6vw, 4.5rem) 0 0; text-align: center; }
+	.aeds-hero__eyebrow {
+		font-size: 0.74rem; font-weight: 700; letter-spacing: 0.16em;
+		text-transform: uppercase; color: var(--accent); margin-bottom: 1.1rem;
+	}
+	.aeds-hero h1 {
+		font-family: 'Yantramanav', sans-serif;
+		font-size: clamp(2.3rem, 6vw, 4.2rem);
+		line-height: 1.04; font-weight: 700; letter-spacing: -0.02em;
+		margin: 0 0 1.1rem; color: var(--ink);
+	}
+	.aeds-hero__lead {
+		max-width: 680px; margin: 0 auto 1.8rem;
+		font-size: clamp(1.08rem, 1.7vw, 1.3rem); line-height: 1.55; color: var(--ink-soft);
+	}
+	.aeds-hero__lead strong { color: var(--ink); font-weight: 600; }
+
+	/* Buttons */
+	.aeds-btn {
+		display: inline-flex; align-items: center; gap: 0.5rem;
+		padding: 0.85rem 1.6rem; border-radius: 8px;
+		font-size: 0.95rem; font-weight: 600; text-decoration: none;
+		transition: transform 0.15s ease, background 0.2s ease, box-shadow 0.2s ease;
+		border: 1px solid transparent;
+	}
+	.aeds-btn--primary { background: var(--accent); color: #fff; box-shadow: 0 8px 20px rgba(255, 106, 0, 0.28); }
+	.aeds-btn--primary:hover { background: #e85f00; color: #fff; transform: translateY(-2px); }
+	.aeds-btn--ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+	.aeds-btn--ghost:hover { border-color: var(--accent); color: var(--accent); }
+	.aeds-btn-row { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; }
+
+	/* Hero video */
+	.aeds-video {
+		position: relative; max-width: 1000px; margin: clamp(2rem, 5vw, 3.5rem) auto 0;
+		border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); background: #0d0d0f;
+	}
+	.aeds-video video { display: block; width: 100%; height: auto; max-height: 72vh; background: #0d0d0f; }
+	.aeds-video__play {
+		position: absolute; inset: 0; margin: auto; width: 84px; height: 84px;
+		border: none; border-radius: 50%; background: rgba(255,255,255,0.96);
+		box-shadow: 0 12px 32px rgba(0,0,0,0.35); cursor: pointer;
+		display: flex; align-items: center; justify-content: center;
+		transition: transform 0.2s ease, opacity 0.25s ease, visibility 0.25s ease;
+	}
+	.aeds-video__play svg { width: 34px; height: 34px; fill: var(--ink); margin-left: 4px; }
+	.aeds-video__play:hover { transform: scale(1.07); }
+	.aeds-video.is-playing .aeds-video__play { opacity: 0; visibility: hidden; pointer-events: none; }
+
+	/* Overview / facts bar */
+	.aeds-facts {
+		display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
+		background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+	}
+	.aeds-fact { background: var(--surface); padding: 1.6rem 1.4rem; }
+	.aeds-fact__label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 0.5rem; }
+	.aeds-fact__value { font-size: 0.98rem; font-weight: 600; color: var(--ink); line-height: 1.4; }
+
+	/* Challenge */
+	.aeds-challenge { max-width: 760px; margin: 0 auto; text-align: center; }
+	.aeds-challenge p { font-size: clamp(1.15rem, 2vw, 1.5rem); line-height: 1.5; color: var(--ink); font-weight: 500; margin: 0; }
+	.aeds-challenge p span { color: var(--accent); }
+
+	/* Process steps */
+	.aeds-steps { display: grid; gap: 1.2rem; max-width: 920px; margin: 0 auto; }
+	.aeds-step {
+		display: grid; grid-template-columns: 64px 1fr; gap: 1.4rem; align-items: start;
+		background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+		padding: 1.8rem; transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+	}
+	.aeds-step:hover { border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow); }
+	.aeds-step__num {
+		font-family: 'Yantramanav', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--accent);
+		width: 56px; height: 56px; border-radius: 12px; background: var(--accent-soft);
+		display: flex; align-items: center; justify-content: center;
+	}
+	.aeds-step__body h3 { font-size: 1.18rem; font-weight: 700; margin: 0 0 0.4rem; color: var(--ink); }
+	.aeds-step__body p { margin: 0; color: var(--ink-soft); font-size: 0.98rem; }
+
+	/* System artifacts */
+	.aeds-artifact { max-width: 1000px; margin: 0 auto clamp(2.5rem, 6vw, 4rem); }
+	.aeds-artifact:last-child { margin-bottom: 0; }
+	.aeds-artifact__head { max-width: 640px; margin: 0 auto 1.4rem; text-align: center; }
+	.aeds-artifact__head h3 { font-family: 'Yantramanav', sans-serif; font-size: clamp(1.3rem, 2.4vw, 1.8rem); font-weight: 700; margin: 0 0 0.5rem; color: var(--ink); }
+	.aeds-artifact__head p { margin: 0; color: var(--ink-soft); font-size: 1rem; }
+	.aeds-artifact__media { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); background: #fff; }
+	.aeds-artifact__media img { width: 100%; height: auto; }
+
+	/* Impact */
+	.aeds-impact { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+	.aeds-impact__card {
+		background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+		padding: 2rem 1.6rem; transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+	}
+	.aeds-impact__card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: var(--shadow); }
+	.aeds-impact__icon {
+		width: 48px; height: 48px; border-radius: 12px; background: var(--accent-soft); color: var(--accent);
+		display: flex; align-items: center; justify-content: center; font-size: 1.2rem; margin-bottom: 1.1rem;
+	}
+	.aeds-impact__card h3 { font-size: 1.1rem; font-weight: 700; margin: 0 0 0.5rem; color: var(--ink); }
+	.aeds-impact__card p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; }
+
+	/* Final CTA */
+	.aeds-cta { background: var(--surface-dark); color: #fff; border-radius: var(--radius); padding: clamp(2.5rem, 6vw, 4rem); text-align: center; }
+	.aeds-cta h2 { color: #fff; }
+	.aeds-cta p { max-width: 560px; margin: 0 auto 1.8rem; color: #c4c8cf; font-size: clamp(1rem, 1.6vw, 1.18rem); }
+	.aeds-cta .aeds-btn--ghost { color: #fff; border-color: rgba(255,255,255,0.25); }
+	.aeds-cta .aeds-btn--ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+	@media (max-width: 860px) {
+		.aeds-facts { grid-template-columns: repeat(2, 1fr); }
+		.aeds-impact { grid-template-columns: 1fr; }
+	}
+	@media (max-width: 560px) {
+		.aeds-facts { grid-template-columns: 1fr; }
+		.aeds-step { grid-template-columns: 1fr; gap: 0.9rem; padding: 1.4rem; }
+		.aeds-step__num { width: 48px; height: 48px; font-size: 1.25rem; }
+		.aeds-video__play { width: 64px; height: 64px; }
+		.aeds-video__play svg { width: 26px; height: 26px; }
+	}
+	</style>
 
 </head>
 
@@ -111,409 +266,233 @@
 						</p><!-- // .site-desc -->
 					</h1>
 				</div><!-- // .desktop-6 -->
-
-				<div class="desktop-6 columns">
-				</div><!-- // .desktop-6 -->
-
+				<div class="desktop-6 columns"></div>
 				<div class="clear"></div>
 			</div><!-- // .container -->
 		</div><!-- // .logo-wrap -->
 	</section><!-- // #header -->
 
 
-	<!-- HERO
+	<!-- Case study body
 	================================================== -->
-	<article class="page single landing first ffe9d1" id="ae_ds_hero">
+	<main class="aeds">
 
-		<div class="container ae_ds_container">
+		<!-- HERO -->
+		<section class="aeds-hero">
+			<div class="aeds-wrap">
+				<div class="aeds-hero__eyebrow">Design System Program · AgileEngine · since 2021</div>
+				<h1>AgileEngine Design System</h1>
+				<p class="aeds-hero__lead">I built this as a <strong>program, not a file</strong>. I owned the strategy, ran the workshops, directed the design team, and drove adoption across the company's products and sub-brands.</p>
+				<div class="aeds-btn-row">
+					<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener" class="aeds-btn aeds-btn--primary">
+						<i class="fa fa-file-pdf-o" aria-hidden="true"></i> View the full deck (PDF, 7.4 MB)
+					</a>
+				</div>
 
-			<section class="ae_ds_hero_video" id="ae_ds_video_wrap">
-				<video id="ae_ds_video" autoplay loop muted playsinline controls preload="metadata" poster="../images/ae_ds/ae_ds_poster.jpg">
-					<source src="../images/ae_ds/ae_ds_demo.mp4" type="video/mp4">
-					Your browser does not support embedded video.
-				</video>
-				<button type="button" class="ae_ds_play_overlay" aria-label="Play demo video">
-					<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-				</button>
-			</section>
-
-			<header class="ae_ds_hero_header">
-				<span class="ae_ds_eyebrow">Multi-year program · since 2021</span>
-				<h1 class="ae_ds_title">AE Design System</h1>
-				<p class="ae_ds_tagline">For AgileEngine and its sub-services</p>
-				<p class="ae_ds_lead">I owned the strategy, the technology choice, and the stakeholder alignment. Not the pixel craft.</p>
-				<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener" class="ae_ds_pdf_link ae_ds_pdf_link_hero">
-					<i class="fa fa-file-pdf-o" aria-hidden="true"></i>&nbsp;
-					View the full deck (PDF, 7.4 MB)
-				</a>
-			</header>
-
-		</div>
-
-	</article><!-- // #ae_ds_hero -->
-
-
-	<!-- STRATEGY: three decisions that made the program self-sustaining
-	================================================== -->
-	<article class="page landing cdeffd" id="ae_ds_strategy">
-
-		<div class="container">
-
-			<div class="desktop-12 columns">
-				<header class="landing_text center">
-					<h2>MY APPROACH</h2>
-					<p>three decisions that made the program self-sustaining</p>
-				</header>
-			</div>
-
-			<div class="desktop-4 columns one_service">
-				<i class="fa fa-cubes" aria-hidden="true"></i>
-				<div>
-					<strong>1. Foundation, not bespoke</strong>
-					Picked MUI and Material Design as the base. Engineers ship faster. The system survives team transitions.
+				<div class="aeds-video" id="aeds_video_wrap">
+					<video id="aeds_video" autoplay loop muted playsinline controls preload="metadata" poster="../images/ae_ds/ae_ds_poster.jpg">
+						<source src="../images/ae_ds/ae_ds_demo.mp4" type="video/mp4">
+						Your browser does not support embedded video.
+					</video>
+					<button type="button" class="aeds-video__play" aria-label="Play demo video">
+						<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+					</button>
 				</div>
 			</div>
-			<div class="desktop-4 columns one_service">
-				<i class="fa fa-users" aria-hidden="true"></i>
-				<div>
-					<strong>2. Stakeholders own identity</strong>
-					Department logos came from cross-functional workshops. Owners generated and voted. Designers polished, didn't dictate.
-				</div>
-			</div>
-			<div class="desktop-4 columns one_service">
-				<i class="fa fa-handshake-o" aria-hidden="true"></i>
-				<div>
-					<strong>3. Delegated facilitation</strong>
-					Once the workshop format was proven, I handed it off. The system keeps producing aligned identities without me in the room. The only way to scale.
-				</div>
-			</div>
+		</section>
 
-			<div class="clear"></div>
-
-		</div>
-
-	</article><!-- // strategy -->
-
-
-	<!-- Services: Customer / Tools / Standards
-	================================================== -->
-	<article class="page services ffffff">
-
-		<div class="container">
-			<section class="all_services">
-				<div class="desktop-4 columns one_service">
-					<i class="fa fa-briefcase" aria-hidden="true"></i>
-					<div>
-						<strong>Customer</strong>
-						AgileEngine, software engineering firm. Design System covers internal products and sub-services.
+		<!-- OVERVIEW / FACTS -->
+		<section class="aeds-section">
+			<div class="aeds-wrap">
+				<div class="aeds-facts">
+					<div class="aeds-fact">
+						<div class="aeds-fact__label">My role</div>
+						<div class="aeds-fact__value">Design System Lead and Program Owner</div>
+					</div>
+					<div class="aeds-fact">
+						<div class="aeds-fact__label">Timeline</div>
+						<div class="aeds-fact__value">2021 to present</div>
+					</div>
+					<div class="aeds-fact">
+						<div class="aeds-fact__label">Leadership</div>
+						<div class="aeds-fact__value">Directed designers, facilitated stakeholders</div>
+					</div>
+					<div class="aeds-fact">
+						<div class="aeds-fact__label">Stack</div>
+						<div class="aeds-fact__value">Figma, MUI, Material Design, WCAG 2.1 AA</div>
 					</div>
 				</div>
-				<div class="desktop-4 columns one_service">
-					<i class="fa fa-wrench" aria-hidden="true"></i>
-					<div>
-						<strong>Tools &amp; methodologies</strong>
-						Figma with branching. MUI for Figma. Material Design. Atomic design. Token-driven theming. Heatmap-validated iterations.
+			</div>
+		</section>
+
+		<!-- CHALLENGE -->
+		<section class="aeds-section aeds-section--alt">
+			<div class="aeds-wrap">
+				<div class="aeds-challenge">
+					<div class="aeds-eyebrow">The challenge</div>
+					<p>AgileEngine runs many products and sub-brands across distributed teams. Every team rebuilt the same buttons, colors, and brand assets. There was no shared source of truth. <span>My job was to build one system and make every team actually use it.</span></p>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROCESS / LEADERSHIP -->
+		<section class="aeds-section">
+			<div class="aeds-wrap">
+				<div class="aeds-section__intro">
+					<div class="aeds-eyebrow">How I led it</div>
+					<h2>End to end ownership</h2>
+					<p>From the first workshop to daily use across projects. I organized every activity, set the strategy, and tracked it through to the final system.</p>
+				</div>
+
+				<div class="aeds-steps">
+					<div class="aeds-step">
+						<div class="aeds-step__num">1</div>
+						<div class="aeds-step__body">
+							<h3>Strategy and foundation</h3>
+							<p>I set the direction. Chose MUI and Material Design as the base instead of a custom framework, so engineers could ship faster and the system would survive team changes. Defined the roadmap, scope, and governance rules.</p>
+						</div>
+					</div>
+					<div class="aeds-step">
+						<div class="aeds-step__num">2</div>
+						<div class="aeds-step__body">
+							<h3>Stakeholder workshops</h3>
+							<p>I organized and ran cross-department workshops. Department owners generated brand directions and voted on what fit them. I facilitated every session, set the format, and turned raw input into clear briefs for the designers.</p>
+						</div>
+					</div>
+					<div class="aeds-step">
+						<div class="aeds-step__num">3</div>
+						<div class="aeds-step__body">
+							<h3>Execution and oversight</h3>
+							<p>I directed the design team from brief to final component. I tracked progress, reviewed quality, and kept every output aligned to the tokens and standards. Once the format was proven, I delegated facilitation so the program could scale without me in every room.</p>
+						</div>
+					</div>
+					<div class="aeds-step">
+						<div class="aeds-step__num">4</div>
+						<div class="aeds-step__body">
+							<h3>Rollout and adoption</h3>
+							<p>I drove adoption across the company. Versioned releases and internal digests kept distributed teams in sync. The system moved from a Figma library into the daily work of real projects.</p>
+						</div>
 					</div>
 				</div>
-				<div class="desktop-4 columns one_service">
-					<i class="fa fa-cogs" aria-hidden="true"></i>
-					<div>
-						<strong>Standards &amp; technology</strong>
-						Material Design. WCAG 2.1 Level AA. React with MUI components. Design tokens. Multi-brand theming.
+			</div>
+		</section>
+
+		<!-- THE SYSTEM / ARTIFACTS -->
+		<section class="aeds-section aeds-section--alt">
+			<div class="aeds-wrap">
+				<div class="aeds-section__intro">
+					<div class="aeds-eyebrow">Inside the system</div>
+					<h2>What the program produced</h2>
+					<p>Foundations, components, and multi-brand identity, all built on shared tokens.</p>
+				</div>
+
+				<div class="aeds-artifact">
+					<div class="aeds-artifact__head">
+						<h3>Foundations</h3>
+						<p>A color system with WCAG 2.1 contrast baked into every token. Hover, focus, selected, and disabled states are part of the foundation, not page-level patches.</p>
+					</div>
+					<div class="aeds-artifact__media">
+						<img src="../images/ae_ds/ae_ds_cover_colors.jpg" alt="AE Design System cover and color token table" loading="lazy" decoding="async">
 					</div>
 				</div>
-			</section>
-		</div>
 
-	</article><!-- // services -->
-
-
-	<!-- FOUNDATIONS — colors and accessibility
-	================================================== -->
-	<article class="page landing ecfbdc" id="ae_ds_foundations">
-
-		<div class="container">
-
-			<div class="desktop-3 columns">
-				<header class="landing_text">
-					<h2>
-						FOUNDATIONS
-					</h2>
-					<p>
-						colour system,
-						contrast tokens,
-						and visual hierarchy
-					</p>
-				</header>
-
-				<div class="preview_box">
-					<strong>
-						<span>Accessibility</span>
-					</strong>
-					<span>
-						Every colour token is paired with a WCAG&nbsp;2.1-validated
-						contrast ratio. Hover, focus, selected and disabled states
-						are baked into the tokens. Not patched at the page level.
-					</span>
+				<div class="aeds-artifact">
+					<div class="aeds-artifact__head">
+						<h3>Typography</h3>
+						<p>An eight-step type scale, H1 to H8, with weights and spacing defined per role. It holds up across marketing pages, product UI, and dashboards.</p>
+					</div>
+					<div class="aeds-artifact__media">
+						<img src="../images/ae_ds/ae_ds_typography.jpg" alt="AE Design System typography scale H1 to H8" loading="lazy" decoding="async">
+					</div>
 				</div>
 
-				<div class="preview_box">
-					<strong>
-						<span>Visual hierarchy</span>
-					</strong>
-					<span>
-						Main / Secondary / Tertiary / Action roles applied
-						consistently across all components, so engineers can
-						compose new screens without re-deciding semantics.
-					</span>
-				</div>
-			</div>
-
-			<div class="desktop-9 columns">
-				<section class="landing_heroshot">
-					<img src="../images/ae_ds/ae_ds_cover_colors.jpg" alt="AE Design System cover and colour token table" />
-				</section>
-			</div>
-
-		</div>
-
-	</article><!-- // foundations -->
-
-
-	<!-- TYPOGRAPHY
-	================================================== -->
-	<article class="page landing ffffff" id="ae_ds_typography">
-
-		<div class="container">
-
-			<div class="desktop-4 columns">
-				<header class="landing_text">
-					<h2>
-						TYPOGRAPHY
-					</h2>
-					<p>
-						a deliberate type scale,
-						accessible across
-						every product
-					</p>
-				</header>
-				<div class="preview_box">
-					<strong>
-						<span>H1 to H8 scale</span>
-					</strong>
-					<span>
-						Eight tested heading sizes, with weights and letter-spacing
-						defined per role. The scale survives marketing pages,
-						product UI, and dashboards equally well.
-					</span>
-				</div>
-			</div>
-
-			<div class="desktop-8 columns">
-				<section class="landing_heroshot">
-					<img src="../images/ae_ds/ae_ds_typography.jpg" alt="AE Design System typography scale H1 to H8" />
-				</section>
-			</div>
-
-		</div>
-
-	</article><!-- // typography -->
-
-
-	<!-- COMPONENTS — buttons, inputs, controls
-	================================================== -->
-	<article class="page landing faf2ff" id="ae_ds_components">
-
-		<div class="container">
-
-			<div class="desktop-3 columns">
-				<header class="landing_text">
-					<h2>
-						COMPONENTS
-					</h2>
-					<p>
-						buttons, inputs,
-						checkboxes, radio,
-						sliders, alerts and date pickers
-					</p>
-				</header>
-
-				<div class="preview_box">
-					<strong>
-						<span>States, not screens</span>
-					</strong>
-					<span>
-						Each component ships every state as a Figma variant. Enabled, hovered, focus-visible, disabled, error. Engineers consume the same matrix in code via MUI props.
-					</span>
+				<div class="aeds-artifact">
+					<div class="aeds-artifact__head">
+						<h3>Layout and components</h3>
+						<p>Every component ships every state as a Figma variant. Engineers consume the same matrix in code through MUI props. One 12-column grid scales from 444 to 1200 px.</p>
+					</div>
+					<div class="aeds-artifact__media">
+						<img src="../images/ae_ds/ae_ds_grid_buttons.jpg" alt="AE Design System responsive grid breakpoints and button states" loading="lazy" decoding="async">
+					</div>
 				</div>
 
-				<div class="preview_box">
-					<strong>
-						<span>Responsive grid</span>
-					</strong>
-					<span>
-						A single 12-column grid. Scales from Extra Small 444&nbsp;px to Tablet 900&nbsp;px to Desktop 1200&nbsp;px. Consistent gutters and breakpoints.
-					</span>
-				</div>
-			</div>
-
-			<div class="desktop-9 columns">
-				<section class="landing_heroshot">
-					<img src="../images/ae_ds/ae_ds_grid_buttons.jpg" alt="AE Design System responsive grid breakpoints and button component states" />
-				</section>
-			</div>
-
-		</div>
-
-	</article><!-- // components -->
-
-
-	<!-- ALERTS &amp; DATE PICKERS
-	================================================== -->
-	<article class="page landing ffffff" id="ae_ds_alerts">
-
-		<div class="container">
-
-			<div class="desktop-3 columns">
-				<header class="landing_text">
-					<h2>
-						ALERTS &amp; PICKERS
-					</h2>
-					<p>
-						feedback patterns and
-						calendrical UI built
-						from the same tokens
-					</p>
-				</header>
-
-				<div class="preview_box">
-					<strong>
-						<span>Alert system</span>
-					</strong>
-					<span>
-						Five severity levels. Three styles. Dismissable or actionable. All derived from colour and shape tokens. Visual consistency is automatic.
-					</span>
+				<div class="aeds-artifact">
+					<div class="aeds-artifact__head">
+						<h3>Form controls</h3>
+						<p>Checkboxes, radio buttons, inputs, and sliders. Each ships enabled, hovered, focus-visible, disabled, and error states out of the box.</p>
+					</div>
+					<div class="aeds-artifact__media">
+						<img src="../images/ae_ds/ae_ds_components.jpg" alt="AE Design System form controls, checkboxes and radio buttons" loading="lazy" decoding="async">
+					</div>
 				</div>
 
-				<div class="preview_box">
-					<strong>
-						<span>Date pickers</span>
-					</strong>
-					<span>
-						Single-date and range pickers, plus combined
-						date-and-time, ship as ready Figma components and
-						match MUI props one-to-one.
-					</span>
-				</div>
-			</div>
-
-			<div class="desktop-9 columns">
-				<section class="landing_heroshot">
-					<img src="../images/ae_ds/ae_ds_alerts.jpg" alt="AE Design System alerts and date picker components" />
-				</section>
-			</div>
-
-		</div>
-
-	</article><!-- // alerts -->
-
-
-	<!-- MULTI-BRAND
-	================================================== -->
-	<article class="page landing cdeffd" id="ae_ds_brands">
-
-		<div class="container">
-
-			<div class="desktop-4 columns">
-				<header class="landing_text">
-					<h2>
-						MULTI-BRAND
-					</h2>
-					<p>
-						one foundation,
-						many sub-brands
-					</p>
-				</header>
-				<div class="preview_box">
-					<strong>
-						<span>Sub-brand: Rocky</span>
-					</strong>
-					<span>
-						The Rocky logotype, mark variants, and reverse-on-dark applications fold into the same system. Shared infrastructure, distinct identities.
-					</span>
+				<div class="aeds-artifact">
+					<div class="aeds-artifact__head">
+						<h3>Feedback and pickers</h3>
+						<p>Five alert levels, three styles, and full date and time pickers. All derived from the same color and shape tokens, so visual consistency is automatic.</p>
+					</div>
+					<div class="aeds-artifact__media">
+						<img src="../images/ae_ds/ae_ds_alerts.jpg" alt="AE Design System alerts and date picker components" loading="lazy" decoding="async">
+					</div>
 				</div>
 
-				<div class="preview_box">
-					<strong>
-						<span>Department identities</span>
-					</strong>
-					<span>
-						Each department got its own logotype, voice, and asset set. Generated in stakeholder workshops. One source of truth, many faces.
-					</span>
+				<div class="aeds-artifact">
+					<div class="aeds-artifact__head">
+						<h3>Multi-brand identity</h3>
+						<p>One foundation, many sub-brands. The Rocky sub-brand and each department identity fold into the same system. Shared infrastructure, distinct faces.</p>
+					</div>
+					<div class="aeds-artifact__media">
+						<img src="../images/ae_ds/ae_ds_logotypes.jpg" alt="AE Design System logotype rules, master brand and Rocky sub-brand" loading="lazy" decoding="async">
+					</div>
 				</div>
 			</div>
+		</section>
 
-			<div class="desktop-8 columns">
-				<section class="landing_heroshot">
-					<img src="../images/ae_ds/ae_ds_logotypes.jpg" alt="AE Design System logotype usage rules. Master brand and Rocky sub-brand variants." />
-				</section>
-			</div>
+		<!-- IMPACT -->
+		<section class="aeds-section">
+			<div class="aeds-wrap">
+				<div class="aeds-section__intro">
+					<div class="aeds-eyebrow">The outcome</div>
+					<h2>A system that runs on its own</h2>
+				</div>
 
-		</div>
-
-	</article><!-- // multi-brand -->
-
-
-	<!-- ADOPTION &amp; OUTCOMES
-	================================================== -->
-	<article class="page landing ffe9d1" id="ae_ds_adoption">
-
-		<div class="container">
-
-			<div class="desktop-12 columns">
-				<header class="landing_text center">
-					<h2>
-						OUTCOMES
-					</h2>
-					<p>
-						a system that keeps producing without me in the room
-					</p>
-				</header>
-			</div>
-
-			<div class="desktop-4 columns one_service">
-				<i class="fa fa-th-large" aria-hidden="true"></i>
-				<div>
-					<strong>Powers multiple internal products</strong>
-					Engineers consume MUI components and Figma variants from one matrix. No forks, no drift across product lines.
+				<div class="aeds-impact">
+					<div class="aeds-impact__card">
+						<div class="aeds-impact__icon"><i class="fa fa-th-large" aria-hidden="true"></i></div>
+						<h3>Powers multiple products</h3>
+						<p>Internal product teams build on the same components and variants. No forks, no drift across product lines.</p>
+					</div>
+					<div class="aeds-impact__card">
+						<div class="aeds-impact__icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+						<h3>Company-wide brand assets</h3>
+						<p>Department logos, email signatures, letterheads, and document templates all draw from one library.</p>
+					</div>
+					<div class="aeds-impact__card">
+						<div class="aeds-impact__icon"><i class="fa fa-refresh" aria-hidden="true"></i></div>
+						<h3>Self-sustaining for years</h3>
+						<p>The system survives team transitions and tech updates. Adoption runs on versioned releases, not enforcement.</p>
+					</div>
 				</div>
 			</div>
-			<div class="desktop-4 columns one_service">
-				<i class="fa fa-envelope-o" aria-hidden="true"></i>
-				<div>
-					<strong>Company-wide brand assets</strong>
-					Department logos, email signatures, letterheads, and document templates all draw from the same library. One source of truth, every team aligned.
+		</section>
+
+		<!-- FINAL CTA -->
+		<section class="aeds-section">
+			<div class="aeds-wrap">
+				<div class="aeds-cta">
+					<h2>Building or scaling a design system?</h2>
+					<p>I help teams turn scattered UI into a system that runs on its own. Strategy, workshops, team direction, and adoption.</p>
+					<div class="aeds-btn-row">
+						<a href="../contact.html" class="aeds-btn aeds-btn--primary">Let's talk</a>
+						<a href="../docs/AE_DS_presentation.pdf" target="_blank" rel="noopener" class="aeds-btn aeds-btn--ghost">
+							<i class="fa fa-file-pdf-o" aria-hidden="true"></i> View the full deck
+						</a>
+					</div>
 				</div>
 			</div>
-			<div class="desktop-4 columns one_service">
-				<i class="fa fa-refresh" aria-hidden="true"></i>
-				<div>
-					<strong>Multi-year, self-sustaining</strong>
-					Survives team transitions and technology updates. Versioned releases through internal digests keep distributed teams in sync. Adoption is automatic, not enforced.
-				</div>
-			</div>
+		</section>
 
-			<div class="clear"></div>
-
-			<div class="desktop-12 columns ae_ds_outcomes_cta">
-				<a href="../contact.html" class="ae_ds_pdf_link ae_ds_pdf_link_hero">
-					Let's talk about your design system
-				</a>
-			</div>
-
-		</div>
-
-	</article><!-- // outcomes -->
+	</main>
 
 
 	<!-- Footer
@@ -529,7 +508,6 @@
 			<div class="clear"></div>
 
 		</div><!-- // .container -->
-
 	</section><!-- // section#footer -->
 
 
@@ -538,32 +516,25 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
 	<script src="../js/jQuery.BlackAndWhite.min.js"></script>
 	<script src="../js/modernizr.js"></script>
-	<script src="../js/less-1.4.0.min.js"></script>
 	<script src="../js/jquery.typeMenu.js"></script>
 	<script src="../js/jquery.typeSticky.js"></script>
-	<script src="../js/jquery.malihu.PageScroll2id.min.js"></script>
-
 	<script src="../js/jquery.custom.js"></script>
 
 	<script>
-		// Hero video — overlay play button (visible when paused, hidden when playing)
+		// Hero video overlay play button
 		(function () {
-			var v = document.getElementById('ae_ds_video');
-			var wrap = document.getElementById('ae_ds_video_wrap');
+			var v = document.getElementById('aeds_video');
+			var wrap = document.getElementById('aeds_video_wrap');
 			if (!v || !wrap) return;
-			function sync() {
-				wrap.classList.toggle('is-playing', !v.paused && !v.ended);
-			}
+			function sync() { wrap.classList.toggle('is-playing', !v.paused && !v.ended); }
 			v.addEventListener('play', sync);
 			v.addEventListener('pause', sync);
 			v.addEventListener('ended', sync);
-			var btn = wrap.querySelector('.ae_ds_play_overlay');
+			var btn = wrap.querySelector('.aeds-video__play');
 			if (btn) btn.addEventListener('click', function () { v.play(); });
 			sync();
 		})();
 	</script>
 
-<!-- End Document
-================================================== -->
 </body>
 </html>
