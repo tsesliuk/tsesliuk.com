@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TVEyes Design Program · Case Study · Oleksii Tsesliuk</title>
+	<meta name="description" content="An end-to-end design program for TVEyes, a 25-year media-monitoring platform. Seven phases from Discovery to AI release. Design Program Lead, 2022 to active.">
+	<meta name="keywords" content="design program, design program lead, product redesign, design system, UX strategy, discovery, media monitoring, AI features, MUI, Material Design, product ownership, design leadership">
+	<meta name="author" content="Oleksii Tsesliuk">
+	<meta name="robots" content="index, follow, max-image-preview:large">
+	<link rel="canonical" href="https://tsesliuk.com/works/tveyes.html">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://tsesliuk.com/works/tveyes.html">
+	<meta property="og:title" content="TVEyes Design Program">
+	<meta property="og:description" content="An end-to-end, 7-phase design program for a 25-year media-monitoring product. Discovery to AI release.">
+	<meta property="og:image" content="https://tsesliuk.com/images/tveyes/intro07.jpg">
+	<meta property="og:image:alt" content="TVEyes Design Program">
+	<meta property="og:site_name" content="Oleksii Tsesliuk">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="TVEyes Design Program">
+	<meta name="twitter:description" content="An end-to-end, 7-phase design program for a 25-year media-monitoring product.">
+	<meta name="twitter:image" content="https://tsesliuk.com/images/tveyes/intro07.jpg">
+	<script type="application/ld+json">
+	{"@context":"https://schema.org","@type":"CreativeWork","name":"TVEyes Design Program","creator":{"@type":"Person","name":"Oleksii Tsesliuk","url":"https://tsesliuk.com/"},"about":"An end-to-end seven-phase design program for a media-monitoring platform, from discovery to AI release.","url":"https://tsesliuk.com/works/tveyes.html","image":"https://tsesliuk.com/images/tveyes/intro07.jpg"}
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEB8CH9ZB"></script>
+	<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HXEB8CH9ZB');</script>
+	<!-- Hotjar -->
+	<script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:6708561,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r)})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');</script>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#0E1F35">
+
+	<style>
+	:root{--bg:#0E1F35;--bg-2:#0a182a;--text:#1a2433;--text-muted:#5a6678;--on-dark:#e8eef7;--on-dark-muted:#a6b2c5;--brand:#6FCF97;--accent:#4FC3F7;--accent-2:#C9F26E;--warm:#E84545;--line:#e6eaf0;--max:1180px}
+	*{box-sizing:border-box;margin:0;padding:0}
+	body{background:#fafbfc;color:var(--text);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+	img{max-width:100%;display:block}
+	a{color:var(--accent);text-decoration:none}
+	.container{max-width:var(--max);margin:0 auto;padding:0 32px}
+	.tv-hero{background:linear-gradient(180deg,var(--bg) 0%,var(--bg-2) 100%);color:var(--on-dark);padding:64px 0 0;overflow:hidden}
+	.tv-hero-meta{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;letter-spacing:0.04em;text-transform:uppercase;color:var(--on-dark-muted);margin-bottom:22px}
+	.tv-hero-meta span:not(:last-child)::after{content:"·";margin-left:18px;opacity:0.5}
+	.tv-hero h1{font-size:clamp(34px,5vw,60px);line-height:1.06;letter-spacing:-0.02em;font-weight:800;max-width:920px;margin-bottom:22px}
+	.tv-hero h1 em{font-style:normal;color:var(--brand)}
+	.tv-hero-lede{font-size:clamp(17px,1.6vw,21px);color:var(--on-dark-muted);max-width:740px;margin-bottom:48px}
+	.tv-hero-media{margin-top:24px;border-radius:12px 12px 0 0;overflow:hidden}
+	.tv-hero-media video,.tv-hero-media img{width:100%;display:block}
+	.facts{background:#fff;border-bottom:1px solid var(--line);padding:28px 0}
+	.facts-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+	.fact-label{font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-muted);margin-bottom:6px}
+	.fact-val{font-size:15px;font-weight:600;color:var(--text)}
+	section{padding:72px 0}
+	section+section{border-top:1px solid var(--line)}
+	h2{font-size:clamp(24px,3vw,34px);letter-spacing:-0.01em;font-weight:700;margin-bottom:14px}
+	.eyebrow{font-size:12px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:12px}
+	.lede{font-size:18px;color:var(--text-muted);max-width:740px;margin-bottom:40px}
+	p{margin-bottom:16px;max-width:740px}
+	.col-2{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+	.process{display:grid;grid-template-columns:repeat(7,1fr);gap:12px;margin-top:16px}
+	.phase{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px 14px}
+	.phase-num{font-size:11px;letter-spacing:0.1em;color:var(--accent);font-weight:700}
+	.phase-name{font-size:14px;font-weight:600;margin-top:4px;line-height:1.25}
+	.phase-note{font-size:12px;color:var(--text-muted);margin-top:8px;line-height:1.4}
+	.img-block{background:var(--bg);border-radius:14px;overflow:hidden;margin-top:24px}
+	.img-block img{width:100%}
+	.img-cap{font-size:13px;color:var(--text-muted);margin-top:12px;padding:0 4px}
+	.img-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+	.ps-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+	.ps-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:28px}
+	.ps-title{font-size:13px;letter-spacing:0.08em;text-transform:uppercase;font-weight:700;margin-bottom:14px}
+	.ps-card.problems .ps-title{color:var(--warm)}
+	.ps-card.solutions .ps-title{color:#2e9e63}
+	.ps-list{list-style:none}
+	.ps-list li{padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}
+	.ps-list li:last-child{border-bottom:none}
+	blockquote{border-left:3px solid var(--brand);padding:14px 0 14px 22px;font-size:18px;line-height:1.5;margin:32px 0}
+	blockquote cite{display:block;margin-top:10px;font-size:13px;color:var(--text-muted);font-style:normal}
+	.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:28px}
+	.tag{background:#f1f4f9;color:var(--text);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:500}
+	.outcomes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:24px}
+	.outcome{background:#f7f9fc;border-radius:12px;padding:28px}
+	.outcome-num{font-size:32px;font-weight:800;color:var(--bg);letter-spacing:-0.02em}
+	.outcome-label{font-size:14px;color:var(--text-muted);margin-top:6px;line-height:1.45}
+	.tv-cta{background:var(--bg);color:var(--on-dark);text-align:center;border-radius:16px;padding:48px 32px;margin:40px auto 0;max-width:var(--max)}
+	.tv-cta h2{color:#fff}
+	.tv-cta p{max-width:560px;margin:0 auto 22px;color:var(--on-dark-muted)}
+	.tv-btn{display:inline-flex;align-items:center;gap:0.5rem;padding:0.85rem 1.7rem;border-radius:999px;font-weight:600;background:var(--brand);color:#0a182a;text-decoration:none}
+	@media(max-width:800px){.facts-grid{grid-template-columns:repeat(2,1fr)}.process{grid-template-columns:repeat(2,1fr)}.col-2,.img-grid,.ps-grid,.outcomes-grid{grid-template-columns:1fr}section{padding:48px 0}.tv-hero{padding:40px 0 0}}
+
+	.site-nav{position:sticky;top:0;z-index:100;background:rgba(14,31,53,0.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(255,255,255,0.1)}
+	.site-nav__inner{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
+	.site-nav__brand{font-weight:700;font-size:0.95rem;color:#fff;text-decoration:none}
+	.site-nav__links{display:flex;gap:2rem;list-style:none;margin:0;padding:0}
+	.site-nav__links a{font-size:0.85rem;color:var(--on-dark-muted);text-decoration:none}.site-nav__links a:hover{color:#fff}
+	@media(max-width:560px){.site-nav__links{gap:1.2rem}.site-nav__links a{font-size:0.8rem}}
+	.crumb{background:var(--bg);border-bottom:1px solid rgba(255,255,255,0.08)}
+	.crumb__inner{max-width:1200px;margin:0 auto;padding:0.7rem 24px;font-size:0.82rem;color:var(--on-dark-muted);display:flex;align-items:center;gap:0.5rem}
+	.crumb__inner a{color:var(--on-dark-muted);text-decoration:none}.crumb__inner a:hover{color:#fff}
+	.crumb__sep{opacity:0.5}.crumb__here{color:#fff;font-weight:500}
+	.pager{border-top:1px solid var(--line);background:#fff}
+	.pager__inner{max-width:1200px;margin:0 auto;padding:1.6rem 24px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+	.pager__item{display:flex;flex-direction:column;text-decoration:none;max-width:42%}
+	.pager__item--next{text-align:right;margin-left:auto}
+	.pager__dir{font-size:0.74rem;color:var(--text-muted);margin-bottom:0.2rem}
+	.pager__name{font-size:0.98rem;font-weight:600;color:var(--text)}.pager__item:hover .pager__name{color:var(--accent)}
+	.pager__all{font-size:0.82rem;color:var(--text-muted);text-decoration:none;white-space:nowrap}
+	@media(max-width:560px){.pager__all{display:none}.pager__name{font-size:0.88rem}}
+	.site-footer{background:var(--bg-2);color:var(--on-dark-muted);padding:48px 0 32px}
+	.site-footer__inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+	.site-footer__brand{font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:0.3rem}
+	.site-footer__role{font-size:0.85rem;color:var(--on-dark-muted)}
+	.site-footer__links{display:flex;flex-direction:column;gap:0.5rem;text-align:right}
+	.site-footer__links a{font-size:0.9rem;color:var(--on-dark-muted);text-decoration:none}.site-footer__links a:hover{color:#fff}
+	.site-footer__copy{max-width:1200px;margin:2rem auto 0;padding:0 24px;font-size:0.76rem;color:var(--on-dark-muted);opacity:0.7}
+	@media(max-width:520px){.site-footer__links{text-align:left}}
+	</style>
+</head>
+<body>
+
+	<nav class="site-nav"><div class="site-nav__inner">
+		<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+		<ul class="site-nav__links"><li><a href="../index.html">Work</a></li><li><a href="https://oleksii.tsesliuk.com/">About</a></li><li><a href="../contact.html">Contact</a></li></ul>
+	</div></nav>
+	<div class="crumb"><div class="crumb__inner"><a href="../index.html">Work</a><span class="crumb__sep">&rsaquo;</span><span class="crumb__here">TVEyes Design Program</span></div></div>
+
+	<header class="tv-hero">
+		<div class="container">
+			<div class="tv-hero-meta"><span>Case study</span><span>2022 to Active</span><span>AgileEngine and TVEyes</span><span>Design Program Lead</span></div>
+			<h1>An <em>end-to-end design program</em> for a 25-year media-monitoring product, from Discovery to AI release.</h1>
+			<p class="tv-hero-lede">I took TVEyes, a B2B media-monitoring platform with near real-time access to 3,000 channels in 27 countries, through a full seven-phase design lifecycle. Replaced legacy UX patterns with a Material-based design system, shipped a mobile companion, and delivered an AI feature suite, Twosion AI.</p>
+			<div class="tv-hero-media">
+				<video autoplay loop muted playsinline preload="metadata" poster="../images/tveyes/intro07.jpg">
+					<source src="../images/tveyes/demo.mp4" type="video/mp4">
+					<img src="../images/tveyes/intro07.jpg" alt="TVEyes app screens">
+				</video>
+			</div>
+		</div>
+	</header>
+
+	<section class="facts" style="padding:28px 0">
+		<div class="container"><div class="facts-grid">
+			<div><div class="fact-label">Client</div><div class="fact-val">TVEyes (Media intelligence)</div></div>
+			<div><div class="fact-label">Engagement</div><div class="fact-val">AgileEngine Design Studio</div></div>
+			<div><div class="fact-label">Role</div><div class="fact-val">Design Program Lead, UX/UI</div></div>
+			<div><div class="fact-label">Years</div><div class="fact-val">2022 to Active</div></div>
+			<div><div class="fact-label">Platforms</div><div class="fact-val">Desktop, Responsive Mobile, Email</div></div>
+			<div><div class="fact-label">Tech</div><div class="fact-val">React, MUI, Material Design</div></div>
+			<div><div class="fact-label">Standards</div><div class="fact-val">WCAG 2.1 AA, Material Design</div></div>
+			<div><div class="fact-label">Hand-off</div><div class="fact-val">Figma DS, demo videos, reports</div></div>
+		</div></div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="eyebrow">Context</div>
+			<h2>A 25-year-old product carrying outdated UX patterns into a real-time AI era.</h2>
+			<div class="col-2" style="margin-top:32px">
+				<div>
+					<p>TVEyes delivers near real-time transcripts, metadata, audio and video from nearly 3,000 channels across 27 countries. Users are PR analysts, communications professionals, and crisis teams who watch their organisations' presence across global media every minute.</p>
+					<p>The legacy product had grown organically over two decades. Power was high, usability had not kept up. Users couldn't filter by sentiment, share clips fluently, or work from the field. There was no design system, and every release widened the inconsistency.</p>
+				</div>
+				<div>
+					<p>AgileEngine engaged me to lead a full design program. Not a redesign sprint, but a discovery-driven rebuild with a design system that would outlive the project, and a hand-off rigorous enough to support React and MUI development end to end.</p>
+					<p>The work expanded into a second iteration, the <strong>Twosion AI Release</strong>, adding sentiment analysis, smart alerts, accessibility mode and AI-powered entities on top of the foundation laid in phase one.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section style="background:#f7f9fc">
+		<div class="container">
+			<div class="eyebrow">Process</div>
+			<h2>A seven-phase program, not a hand-off-and-leave engagement.</h2>
+			<p class="lede">Each phase produced a documented artifact and a defensible decision before the next began. This is the lifecycle the team and I followed for the initial release.</p>
+			<div class="process">
+				<div class="phase"><div class="phase-num">01</div><div class="phase-name">Pre-Discovery</div><div class="phase-note">Planning, estimation, scoping</div></div>
+				<div class="phase"><div class="phase-num">02</div><div class="phase-name">Discovery</div><div class="phase-note">Systems eval, competitor analysis, user and stakeholder interviews, CJM, IA</div></div>
+				<div class="phase"><div class="phase-num">03</div><div class="phase-name">Prototyping</div><div class="phase-note">Lo-fi library, flow charts, usability testing in Maze</div></div>
+				<div class="phase"><div class="phase-num">04</div><div class="phase-name">High Fidelity and Hand-Off</div><div class="phase-note">DS-based screens, hand-off examples, dev review</div></div>
+				<div class="phase"><div class="phase-num">05</div><div class="phase-name">Hand-Off Project</div><div class="phase-note">Apps and DS presentations, hand-off report, demo videos</div></div>
+				<div class="phase"><div class="phase-num">06</div><div class="phase-name">Twosion AI</div><div class="phase-note">AI entities, sentiment, smart alerts, accessibility mode</div></div>
+				<div class="phase"><div class="phase-num">07</div><div class="phase-name">Release and Documentation</div><div class="phase-note">Help, onboarding, video tutorials, priorities tracking</div></div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="eyebrow">Discovery</div>
+			<h2>Four user problems we wrote on the wall, and refused to ship without solving.</h2>
+			<p class="lede">Discovery interviews, system audits and CJM workshops surfaced the same patterns repeatedly. We narrowed the program to four problems and tied every later design decision to one of them.</p>
+			<div class="ps-grid">
+				<div class="ps-card problems"><div class="ps-title">User Problems</div><ul class="ps-list">
+					<li>Old design with outdated UX patterns</li>
+					<li>User can't schedule alerts by sentiment</li>
+					<li>User doesn't know which mentions are negative</li>
+					<li>User can't share events or reports</li>
+				</ul></div>
+				<div class="ps-card solutions"><div class="ps-title">Solutions Shipped</div><ul class="ps-list">
+					<li>Design system based on Material UI</li>
+					<li>Smart alerts: spike, gap, and sentiment triggers</li>
+					<li>Sentiment analysis surfaced on every event</li>
+					<li>Sharing across clips, events and reports</li>
+				</ul></div>
+			</div>
+			<div class="img-block" style="margin-top:40px"><img src="../images/tveyes/ai05.jpg" alt="Primary persona alongside the problems and solutions board" loading="lazy"></div>
+			<div class="img-cap">Primary persona "Larry", a Public Relations Analyst, alongside the problems-to-solutions mapping that anchored the program.</div>
+		</div>
+	</section>
+
+	<section style="background:var(--bg);color:var(--on-dark)">
+		<div class="container">
+			<div class="eyebrow" style="color:var(--accent-2)">Design System</div>
+			<h2 style="color:#fff">A Figma library built on Material UI. Atomic, accessible, owned by the product.</h2>
+			<p class="lede" style="color:var(--on-dark-muted)">Every button, icon, and input field is an atomic element. Branding, visual hierarchy, and WCAG 2 Level AA contrast were built into the tokens, not patched at the page level.</p>
+			<div class="img-grid" style="margin-top:24px">
+				<div><div class="img-block"><img src="../images/tveyes/ds05.jpg" alt="TVEyes design system colour tokens" loading="lazy"></div><div class="img-cap" style="color:var(--on-dark-muted)">Token-driven colour system with state variants: hover, focus, selected, disabled.</div></div>
+				<div><div class="img-block"><img src="../images/tveyes/ds07.jpg" alt="TVEyes button library with variants" loading="lazy"></div><div class="img-cap" style="color:var(--on-dark-muted)">Buttons across size, colour, and state variants.</div></div>
+			</div>
+			<blockquote style="color:var(--on-dark);border-left-color:var(--accent-2);margin-top:48px">"A Figma file serving as TVEyes' own library of meticulously designed and developed components. It ensures consistency across applications and follows typical UX patterns, allowing for faster design and development."<cite>Hand-Off Report, Design System summary, June 2023</cite></blockquote>
+			<div class="tags">
+				<span class="tag" style="background:rgba(255,255,255,0.08);color:#fff">Material UI</span>
+				<span class="tag" style="background:rgba(255,255,255,0.08);color:#fff">Atomic design</span>
+				<span class="tag" style="background:rgba(255,255,255,0.08);color:#fff">WCAG 2 AA</span>
+				<span class="tag" style="background:rgba(255,255,255,0.08);color:#fff">Token-driven</span>
+				<span class="tag" style="background:rgba(255,255,255,0.08);color:#fff">Heatmap-validated</span>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="eyebrow">Multi-platform</div>
+			<h2>Desktop primary, mobile companion, email second screen.</h2>
+			<p class="lede">Desktop carries the analyst's daily work: power search, reports, media centre. Mobile keeps users connected away from a desk. Email templates handle alert-driven re-entry into the product.</p>
+			<div class="img-block" style="margin-top:8px"><img src="../images/tveyes/intro03.jpg" alt="Authentication and onboarding on mobile and desktop" loading="lazy"></div>
+			<div class="img-cap">Authentication: reset password, accessibility mode, and Material controls. Designed once in the system, rendered consistently on web and mobile.</div>
+			<div class="img-block" style="margin-top:32px"><img src="../images/tveyes/intro06.jpg" alt="TVEyes clip viewer with synced transcript" loading="lazy"></div>
+			<div class="img-cap">Clip viewer with synced transcript, scrubbing timeline, and trim controls. The surface analysts spend the most time on.</div>
+		</div>
+	</section>
+
+	<section style="background:#f7f9fc">
+		<div class="container">
+			<div class="eyebrow">Hand-Off</div>
+			<h2>A hand-off package an engineering team can ship from on day one.</h2>
+			<p class="lede">The June 2023 hand-off included Figma libraries, three desktop prototypes (Regular, Admin, Mobile), email templates, a hand-off report, an apps presentation, and a design system video. All linked from a single index for the dev team.</p>
+			<div class="col-2" style="margin-top:32px">
+				<div>
+					<p><strong>Hand-off feature roster, what shipped from design to dev:</strong></p>
+					<ul style="margin:12px 0 0 18px;font-size:15px">
+						<li>User flow diagram for the entire application</li>
+						<li>Design system presentation</li>
+						<li>Basic email notifications</li>
+						<li>User authentication with WCAG</li>
+						<li>Empty watch list flow</li>
+						<li>Power Search and results</li>
+						<li>Home page and watchlist</li>
+						<li>Add and edit watch term</li>
+						<li>Clip viewer and result page</li>
+						<li>Clip editor</li>
+					</ul>
+				</div>
+				<div>
+					<blockquote style="margin:0">"I'm thrilled to announce the successful completion of our UX/UI design phase for TVEyes. Together, as a unified team, we designed a new app that addresses the most critical problems identified during discovery: search for specific markets and stations, a new design language, and a mobile version."<cite>Hand-off email to TVEyes leadership, June 2023</cite></blockquote>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="eyebrow">Twosion AI Release</div>
+			<h2>The second iteration: AI-powered entities, sentiment, and smart alerts.</h2>
+			<p class="lede">Once the foundation was stable in production, we ran a design spike on AI features. Discovery, prototyping and high fidelity in compressed cycles. Sentiment analysis, smart alerts and AI entities were added without breaking the design language.</p>
+			<div class="img-block"><img src="../images/tveyes/ai06.jpg" alt="AI Entities big-data grid with cards and filtering" loading="lazy"></div>
+			<div class="img-cap">"AI Entities", a user-friendly big-data grid with cards, filtering and AI features stitched into existing patterns from the design system.</div>
+			<div class="col-2" style="margin-top:48px">
+				<div><p><strong>Smart Alerts.</strong> Spike detection, gap detection and sentiment shift detection. An analyst is alerted to a developing story before they refresh a search.</p></div>
+				<div><p><strong>Sentiment Analysis.</strong> The emotional tone of mentions per keyword. Day-by-day score, distribution between positive, neutral and negative, with peak markers for live coverage.</p></div>
+				<div><p><strong>Accessibility Mode.</strong> High-contrast mode meeting WCAG 2 AA, validated with heatmap analysis so users find primary actions equally well in both modes.</p></div>
+				<div><p><strong>Heatmap-Driven Iteration.</strong> Every release iteration validated through heatmap analysis. Data-driven decisions, enhanced usability, streamlined navigation.</p></div>
+			</div>
+		</div>
+	</section>
+
+	<section style="background:#fff">
+		<div class="container">
+			<div class="eyebrow">Outcome</div>
+			<h2>What this program produced.</h2>
+			<div class="outcomes-grid">
+				<div class="outcome"><div class="outcome-num">7 phases</div><div class="outcome-label">A complete design lifecycle from pre-discovery to release and documentation, every phase documented and handed off.</div></div>
+				<div class="outcome"><div class="outcome-num">1 design system</div><div class="outcome-label">A Figma and Material UI library that survived the program and keeps absorbing new features without breaking.</div></div>
+				<div class="outcome"><div class="outcome-num">3 platforms</div><div class="outcome-label">Desktop (Regular and Admin), mobile responsive companion, email templates. All designed once in the system.</div></div>
+				<div class="outcome"><div class="outcome-num">10+ flows</div><div class="outcome-label">Auth, watchlist, power search, clip viewer, clip editor, add and edit term, empty states, notifications, reports, sharing.</div></div>
+				<div class="outcome"><div class="outcome-num">AA accessibility</div><div class="outcome-label">WCAG 2 Level AA contrast built into tokens. High-contrast mode validated with heatmap analysis.</div></div>
+				<div class="outcome"><div class="outcome-num">2nd iteration</div><div class="outcome-label">Twosion AI Release. Sentiment, smart alerts, AI entities. Extending the foundation rather than replacing it.</div></div>
+			</div>
+			<div class="tv-cta">
+				<h2>Have a legacy product to bring into the AI era?</h2>
+				<p>I lead design programs end to end, from discovery and strategy to a design system and the hand-off engineers ship from.</p>
+				<a href="../contact.html" class="tv-btn">Let's talk</a>
+			</div>
+		</div>
+	</section>
+
+	<nav class="pager"><div class="pager__inner">
+		<a href="headphone_framework.html" class="pager__item pager__item--prev"><span class="pager__dir">&larr; Previous</span><span class="pager__name">Headphone Framework</span></a>
+		<a href="../index.html" class="pager__all">All work</a>
+		<a href="agileengine_design_system.html" class="pager__item pager__item--next"><span class="pager__dir">Next &rarr;</span><span class="pager__name">AgileEngine Design System</span></a>
+	</div></nav>
+
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<div><div class="site-footer__brand">Oleksii Tsesliuk</div><div class="site-footer__role">UI/UX Director · System Analyst</div></div>
+			<div class="site-footer__links"><a href="mailto:email@tsesliuk.com">email@tsesliuk.com</a><a href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a><a href="https://oleksii.tsesliuk.com/">About me</a></div>
+		</div>
+		<div class="site-footer__copy">&copy; 2026 Oleksii Tsesliuk. Kyiv, Ukraine. Some material is under client NDA.</div>
+	</footer>
+
+</body>
+</html>
