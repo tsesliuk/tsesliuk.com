@@ -203,9 +203,11 @@
 	@media(max-width:760px){.featured{grid-template-columns:1fr}.featured__media{aspect-ratio:16/10}}
 
 	/* Work grid */
-	.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1.6rem,3vw,2.4rem)}
-	@media(max-width:600px){.grid{grid-template-columns:1fr}}
-	.grid .card__media{aspect-ratio:16/10}
+	.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.4rem,2.5vw,2rem)}
+	@media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
+	@media(max-width:520px){.grid{grid-template-columns:1fr}}
+	.grid .card__media{aspect-ratio:4/3}
+	.card__variant{font-size:0.72rem;font-weight:600;color:var(--accent);margin-bottom:0.2rem}
 	.card{display:flex;flex-direction:column;transition:transform 0.25s ease}
 	.card:hover{transform:translateY(-4px)}
 	.card__media{
@@ -348,10 +350,18 @@
 			</div>
 			<div class="grid">
 
-				<a href="/works/bigdata.html" class="card" title="Metric Insights BI platform case study">
-					<div class="card__media"><img src="images/thumbnails/mi_preview.svg" alt="Metric Insights business intelligence platform" loading="lazy" decoding="async"></div>
+				<a href="/works/bigdata.html" class="card" title="Metric Insights, full case study">
+					<div class="card__media"><img src="images/mi_case/hero.jpg" alt="Metric Insights business intelligence dashboard" loading="lazy" decoding="async"></div>
+					<div class="card__variant">Full case study</div>
 					<div class="card__title">Metric Insights</div>
-					<div class="card__cat">BI Platform · Web, Mobile, Watch, Design System</div>
+					<div class="card__cat">BI Platform · Web, Mobile, Watch</div>
+				</a>
+
+				<a href="/works/metric_insights_classic.html" class="card" title="Metric Insights, original presentation">
+					<div class="card__media"><img src="images/thumbnails/mi_preview.svg" alt="Metric Insights original device presentation" loading="lazy" decoding="async"></div>
+					<div class="card__variant">Original presentation</div>
+					<div class="card__title">Metric Insights</div>
+					<div class="card__cat">BI Platform · Device showcase</div>
 				</a>
 
 				<a href="/works/messenger.html" class="card" title="Messenger mobile app">
