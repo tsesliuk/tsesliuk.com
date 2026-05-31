@@ -62,6 +62,26 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<style>
+	/* Shared site nav + footer standard */
+	.site-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid #e8e8ed;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif}
+	.site-nav__inner{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
+	.site-nav__brand{font-weight:700;font-size:0.95rem;letter-spacing:-0.01em;color:#1d1d1f;text-decoration:none}
+	.site-nav__links{display:flex;gap:2rem;list-style:none;margin:0;padding:0}
+	.site-nav__links a{font-size:0.85rem;color:#6e6e73;text-decoration:none;transition:color 0.2s}
+	.site-nav__links a:hover{color:#1d1d1f}
+	@media(max-width:560px){.site-nav__links{gap:1.2rem}.site-nav__links a{font-size:0.8rem}}
+	.site-footer{border-top:1px solid #e8e8ed;padding:3rem 0;background:#fff;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;margin-top:3rem}
+	.site-footer__inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+	.site-footer__brand{font-weight:700;font-size:1.05rem;color:#1d1d1f;margin-bottom:0.3rem}
+	.site-footer__role{font-size:0.85rem;color:#86868b}
+	.site-footer__links{display:flex;flex-direction:column;gap:0.5rem;text-align:right}
+	.site-footer__links a{font-size:0.9rem;color:#6e6e73;text-decoration:none;transition:color 0.2s}
+	.site-footer__links a:hover{color:#1d607d}
+	.site-footer__copy{max-width:1200px;margin:2rem auto 0;padding:0 24px;font-size:0.78rem;color:#86868b}
+	@media(max-width:520px){.site-footer__links{text-align:left}}
+	</style>
 </head>
 
 <body id="project-p">
@@ -69,64 +89,17 @@
 
 	<!-- Header - Half Logo
 	================================================== -->
-	<section id="header">
-
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
-
-			Top Bar & Menu (#nav)
-
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
-
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				<ul id="nav" class="full">
-					<li>
-						<a href="../index.html">
-							Works
-							<span class="count hide-on-mobile">Design, Coding, Management</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://oleksii.tsesliuk.com/">
-							About
-							<span class="count hide-on-mobile">Skills, Experience, Goals</span>
-						</a>
-					</li>
-					<li>
-						<a href="../contact.html">
-							Contacts
-							<span class="count hide-on-mobile">Email, LinkedIn</span>
-						</a>
-					</li>
-				</ul><!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-		<div class="logo-wrap">
-			<div class="container">
-				<div class="desktop-10 columns">
-					<h1>
-						<a href="/" title="Oleksii Tsesliuk - Designer">TSESLIUK</a>
-						<p class="site-desc">
-							UI/UX DESIGN<br>
-							CODING<br>
-							MANAGEMENT
-						</p><!-- // .site-desc -->
-					</h1>
-				</div><!-- // .desktop-6 -->
-
-				<div class="desktop-2 columns">
-				</div><!-- // .desktop-6 -->
-
-				<div class="clear"></div>
-			</div><!-- // .container -->
-		</div><!-- // .logo-wrap -->
-	</section><!-- // #header -->
+		<!-- Site nav (shared standard) -->
+	<nav class="site-nav">
+		<div class="site-nav__inner">
+			<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+			<ul class="site-nav__links">
+				<li><a href="../index.html">Work</a></li>
+				<li><a href="https://oleksii.tsesliuk.com/">About</a></li>
+				<li><a href="../contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 
 	<!-- Work - Single Page (Left Sidebar)
 	================================================== -->
@@ -194,58 +167,21 @@
 
 	<!-- Footer
 	================================================== -->
-	<section id="footer">
-		<div class="container">
-
-			<div class="contacts_line">
-				<span class="contacts_cell"><span>Email:</span> <a href="mailto:email@tsesliuk.com" title="Designer: Oleksii Tsesliuk (Email)" target="_blank">email@tsesliuk.com</a></span>
-				<span class="contacts_cell"><span>linkedIn:</span> <a href="https://ua.linkedin.com/in/tsesliuk" target="_blank" title="Designer: Oleksii Tsesliuk (LinkedIn account)">linkedin.com/in/tsesliuk</a></span>
+		<!-- Site footer (shared standard) -->
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<div>
+				<div class="site-footer__brand">Oleksii Tsesliuk</div>
+				<div class="site-footer__role">UI/UX Director · System Analyst</div>
 			</div>
-
-			<div class="clear"></div>
-
-			<!--
-			<div class="desktop-3 columns">
-				<p>Copyright &copy; <a href="http://www.typebig.com" class="italic">Typebig</a></p>
-			</div>!-- // .desktop-3 --
-
-			<div class="desktop-9 columns">
-				<ul id="social">
-					<li><a href="http://www.facebook.com" class="hoverMe">Facebook</a></li>
-					<li><a href="http://www.twitter.com" class="hoverMe">Twitter</a></li>
-					<li><a href="http://www.google.com" class="hoverMe">Google+</a></li>
-				</ul>!-- // #social --
-			</div>!-- // .desktop-9 --
-
-			<div class="clear"></div>
-			-->
-
-			<!--
-			<ul id="nav" class="full">
-				<li>
-					<a href="index.html">
-						Works
-						<span class="count hide-on-mobile">Design, Coding, Management</span>
-					</a>
-				</li>
-				<li>
-					<a href="https://oleksii.tsesliuk.com/">
-						About
-						<span class="count hide-on-mobile">Skills, Experience, Goals</span>
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-						Contacts
-						<span class="count hide-on-mobile">Email, LinkedIn</span>
-					</a>
-				</li>
-			</ul>!-- // #nav --
-			-->
-
-		</div><!-- // .container -->
-
-	</section><!-- // section#footer -->
+			<div class="site-footer__links">
+				<a href="mailto:email@tsesliuk.com">email@tsesliuk.com</a>
+				<a href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a>
+				<a href="https://oleksii.tsesliuk.com/">About me</a>
+			</div>
+		</div>
+		<div class="site-footer__copy">&copy; 2026 Oleksii Tsesliuk. Kyiv, Ukraine.</div>
+	</footer>
 
 
 	<!-- JS
@@ -258,8 +194,6 @@
 	<script src="../js/jQuery.BlackAndWhite.min.js"></script>
 	<script src="../js/modernizr.js"></script>
 	<script src="../js/less-1.4.0.min.js"></script>
-	<script src="../js/jquery.typeMenu.js"></script>
-	<script src="../js/jquery.typeSticky.js"></script>
 
 
 	

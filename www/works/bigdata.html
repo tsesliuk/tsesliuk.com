@@ -1,39 +1,25 @@
 
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
 
-	<!-- Basic Page Needs
-	================================================== -->
 	<meta charset="utf-8">
-	<title>Oleksii Tsesliuk | UI & UX designer</title>
-	<meta name="description" content=".">
-	<meta name="author" content="">
-	
-	<!-- Mobile Specific Metas
-	================================================== -->
+	<title>Metric Insights · BI Platform Case Study · Oleksii Tsesliuk</title>
+	<meta name="description" content="Metric Insights business intelligence platform. UX across web, mobile, Apple Watch, and email. I led the full UX cycle for four years: research, usability, design systems, and specs.">
+	<meta name="author" content="Oleksii Tsesliuk">
+
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Metric Insights. BI Platform Case Study">
+	<meta property="og:description" content="A business intelligence platform across web, mobile, and wearables. Full UX cycle, design system, and multi-platform consistency.">
+	<meta property="og:image" content="https://tsesliuk.com/images/mi_case/hero.jpg">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- CSS Files
-	* cssreset-min.css 			- CSS reset
-	* typegrid.css				- Responsive grid system
-	* style.css					- Main CSS file
-	
-	Original LESS Stylesheet
-	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
-	================================================== -->
-	<link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="../css/typegrid.css">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
 
-	<!--[if lt IE 9]>
-		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-		<!-- Google tag (gtag.js) -->
+	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEB8CH9ZB"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -41,8 +27,7 @@
 		gtag('js', new Date());
 		gtag('config', 'G-HXEB8CH9ZB');
 	</script>
-
-	<!-- Hotjar Tracking Code for tsesliuk.com -->
+	<!-- Hotjar -->
 	<script>
 		(function(h,o,t,j,a,r){
 			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -54,483 +39,402 @@
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 	</script>
 
-
 	<script src="https://use.fontawesome.com/a675879d09.js"></script>
 
-	<!-- Favicons
-	================================================== -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
+	<style>
+	.mi{
+		--ink:#16181d;--ink-soft:#5b6068;--ink-faint:#9aa0a8;
+		--accent:#1d607d;--accent-soft:#e9f2f6;
+		--line:#e7e8eb;--surface:#fff;--surface-alt:#f5f7f8;
+		--radius:14px;--shadow:0 18px 50px rgba(22,24,29,0.10);
+		font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+		color:var(--ink);background:var(--surface);-webkit-font-smoothing:antialiased;line-height:1.6;
+	}
+	.mi *{box-sizing:border-box}
+	.mi img{max-width:100%;display:block}
+	.mi-wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+	.mi-section{padding:clamp(2.5rem,6vw,4.5rem) 0}
+	.mi-section--alt{background:var(--surface-alt)}
+	.mi h2{font-size:clamp(1.6rem,3.2vw,2.3rem);line-height:1.12;font-weight:700;letter-spacing:-0.01em;margin:0 0 0.6rem;color:var(--ink)}
+	.mi-eyebrow{display:inline-block;font-size:0.72rem;font-weight:700;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent);margin-bottom:0.9rem}
+	.mi-intro{max-width:680px;margin:0 auto clamp(2rem,5vw,3rem);text-align:center}
+	.mi-intro p{font-size:clamp(1rem,1.5vw,1.15rem);color:var(--ink-soft);margin:0}
+
+	/* Hero */
+	.mi-hero{padding:clamp(2.5rem,6vw,4rem) 0 0;text-align:center}
+	.mi-hero h1{font-size:clamp(2.4rem,6vw,4rem);line-height:1.03;font-weight:800;letter-spacing:-0.02em;margin:0 0 1rem;color:var(--ink)}
+	.mi-hero__lead{max-width:660px;margin:0 auto 1.8rem;font-size:clamp(1.08rem,1.7vw,1.3rem);line-height:1.5;color:var(--ink-soft)}
+	.mi-hero__shot{max-width:1000px;margin:clamp(2rem,5vw,3rem) auto 0;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line)}
+
+	/* Overview facts */
+	.mi-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+	.mi-fact{background:var(--surface);padding:1.5rem 1.3rem}
+	.mi-fact__label{font-size:0.68rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:0.5rem}
+	.mi-fact__value{font-size:0.95rem;font-weight:600;color:var(--ink);line-height:1.4}
+	@media(max-width:760px){.mi-facts{grid-template-columns:repeat(2,1fr)}}
+	@media(max-width:440px){.mi-facts{grid-template-columns:1fr}}
+
+	/* Lead statement */
+	.mi-statement{max-width:760px;margin:0 auto;text-align:center}
+	.mi-statement p{font-size:clamp(1.1rem,1.9vw,1.45rem);line-height:1.5;color:var(--ink);font-weight:500;margin:0}
+
+	/* Platform rows */
+	.mi-row{display:grid;grid-template-columns:1fr 1.25fr;gap:clamp(1.5rem,4vw,3rem);align-items:center;max-width:1000px;margin:0 auto clamp(2.5rem,6vw,4rem)}
+	.mi-row:last-child{margin-bottom:0}
+	.mi-row--flip .mi-row__text{order:2}
+	.mi-row__text h3{font-size:clamp(1.2rem,2.2vw,1.6rem);font-weight:700;letter-spacing:-0.01em;margin:0 0 0.6rem;color:var(--ink)}
+	.mi-row__text p{font-size:0.98rem;color:var(--ink-soft);margin:0;line-height:1.6}
+	.mi-row__tag{display:inline-block;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:0.7rem}
+	.mi-row__media{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:#fff}
+	.mi-row__media img,.mi-row__media video{width:100%;height:auto;display:block}
+	.mi-row__media.is-portrait{max-width:340px;margin:0 auto}
+	.mi-hero__shot video{width:100%;height:auto;display:block}
+
+	/* Every device lineup */
+	.mi-devices{display:flex;align-items:flex-end;justify-content:center;gap:clamp(1.2rem,3.5vw,3rem);max-width:1000px;margin:0 auto;padding:clamp(1.5rem,4vw,3rem) 1rem 0}
+	.mi-device{display:flex;flex-direction:column;align-items:center;flex:0 0 auto}
+	.mi-device img{width:auto;display:block;border-radius:8px;box-shadow:0 12px 30px rgba(22,24,29,0.16);margin-bottom:0.9rem}
+	.mi-device--web img{height:clamp(150px,21vw,230px)}
+	.mi-device--tablet img{height:clamp(120px,17vw,185px)}
+	.mi-device--mobile img{height:clamp(100px,14vw,160px)}
+	.mi-device--watch img{height:clamp(66px,9vw,104px);border-radius:10px}
+	.mi-device__name{font-size:0.82rem;font-weight:700;color:var(--ink);letter-spacing:0.02em}
+	.mi-device__role{font-size:0.72rem;color:var(--ink-faint);margin-top:0.15rem}
+	@media(max-width:560px){.mi-devices{flex-wrap:wrap;gap:1.5rem 1rem}.mi-device--web img{height:clamp(120px,32vw,170px)}.mi-device--tablet img{height:clamp(100px,26vw,150px)}}
+
+	/* Documentation */
+	.mi-docs{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;max-width:1000px;margin:0 auto}
+	@media(max-width:760px){.mi-docs{grid-template-columns:1fr}}
+	.mi-doc{display:flex;align-items:flex-start;gap:1rem;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem;text-decoration:none;transition:border-color 0.2s,transform 0.2s,box-shadow 0.2s}
+	.mi-doc:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:var(--shadow)}
+	.mi-doc i{color:var(--accent);font-size:1.6rem;margin-top:0.1rem}
+	.mi-doc__title{font-size:0.98rem;font-weight:600;color:var(--ink);margin-bottom:0.2rem}
+	.mi-doc__meta{font-size:0.8rem;color:var(--ink-faint)}
+	@media(max-width:760px){
+		.mi-row{grid-template-columns:1fr;gap:1.2rem}
+		.mi-row--flip .mi-row__text{order:0}
+	}
+
+	/* Outcomes */
+	.mi-out{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+	@media(max-width:760px){.mi-out{grid-template-columns:1fr}}
+	.mi-out__card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:1.8rem}
+	.mi-out__card i{color:var(--accent);font-size:1.2rem;margin-bottom:0.9rem;display:block}
+	.mi-out__card h3{font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink)}
+	.mi-out__card p{font-size:0.92rem;color:var(--ink-soft);margin:0}
+
+	/* CTA */
+	.mi-cta{background:var(--ink);color:#fff;border-radius:var(--radius);padding:clamp(2.5rem,6vw,3.5rem);text-align:center}
+	.mi-cta h2{color:#fff}
+	.mi-cta p{max-width:520px;margin:0 auto 1.6rem;color:#c4c8cf;font-size:clamp(1rem,1.6vw,1.15rem)}
+	.mi-btn{display:inline-flex;align-items:center;gap:0.5rem;padding:0.8rem 1.6rem;border-radius:8px;font-weight:600;font-size:0.95rem;text-decoration:none;transition:transform 0.15s,background 0.2s}
+	.mi-btn--primary{background:var(--accent);color:#fff}
+	.mi-btn--primary:hover{background:#16465c;transform:translateY(-2px)}
+
+	/* Shared nav + footer */
+	.site-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid #e8e8ed;font-family:'Inter',-apple-system,sans-serif}
+	.site-nav__inner{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
+	.site-nav__brand{font-weight:700;font-size:0.95rem;letter-spacing:-0.01em;color:#1d1d1f;text-decoration:none}
+	.site-nav__links{display:flex;gap:2rem;list-style:none;margin:0;padding:0}
+	.site-nav__links a{font-size:0.85rem;color:#6e6e73;text-decoration:none;transition:color 0.2s}
+	.site-nav__links a:hover{color:#1d1d1f}
+	@media(max-width:560px){.site-nav__links{gap:1.2rem}.site-nav__links a{font-size:0.8rem}}
+	.site-footer{border-top:1px solid #e8e8ed;padding:3rem 0;background:#fff;font-family:'Inter',-apple-system,sans-serif;margin-top:0}
+	.site-footer__inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+	.site-footer__brand{font-weight:700;font-size:1.05rem;color:#1d1d1f;margin-bottom:0.3rem}
+	.site-footer__role{font-size:0.85rem;color:#86868b}
+	.site-footer__links{display:flex;flex-direction:column;gap:0.5rem;text-align:right}
+	.site-footer__links a{font-size:0.9rem;color:#6e6e73;text-decoration:none;transition:color 0.2s}
+	.site-footer__links a:hover{color:#1d607d}
+	.site-footer__copy{max-width:1200px;margin:2rem auto 0;padding:0 24px;font-size:0.78rem;color:#86868b}
+	@media(max-width:520px){.site-footer__links{text-align:left}}
+	</style>
+
 </head>
+<body>
 
-<body id="project-p">
+	<nav class="site-nav">
+		<div class="site-nav__inner">
+			<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+			<ul class="site-nav__links">
+				<li><a href="../index.html">Work</a></li>
+				<li><a href="https://oleksii.tsesliuk.com/">About</a></li>
+				<li><a href="../contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 
+	<main class="mi">
 
-	<!-- Header - Half Logo
-	================================================== -->
-	<section id="header">
+		<!-- HERO -->
+		<section class="mi-hero">
+			<div class="mi-wrap">
+				<div class="mi-eyebrow">Business Intelligence Platform · Multi-year</div>
+				<h1>Metric Insights</h1>
+				<p class="mi-hero__lead">A BI platform across web, mobile, and wearables. I led the full UX cycle for four years: research, usability, design, and the specs the engineering team built from.</p>
+				<p style="margin:0"><a href="metric_insights_classic.html" style="color:var(--accent);font-weight:600;font-size:0.9rem;text-decoration:none">See the original presentation &rarr;</a></p>
+			</div>
+			<div class="mi-wrap">
+				<div class="mi-hero__shot">
+					<video autoplay loop muted playsinline preload="metadata" poster="../images/mi_case/hero.jpg">
+						<source src="../images/mi/homepage_top.mp4" type="video/mp4">
+						<img src="../images/mi_case/hero.jpg" alt="Metric Insights business intelligence dashboard">
+					</video>
+				</div>
+			</div>
+		</section>
 
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
+		<!-- OVERVIEW -->
+		<section class="mi-section">
+			<div class="mi-wrap">
+				<div class="mi-facts">
+					<div class="mi-fact"><div class="mi-fact__label">My role</div><div class="mi-fact__value">UX/UI Lead, full cycle</div></div>
+					<div class="mi-fact"><div class="mi-fact__label">Duration</div><div class="mi-fact__value">Four years</div></div>
+					<div class="mi-fact"><div class="mi-fact__label">Platforms</div><div class="mi-fact__value">Web, Mobile, Apple Watch, Email</div></div>
+					<div class="mi-fact"><div class="mi-fact__label">Scope</div><div class="mi-fact__value">Research, Design System, Specs</div></div>
+				</div>
+			</div>
+		</section>
 
-			Top Bar & Menu (#nav)
+		<!-- CONTEXT -->
+		<section class="mi-section mi-section--alt">
+			<div class="mi-wrap">
+				<div class="mi-statement">
+					<div class="mi-eyebrow">The platform</div>
+					<p>Metric Insights is a business intelligence platform. Teams monitor data, dashboards, and alerts across devices. It had to stay consistent and usable as it grew across web, native, and hybrid apps.</p>
+				</div>
+			</div>
+		</section>
 
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
+		<!-- MY ROLE -->
+		<section class="mi-section">
+			<div class="mi-wrap">
+				<div class="mi-statement">
+					<div class="mi-eyebrow">My role</div>
+					<h2>I owned the UX end to end</h2>
+					<p>Research and usability tests, interface design for web, mobile, and watch, and the detailed specifications the Scrum team built from. One design language across every platform, held together by a shared system.</p>
+				</div>
+			</div>
+		</section>
 
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				<ul id="nav" class="full">
-					<li>
-						<a href="../index.html">
-							Works
-							<span class="count hide-on-mobile">Design, Coding, Management</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://oleksii.tsesliuk.com/">
-							About
-							<span class="count hide-on-mobile">Skills, Experience, Goals</span>
-						</a>
-					</li>
-					<li>
-						<a href="../contact.html">
-							Contacts
-							<span class="count hide-on-mobile">Email, LinkedIn</span>
-						</a>
-					</li>
-				</ul><!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-		<div class="logo-wrap">
-			<div class="container">
-				<div class="desktop-6 columns">
-					<h1>
-						<a href="/" title="Oleksii Tsesliuk - Designer">TSESLIUK</a>
-						<p class="site-desc">
-							UI/UX DESIGN<br>
-							CODING<br>
-							MANAGEMENT
-						</p><!-- // .site-desc -->
-					</h1>
-				</div><!-- // .desktop-6 -->
-
-				<div class="desktop-6 columns">
-				</div><!-- // .desktop-6 -->
-
-				<div class="clear"></div>
-			</div><!-- // .container -->
-		</div><!-- // .logo-wrap -->
-	</section><!-- // #header -->
-
-	<!-- Work - Single Page (Left Sidebar)
-	================================================== -->
-	<article class="page single landing first cdeffd" id="mi_ui_and_ux">
-
-		<div class="conteiner">
-
-			<section class="landing_heroshot">
-
-				<img src="../images/mi/mi_main_hero.png" alt="Dashboard for Big Data Web Application" class="image_with_perspective" id="mi_hero">
-				<img src="../images/mi/mi_main_overlay_hero.png" alt="Dashboard for Big Data Web Application" class="image_with_perspective" id="overlay_mi_hero">
-				
-				<div class=" newiphone">
-					<div>
-						<img src="../images/mi/mi_main_phone.png" alt="Mobile version of Viewer for Big Data Web Application">
+		<!-- EVERY DEVICE COMPOSITE -->
+		<section class="mi-section">
+			<div class="mi-wrap">
+				<div class="mi-intro">
+					<div class="mi-eyebrow">One platform, every device</div>
+					<h2>The same data, everywhere</h2>
+				</div>
+				<div class="mi-devices">
+					<div class="mi-device mi-device--web">
+						<img src="../images/mi_case/dev_browser.jpg" alt="Responsive web application" loading="lazy">
+						<div class="mi-device__name">Web</div>
+						<div class="mi-device__role">Responsive web app</div>
 					</div>
-			 	</div>
-			</section><!-- // .container -->
-
-			<header class="landing_text center">
-				<h1>
-					UI & UX DESIGN
-					<small>For Business Intelligence Tool</small>
-				</h1>
-				<p>
-					Full circle of Researches, Usability tests and Designs<br>
-					for WEB, Native and Hybrid apps, with descridescribed<br>
-					specifications for Scrum team.
-				</p>
-			</header>
-
-		</div>
-
-	</article><!-- // section -->
-
-	<article class="page single landing ffffff" id="mi_all_devices">
-
-		<div class="container">
-			<section class="landing_all_devices">
-				<div class="ipad">
-					<img src="../images/mi/device-ipad-screen.png" class="inside" alt="ipad-inside">
-				</div>
-				<div class="desktop">
-					<a href="#ux_ui_decisions" title="Responive design for BigData project" id="dp_button">
-						<img src="../images/mi/homepage_browser.png" class="inside" alt="desktop-inside">
-						<div class="blue-bar">
-							RESPONSIVE WEB APPLICATION
-							<strong>Design & HTML, CSS coding</strong>
-						</div>
-					</a>
-				</div>
-				<div class="iphone">
-					<a href="#mob_and_watch" title="Hybrid design for BigData project">
-						<img src="../images/mi/homepage_phone.png" class="inside" alt="iphone-inside">
-						<div class="blue-bar">
-							hybrid mobile app
-							<strong>Design & Prototyping</strong>
-						</div>
-					</a>
-				</div>
-				<div class="watch">
-					<a href="#mob_and_watch" title="Hybrid design for BigData project">
-						<img src="../images/mi/device_watch.png" class="inside" alt="watch-inside">
-						<div class="blue-bar">
-							APpLE WATCH app
-							<strong>Design & Prototyping</strong>
-						</div>
-					</a>
-				</div>
-			</section>
-		</div>
-
-	</article><!-- // section -->
-
-	<article class="page services cdeffd">
-
-		<div class="container">
-			<section class="all_services">
-				<div class="desktop-4 columns one_service">
-					<i class="fa fa-briefcase" aria-hidden="true"></i>
-					<div>
-						<strong>Customer</strong>
-						Business intelligence startup<br>from California, USA.
+					<div class="mi-device mi-device--tablet">
+						<img src="../images/mi_case/dev_ipad.jpg" alt="Tablet dashboard" loading="lazy">
+						<div class="mi-device__name">Tablet</div>
+						<div class="mi-device__role">Adaptive layout</div>
+					</div>
+					<div class="mi-device mi-device--mobile">
+						<img src="../images/mi_case/dev_phone.jpg" alt="Mobile app" loading="lazy">
+						<div class="mi-device__name">Mobile</div>
+						<div class="mi-device__role">Native and hybrid</div>
+					</div>
+					<div class="mi-device mi-device--watch">
+						<img src="../images/mi_case/dev_watch.png" alt="Apple Watch app" loading="lazy">
+						<div class="mi-device__name">Watch</div>
+						<div class="mi-device__role">Glanceable metrics</div>
 					</div>
 				</div>
-				<div class="desktop-4 columns one_service">
-					<i class="fa fa-wrench" aria-hidden="true"></i>
-					<div>
-						<strong>DESIGN TOOLS & METHODOLOGIES</strong>
-						SKETCH, InVision, Flinto, FramerJS,<br> Adobe Photoshop / Illustrator, Assability testing, Remote Usability testing
+			</div>
+		</section>
+
+		<!-- PLATFORM SHOWCASE -->
+		<section class="mi-section mi-section--alt">
+			<div class="mi-wrap">
+				<div class="mi-intro">
+					<div class="mi-eyebrow">Across the platform</div>
+					<h2>One system, every screen</h2>
+				</div>
+
+				<div class="mi-row">
+					<div class="mi-row__text">
+						<span class="mi-row__tag">Web dashboard</span>
+						<h3>The core BI experience</h3>
+						<p>Data, charts, and alerts in one place, designed for daily monitoring. The dashboard scales from a single metric to a full operations view.</p>
+					</div>
+					<div class="mi-row__media"><img src="../images/mi_case/web.jpg" alt="Metric Insights web dashboard" loading="lazy" decoding="async"></div>
+				</div>
+
+				<div class="mi-row mi-row--flip">
+					<div class="mi-row__text">
+						<span class="mi-row__tag">Mobile</span>
+						<h3>The platform follows users</h3>
+						<p>Native and hybrid apps carry the same data to small screens. Layouts adapt, the design language stays the same.</p>
+					</div>
+					<div class="mi-row__media is-portrait">
+						<video autoplay loop muted playsinline preload="metadata" poster="../images/mi_case/phone.jpg">
+							<source src="../images/mi/mi_phone.mp4" type="video/mp4">
+							<img src="../images/mi_case/phone.jpg" alt="Metric Insights mobile app">
+						</video>
 					</div>
 				</div>
-				<div class="desktop-4 columns one_service">
-					<i class="fa fa-cogs" aria-hidden="true"></i>
-					<div>
-						<strong>PROJECT technology</strong>
-						PHP, Angular, MySQL,<br>Hadoop, BigQuery, QlikView.
+
+				<div class="mi-row">
+					<div class="mi-row__text">
+						<span class="mi-row__tag">Apple Watch</span>
+						<h3>Metrics on the wrist</h3>
+						<p>Key numbers and alerts at a glance, focused on what needs attention right now. The hardest constraint shaped the clearest design.</p>
+					</div>
+					<div class="mi-row__media">
+						<video autoplay loop muted playsinline preload="metadata" poster="../images/mi_case/watch.jpg">
+							<source src="../images/mi/mi_watch.mp4" type="video/mp4">
+							<img src="../images/mi_case/watch.jpg" alt="Metric Insights Apple Watch app">
+						</video>
 					</div>
 				</div>
-			</section>
-		</div>
 
-	</article><!-- // section -->
-
-	<article class="page landing ecfbdc" id="ux_ui_decisions">
-
-		<div class="container">
-			
-			<div class="desktop-3 columns">
-				<header class="landing_text">
-					<h2>
-						UX & UI DECISIONS
-					</h2>
-					<p>
-						Based on prototypes,
-						User testing and etc
-					</p>
-				</header>
-
-				<div class="preview_box">
-					<a href="https://goo.gl/Dja6Pr" title="Example of User Testing for BigData project" target="_blank">
-						<img src="../images/ut_ico.png" alt="User testing for BigData project">
-						Example of Remote Testing
-					</a>
-					<span>
-						Three successful Use Cases which were
-tested on prototype by User who never
-seen this system before.
-					</span>
-				</div>
-
-				<div class="preview_box">
-					<a href="https://invis.io/6JBW5GB95 " title="Clicable prototype for testing Use Cases" target="_blank">
-						<img src="../images/iv_ico.png" alt="Clicable prototype for BigData project">
-						Example of Clicable prototype
-					</a>
-					<span>
-						It is clickable prototype for navigation on dashboard. This prototype was used for remote User Testing and UX experiments.
-					</span>
-				</div>
-			</div>
-
-			<div class="desktop-9 columns">
-				<section class="landing_heroshot">
-					<div class="newbrowser">
-						<div>
-							<figure>
-				    		<video class="inside" autoplay="" loop="" poster="../images/mi/homepage_top.mp4.gif">
-				        		<source src="../images/mi/homepage_top.mp4" type="video/mp4">
-				    		</video>
-							<figure>
-						</figure></figure></div>
+				<div class="mi-row mi-row--flip">
+					<div class="mi-row__text">
+						<span class="mi-row__tag">Themeable UI</span>
+						<h3>One interface, many themes</h3>
+						<p>A themeable system so the platform adapts to brand and context without rebuilding screens. Tokens drive color, type, and spacing.</p>
 					</div>
-				</section><!-- // .container -->
-			</div>
-			
-		</div>
-
-	</article><!-- // section -->
-
-	<article class="page landing ffffff" id="mi_components">
-
-		<div class="container">
-			
-			<div class="desktop-4 columns">
-				<header class="landing_text">
-					<h2>
-						CONTROLS & ELEMENTS
-					</h2>
-					<p>
-						designed, described & implemented
-						via html & css with Bootstrap and
-						ExtJS framworks
-					</p>
-				</header>
-				<img src="../images/mi/bd_ui.svg"  alt="Design of ui components for BigData project">
-			</div>
-
-			<div class="desktop-8 columns">
-				<section class="landing_heroshot">
-					<img src="../images/mi/bd_grids.png" alt="Design for ExtJS">
-				</section><!-- // .container -->
-			</div>
-			
-		</div>
-
-	</article><!-- // section -->
-
-	<article class="page landing faf2ff" id="mob_and_watch">
-
-		<div class="container">
-			
-			<div class="desktop-3 columns">
-				<header class="landing_text" >
-					<h2>
-						MOBILE & WATCH
-					</h2>
-					<p>
-						Design and prototyps
-						for application where
-						user can check alerts
-					</p>
-				</header>
-
-				<div class="preview_box" >
-
-					<strong>
-						<img src="../images/fj_ico.png" alt="FramerJS prototype"> <span>FramerJS</span>
-					</strong>
-					<span>
-The clickable prototype for native part of Mobile App was made in FramerJS.
-					</span>
+					<div class="mi-row__media"><img src="../images/mi_case/themeable.jpg" alt="Metric Insights themeable UI system" loading="lazy" decoding="async"></div>
 				</div>
 
-				 
-				<div class="preview_box">
-					<a href="https://marvelapp.com/5iag711" title="Clicable prototype for testing Use Cases" target="_blank">
-						<img src="../images/i_m_ico.png" alt="InVision prototype for Smartwatch APP">
-						SmartWatch App
-					</a>
-					<span>
-						This smartwatch application has been animated in Flinto prototyping tool.
-<br><br>
-Also you can see clickable prototype which was made in Marvel prototyping tool.
-					</span>
-				</div>
-				
-			</div>
-
-			<div class="desktop-9 columns">
-				<section class="landing_heroshot">
-					<div class="iphone">
-						<div>
-							<figure>
-						      <video class="inside" autoplay="" loop="" poster="../images/mi/mi_main_phone.png">
-					          <source src="../images/mi/mi_phone.mp4" type="video/mp4">
-						      </video>
-							</figure>
-						</div>
-				 	</div>
-
-				 	<div class="watch">
-				 		<div>
-							<figure>
-						      <video class="inside" autoplay="" loop="" poster="../images/mi/mi_watch.png">
-					          <source src="../images/mi/mi_watch.mp4" type="video/mp4">
-						      </video>
-							</figure>
-						</div>
+				<div class="mi-row">
+					<div class="mi-row__text">
+						<span class="mi-row__tag">Email digests</span>
+						<h3>Data that comes to you</h3>
+						<p>Scheduled digests and alerts delivered by email, designed to match the platform and read well in every client.</p>
 					</div>
-				</section><!-- // .container -->
-			</div>
-			
-		</div>
-
-	</article><!-- // section -->
-
-	<article class="page landing ffffff" id="wireframes_and_spec">
-
-		<div class="container">
-			
-			<div class="desktop-3 columns">
-				<header class="landing_text">
-					<h2>
-						Wireframes & specifications
-					</h2>
-					<p>
-						features described and
-						ready for export to Jira
-					</p>
-				</header>
-
-				<div class="preview_box">
-					<a href="../images/mi/ManagedAlertsSpec.pdf" title="Specification & wireframes for BigData project" target="_blank">
-						<img src="../images/gd_ico.png" alt="Specification & wireframes for BigData project">
-						Managed Alerts (Spec & Wireframes) 
-					</a>
-					<span>
-						Metrics with Anomally data generates alert for Manager. Manager can assign alert to responsible person.
-					</span>
+					<div class="mi-row__media is-portrait"><img src="../images/mi_case/emails.jpg" alt="Metric Insights email digests" loading="lazy" decoding="async"></div>
 				</div>
 
-				<div class="preview_box">
-					<a href="../images/mi/MetricTemplates.pdf" title="Wireframes for BigData project" target="_blank">
-						<img src="../images/b_ico.png" alt="Specification & wireframes for BigData project">
-						Templates for typical elements (Wireframes) 
-					</a>
-					<span>
-						Report & Metric templates with typical data for typical elements. When a user creates new element the fields are filled with typical info.
-					</span>
+				<div class="mi-row mi-row--flip">
+					<div class="mi-row__text">
+						<span class="mi-row__tag">Large screens</span>
+						<h3>Dashboards for the war room</h3>
+						<p>Auto-rotating views for big screens in operations centers and lobbies, readable from across the room.</p>
+					</div>
+					<div class="mi-row__media"><img src="../images/mi_case/slideshow.jpg" alt="Metric Insights large-screen slideshow" loading="lazy" decoding="async"></div>
 				</div>
-
 			</div>
+		</section>
 
-			<div class="desktop-9 columns">
-				<section class="landing_heroshot">
-					<iframe src="../images/mi/ManagedAlertsSpec.pdf">
-						
-					</iframe>
-				</section><!-- // .container -->
+		<!-- DESIGN SYSTEM -->
+		<section class="mi-section">
+			<div class="mi-wrap">
+				<div class="mi-intro">
+					<div class="mi-eyebrow">The foundation</div>
+					<h2>Standards and grids underneath</h2>
+					<p>So engineers could compose new screens consistently, without re-deciding patterns.</p>
+				</div>
+				<div class="mi-row">
+					<div class="mi-row__text">
+						<span class="mi-row__tag">UI standards</span>
+						<h3>A shared library</h3>
+						<p>Components, states, and usage rules in one reference, so every team built from the same parts.</p>
+					</div>
+					<div class="mi-row__media is-portrait"><img src="../images/mi_case/standards.jpg" alt="Metric Insights UI standards library" loading="lazy" decoding="async"></div>
+				</div>
+				<div class="mi-row mi-row--flip">
+					<div class="mi-row__text">
+						<span class="mi-row__tag">Responsive grid</span>
+						<h3>Structure on every layout</h3>
+						<p>A responsive grid system underpinning the whole platform, from a single chart to a full dashboard.</p>
+					</div>
+					<div class="mi-row__media"><img src="../images/mi_case/grids.jpg" alt="Metric Insights responsive grid system" loading="lazy" decoding="async"></div>
+				</div>
 			</div>
-			
+		</section>
+
+		<!-- DOCUMENTATION -->
+		<section class="mi-section mi-section--alt">
+			<div class="mi-wrap">
+				<div class="mi-intro">
+					<div class="mi-eyebrow">Handoff</div>
+					<h2>Specs the team built from</h2>
+					<p>I documented every pattern, so engineers could build without guesswork.</p>
+				</div>
+				<div class="mi-docs">
+					<a href="../images/mi/ManagedAlertsSpec.pdf" target="_blank" rel="noopener" class="mi-doc">
+						<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+						<div><div class="mi-doc__title">Managed Alerts Spec</div><div class="mi-doc__meta">PDF specification</div></div>
+					</a>
+					<a href="../images/mi/MetricTemplates.pdf" target="_blank" rel="noopener" class="mi-doc">
+						<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+						<div><div class="mi-doc__title">Metric Templates</div><div class="mi-doc__meta">PDF specification</div></div>
+					</a>
+					<a href="../images/mi/MetricTemplate.pdf" target="_blank" rel="noopener" class="mi-doc">
+						<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+						<div><div class="mi-doc__title">Template Guidelines</div><div class="mi-doc__meta">PDF specification</div></div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- OUTCOMES -->
+		<section class="mi-section">
+			<div class="mi-wrap">
+				<div class="mi-intro">
+					<div class="mi-eyebrow">The outcome</div>
+					<h2>Four years on one foundation</h2>
+				</div>
+				<div class="mi-out">
+					<div class="mi-out__card">
+						<i class="fa fa-th-large" aria-hidden="true"></i>
+						<h3>Consistent everywhere</h3>
+						<p>One design language across web, mobile, watch, and email. Users moved between devices without relearning.</p>
+					</div>
+					<div class="mi-out__card">
+						<i class="fa fa-cubes" aria-hidden="true"></i>
+						<h3>A system, not screens</h3>
+						<p>A design system and specs let engineers ship without re-deciding patterns. Speed and consistency at once.</p>
+					</div>
+					<div class="mi-out__card">
+						<i class="fa fa-line-chart" aria-hidden="true"></i>
+						<h3>Built to evolve</h3>
+						<p>Four years of product growth on a coherent foundation that absorbed new features without breaking.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- CTA -->
+		<section class="mi-section">
+			<div class="mi-wrap">
+				<div class="mi-cta">
+					<h2>Have a platform to unify?</h2>
+					<p>I help teams bring scattered products into one consistent system, across every device.</p>
+					<a href="../contact.html" class="mi-btn mi-btn--primary">Let's talk</a>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<div>
+				<div class="site-footer__brand">Oleksii Tsesliuk</div>
+				<div class="site-footer__role">UI/UX Director · System Analyst</div>
+			</div>
+			<div class="site-footer__links">
+				<a href="mailto:email@tsesliuk.com">email@tsesliuk.com</a>
+				<a href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a>
+				<a href="https://oleksii.tsesliuk.com/">About me</a>
+			</div>
 		</div>
+		<div class="site-footer__copy">&copy; 2026 Oleksii Tsesliuk. Kyiv, Ukraine.</div>
+	</footer>
 
-	</article><!-- // section -->
-
-
-	<!-- Footer
-	================================================== -->
-	<section id="footer">
-		<div class="container">
-
-			<div class="contacts_line">
-				<span class="contacts_cell"><span>Email:</span> <a href="mailto:email@tsesliuk.com" title="Designer: Oleksii Tsesliuk (Email)" target="_blank">email@tsesliuk.com</a></span>
-				<span class="contacts_cell"><span>linkedIn:</span> <a href="https://ua.linkedin.com/in/tsesliuk" target="_blank" title="Designer: Oleksii Tsesliuk (LinkedIn account)">linkedin.com/in/tsesliuk</a></span>
-			</div>
-
-			<div class="clear"></div>
-
-			<!--
-			<div class="desktop-3 columns">
-				<p>Copyright &copy; <a href="http://www.typebig.com" class="italic">Typebig</a></p>
-			</div>!-- // .desktop-3 --
-
-			<div class="desktop-9 columns">
-				<ul id="social">
-					<li><a href="http://www.facebook.com" class="hoverMe">Facebook</a></li>
-					<li><a href="http://www.twitter.com" class="hoverMe">Twitter</a></li>
-					<li><a href="http://www.google.com" class="hoverMe">Google+</a></li>
-				</ul>!-- // #social --
-			</div>!-- // .desktop-9 --
-
-			<div class="clear"></div>
-			-->
-
-			<!--
-			<ul id="nav" class="full">
-				<li>
-					<a href="index.html">
-						Works
-						<span class="count hide-on-mobile">Design, Coding, Management</span>
-					</a>
-				</li>
-				<li>
-					<a href="https://oleksii.tsesliuk.com/">
-						About
-						<span class="count hide-on-mobile">Skills, Experience, Goals</span>
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-						Contacts
-						<span class="count hide-on-mobile">Email, LinkedIn</span>
-					</a>
-				</li>
-			</ul>!-- // #nav --
-			-->
-
-		</div><!-- // .container -->
-
-	</section><!-- // section#footer -->
-
-
-	<!-- JS
-	================================================== -->
-	<!-- 
-		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
-		Use jQuery 1.8 until Flexslider 2.2 stable version is released
-	-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-	<script src="../js/jQuery.BlackAndWhite.min.js"></script>
-	<script src="../js/modernizr.js"></script>
-	<script src="../js/less-1.4.0.min.js"></script>
-	<script src="../js/jquery.typeMenu.js"></script>
-	<script src="../js/jquery.typeSticky.js"></script>
-	<script src="../js/jquery.malihu.PageScroll2id.min.js"></script>
-
-	<script src="../js/jquery.custom.js"></script>
-
-
-	<script>
-		(function($){
-		$(window).load(function(){
-		 
-		$("#mi_all_devices a").mPageScroll2id({
-		highlightSelector:"#mi_all_devices a"
-		});
-		 
-		$("a[rel='next']").click(function(e){
-		e.preventDefault();
-		var to=$(this).parent().parent("section").next().attr("id");
-		$.mPageScroll2id("scrollTo",to);
-		});
-		 
-		});
-		})(jQuery);
-	</script>
-
-
-<!-- End Document
-================================================== -->
 </body>
 </html>

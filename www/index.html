@@ -203,19 +203,19 @@
 	@media(max-width:760px){.featured{grid-template-columns:1fr}.featured__media{aspect-ratio:16/10}}
 
 	/* Work grid */
-	.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.4rem,2.5vw,2rem)}
-	@media(max-width:860px){.grid{grid-template-columns:repeat(2,1fr)}}
-	@media(max-width:520px){.grid{grid-template-columns:1fr}}
+	.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1.6rem,3vw,2.4rem)}
+	@media(max-width:600px){.grid{grid-template-columns:1fr}}
+	.grid .card__media{aspect-ratio:16/10}
 	.card{display:flex;flex-direction:column;transition:transform 0.25s ease}
 	.card:hover{transform:translateY(-4px)}
 	.card__media{
 		aspect-ratio:4/3;background:var(--bg-card);border-radius:var(--radius);
 		overflow:hidden;display:flex;align-items:center;justify-content:center;
-		margin-bottom:1rem;transition:background 0.25s ease;
+		padding:clamp(0.9rem,4%,1.8rem);margin-bottom:1rem;transition:background 0.25s ease;
 	}
 	.card:hover .card__media{background:#ececf0}
-	.card__media img{width:100%;height:100%;object-fit:cover;transition:transform 0.4s ease}
-	.card:hover .card__media img{transform:scale(1.04)}
+	.card__media img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;transition:transform 0.3s ease}
+	.card:hover .card__media img{transform:scale(1.03)}
 	.card__title{font-size:1.02rem;font-weight:600;letter-spacing:-0.01em;margin-bottom:0.25rem;color:var(--ink)}
 	.card__cat{font-size:0.82rem;color:var(--ink-faint);line-height:1.4}
 
@@ -345,38 +345,13 @@
 		<div class="wrap">
 			<div class="sec__head">
 				<h2>Selected work</h2>
-				<span class="count">11 projects</span>
 			</div>
 			<div class="grid">
 
-				<a href="/works/bigdata.html" class="card" title="BigData Web Application">
-					<div class="card__media"><img src="images/thumbnails/mi_preview.svg" alt="UI/UX design for BigData web application" loading="lazy" decoding="async"></div>
-					<div class="card__title">BigData Web Application</div>
-					<div class="card__cat">UI/UX Design, Front-End, Management</div>
-				</a>
-
-				<a href="/works/themeable_ui.html" class="card" title="Themeable UI for BigData">
-					<div class="card__media"><img src="images/thumbnails/themeable_ui.svg" alt="Themeable UI for BigData project" loading="lazy" decoding="async"></div>
-					<div class="card__title">Themeable UI</div>
-					<div class="card__cat">Management, UI/UX Design, HTML/SCSS</div>
-				</a>
-
-				<a href="/works/uistandards.html" class="card" title="UI Standards for BigData">
-					<div class="card__media"><img src="images/thumbnails/ui_standards.svg" alt="UI framework standards for BigData project" loading="lazy" decoding="async"></div>
-					<div class="card__title">UI Standards</div>
-					<div class="card__cat">UI/UX Design, HTML/CSS</div>
-				</a>
-
-				<a href="/works/bigdata_grids.html" class="card" title="Grids redesign for BigData">
-					<div class="card__media"><img src="images/thumbnails/bigdata_grid.svg" alt="Grids redesign for BigData project" loading="lazy" decoding="async"></div>
-					<div class="card__title">Grids Redesign</div>
-					<div class="card__cat">UI/UX Design, HTML/CSS</div>
-				</a>
-
-				<a href="/works/onboarding.html" class="card" title="Onboarding for mobile app">
-					<div class="card__media"><img src="images/thumbnails/onboarding_hoop.svg" alt="Onboarding for mobile application" loading="lazy" decoding="async"></div>
-					<div class="card__title">Mobile Onboarding</div>
-					<div class="card__cat">UI/UX Design, Illustrations</div>
+				<a href="/works/bigdata.html" class="card" title="Metric Insights BI platform case study">
+					<div class="card__media"><img src="images/thumbnails/mi_preview.svg" alt="Metric Insights business intelligence platform" loading="lazy" decoding="async"></div>
+					<div class="card__title">Metric Insights</div>
+					<div class="card__cat">BI Platform · Web, Mobile, Watch, Design System</div>
 				</a>
 
 				<a href="/works/messenger.html" class="card" title="Messenger mobile app">
@@ -385,32 +360,14 @@
 					<div class="card__cat">UI/UX Design, Motion Design</div>
 				</a>
 
-				<a href="/works/mobile_web_app.html" class="card" title="Mobile web application">
-					<div class="card__media"><img src="images/thumbnails/mobile_web_application.svg" alt="Mobile web application design" loading="lazy" decoding="async"></div>
-					<div class="card__title">Mobile Web App</div>
-					<div class="card__cat">UI/UX Design, Motion Design</div>
-				</a>
-
-				<a href="/works/apple_watch_bigdata_app.html" class="card" title="Apple Watch application">
-					<div class="card__media"><img src="images/thumbnails/apple_watch_bigdata.svg" alt="Apple Watch application for BigData" loading="lazy" decoding="async"></div>
-					<div class="card__title">Apple Watch App</div>
-					<div class="card__cat">UI/UX Design</div>
-				</a>
-
-				<a href="/works/emails_bigdata.html" class="card" title="Email design system for BigData">
-					<div class="card__media"><img src="images/thumbnails/emails_bigdata.svg" alt="Email templates for BigData web app" loading="lazy" decoding="async"></div>
-					<div class="card__title">Email System</div>
-					<div class="card__cat">UI/UX Design, HTML/CSS</div>
-				</a>
-
-				<a href="/works/slideshow.html" class="card" title="Slideshow for large screens">
-					<div class="card__media"><img src="images/thumbnails/slideshow_preview.svg" alt="Slideshow UI for large screens" loading="lazy" decoding="async"></div>
-					<div class="card__title">Large-Screen Slideshow</div>
-					<div class="card__cat">UI/UX Design</div>
+				<a href="/works/onboarding.html" class="card" title="Onboarding for mobile app">
+					<div class="card__media"><img src="images/thumbnails/onboarding_hoop.svg" alt="Onboarding for mobile application" loading="lazy" decoding="async"></div>
+					<div class="card__title">Mobile Onboarding</div>
+					<div class="card__cat">UI/UX Design, Illustrations</div>
 				</a>
 
 				<a href="/works/headphone_framework.html" class="card" title="Headphone hardware framework">
-					<div class="card__media"><img src="images/thumbnails/headphone_framework.png" alt="Design framework for headphone hardware" loading="lazy" decoding="async"></div>
+					<div class="card__media"><img src="images/thumbnails/headphone_framework.svg" alt="Design framework for headphone hardware" loading="lazy" decoding="async"></div>
 					<div class="card__title">Headphone Framework</div>
 					<div class="card__cat">UI/UX Design, Hardware</div>
 				</a>
