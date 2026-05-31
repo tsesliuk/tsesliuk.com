@@ -1,0 +1,466 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<title>Metric Insights · Classic Presentation · Oleksii Tsesliuk</title>
+	<meta name="description" content=".">
+	<meta name="author" content="">
+	
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CSS Files
+	* cssreset-min.css 			- CSS reset
+	* typegrid.css				- Responsive grid system
+	* style.css					- Main CSS file
+	
+	Original LESS Stylesheet
+	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
+	================================================== -->
+	<link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/typegrid.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+		<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEB8CH9ZB"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-HXEB8CH9ZB');
+	</script>
+
+	<!-- Hotjar Tracking Code for tsesliuk.com -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:6708561,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+
+	<script src="https://use.fontawesome.com/a675879d09.js"></script>
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<style>
+	.site-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid #e8e8ed;font-family:'Inter',-apple-system,sans-serif}
+	.site-nav__inner{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
+	.site-nav__brand{font-weight:700;font-size:0.95rem;letter-spacing:-0.01em;color:#1d1d1f;text-decoration:none}
+	.site-nav__links{display:flex;gap:2rem;list-style:none;margin:0;padding:0}
+	.site-nav__links a{font-size:0.85rem;color:#6e6e73;text-decoration:none;transition:color 0.2s}
+	.site-nav__links a:hover{color:#1d1d1f}
+	@media(max-width:560px){.site-nav__links{gap:1.2rem}.site-nav__links a{font-size:0.8rem}}
+	.site-footer{border-top:1px solid #e8e8ed;padding:3rem 0;background:#fff;font-family:'Inter',-apple-system,sans-serif;margin-top:3rem}
+	.site-footer__inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+	.site-footer__brand{font-weight:700;font-size:1.05rem;color:#1d1d1f;margin-bottom:0.3rem}
+	.site-footer__role{font-size:0.85rem;color:#86868b}
+	.site-footer__links{display:flex;flex-direction:column;gap:0.5rem;text-align:right}
+	.site-footer__links a{font-size:0.9rem;color:#6e6e73;text-decoration:none}
+	.site-footer__links a:hover{color:#1d607d}
+	.site-footer__copy{max-width:1200px;margin:2rem auto 0;padding:0 24px;font-size:0.78rem;color:#86868b}
+	</style>
+</head>
+
+<body id="project-p">
+
+
+	<!-- Header - Half Logo
+	================================================== -->
+		<nav class="site-nav">
+		<div class="site-nav__inner">
+			<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+			<ul class="site-nav__links">
+				<li><a href="../index.html">Work</a></li>
+				<li><a href="https://oleksii.tsesliuk.com/">About</a></li>
+				<li><a href="../contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div style="background:#f5f7f8;border-bottom:1px solid #e8e8ed;text-align:center;padding:0.7rem 1rem;font-family:'Inter',-apple-system,sans-serif;font-size:0.86rem;color:#6e6e73">
+		This is the original presentation. <a href="bigdata.html" style="color:#1d607d;font-weight:600;text-decoration:none">View the full case study &rarr;</a>
+	</div>
+
+	<!-- Work - Single Page (Left Sidebar)
+	================================================== -->
+	<article class="page single landing first cdeffd" id="mi_ui_and_ux">
+
+		<div class="conteiner">
+
+			<section class="landing_heroshot">
+
+				<img src="../images/mi/mi_main_hero.png" alt="Dashboard for Big Data Web Application" class="image_with_perspective" id="mi_hero">
+				<img src="../images/mi/mi_main_overlay_hero.png" alt="Dashboard for Big Data Web Application" class="image_with_perspective" id="overlay_mi_hero">
+				
+				<div class=" newiphone">
+					<div>
+						<img src="../images/mi/mi_main_phone.png" alt="Mobile version of Viewer for Big Data Web Application">
+					</div>
+			 	</div>
+			</section><!-- // .container -->
+
+			<header class="landing_text center">
+				<h1>
+					UI & UX DESIGN
+					<small>For Business Intelligence Tool</small>
+				</h1>
+				<p>
+					Full circle of Researches, Usability tests and Designs<br>
+					for WEB, Native and Hybrid apps, with descridescribed<br>
+					specifications for Scrum team.
+				</p>
+			</header>
+
+		</div>
+
+	</article><!-- // section -->
+
+	<article class="page single landing ffffff" id="mi_all_devices">
+
+		<div class="container">
+			<section class="landing_all_devices">
+				<div class="ipad">
+					<img src="../images/mi/device-ipad-screen.png" class="inside" alt="ipad-inside">
+				</div>
+				<div class="desktop">
+					<a href="#ux_ui_decisions" title="Responive design for BigData project" id="dp_button">
+						<img src="../images/mi/homepage_browser.png" class="inside" alt="desktop-inside">
+						<div class="blue-bar">
+							RESPONSIVE WEB APPLICATION
+							<strong>Design & HTML, CSS coding</strong>
+						</div>
+					</a>
+				</div>
+				<div class="iphone">
+					<a href="#mob_and_watch" title="Hybrid design for BigData project">
+						<img src="../images/mi/homepage_phone.png" class="inside" alt="iphone-inside">
+						<div class="blue-bar">
+							hybrid mobile app
+							<strong>Design & Prototyping</strong>
+						</div>
+					</a>
+				</div>
+				<div class="watch">
+					<a href="#mob_and_watch" title="Hybrid design for BigData project">
+						<img src="../images/mi/device_watch.png" class="inside" alt="watch-inside">
+						<div class="blue-bar">
+							APpLE WATCH app
+							<strong>Design & Prototyping</strong>
+						</div>
+					</a>
+				</div>
+			</section>
+		</div>
+
+	</article><!-- // section -->
+
+	<article class="page services cdeffd">
+
+		<div class="container">
+			<section class="all_services">
+				<div class="desktop-4 columns one_service">
+					<i class="fa fa-briefcase" aria-hidden="true"></i>
+					<div>
+						<strong>Customer</strong>
+						Business intelligence startup<br>from California, USA.
+					</div>
+				</div>
+				<div class="desktop-4 columns one_service">
+					<i class="fa fa-wrench" aria-hidden="true"></i>
+					<div>
+						<strong>DESIGN TOOLS & METHODOLOGIES</strong>
+						SKETCH, InVision, Flinto, FramerJS,<br> Adobe Photoshop / Illustrator, Assability testing, Remote Usability testing
+					</div>
+				</div>
+				<div class="desktop-4 columns one_service">
+					<i class="fa fa-cogs" aria-hidden="true"></i>
+					<div>
+						<strong>PROJECT technology</strong>
+						PHP, Angular, MySQL,<br>Hadoop, BigQuery, QlikView.
+					</div>
+				</div>
+			</section>
+		</div>
+
+	</article><!-- // section -->
+
+	<article class="page landing ecfbdc" id="ux_ui_decisions">
+
+		<div class="container">
+			
+			<div class="desktop-3 columns">
+				<header class="landing_text">
+					<h2>
+						UX & UI DECISIONS
+					</h2>
+					<p>
+						Based on prototypes,
+						User testing and etc
+					</p>
+				</header>
+
+				<div class="preview_box">
+					<a href="https://goo.gl/Dja6Pr" title="Example of User Testing for BigData project" target="_blank">
+						<img src="../images/ut_ico.png" alt="User testing for BigData project">
+						Example of Remote Testing
+					</a>
+					<span>
+						Three successful Use Cases which were
+tested on prototype by User who never
+seen this system before.
+					</span>
+				</div>
+
+				<div class="preview_box">
+					<a href="https://invis.io/6JBW5GB95 " title="Clicable prototype for testing Use Cases" target="_blank">
+						<img src="../images/iv_ico.png" alt="Clicable prototype for BigData project">
+						Example of Clicable prototype
+					</a>
+					<span>
+						It is clickable prototype for navigation on dashboard. This prototype was used for remote User Testing and UX experiments.
+					</span>
+				</div>
+			</div>
+
+			<div class="desktop-9 columns">
+				<section class="landing_heroshot">
+					<div class="newbrowser">
+						<div>
+							<figure>
+				    		<video class="inside" autoplay="" loop="" poster="../images/mi/homepage_top.mp4.gif">
+				        		<source src="../images/mi/homepage_top.mp4" type="video/mp4">
+				    		</video>
+							<figure>
+						</figure></figure></div>
+					</div>
+				</section><!-- // .container -->
+			</div>
+			
+		</div>
+
+	</article><!-- // section -->
+
+	<article class="page landing ffffff" id="mi_components">
+
+		<div class="container">
+			
+			<div class="desktop-4 columns">
+				<header class="landing_text">
+					<h2>
+						CONTROLS & ELEMENTS
+					</h2>
+					<p>
+						designed, described & implemented
+						via html & css with Bootstrap and
+						ExtJS framworks
+					</p>
+				</header>
+				<img src="../images/mi/bd_ui.svg"  alt="Design of ui components for BigData project">
+			</div>
+
+			<div class="desktop-8 columns">
+				<section class="landing_heroshot">
+					<img src="../images/mi/bd_grids.png" alt="Design for ExtJS">
+				</section><!-- // .container -->
+			</div>
+			
+		</div>
+
+	</article><!-- // section -->
+
+	<article class="page landing faf2ff" id="mob_and_watch">
+
+		<div class="container">
+			
+			<div class="desktop-3 columns">
+				<header class="landing_text" >
+					<h2>
+						MOBILE & WATCH
+					</h2>
+					<p>
+						Design and prototyps
+						for application where
+						user can check alerts
+					</p>
+				</header>
+
+				<div class="preview_box" >
+
+					<strong>
+						<img src="../images/fj_ico.png" alt="FramerJS prototype"> <span>FramerJS</span>
+					</strong>
+					<span>
+The clickable prototype for native part of Mobile App was made in FramerJS.
+					</span>
+				</div>
+
+				 
+				<div class="preview_box">
+					<a href="https://marvelapp.com/5iag711" title="Clicable prototype for testing Use Cases" target="_blank">
+						<img src="../images/i_m_ico.png" alt="InVision prototype for Smartwatch APP">
+						SmartWatch App
+					</a>
+					<span>
+						This smartwatch application has been animated in Flinto prototyping tool.
+<br><br>
+Also you can see clickable prototype which was made in Marvel prototyping tool.
+					</span>
+				</div>
+				
+			</div>
+
+			<div class="desktop-9 columns">
+				<section class="landing_heroshot">
+					<div class="iphone">
+						<div>
+							<figure>
+						      <video class="inside" autoplay="" loop="" poster="../images/mi/mi_main_phone.png">
+					          <source src="../images/mi/mi_phone.mp4" type="video/mp4">
+						      </video>
+							</figure>
+						</div>
+				 	</div>
+
+				 	<div class="watch">
+				 		<div>
+							<figure>
+						      <video class="inside" autoplay="" loop="" poster="../images/mi/mi_watch.png">
+					          <source src="../images/mi/mi_watch.mp4" type="video/mp4">
+						      </video>
+							</figure>
+						</div>
+					</div>
+				</section><!-- // .container -->
+			</div>
+			
+		</div>
+
+	</article><!-- // section -->
+
+	<article class="page landing ffffff" id="wireframes_and_spec">
+
+		<div class="container">
+			
+			<div class="desktop-3 columns">
+				<header class="landing_text">
+					<h2>
+						Wireframes & specifications
+					</h2>
+					<p>
+						features described and
+						ready for export to Jira
+					</p>
+				</header>
+
+				<div class="preview_box">
+					<a href="../images/mi/ManagedAlertsSpec.pdf" title="Specification & wireframes for BigData project" target="_blank">
+						<img src="../images/gd_ico.png" alt="Specification & wireframes for BigData project">
+						Managed Alerts (Spec & Wireframes) 
+					</a>
+					<span>
+						Metrics with Anomally data generates alert for Manager. Manager can assign alert to responsible person.
+					</span>
+				</div>
+
+				<div class="preview_box">
+					<a href="../images/mi/MetricTemplates.pdf" title="Wireframes for BigData project" target="_blank">
+						<img src="../images/b_ico.png" alt="Specification & wireframes for BigData project">
+						Templates for typical elements (Wireframes) 
+					</a>
+					<span>
+						Report & Metric templates with typical data for typical elements. When a user creates new element the fields are filled with typical info.
+					</span>
+				</div>
+
+			</div>
+
+			<div class="desktop-9 columns">
+				<section class="landing_heroshot">
+					<iframe src="../images/mi/ManagedAlertsSpec.pdf">
+						
+					</iframe>
+				</section><!-- // .container -->
+			</div>
+			
+		</div>
+
+	</article><!-- // section -->
+
+
+	<!-- Footer
+	================================================== -->
+		<footer class="site-footer">
+		<div class="site-footer__inner">
+			<div><div class="site-footer__brand">Oleksii Tsesliuk</div><div class="site-footer__role">UI/UX Director · System Analyst</div></div>
+			<div class="site-footer__links">
+				<a href="mailto:email@tsesliuk.com">email@tsesliuk.com</a>
+				<a href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a>
+				<a href="https://oleksii.tsesliuk.com/">About me</a>
+			</div>
+		</div>
+		<div class="site-footer__copy">&copy; 2026 Oleksii Tsesliuk. Kyiv, Ukraine.</div>
+	</footer>
+
+
+	<!-- JS
+	================================================== -->
+	<!-- 
+		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
+		Use jQuery 1.8 until Flexslider 2.2 stable version is released
+	-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="../js/jQuery.BlackAndWhite.min.js"></script>
+	<script src="../js/modernizr.js"></script>
+	<script src="../js/less-1.4.0.min.js"></script>
+	<script src="../js/jquery.malihu.PageScroll2id.min.js"></script>
+
+	<script src="../js/jquery.custom.js"></script>
+
+
+	<script>
+		(function($){
+		$(window).load(function(){
+		 
+		$("#mi_all_devices a").mPageScroll2id({
+		highlightSelector:"#mi_all_devices a"
+		});
+		 
+		$("a[rel='next']").click(function(e){
+		e.preventDefault();
+		var to=$(this).parent().parent("section").next().attr("id");
+		$.mPageScroll2id("scrollTo",to);
+		});
+		 
+		});
+		})(jQuery);
+	</script>
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
