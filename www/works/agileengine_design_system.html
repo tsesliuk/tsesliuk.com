@@ -244,6 +244,24 @@
 	.site-footer__links a:hover { color: #1d607d; }
 	.site-footer__copy { max-width: 1120px; margin: 2rem auto 0; padding: 0 24px; font-size: 0.78rem; color: #86868b; }
 	@media (max-width: 520px) { .site-footer__links { text-align: left; } }
+
+	/* Breadcrumb + pager */
+	.crumb{border-bottom:1px solid #f0f0f2;font-family:'Inter',-apple-system,sans-serif}
+	.crumb__inner{max-width:1200px;margin:0 auto;padding:0.7rem 24px;font-size:0.82rem;color:#86868b;display:flex;align-items:center;gap:0.5rem}
+	.crumb__inner a{color:#6e6e73;text-decoration:none}
+	.crumb__inner a:hover{color:#1d607d}
+	.crumb__sep{color:#c5c5c9}
+	.crumb__here{color:#1d1d1f;font-weight:500}
+	.pager{border-top:1px solid #e8e8ed;font-family:'Inter',-apple-system,sans-serif;background:#fff}
+	.pager__inner{max-width:1200px;margin:0 auto;padding:1.6rem 24px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+	.pager__item{display:flex;flex-direction:column;text-decoration:none;max-width:42%}
+	.pager__item--next{text-align:right;margin-left:auto}
+	.pager__dir{font-size:0.74rem;color:#86868b;margin-bottom:0.2rem}
+	.pager__name{font-size:0.98rem;font-weight:600;color:#1d1d1f;transition:color 0.2s}
+	.pager__item:hover .pager__name{color:#1d607d}
+	.pager__all{font-size:0.82rem;color:#6e6e73;text-decoration:none;white-space:nowrap}
+	.pager__all:hover{color:#1d607d}
+	@media(max-width:560px){.pager__all{display:none}.pager__name{font-size:0.88rem}}
 	</style>
 
 </head>
@@ -262,6 +280,7 @@
 			</ul>
 		</div>
 	</nav>
+	<div class="crumb"><div class="crumb__inner"><a href="../index.html">Work</a><span class="crumb__sep">&rsaquo;</span><span class="crumb__here">AgileEngine Design System</span></div></div>
 
 
 	<!-- Case study body
@@ -487,6 +506,12 @@
 
 
 	<!-- Site footer (shared standard) -->
+	<nav class="pager"><div class="pager__inner">
+		<a href="headphone_framework.html" class="pager__item pager__item--prev"><span class="pager__dir">&larr; Previous</span><span class="pager__name">Headphone Framework</span></a>
+		<a href="../index.html" class="pager__all">All work</a>
+		<a href="bigdata.html" class="pager__item pager__item--next"><span class="pager__dir">Next &rarr;</span><span class="pager__name">Metric Insights</span></a>
+	</div></nav>
+
 	<footer class="site-footer">
 		<div class="site-footer__inner">
 			<div>
