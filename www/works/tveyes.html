@@ -74,6 +74,12 @@
 	.img-block img{width:100%}
 	.img-cap{font-size:13px;color:var(--text-muted);margin-top:12px;padding:0 4px}
 	.img-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+	.persona-spot{display:grid;grid-template-columns:290px 1fr;gap:36px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:32px;margin-top:40px}
+	.persona-spot__img{border-radius:12px;overflow:hidden;background:var(--bg)}
+	.persona-spot__img img{width:100%;display:block}
+	.persona-spot h3{font-size:22px;font-weight:700;letter-spacing:-0.01em;margin:6px 0 14px}
+	.persona-spot p{font-size:15px;color:var(--text-muted);max-width:none}
+	@media(max-width:800px){.persona-spot{grid-template-columns:1fr;gap:22px}.persona-spot__img{max-width:260px}}
 	.ps-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 	.ps-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:28px}
 	.ps-title{font-size:13px;letter-spacing:0.08em;text-transform:uppercase;font-weight:700;margin-bottom:14px}
@@ -222,8 +228,15 @@
 					<li>Sharing across clips, events and reports</li>
 				</ul></div>
 			</div>
-			<div class="img-block" style="max-width:330px;margin:40px auto 0"><img src="../images/tveyes/persona.jpg" alt="Primary persona Larry, a Public Relations Analyst" loading="lazy"></div>
-			<div class="img-cap" style="text-align:center;max-width:330px;margin-left:auto;margin-right:auto">Primary persona "Larry", a Public Relations Analyst at a small agency. Every later decision was checked against his day.</div>
+			<div class="persona-spot">
+				<div class="persona-spot__img"><img src="../images/tveyes/persona.jpg" alt="Primary persona Larry, a Public Relations Analyst" loading="lazy"></div>
+				<div>
+					<div class="eyebrow">Primary persona</div>
+					<h3>Larry, a Public Relations Analyst</h3>
+					<p>Forty, at a small New York agency. His day is media monitoring: tracking client mentions across thousands of channels, catching negative coverage before it spreads, and packaging clips and reports for clients.</p>
+					<p style="margin-bottom:0">Every later design decision was checked against Larry's day, so the product solved real work and not assumptions.</p>
+				</div>
+			</div>
 
 			<div class="img-block" style="margin-top:36px"><img src="../images/tveyes/dd.jpg" alt="Double Diamond model framing the discovery phase" loading="lazy"></div>
 			<div class="img-cap">We framed discovery with the Double Diamond, so every problem had a clear path from challenge to outcome. Interviews, a system audit and CJM workshops fed the same four problems.</div>
