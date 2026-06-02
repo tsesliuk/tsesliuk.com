@@ -138,6 +138,12 @@
 	.tag{background:#eef1f4;color:var(--ink);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:500}
 	.roster{margin:12px 0 0 18px;font-size:15px;color:var(--ink-soft)}
 	.roster li{margin-bottom:7px}
+	.docs{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}
+	.doc{display:flex;align-items:center;justify-content:space-between;gap:16px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 22px;transition:border-color .2s ease,transform .2s ease}
+	.doc:hover{border-color:var(--accent);transform:translateY(-2px)}
+	.doc__name{font-size:15px;font-weight:600;color:var(--ink)}
+	.doc__meta{font-size:12px;color:var(--ink-faint);white-space:nowrap}
+	@media(max-width:700px){.docs{grid-template-columns:1fr}}
 
 	/* feature grid */
 	.feat{display:grid;grid-template-columns:1fr 1fr;gap:28px 48px;margin-top:36px}
@@ -378,6 +384,14 @@
 				<div>
 					<blockquote>"I'm thrilled to announce the successful completion of our UX/UI design phase for TVEyes. Together, as a unified team, we designed a new app that addresses the most critical problems identified during discovery: search for specific markets and stations, a new design language, and a mobile version."<cite>Hand-off email to TVEyes leadership, June 2023</cite></blockquote>
 				</div>
+			</div>
+
+			<h3 style="margin-top:48px">Phase presentations</h3>
+			<p style="margin-top:8px">The full hand-off decks, one per phase. Open in the browser or download.</p>
+			<div class="docs">
+				<a class="doc" href="case-docs/phase1-apps-presentation.pdf" target="_blank" rel="noopener"><span class="doc__name">Phase 1 · Apps presentation</span><span class="doc__meta">PDF · 29 MB</span></a>
+				<a class="doc" href="case-docs/phase1-design-system-presentation.pdf" target="_blank" rel="noopener"><span class="doc__name">Phase 1 · Design system presentation</span><span class="doc__meta">PDF · 7 MB</span></a>
+				<a class="doc" href="case-docs/phase2-ai-apps-presentation.pdf" target="_blank" rel="noopener"><span class="doc__name">Phase 2 · AI apps presentation</span><span class="doc__meta">PDF · 8 MB</span></a>
 			</div>
 		</div>
 	</section>
