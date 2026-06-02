@@ -211,13 +211,10 @@
 	.card{display:flex;flex-direction:column;transition:transform 0.25s ease}
 	.card:hover{transform:translateY(-4px)}
 	.card__media{
-		aspect-ratio:4/3;background:var(--bg-card);border-radius:var(--radius);
-		overflow:hidden;display:flex;align-items:center;justify-content:center;
-		padding:clamp(0.9rem,4%,1.8rem);margin-bottom:1rem;transition:background 0.25s ease;
+		aspect-ratio:4/3;border-radius:var(--radius);overflow:hidden;margin-bottom:1rem;
 	}
-	.card:hover .card__media{background:#ececf0}
-	.card__media img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;transition:transform 0.3s ease}
-	.card:hover .card__media img{transform:scale(1.03)}
+	.card__media img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.4s ease}
+	.card:hover .card__media img{transform:scale(1.04)}
 	.card__title{font-size:1.02rem;font-weight:600;letter-spacing:-0.01em;margin-bottom:0.25rem;color:var(--ink)}
 	.card__cat{font-size:0.82rem;color:var(--ink-faint);line-height:1.4}
 
@@ -320,46 +317,46 @@
 			<div class="grid">
 
 				<a href="/works/design-program.html" class="card" title="Design Program case study">
-					<div class="card__media"><img src="images/ai-media-monitoring/program-tile.jpg" alt="Design program, rebuilt for the AI era" loading="lazy" decoding="async"></div>
+					<div class="card__media"><img src="images/thumbnails/program-tile.jpg" alt="Design program, rebuilt for the AI era" loading="lazy" decoding="async"></div>
 					<div class="card__variant">Flagship program</div>
 					<div class="card__title">Design Program</div>
 					<div class="card__cat">Seven-phase program · Web, Mobile, AI</div>
 				</a>
 
 				<a href="/works/agileengine_design_system.html" class="card" title="AgileEngine Design System case study">
-					<div class="card__media"><img src="images/thumbnails/ae_ds_thumbnail.jpg" alt="AgileEngine Design System" loading="lazy" decoding="async"></div>
+					<div class="card__media"><img src="images/thumbnails/ae-ds-tile.jpg" alt="AgileEngine design system, one system for many brands" loading="lazy" decoding="async"></div>
 					<div class="card__title">AgileEngine Design System</div>
 					<div class="card__cat">Design System, Multi-brand, Figma + MUI</div>
 				</a>
 
 				<a href="/works/bigdata.html" class="card" title="Metric Insights, full case study">
-					<div class="card__media"><img src="images/mi_case/hero.jpg" alt="Metric Insights business intelligence dashboard" loading="lazy" decoding="async"></div>
+					<div class="card__media"><img src="images/thumbnails/mi-tile.jpg" alt="Metric Insights, BI on every screen" loading="lazy" decoding="async"></div>
 					<div class="card__variant">Full case study</div>
 					<div class="card__title">Metric Insights</div>
 					<div class="card__cat">BI Platform · Web, Mobile, Watch</div>
 				</a>
 
 				<a href="/works/metric_insights_classic.html" class="card" title="Metric Insights, original presentation">
-					<div class="card__media"><img src="images/thumbnails/mi_preview.svg" alt="Metric Insights original device presentation" loading="lazy" decoding="async"></div>
+					<div class="card__media"><img src="images/thumbnails/mi-classic-tile.jpg" alt="Metric Insights, original device showcase" loading="lazy" decoding="async"></div>
 					<div class="card__variant">Original presentation</div>
 					<div class="card__title">Metric Insights</div>
 					<div class="card__cat">BI Platform · Device showcase</div>
 				</a>
 
 				<a href="/works/messenger.html" class="card" title="Messenger mobile app">
-					<div class="card__media"><img src="images/thumbnails/hoop_thumbnail.svg" alt="Mobile messenger design" loading="lazy" decoding="async"></div>
+					<div class="card__media"><img src="images/thumbnails/messenger-tile.jpg" alt="Messenger app, messaging in motion" loading="lazy" decoding="async"></div>
 					<div class="card__title">Messenger App</div>
 					<div class="card__cat">UI/UX Design, Motion Design</div>
 				</a>
 
 				<a href="/works/onboarding.html" class="card" title="Onboarding for mobile app">
-					<div class="card__media"><img src="images/thumbnails/onboarding_hoop.svg" alt="Onboarding for mobile application" loading="lazy" decoding="async"></div>
+					<div class="card__media"><img src="images/thumbnails/onboarding-tile.jpg" alt="Mobile onboarding, illustrated" loading="lazy" decoding="async"></div>
 					<div class="card__title">Mobile Onboarding</div>
 					<div class="card__cat">UI/UX Design, Illustrations</div>
 				</a>
 
 				<a href="/works/headphone_framework.html" class="card" title="Headphone hardware framework">
-					<div class="card__media"><img src="images/thumbnails/headphone_framework.svg" alt="Design framework for headphone hardware" loading="lazy" decoding="async"></div>
+					<div class="card__media"><img src="images/thumbnails/headphone-tile.jpg" alt="Headphone framework, UX for hardware" loading="lazy" decoding="async"></div>
 					<div class="card__title">Headphone Framework</div>
 					<div class="card__cat">UI/UX Design, Hardware</div>
 				</a>
