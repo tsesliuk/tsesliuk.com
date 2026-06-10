@@ -170,8 +170,14 @@
 	.hero__art{position:relative}
 	.hero__art img{width:100%;max-width:600px;margin:0 auto;display:block}
 	@media(max-width:760px){
-		.hero__grid{grid-template-columns:1fr;gap:1.5rem}
-		.hero__art{order:-1;max-width:360px}
+		.hero__grid{grid-template-columns:1fr;gap:2.2rem}
+		.hero__art{max-width:340px;margin:0 auto}
+	}
+	@media(max-width:560px){
+		.hero__cta{width:100%}
+		.hero__cta .btn{flex:1 1 100%;justify-content:center;min-height:46px}
+		.work-cta{flex-direction:column;gap:1.1rem}
+		.work-cta .btn{width:100%;justify-content:center;min-height:46px}
 	}
 	.hero__cta{display:flex;gap:0.8rem;flex-wrap:wrap}
 	.btn{

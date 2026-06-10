@@ -221,8 +221,13 @@ footer{padding:2rem;text-align:center;border-top:1px solid var(--border);color:v
   nav .links{gap:1.2rem}
   nav .links a{font-size:.72rem}
 }
+@media (max-width:700px){
+  nav .links a.nav-sec{display:none}
+  nav .links{gap:1.2rem}
+}
 @media (max-width:600px){
-  nav .links{display:none}
+  nav{padding:.8rem 1rem}
+  nav .links a{font-size:.7rem}
   .hero{padding:6rem 1rem 3rem}
   section{padding:3rem 1rem}
   .stats{grid-template-columns:1fr}
@@ -230,6 +235,9 @@ footer{padding:2rem;text-align:center;border-top:1px solid var(--border);color:v
   .companies-row{gap:1.5rem 2rem}
   .companies-row span{font-size:.8rem}
   .companies-employers{gap:1rem 1.5rem}
+}
+@media(max-width:440px){
+  .skills-grid{grid-template-columns:1fr}
 }
 
 /* Back to top */
@@ -281,10 +289,10 @@ footer{padding:2rem;text-align:center;border-top:1px solid var(--border);color:v
   <div class="logo">OT</div>
   <div class="links">
     <a href="https://tsesliuk.com/uk/">Роботи</a>
-    <a href="#about">Про мене</a>
-    <a href="#experience">Досвід</a>
-    <a href="#research">Дослідження</a>
-    <a href="#skills">Скіли</a>
+    <a href="#about" class="nav-sec">Про мене</a>
+    <a href="#experience" class="nav-sec">Досвід</a>
+    <a href="#research" class="nav-sec">Дослідження</a>
+    <a href="#skills" class="nav-sec">Скіли</a>
     <a href="#contact">Контакти</a>
     <span class="lang-switch">
       <a href="/" hreflang="en">EN</a>

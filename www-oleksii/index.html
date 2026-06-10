@@ -226,6 +226,10 @@ footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-si
   nav .links{gap:1rem}
   .nng-badge{flex-direction:column;text-align:center}
 }
+@media(max-width:700px){
+  nav .links a.nav-sec{display:none}
+  nav .links{gap:1.2rem}
+}
 @media(max-width:600px){
   nav{padding:.8rem 1rem}
   nav .links a{font-size:.7rem}
@@ -236,6 +240,9 @@ footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-si
   .companies-row{gap:1.5rem 2rem}
   .companies-row span{font-size:.8rem}
   .companies-employers{gap:1rem 1.5rem}
+}
+@media(max-width:440px){
+  .skills-grid{grid-template-columns:1fr}
 }
 
 /* Back to top */
@@ -287,10 +294,10 @@ footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-si
   <div class="logo">OT</div>
   <div class="links">
     <a href="https://tsesliuk.com/">Work</a>
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#research">Research</a>
-    <a href="#skills">Skills</a>
+    <a href="#about" class="nav-sec">About</a>
+    <a href="#experience" class="nav-sec">Experience</a>
+    <a href="#research" class="nav-sec">Research</a>
+    <a href="#skills" class="nav-sec">Skills</a>
     <a href="#contact">Contact</a>
     <span class="lang-switch">
       <a href="/" class="active" hreflang="en">EN</a>
