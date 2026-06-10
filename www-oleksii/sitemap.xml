@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+	<url>
+		<loc>https://oleksii.tsesliuk.com/</loc>
+		<lastmod>2026-06-02</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="https://oleksii.tsesliuk.com/"/>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://oleksii.tsesliuk.com/uk/"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://oleksii.tsesliuk.com/"/>
+	</url>
+	<url>
+		<loc>https://oleksii.tsesliuk.com/uk/</loc>
+		<lastmod>2026-06-02</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+		<xhtml:link rel="alternate" hreflang="en" href="https://oleksii.tsesliuk.com/"/>
+		<xhtml:link rel="alternate" hreflang="uk" href="https://oleksii.tsesliuk.com/uk/"/>
+		<xhtml:link rel="alternate" hreflang="x-default" href="https://oleksii.tsesliuk.com/"/>
+	</url>
+</urlset>

@@ -1,307 +1,139 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
-
-	<!-- Basic Page Needs
-	================================================== -->
 	<meta charset="utf-8">
 	<title>Contact · Oleksii Tsesliuk</title>
 	<meta name="description" content="Get in touch with Oleksii Tsesliuk, UI/UX Director and System Analyst. Design programs, design systems, UX strategy and audits. Kyiv, Ukraine.">
 	<meta name="author" content="Oleksii Tsesliuk">
-	
-	<!-- Mobile Specific Metas
-	================================================== -->
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="https://tsesliuk.com/contact.html">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- CSS Files
-	* cssreset-min.css 			- CSS reset
-	* typegrid.css				- Responsive grid system
-	* style.css					- Main CSS file
-	
-	Original LESS Stylesheet
-	<link rel="stylesheet/less" type="text/css" href="css/style.less" />
-	================================================== -->
-	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<!--[if lt IE 9]>
-		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<!-- Open Graph -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://tsesliuk.com/contact.html">
+	<meta property="og:title" content="Contact · Oleksii Tsesliuk">
+	<meta property="og:description" content="Get in touch with Oleksii Tsesliuk, UI/UX Director and System Analyst.">
+	<meta property="og:image" content="https://tsesliuk.com/images/og/home.jpg">
+	<meta property="og:site_name" content="Oleksii Tsesliuk">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Contact · Oleksii Tsesliuk">
+	<meta name="twitter:description" content="Get in touch with Oleksii Tsesliuk, UI/UX Director and System Analyst.">
+	<meta name="twitter:image" content="https://tsesliuk.com/images/og/home.jpg">
 
-		<!-- Google tag (gtag.js) -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEB8CH9ZB"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-HXEB8CH9ZB');
-	</script>
+	<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HXEB8CH9ZB');</script>
+	<!-- Hotjar -->
+	<script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:6708561,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r)})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');</script>
 
-	<!-- Hotjar Tracking Code for tsesliuk.com -->
-	<script>
-		(function(h,o,t,j,a,r){
-			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-			h._hjSettings={hjid:6708561,hjsv:6};
-			a=o.getElementsByTagName('head')[0];
-			r=o.createElement('script');r.async=1;
-			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-			a.appendChild(r);
-		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-	</script>
-
-
-	<!-- Favicons
-	================================================== -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
 
+	<style>
+	:root{
+		--ink:#1d1d1f;--ink-soft:#5b6068;--ink-faint:#86868b;
+		--bg:#ffffff;--bg-soft:#f5f5f7;--line:#e3e4e8;
+		--accent:#1d607d;--dark:#0E1F35;--maxw:1200px;
+	}
+	*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+	body{background:var(--bg);color:var(--ink);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+	img{max-width:100%;display:block}
+	a{color:var(--accent);text-decoration:none}
+	.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+	.site-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid #e8e8ed}
+	.site-nav__inner{max-width:var(--maxw);margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
+	.site-nav__brand{font-weight:700;font-size:.95rem;color:#1d1d1f;text-decoration:none}
+	.site-nav__links{display:flex;gap:2rem;list-style:none}
+	.site-nav__links a{font-size:.85rem;color:#6e6e73}.site-nav__links a:hover{color:#1d1d1f}
+	@media(max-width:560px){.site-nav__links{gap:1.2rem}.site-nav__links a{font-size:.8rem}}
+
+	.contact-hero{padding:clamp(3.5rem,8vw,6rem) 0 clamp(2.5rem,6vw,4rem)}
+	.contact-hero h1{font-size:clamp(2.2rem,4.5vw,3.4rem);line-height:1.06;font-weight:800;letter-spacing:-.02em;margin-bottom:1rem}
+	.contact-hero p{font-size:clamp(1.05rem,1.7vw,1.25rem);color:var(--ink-soft);max-width:52ch}
+
+	.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,3vw,2.5rem);padding-bottom:clamp(3rem,7vw,5rem)}
+	@media(max-width:760px){.contact-grid{grid-template-columns:1fr}}
+	.contact-card{background:var(--bg-soft);border-radius:18px;padding:clamp(1.8rem,3vw,2.6rem);display:flex;flex-direction:column;gap:.4rem;transition:transform .25s ease,box-shadow .25s ease}
+	.contact-card:hover{transform:translateY(-4px);box-shadow:0 24px 50px rgba(0,0,0,.08)}
+	.contact-card .label{font-size:.74rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+	.contact-card .value{font-size:clamp(1.15rem,2vw,1.5rem);font-weight:700;color:var(--ink);letter-spacing:-.01em;word-break:break-word}
+	.contact-card .hint{font-size:.9rem;color:var(--ink-soft)}
+
+	.note{border:1px solid var(--line);border-radius:14px;padding:1.6rem 1.8rem;max-width:760px;margin-bottom:clamp(3rem,7vw,5rem)}
+	.note p{font-size:.95rem;color:var(--ink-soft);margin:0}
+	.note strong{color:var(--ink)}
+
+	.site-footer{border-top:1px solid #e8e8ed;padding:3rem 0;background:#fff}
+	.site-footer__inner{max-width:var(--maxw);margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+	.site-footer__brand{font-weight:700;font-size:1.05rem;color:#1d1d1f;margin-bottom:.3rem}
+	.site-footer__role{font-size:.85rem;color:#86868b}
+	.site-footer__links{display:flex;flex-direction:column;gap:.5rem;text-align:right}
+	.site-footer__links a{font-size:.9rem;color:#6e6e73}.site-footer__links a:hover{color:var(--accent)}
+	.site-footer__copy{max-width:var(--maxw);margin:2rem auto 0;padding:0 24px;font-size:.78rem;color:#86868b}
+	@media(max-width:520px){.site-footer__links{text-align:left}}
+	</style>
 </head>
+<body>
 
-<body id="contact-p">
+	<nav class="site-nav"><div class="site-nav__inner">
+		<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+		<ul class="site-nav__links"><li><a href="/">Work</a></li><li><a href="https://oleksii.tsesliuk.com/">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+	</div></nav>
 
+	<header class="contact-hero">
+		<div class="wrap">
+			<h1>Let's talk.</h1>
+			<p>Tell me about your product and where it hurts. I reply within a day or two, usually with a few questions and a first read on where I can help.</p>
+		</div>
+	</header>
 
-	<!-- Header - Half Logo
-	================================================== -->
-	<section id="header">
+	<main>
+		<div class="wrap">
+			<div class="contact-grid">
+				<a class="contact-card" href="mailto:email@tsesliuk.com">
+					<span class="label">Email</span>
+					<span class="value">email@tsesliuk.com</span>
+					<span class="hint">Best for project inquiries. A few lines about your product is enough to start.</span>
+				</a>
+				<a class="contact-card" href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">
+					<span class="label">LinkedIn</span>
+					<span class="value">linkedin.com/in/tsesliuk</span>
+					<span class="hint">Profile, recommendations, and a quick way to connect.</span>
+				</a>
+				<div class="contact-card">
+					<span class="label">Location</span>
+					<span class="value">Kyiv, Ukraine</span>
+					<span class="hint">Working remotely worldwide. Comfortable across EU and US time zones.</span>
+				</div>
+				<a class="contact-card" href="https://oleksii.tsesliuk.com/">
+					<span class="label">Profile</span>
+					<span class="value">oleksii.tsesliuk.com</span>
+					<span class="hint">Full CV: experience, PhD research, education and certifications.</span>
+				</a>
+			</div>
 
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
+			<div class="note">
+				<p><strong>Under NDA.</strong> Some of my strongest case studies are confidential. Ask, and I will walk you through the detailed work and the rest of my portfolio on a call or via a private link.</p>
+			</div>
+		</div>
+	</main>
 
-			Top Bar & Menu (#nav)
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<div><div class="site-footer__brand">Oleksii Tsesliuk</div><div class="site-footer__role">UI/UX Director · System Analyst</div></div>
+			<div class="site-footer__links"><a href="mailto:email@tsesliuk.com">email@tsesliuk.com</a><a href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a><a href="https://oleksii.tsesliuk.com/">About me</a></div>
+		</div>
+		<div class="site-footer__copy">&copy; 2026 Oleksii Tsesliuk. Kyiv, Ukraine.</div>
+	</footer>
 
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
-
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				<ul id="nav" class="full">
-					<li>
-						<a href="index.html">
-							Works
-							<span class="count hide-on-mobile">Design, Coding, Management</span>
-						</a>
-					</li>
-					<li>
-						<a href="https://oleksii.tsesliuk.com/">
-							About
-							<span class="count hide-on-mobile">Skills, Experience, Goals</span>
-						</a>
-					</li>
-					<li>
-						<a href="contact.html">
-							Contacts
-							<span class="count hide-on-mobile">Email, LinkedIn</span>
-						</a>
-					</li>
-				</ul><!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-		<div class="logo-wrap">
-			<div class="container">
-				<div class="desktop-10 columns">
-					<h1>
-						<a href="index.html" title="Home">TSESLIUK</a>
-						<p class="site-desc">
-							MAILING<br>
-							CHATTING<br>
-							SHARING
-						</p><!-- // .site-desc -->
-					</h1>
-
-				</div><!-- // .desktop-6 -->
-
-				<div class="desktop-2 columns">
-				</div><!-- // .desktop-6 -->
-
-				<div class="clear"></div>
-			</div><!-- // .container -->
-		</div><!-- // .logo-wrap -->
-	</section><!-- // #header -->
-
-	<!-- Contact
-	================================================== -->
-	<section id="contact" class="section page">
-		<div class="container">
-
-			<div class="desktop-3 tablet-12 columns">
-
-				<h2 class="border-top">Contacts</h2>
-
-				<div class="desktop-2 tablet-6 mobile-half columns nested mb-30 ">
-
-					<div class="contacts_line va">
-						<span class="contacts_cell">
-							<span>Email:</span>
-							<a href="mailto:email@tsesliuk.com" title="Designer: Oleksii Tsesliuk (Email)" target="_blank">email@tsesliuk.com</a>
-						</span>
-						<span class="contacts_cell">
-							<span>linkedIn:</span>
-							<a href="https://ua.linkedin.com/in/tsesliuk" target="_blank" title="Designer: Oleksii Tsesliuk (LinkedIn account)">linkedin.com/in/tsesliuk</a>
-						</span>
-					</div>
-
-				</div><!-- // .desktop-3 -->
-
-				<div class="clear"></div>
-
-
-<!--
-				<p class="desc introduce mt-0">
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-				</p>
--->
-
-				<!--
-				<div id="contact-warning">
-					Error messages
-				</div>!-- // #contact-warning --
-				
-				<div id="contact-success">
-					Email successfuly sent, thank you.<br />	
-				</div>!-- // #contact-warning --
-
-				<form name="contactForm" id="contactForm" method="post" action="">
-					<fieldset>
-					
-						<label for="contactName">Name <span class="required">*</span></label>
-						<input name="contactName" type="text" id="contactName" size="30" value="" />
-						
-						<br />
-						<label for="contactEmail">Email <span class="required">*</span></label>
-						<input name="contactEmail" type="text" id="contactEmail" size="30" value="" />
-                        
-                        <br />
-						<label for="contactMessage">Message <span class="required">*</span></label>
-						<textarea name="contactMessage" id="contactMessage" rows="6" cols="7"></textarea>
-                        
-                        <br />
-						<label for="contactCaptcha"><strong>10</strong> + <strong>6</strong> = <span class="required">*</span></label>
-						<input name="contactCaptcha" type="text" id="contactCaptcha" size="30" value="" />
-
-						<input name="contactCaptchaAnswer" type="hidden" id="contactCaptchaAnswer" value="16" />
-
-						<br />
-						<label class="placeholder">&nbsp;</label>
-						<input type="submit" class="button full" value="Submit" />
-					</fieldset>
-				</form>
-				-->
-				<div class="clear"></div>
-
-			</div><!-- // .desktop-6 -->
-
-			
-			<div class="desktop-9 tablet-12 nested columns">
-
-				<div class="desktop-9 tablet-12 columns">
-					<h2 class="border-top">Location</h2>
-					<div id="map"></div>
-				</div><!-- // .desktop-6 -->
-
-
-				<div class="clear"></div>
-
-			</div><!-- // .desktop-6 -->
-
-		</div><!-- // .container -->
-	</section><!-- // section#contact -->
-
-
-
-
-
-	<!-- Footer
-	================================================== -->
-	<section id="footer">
-		<div class="container">
-
-			<!--
-			<div class="desktop-3 columns">
-				<p>Copyright &copy; <a href="http://www.typebig.com" class="italic">Typebig</a></p>
-			</div>!-- // .desktop-3 --
-
-			<div class="desktop-9 columns">
-				<ul id="social">
-					<li><a href="http://www.facebook.com" class="hoverMe">Facebook</a></li>
-					<li><a href="http://www.twitter.com" class="hoverMe">Twitter</a></li>
-					<li><a href="http://www.google.com" class="hoverMe">Google+</a></li>
-				</ul>!-- // #social --
-			</div>!-- // .desktop-9 --
-
-			<div class="clear"></div>
-			-->
-
-			<!--
-			<ul id="nav" class="full">
-				<li>
-					<a href="index.html">
-						Works
-						<span class="count hide-on-mobile">Design, Coding, Management</span>
-					</a>
-				</li>
-				<li>
-					<a href="https://oleksii.tsesliuk.com/">
-						About
-						<span class="count hide-on-mobile">Skills, Experience, Goals</span>
-					</a>
-				</li>
-				<li>
-					<a href="contact.html">
-						Contacts
-						<span class="count hide-on-mobile">Email, LinkedIn</span>
-					</a>
-				</li>
-			</ul>!-- // #nav --
-			-->
-
-		</div><!-- // .container -->
-
-	</section><!-- // section#footer -->
-
-
-	<!-- JS
-	================================================== -->
-	<!-- 
-		Flexslider 2.1 has known issues of manualControls setting with jQuery 1.9~
-		Use jQuery 1.8 until Flexslider 2.2 stable version is released
-	-->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-	<script src="js/jQuery.BlackAndWhite.min.js"></script>
-	<script src="js/modernizr.js"></script>
-	<script src="js/less-1.4.0.min.js"></script>
-	<script src="js/jquery.typeMenu.js"></script>
-	<script src="js/jquery.typeSticky.js"></script>
-
-
-	
-
-	
-
-
-	
-<!--	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> -->
-<!--	<script src = "js/googleMapStyle.js"></script> -->
-
-	
-
-
-	<script src="js/jquery.custom.js"></script>
-
-
-<!-- End Document
-================================================== -->
 </body>
 </html>
