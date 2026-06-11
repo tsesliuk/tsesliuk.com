@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Remote Usability Testing for a Property Portal MVP · Case Study · Oleksii Tsesliuk</title>
+	<meta name="description" content="Remote usability testing that turned a vague complaint about a shipped MVP into a one-day fix: a unified list with one search, for a global real-estate services company. Client under NDA.">
+	<meta name="author" content="Oleksii Tsesliuk">
+	<meta name="robots" content="index, follow, max-image-preview:large">
+	<link rel="canonical" href="https://tsesliuk.com/works/property-portal-mvp.html">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://tsesliuk.com/works/property-portal-mvp.html">
+	<meta property="og:title" content="Remote Usability Testing for a Property Portal MVP">
+	<meta property="og:description" content="Remote usability testing that turned a vague complaint about a shipped MVP into a one-day fix: a unified list with one search, for a global real-estate services company. Client under NDA.">
+	<meta property="og:image" content="https://tsesliuk.com/images/thumbnails/property-tile.jpg">
+	<meta property="og:site_name" content="Oleksii Tsesliuk">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Remote Usability Testing for a Property Portal MVP">
+	<meta name="twitter:image" content="https://tsesliuk.com/images/thumbnails/property-tile.jpg">
+	<script type="application/ld+json">
+	{"@context":"https://schema.org","@type":"CreativeWork","name":"Remote Usability Testing for a Property Portal MVP","creator":{"@type":"Person","name":"Oleksii Tsesliuk","url":"https://tsesliuk.com/"},"about":"Remote usability testing that turned a vague complaint about a shipped MVP into a one-day fix: a unified list with one search, for a global real-estate services company. Client under NDA.","url":"https://tsesliuk.com/works/property-portal-mvp.html","image":"https://tsesliuk.com/images/thumbnails/property-tile.jpg"}
+	</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXEB8CH9ZB"></script>
+	<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-HXEB8CH9ZB');</script>
+	<script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:6708561,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r)})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');</script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#faf9f6">
+	<style>
+	:root{--paper:#faf9f6;--ink:#161616;--mute:#6f6b64;--hair:#e7e3da;--red:#e0432d;--max:1060px}
+	*{box-sizing:border-box;margin:0;padding:0}
+	body{background:var(--paper);color:var(--ink);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6}
+	img{max-width:100%;display:block}
+	a{color:inherit;text-decoration:none}
+	.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+	.site-nav{position:sticky;top:0;z-index:100;background:rgba(250,249,246,.88);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--hair)}
+	.site-nav__inner{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
+	.site-nav__brand{font-weight:700;font-size:.95rem;color:var(--ink)}
+	.site-nav__links{display:flex;gap:2rem;list-style:none}
+	.site-nav__links a{font-size:.85rem;color:var(--mute)}.site-nav__links a:hover{color:var(--ink)}
+	@media(max-width:560px){.site-nav__links{gap:1.2rem}.site-nav__links a{font-size:.8rem}}
+	.hero{padding:clamp(4rem,9vw,7rem) 0 clamp(2.5rem,5vw,4rem);text-align:center}
+	.kicker{display:inline-flex;align-items:center;gap:.55rem;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);font-weight:600;margin-bottom:1.6rem}
+	.kicker::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--red)}
+	h1{font-size:clamp(2.1rem,4.6vw,3.6rem);line-height:1.08;letter-spacing:-.022em;font-weight:650;max-width:880px;margin:0 auto 1.3rem}
+	.hero p{font-size:clamp(1rem,1.5vw,1.18rem);color:var(--mute);max-width:640px;margin:0 auto;line-height:1.65}
+	.facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);margin:clamp(2.5rem,5vw,3.5rem) 0 0}
+	.fact{padding:1.3rem 1.4rem;border-right:1px solid var(--hair);text-align:left}
+	.fact:last-child{border-right:none}
+	.fact b{display:block;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);font-weight:600;margin-bottom:.45rem}
+	.fact span{font-size:.92rem;font-weight:550;line-height:1.45}
+	@media(max-width:760px){.facts{grid-template-columns:1fr 1fr}.fact:nth-child(2n){border-right:none}.fact:nth-child(-n+2){border-bottom:1px solid var(--hair)}}
+	@media(max-width:440px){.facts{grid-template-columns:1fr}.fact{border-right:none;border-bottom:1px solid var(--hair)}.fact:last-child{border-bottom:none}}
+	.sec{padding:clamp(3rem,6vw,4.5rem) 0;border-top:1px solid var(--hair)}
+	.sec:first-of-type{border-top:none}
+	.label{display:inline-flex;align-items:center;gap:.5rem;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);font-weight:600;margin-bottom:1.1rem}
+	.label::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--red)}
+	h2{font-size:clamp(1.4rem,2.6vw,1.9rem);line-height:1.2;letter-spacing:-.015em;font-weight:650;max-width:720px;margin-bottom:1.1rem}
+	p{color:var(--mute);max-width:680px;margin-bottom:1rem}
+	strong{color:var(--ink);font-weight:600}
+	.cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.6rem,4vw,3.5rem);margin-top:1.6rem}
+	@media(max-width:700px){.cols{grid-template-columns:1fr}}
+	.list b{display:block;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);font-weight:650;padding-bottom:.7rem;border-bottom:1px solid var(--ink)}
+	.list ul{list-style:none}
+	.list li{padding:.85rem 0;border-bottom:1px solid var(--hair);font-size:.95rem;color:var(--ink);line-height:1.5}
+	.fig{margin-top:2.2rem;border:1px solid var(--hair);border-radius:12px;overflow:hidden;background:#fff}
+	.fig img{width:100%}
+	.cap{font-size:.8rem;color:var(--mute);margin-top:.8rem;max-width:680px}
+	.methods{margin-top:2.2rem;padding-top:1.2rem;border-top:1px solid var(--hair);font-size:.85rem;color:var(--mute);max-width:760px;line-height:1.7}
+	.methods b{color:var(--ink);font-weight:600;letter-spacing:.08em;text-transform:uppercase;font-size:.7rem;margin-right:.6rem}
+	.cta{text-align:center;padding:clamp(3.5rem,7vw,5.5rem) 0}
+	.cta h2{margin-left:auto;margin-right:auto}
+	.cta p{margin:0 auto 1.8rem}
+	.btn{display:inline-flex;align-items:center;padding:.85rem 1.8rem;border-radius:999px;font-weight:600;font-size:.92rem}
+	.btn--ink{background:var(--ink);color:var(--paper)}
+	.btn--line{border:1px solid var(--ink);color:var(--ink);margin-left:.6rem}
+	@media(max-width:520px){.btn--line{margin-left:0;margin-top:.7rem}}
+	.pager{border-top:1px solid var(--hair)}
+	.pager__inner{max-width:1200px;margin:0 auto;padding:1.5rem 24px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+	.pager__item{display:flex;flex-direction:column;max-width:42%}
+	.pager__item--next{text-align:right;margin-left:auto}
+	.pager__dir{font-size:.72rem;color:var(--mute);margin-bottom:.2rem}
+	.pager__name{font-size:.95rem;font-weight:600;color:var(--ink)}
+	.pager__all{font-size:.82rem;color:var(--mute);white-space:nowrap}
+	@media(max-width:560px){.pager__all{display:none}}
+	.site-footer{border-top:1px solid var(--hair);padding:2.6rem 0}
+	.site-footer__inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+	.site-footer__brand{font-weight:700;font-size:1rem}
+	.site-footer__role{font-size:.82rem;color:var(--mute)}
+	.site-footer__links{display:flex;flex-direction:column;gap:.45rem;text-align:right}
+	.site-footer__links a{font-size:.88rem;color:var(--mute)}.site-footer__links a:hover{color:var(--ink)}
+	.site-footer__copy{max-width:1200px;margin:1.8rem auto 0;padding:0 24px;font-size:.75rem;color:var(--mute)}
+	@media(max-width:520px){.site-footer__links{text-align:left}}
+	</style>
+</head>
+<body>
+
+	<nav class="site-nav"><div class="site-nav__inner">
+		<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+		<ul class="site-nav__links"><li><a href="../index.html">Work</a></li><li><a href="https://oleksii.tsesliuk.com/">About</a></li><li><a href="../contact.html">Contact</a></li></ul>
+	</div></nav>
+
+	<header class="hero">
+		<div class="wrap">
+			<div class="kicker">Case study · 2018 · Under NDA</div>
+			<h1>&quot;It’s not working.&quot; Usability testing found out why in a week.</h1>
+			<p>A global real-estate services company shipped an MVP of a property portal, and management who used the old system said it was not working, without saying what was wrong. I ran remote usability testing with end users and turned the complaint into a fix engineers shipped in one day.</p>
+			<div class="facts">
+				<div class="fact"><b>Domain</b><span>Commercial real estate, B2B</span></div>
+				<div class="fact"><b>Years</b><span>2018</span></div>
+				<div class="fact"><b>My role</b><span>UX Designer &amp; Facilitator</span></div>
+				<div class="fact"><b>Products</b><span>Property portal MVP</span></div>
+			</div>
+		</div>
+	</header>
+
+	<section class="sec">
+		<div class="wrap">
+			<div class="label">Problem</div>
+			<h2>A shipped MVP and a complaint nobody could explain.</h2>
+			<div class="cols">
+				<div class="list"><b>For the business</b><ul><li>Management who used the old system complained the new MVP was not working, without explaining the problem</li></ul></div>
+				<div class="list"><b>For the users</b><ul><li>Users were confused about how to find a property in the new portal</li></ul></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec">
+		<div class="wrap">
+			<div class="label">Solution</div>
+			<h2>Two findings, one unified list, one day to ship.</h2>
+			<p>Remote usability sessions with end users produced two findings. First, users completed four of five tasks largely because of large screens, while management worked from small laptops. Second, users searched for clients in the property list and for properties in the client list.</p><p>I proposed <strong>one unified list with a single search and filter</strong>, removing clients and properties as separate pages. The development team implemented the change in one day.</p>
+			<figure class="fig"><img src="../images/programs/property.jpg" alt="Remote usability testing playbook: recipients, scenarios, SUS results and agenda" loading="lazy"></figure>
+			<figcaption class="cap">The remote testing playbook: recipients, use-case scenarios, SUS questionnaire results, and the session agenda.</figcaption>
+			<figure class="fig" style="max-width:720px"><img src="../images/programs/property-2.jpg" alt="Usability testing results: environment and user skills breakdowns" loading="lazy"></figure>
+			<figcaption class="cap">Session analytics: participants’ environment and skill profiles that explained why management struggled where users did not.</figcaption>
+
+			<div class="methods"><b>Methods</b>Remote usability testing · SUS questionnaire · facilitation · scenario design · MVP validation</div>
+		</div>
+	</section>
+
+	<section class="sec">
+		<div class="wrap cta">
+			<div class="label" style="justify-content:center;display:inline-flex">Full case</div>
+			<h2>The detailed story is shared on request.</h2>
+			<p>Client names, process artifacts and outcomes stay within NDA. Ask, and I will walk you through the full case.</p>
+			<a href="../contact.html" class="btn btn--ink">Get in touch</a><a href="mailto:email@tsesliuk.com?subject=Case%20study%20request" class="btn btn--line">Request the case</a>
+		</div>
+	</section>
+
+	<nav class="pager"><div class="pager__inner">
+		<a href="wireless-network-software.html" class="pager__item pager__item--prev"><span class="pager__dir">&larr; Previous</span><span class="pager__name">Wireless Networks</span></a>
+		<a href="../index.html" class="pager__all">All work</a>
+		<a href="bigdata.html" class="pager__item pager__item--next"><span class="pager__dir">Next &rarr;</span><span class="pager__name">Metric Insights</span></a>
+	</div></nav>
+
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<div><div class="site-footer__brand">Oleksii Tsesliuk</div><div class="site-footer__role">UI/UX Director · System Analyst</div></div>
+			<div class="site-footer__links"><a href="mailto:email@tsesliuk.com">email@tsesliuk.com</a><a href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a><a href="https://oleksii.tsesliuk.com/">About me</a></div>
+		</div>
+		<div class="site-footer__copy">&copy; Oleksii Tsesliuk. Kyiv, Ukraine. Client work is presented without names, under NDA.</div>
+	</footer>
+
+</body>
+</html>
