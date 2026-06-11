@@ -61,7 +61,7 @@
 	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="theme-color" content="#faf9f6">
 
 	<style>
 	/* AgileEngine Design System case study, scoped styles
@@ -274,6 +274,10 @@
 	.pager__all{font-size:0.82rem;color:#6e6e73;text-decoration:none;white-space:nowrap}
 	.pager__all:hover{color:#1d607d}
 	@media(max-width:560px){.pager__all{display:none}.pager__name{font-size:0.88rem}}
+		a:focus-visible,button:focus-visible{outline:2px solid #16465c;outline-offset:3px;border-radius:4px}
+	.brand-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e0432d;margin-left:.45rem;vertical-align:middle}
+		body{background:#faf9f6}
+	.site-footer,.pager{background:transparent!important}
 	</style>
 
 </head>
@@ -284,7 +288,7 @@
 	<!-- Site nav (shared standard) -->
 	<nav class="site-nav">
 		<div class="site-nav__inner">
-			<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+			<a href="/" class="site-nav__brand">Oleksii Tsesliuk<span class="brand-dot"></span></a>
 			<ul class="site-nav__links">
 				<li><a href="../index.html">Work</a></li>
 				<li><a href="https://oleksii.tsesliuk.com/">About</a></li>

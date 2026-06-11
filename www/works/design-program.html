@@ -37,12 +37,12 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="manifest" href="/manifest.json">
-	<meta name="theme-color" content="#ffffff">
+	<meta name="theme-color" content="#faf9f6">
 
 	<style>
 	:root{
 		--ink:#1d1d1f;--ink-soft:#5b6068;--ink-faint:#86868b;
-		--bg:#ffffff;--bg-soft:#f5f5f7;--line:#e3e4e8;
+		--bg:#faf9f6;--bg-soft:#f4f1ea;--line:#e7e3da;
 		--accent:#1d607d;--dark:#0E1F35;--max:1120px;
 	}
 	*{box-sizing:border-box;margin:0;padding:0}
@@ -51,7 +51,7 @@
 	a{color:var(--accent);text-decoration:none}
 	.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
 
-	.site-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid #e8e8ed}
+	.site-nav{position:sticky;top:0;z-index:100;background:rgba(250,249,246,.88);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid #e7e3da}
 	.site-nav__inner{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
 	.site-nav__brand{font-weight:700;font-size:.95rem;color:#1d1d1f;text-decoration:none}
 	.site-nav__links{display:flex;gap:2rem;list-style:none}
@@ -122,7 +122,7 @@
 	.btn--primary{background:#fff;color:var(--dark)}
 	.btn--ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.45)}
 
-	.pager{border-top:1px solid #e8e8ed;background:#fff}
+	.pager{border-top:1px solid #e7e3da}
 	.pager__inner{max-width:1200px;margin:0 auto;padding:1.6rem 24px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
 	.pager__item{display:flex;flex-direction:column;text-decoration:none;max-width:42%}
 	.pager__item--next{text-align:right;margin-left:auto}
@@ -130,7 +130,7 @@
 	.pager__name{font-size:.98rem;font-weight:600;color:#1d1d1f}.pager__item:hover .pager__name{color:var(--accent)}
 	.pager__all{font-size:.82rem;color:#6e6e73;text-decoration:none;white-space:nowrap}
 	@media(max-width:560px){.pager__all{display:none}.pager__name{font-size:.88rem}}
-	.site-footer{border-top:1px solid #e8e8ed;padding:3rem 0;background:#fff}
+	.site-footer{border-top:1px solid #e7e3da;padding:3rem 0}
 	.site-footer__inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
 	.site-footer__brand{font-weight:700;font-size:1.05rem;color:#1d1d1f;margin-bottom:.3rem}
 	.site-footer__role{font-size:.85rem;color:#86868b}
@@ -143,12 +143,15 @@
 		.sec{padding:52px 0}.hero{padding:40px 0 48px}
 	}
 	@media(max-width:520px){.site-footer__links{text-align:left}}
+		a:focus-visible,button:focus-visible{outline:2px solid #16465c;outline-offset:3px;border-radius:4px}
+	.brand-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e0432d;margin-left:.45rem;vertical-align:middle}
+		.hero__meta::before{content:'';width:7px;height:7px;border-radius:50%;background:#e0432d;align-self:center}
 	</style>
 </head>
 <body>
 
 	<nav class="site-nav"><div class="site-nav__inner">
-		<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+		<a href="/" class="site-nav__brand">Oleksii Tsesliuk<span class="brand-dot"></span></a>
 		<ul class="site-nav__links"><li><a href="../index.html">Work</a></li><li><a href="https://oleksii.tsesliuk.com/">About</a></li><li><a href="../contact.html">Contact</a></li></ul>
 	</div></nav>
 	<div class="crumb"><div class="crumb__inner"><a href="../index.html">Work</a><span class="crumb__sep">&rsaquo;</span><span class="crumb__here">Design Program</span></div></div>
@@ -309,7 +312,7 @@
 	</section>
 
 	<nav class="pager"><div class="pager__inner">
-		<a href="headphone_framework.html" class="pager__item pager__item--prev"><span class="pager__dir">&larr; Previous</span><span class="pager__name">Headphone Framework</span></a>
+		<a href="developex-era.html" class="pager__item pager__item--prev"><span class="pager__dir">&larr; Previous</span><span class="pager__name">The Developex Era</span></a>
 		<a href="../index.html" class="pager__all">All work</a>
 		<a href="agileengine_design_system.html" class="pager__item pager__item--next"><span class="pager__dir">Next &rarr;</span><span class="pager__name">AgileEngine Design System</span></a>
 	</div></nav>

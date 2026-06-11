@@ -80,12 +80,19 @@
 	.site-footer__links a{font-size:.9rem;color:#6e6e73}.site-footer__links a:hover{color:var(--accent)}
 	.site-footer__copy{max-width:var(--maxw);margin:2rem auto 0;padding:0 24px;font-size:.78rem;color:#86868b}
 	@media(max-width:520px){.site-footer__links{text-align:left}}
+		a:focus-visible,button:focus-visible{outline:2px solid #16465c;outline-offset:3px;border-radius:4px}
+	.brand-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e0432d;margin-left:.45rem;vertical-align:middle}
+		.mega{display:inline-block;font-size:clamp(1.7rem,5vw,3.2rem);font-weight:800;letter-spacing:-.02em;color:var(--accent);margin:.4rem 0 2.2rem;word-break:break-all}
+	.rows{border-top:1px solid var(--line);max-width:760px;margin-bottom:clamp(2.5rem,6vw,4rem)}
+	.row{display:flex;gap:1.4rem;padding:1.05rem 0;border-bottom:1px solid var(--line);font-size:.95rem;align-items:baseline}
+	.row b{flex:0 0 110px;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);font-weight:700}
+	.row a{font-weight:600}
 	</style>
 </head>
 <body>
 
 	<nav class="site-nav"><div class="site-nav__inner">
-		<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
+		<a href="/" class="site-nav__brand">Oleksii Tsesliuk<span class="brand-dot"></span></a>
 		<ul class="site-nav__links"><li><a href="/">Work</a></li><li><a href="https://oleksii.tsesliuk.com/">About</a></li><li><a href="contact.html">Contact</a></li></ul>
 	</div></nav>
 
@@ -98,29 +105,12 @@
 
 	<main>
 		<div class="wrap">
-			<div class="contact-grid">
-				<a class="contact-card" href="mailto:email@tsesliuk.com">
-					<span class="label">Email</span>
-					<span class="value">email@tsesliuk.com</span>
-					<span class="hint">Best for project inquiries. A few lines about your product is enough to start.</span>
-				</a>
-				<a class="contact-card" href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">
-					<span class="label">LinkedIn</span>
-					<span class="value">linkedin.com/in/tsesliuk</span>
-					<span class="hint">Profile, recommendations, and a quick way to connect.</span>
-				</a>
-				<div class="contact-card">
-					<span class="label">Location</span>
-					<span class="value">Kyiv, Ukraine</span>
-					<span class="hint">Working remotely worldwide. Comfortable across EU and US time zones.</span>
-				</div>
-				<a class="contact-card" href="https://oleksii.tsesliuk.com/">
-					<span class="label">Profile</span>
-					<span class="value">oleksii.tsesliuk.com</span>
-					<span class="hint">Full CV: experience, PhD research, education and certifications.</span>
-				</a>
+			<a class="mega" href="mailto:email@tsesliuk.com">email@tsesliuk.com</a>
+			<div class="rows">
+				<div class="row"><b>LinkedIn</b><a href="https://www.linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a></div>
+				<div class="row"><b>Location</b><span>Kyiv, Ukraine · remote worldwide, EU and US time zones</span></div>
+				<div class="row"><b>Profile</b><a href="https://oleksii.tsesliuk.com/">oleksii.tsesliuk.com</a> <span style="color:var(--ink-soft)">· full CV, PhD research, certifications</span></div>
 			</div>
-
 			<div class="note">
 				<p><strong>Under NDA.</strong> Some of my strongest case studies are confidential. Ask, and I will walk you through the detailed work and the rest of my portfolio on a call or via a private link.</p>
 			</div>
