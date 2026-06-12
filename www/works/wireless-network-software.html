@@ -29,23 +29,22 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 	<link rel="manifest" href="/manifest.json">
-	<meta name="theme-color" content="#faf9f6">
+	<meta name="theme-color" content="#ffffff">
 	<style>
-	:root{--paper:#faf9f6;--ink:#161616;--mute:#6f6b64;--hair:#e7e3da;--red:#e0432d;--max:1060px}
+	:root{--paper:#ffffff;--ink:#1d1d1f;--mute:#5b6068;--hair:#e8e8ed;--red:#1d607d;--max:1060px}
 	*{box-sizing:border-box;margin:0;padding:0}
 	body{background:var(--paper);color:var(--ink);font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6}
 	img{max-width:100%;display:block}
 	a{color:inherit;text-decoration:none}
 	.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
-	.site-nav{position:sticky;top:0;z-index:100;background:rgba(250,249,246,.88);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--hair)}
+	.site-nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.88);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--hair)}
 	.site-nav__inner{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;display:flex;align-items:center;justify-content:space-between}
 	.site-nav__brand{font-weight:700;font-size:.95rem;color:var(--ink)}
 	.site-nav__links{display:flex;gap:2rem;list-style:none}
 	.site-nav__links a{font-size:.85rem;color:var(--mute)}.site-nav__links a:hover{color:var(--ink)}
 	@media(max-width:560px){.site-nav__links{gap:1.2rem}.site-nav__links a{font-size:.8rem}}
 	.hero{padding:clamp(4rem,9vw,7rem) 0 clamp(2.5rem,5vw,4rem);text-align:center}
-	.kicker{display:inline-flex;align-items:center;gap:.55rem;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);font-weight:600;margin-bottom:1.6rem}
-	.kicker::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--red)}
+	.kicker{display:inline-flex;align-items:center;gap:.55rem;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:#1d607d;font-weight:600;margin-bottom:1.6rem}
 	h1{font-size:clamp(2.1rem,4.6vw,3.6rem);line-height:1.08;letter-spacing:-.022em;font-weight:650;max-width:880px;margin:0 auto 1.3rem}
 	.hero p{font-size:clamp(1rem,1.5vw,1.18rem);color:var(--mute);max-width:640px;margin:0 auto;line-height:1.65}
 	.facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--hair);border-bottom:1px solid var(--hair);margin:clamp(2.5rem,5vw,3.5rem) 0 0}
@@ -57,8 +56,7 @@
 	@media(max-width:440px){.facts{grid-template-columns:1fr}.fact{border-right:none;border-bottom:1px solid var(--hair)}.fact:last-child{border-bottom:none}}
 	.sec{padding:clamp(3rem,6vw,4.5rem) 0;border-top:1px solid var(--hair)}
 	.sec:first-of-type{border-top:none}
-	.label{display:inline-flex;align-items:center;gap:.5rem;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--mute);font-weight:600;margin-bottom:1.1rem}
-	.label::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--red)}
+	.label{display:inline-flex;align-items:center;gap:.5rem;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:#1d607d;font-weight:600;margin-bottom:1.1rem}
 	h2{font-size:clamp(1.4rem,2.6vw,1.9rem);line-height:1.2;letter-spacing:-.015em;font-weight:650;max-width:720px;margin-bottom:1.1rem}
 	p{color:var(--mute);max-width:680px;margin-bottom:1rem}
 	strong{color:var(--ink);font-weight:600}
@@ -96,13 +94,12 @@
 	.site-footer__copy{max-width:1200px;margin:1.8rem auto 0;padding:0 24px;font-size:.75rem;color:var(--mute)}
 	@media(max-width:520px){.site-footer__links{text-align:left}}
 		a:focus-visible,button:focus-visible{outline:2px solid #16465c;outline-offset:3px;border-radius:4px}
-	.brand-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:#e0432d;margin-left:.45rem;vertical-align:middle}
 	</style>
 </head>
 <body>
 
 	<nav class="site-nav"><div class="site-nav__inner">
-		<a href="/" class="site-nav__brand">Oleksii Tsesliuk<span class="brand-dot"></span></a>
+		<a href="/" class="site-nav__brand">Oleksii Tsesliuk</a>
 		<ul class="site-nav__links"><li><a href="../index.html">Work</a></li><li><a href="https://oleksii.tsesliuk.com/">About</a></li><li><a href="../contact.html">Contact</a></li></ul>
 	</div></nav>
 
@@ -153,7 +150,7 @@
 			<p>The heuristic audit was delivered as direct comparisons. For each key screen, the existing interface next to the proposed standard, on the actual devices. Stakeholders did not have to imagine the improvement; they could see it.</p>
 
 			<figure class="fig"><img src="../images/programs/wn-audit-login.jpg" alt="Before and after comparison of the login page on devices" loading="lazy"></figure>
-			<figcaption class="cap">The login page, before and after, on devices. Identifying details are blurred.</figcaption>
+			<figcaption class="cap">The login page, before and after, on the actual devices.</figcaption>
 
 			<figure class="fig"><img src="../images/programs/wn-audit-config.jpg" alt="Before and after comparison of the configuration page" loading="lazy"></figure>
 			<figcaption class="cap">The configuration page: the same data, restyled to the proposed standard with clearer components and system status.</figcaption>
