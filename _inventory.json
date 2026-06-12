@@ -1,0 +1,2363 @@
+{
+ "summary": "Parallel inventory of design materials across StorageA for portfolio case enrichment",
+ "agentCount": 8,
+ "logs": [],
+ "result": {
+  "toolsgroup": {
+   "projects": [
+    {
+     "name": "ToolsGroup UEL (Unified Experience Layer) - AgileEngine design program",
+     "site_case_guess": "supply-chain-program",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/HandOff/TGDSPresentation.pdf",
+       "size_kb": 10865,
+       "what": "Single-page design system overview poster 'TG DS v.1.3.0' with stats (250+ styles, 10k+ components, 200+ page examples, 100+ icons) and component showcase. Best ready-made visual in the folder; render page 1 to PNG for the case page."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/DesignPhase/HighFidelitydesign/ToolsgroupUXLDribbbleSho.fig",
+       "size_kb": 30326,
+       "what": "Figma SOURCE file of polished Dribbble-style shots of the UXL/UEL hi-fi designs. Not an image; needs export from Figma but is the curated 'for portfolio' visual set."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/DesignPhase/HighFidelitydesign/UEL.fig",
+       "size_kb": 69958,
+       "what": "Figma SOURCE of the full UEL hi-fi product design (login, dashboard, demand/forecast editor). Export needed for screens."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/HandOff/UXLUIthemes.fig",
+       "size_kb": 30043,
+       "what": "Figma SOURCE of UXL UI themes (light/dark or brand theming of the product UI), hand-off deliverable."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/DesignPhase/DesignSystem/TGDesignSystem.fig",
+       "size_kb": 25156,
+       "what": "Figma SOURCE of the TG Design System library itself (styles, components, variants)."
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/4Results/1PresentationDiscoveryRe.pptx",
+       "what": "Discovery Results presentation (18MB pptx) - likely the richest discovery deliverable deck; not parsed per instructions.",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/1Ideation/DiscoveryKickOffforTools.pdf",
+       "pages": 32,
+       "what": "Discovery Kick-Off deck for ToolsGroup (Nov 9, 2021, prepared for Nacho Ochoa; includes earlier May 21, 2021 design proposal for Robert Kaufholz). Covers proposed team, workshops approach, stakeholder interview plan.",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/1Ideation/DiscoveryforToolsGroupTM.pdf",
+       "pages": 18,
+       "what": "Shorter ToolsGroup Discovery proposal deck (same Nov 2021 engagement, '±20 weeks' scope). Also exists as 12MB pptx in same folder (DiscoveryforToolsGroupTM.pptx).",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/DesignPhase/DesignStrategyProgress.pptx",
+       "what": "Design Strategy Progress deck (10MB pptx) from the design phase; not parsed per instructions.",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/1Ideation/Figmapresentation.pptx",
+       "what": "Figma toolset presentation (3.2MB pptx), likely tool onboarding for the client.",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/1Ideation/Designproposaltemplate.pdf",
+       "pages": 7,
+       "what": "Generic AgileEngine design proposal template ('for Some Company', Mar 2021) - low portfolio value.",
+       "confidential": false
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/3Design/ToolsGroupDiscoveryBoard.rtb",
+       "what": "RealtimeBoard/Miro discovery board export, 284MB - contains the CJM, MindMap (login + general layout, CJM for all user groups), StoryBoard, raw backlog. GOLD but needs Miro import to render screenshots."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/3Design/DesignStrategyDiscoverys.pdf",
+       "what": "4-page Design Strategy doc: discovery outcomes, UEL product goals, target users (Demand/Promotion/Supply Planners), needs-solution-success-factors matrix, design process, timeline, team composition."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/3Design/DiscoveryResultsDesignSt.docx",
+       "what": "Discovery Results + Design Strategy outline doc: stakeholder/end-user interviews, pain points, CJM, MindMap, StoryBoard, user survey, team structure, agile design process, toolset."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Discovery/3Design/DesignPhaseRoadmapPlan2.docx",
+       "what": "Design Phase roadmap: prep Dec 28 - Jan 17, kick-off Jan 18 (2022), 6-8 month design phase, backlog from CJM steps, prioritization workshops, DS concept, UI inventory."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/DesignPhase/Workshops/DiscoveryCrazy8/DiscoveryProblemCrazy8De.pdf",
+       "what": "2-page workshop brief 'Discovery Problem + Crazy 8 (Define Scope)' for Landing Page Customisation (Jira UEL-218) - evidence of workshop facilitation."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/FwdExitinterviewsummaryT.pdf",
+       "what": "Exit interview summary email (Aug 4, 2022) - client testimonial and outcomes source. SENSITIVE: internal AE email with names and mixed feedback; quote selectively, do not publish as-is."
+      }
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/HandOff/TGDSVideo.mp4",
+       "size_mb": 198,
+       "what": "Design System presentation/demo video (hand-off deliverable, matches 'Demo video with Design System Presentation' from strategy doc)."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/HandOff/UXLUIthemes.mov",
+       "size_mb": 248,
+       "what": "UXL UI themes walkthrough video (hand-off deliverable)."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/DesignPhase/LowFidelitydesign/TGUELLoginv102.mov",
+       "size_mb": 233,
+       "what": "UEL Login low-fi prototype walkthrough v1.02 - process evidence (lo-fi to hi-fi story)."
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/ToolsGroup/Meetings/thisprojectnotaboutUX.mp4",
+       "size_mb": 251,
+       "what": "Meeting recording titled 'this project not about UX' - internal, likely not publishable; possibly useful for narrative context only."
+      }
+     ],
+     "facts": [
+      "Client: ToolsGroup, supply chain planning software vendor (S&OP, DCH, PromoPlanning products).",
+      "Product designed: UEL (Unified Experience Layer) - a new unified product merging S&OP, DCH and PromoPlanning into one app (login, dashboard, settings, demand/forecast editor) with brand-new UI on Angular Material.",
+      "Tsesliuk's role: Lead UI/UX, workshops facilitation (named in kick-off deck alongside Oleksii Kush as project lead/CP side).",
+      "Team composition: Lead Designer (part-time 50%), Senior Designer (full-time), Middle Designer (full-time), Project Manager (20-25%).",
+      "Timeline: proposal May 21, 2021; Discovery kick-off Nov 9, 2021 (2-3 week discovery); Design Phase kick-off Jan 18, 2022, planned 6-8 months; engagement paused Aug 2022 (exit interview Aug 4, 2022).",
+      "Target users: Demand Planners, Promotion Planners, Supply Planners (9 user roles total identified).",
+      "Design System outcome: TG DS v1.3.0 - 250+ global styles, 10k+ components and variants, 200+ ready page examples, 100+ icons and logos.",
+      "Deliverables: validated UEL prototypes, design system, design annotations, two demo videos (system + DS) - all present in HandOff folder.",
+      "Exit interview quotes (usable, anonymised): 'I would recommend UX design services to my contacts', 'you have been a great value add and taught us a lot', client had no internal design team before AE; team stayed online despite the war (BCP praised).",
+      "Exit interview caveats (do NOT publish): new CRO said early designs 'not modern enough' (rework by Oleksii improved it); communication rated 7/10; project paused due to reprioritization and investors choosing another vendor for a different UX project.",
+      "Client stakeholders named in decks: Robert Kaufholz, Nacho Ochoa, Federico Gagliardone.",
+      "No 'Confidential' marking detected on first pages of any PDF in this folder.",
+      "UI foundation: UntitledUI PRO v2.5 kit (DesignPhase/UILibrary/UntitledUIPROversionv25.fig) used as the UI library base."
+     ]
+    }
+   ],
+   "summary": "ToolsGroup folder maps cleanly to supply-chain-program. No exported raster images exist; visuals are locked in 5 Figma source files (UEL hi-fi, Dribbble shots set, TG Design System, UI themes, lo-fi) and one excellent single-page DS poster PDF (HandOff/TGDSPresentation.pdf) that can be rendered to PNG. Strong discovery evidence: 284MB Miro board export (CJM/MindMap/StoryBoard), 4-page Design Strategy PDF, Crazy 8 workshop brief, discovery kick-off (32pp) and results decks. Four large videos: two hand-off demos (DS demo mp4, UI themes mov), a lo-fi login prototype walkthrough, and one internal meeting recording. Exit interview PDF (Aug 2022) found at folder root: gives quotable testimonial lines plus sensitive mixed feedback - quote selectively. Hard facts available: UEL product scope, team of 3 designers + PM, Nov 2021 - Aug 2022 timeline, DS stats (250+ styles, 10k+ components). No Confidential stamps detected."
+  },
+  "ae-other-programs": {
+   "projects": [
+    {
+     "name": "Edsembli (K-12 education software, design system + research program)",
+     "site_case_guess": "NEW:edsembli-design-system",
+     "best_visuals": [],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/Edsembli/2Strategy/EdsembliDesignStrategy.pptx",
+       "what": "Design Strategy deck (21.4MB pptx, main strategy presentation, not parsed)",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/Edsembli/2Strategy/Proposal/EdsembliDesignSystemProp.pdf",
+       "what": "Proposal: Design System MVP for Edsembli web products, May 18 2023, phased scope with budgets",
+       "pages": 7,
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/Edsembli/2Strategy/Proposal/EdsembliFollowupResearch.pdf",
+       "what": "Proposal: Follow-up Research, 2-2.5 months, T&M team composition with rates",
+       "pages": 5,
+       "confidential": false
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/Edsembli/1Discovery/31PhaseInitiation/3Stakeholderinterviews36/StakeholderinterviewFran/DiscoveryEdsembliStakeho.pdf",
+       "what": "Stakeholder interview board export (5 Whys framework, Miro-style), 1 page"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/Edsembli/1Discovery/11EdsembliDiscoveryprogr.xlsx",
+       "what": "Discovery program plan spreadsheet"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/Edsembli/21DesignSystem/0EdsembliPlanDesignSyste.xlsx",
+       "what": "Design System phase plan spreadsheet"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/Edsembli/22ResearchExtended/EdsembliPlanFollowuprese.xlsx",
+       "what": "Follow-up research plan spreadsheet"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/Edsembli/FwdNextstepsproposalsfor.pdf",
+       "what": "Client email thread: next-steps proposals forwarded to Oleksii Tsesliuk, 19 May 2023 (contains real names/emails)"
+      }
+     ],
+     "facts": [
+      "Design System MVP proposed as 3.5-4.5 month engagement; Follow-up Research as 2-2.5 months, May 18 2023",
+      "Phased structure with budgets per phase (Initiation ~4-6 days, $2,651-$4,176; research initiation ~$1,748-$2,895)",
+      "Team: 1-2 people per discovery activity; T&M contract; roles include Middle UI/UX designer; Agile Design Studio (ADS) team",
+      "Stakeholder interview folder named '3Stakeholderinterviews36' suggests interview series",
+      "Deliverables planned: Figma design system with branching version control, PRD, brand foundations (colors, typography, spacing, elevations), Confluence reports",
+      "Oleksii received proposals from Mark Mishchenko (AgileEngine) May 19 2023 - program inception evidence"
+     ],
+     "videos": []
+    },
+    {
+     "name": "WaterFlex (Customer Inquiry product, MUI design system + delivery program)",
+     "site_case_guess": "NEW:waterflex",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/WaterFlex/EpicDesignSystem/Screenshot20250117at1327.png",
+       "size_kb": 704,
+       "what": "Jira epic view 'Design System' inside Customer Inquiry project with embedded Figma previews and child component issues - process evidence, not polished (verified by opening)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/WaterFlex/Deliverables/UXTestingSummary1.deck",
+       "what": "UX Testing Summary (39MB .deck file, likely Pitch/Keynote format - UX testing results, GOLD if convertible)",
+       "confidential": false
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/WaterFlex/Deliverables/WaterFlex1.fig",
+       "what": "Main Figma source file (100MB) - screens can be re-exported for visuals"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/WaterFlex/Deliverables/WaterFlexMUIdesignsystem.fig",
+       "what": "WaterFlex MUI design system Figma source (16MB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/WaterFlex/Deliverables/InterComRelaseFlow.fig",
+       "what": "Intercom release flow Figma source (17MB), exact filename InterComReleaseFlow.fig"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/WaterFlex/EpicDesign/Screenshot20250117at1245.png",
+       "what": "Jira 'Design' epic screenshot, Jan 2025"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/WaterFlex/EpicDevelopment/Screenshot20250117at1246.png",
+       "what": "Jira 'Development' epic screenshot, Jan 2025 - design-to-dev handoff evidence"
+      }
+     ],
+     "facts": [
+      "Active Jan 2025 (screenshots dated 2025-01-17); Jira project titled 'Customer Inquiry' on waterflexsoftware.atlassian.net",
+      "Program structured as three epics: Design, Design System, Development - with CI-numbered issues (CI-27 to CI-49 .doc exports present)",
+      "Design system built on MUI for Figma; component naming visible: Top Bar, Main Menu, Main Entities (Tasks/Invoices/Equipment/Work Orders), Global Search",
+      "UX testing was conducted (UXTestingSummary deck exists)"
+     ],
+     "videos": []
+    },
+    {
+     "name": "eVerse (social video app, UI kit revision sprint, Jun 2022)",
+     "site_case_guess": "NEW:everse-ui-kit",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/eVerse/eVerse/Deliverables/MobileAppTemplates375x81/iPhone11ProFollowers.png",
+       "size_kb": 250,
+       "what": "Hi-fi mobile screen: dark-theme Followers list (TikTok-style social app), presentation-grade (verified by opening)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/eVerse/eVerse/ActivityRoadmap.jpg",
+       "size_kb": 420,
+       "what": "Polished 6-week Gantt roadmap board 'eVerse Activities Roadmap': Discovery > UI-kit Works (atoms/molecules/organisms/templates) > Friday Demos (verified by opening)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/eVerse/eVerse/UikitdesignrevisionforeV.pdf",
+       "what": "'UI-kit design revision for eVerse' client presentation, Jun 2022 - problem framing, dev pain points, deliverables",
+       "pages": 26,
+       "confidential": false
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/eVerse/eVerse/Kickoffsession1Jun.pdf",
+       "what": "Kick-off session notes, 1 Jun 2022: project scope, 4-6 week timeline, Figma links"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/eVerse/eVerse/Meetingnotes",
+       "what": "16 numbered meeting notes / progress reports / demo notes, Jun 3-27 2022 - cadence evidence (Friday demos)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/eVerse/eVerselinks.pdf",
+       "what": "Project links + stakeholder roster (contains real client names/emails: mike@everse.tv etc.)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/eVerse/eVerse/Figmafilesbackup/StyleguidesComponents.fig",
+       "what": "Styleguide & Components Figma source (36MB); also MobileAppTemplates375x81.fig (79MB) and WEBTemplates1440x1024px.fig (12.6MB) - re-exportable visuals"
+      }
+     ],
+     "facts": [
+      "Engagement: 1 Jun - 8 Jul 2022, 4-6 weeks, team 2-5 people (roadmap legend)",
+      "Stakeholders: Mike Mayer, Enzo Sison, Sergio Arboleda (everse.tv) + Stanislav Ripa (AgileEngine)",
+      "Scope: UI-kit revision for web (1440px) and mobile (375px) using atomic design (atoms/molecules/organisms/templates)",
+      "Weekly Friday demo cadence with 16 documented meetings in 4 weeks",
+      "Deliverables included a tutorial video teaching client how to link the Figma library - enablement/handoff angle"
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/eVerse/eVerse/Deliverables/Tutorials/eVerseHowtolinkthelibrar.mov",
+       "size_mb": 10.2,
+       "what": "Tutorial: how to link the Figma library (client enablement deliverable)"
+      }
+     ]
+    },
+    {
+     "name": "SecurityBulldog (cybersecurity news platform, discovery + design strategy, 2022)",
+     "site_case_guess": "NEW:security-bulldog",
+     "best_visuals": [],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/DiscoveryOutcome/1PresentationDiscoveryRe.pptx",
+       "what": "Presentation 1: Discovery Results (4.3MB pptx, not parsed) - discovery outcome deck",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/DiscoveryOutcome/2PresentationDesignStrat.pptx",
+       "what": "Presentation 2: Design Strategy (6.1MB pptx, not parsed)",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/ContextureSecurityBulldo.pptx",
+       "what": "Contexture/SecurityBulldog deck (7.8MB pptx, not parsed)",
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/SharedDocumentation/TheSecurityBulldogOvervi.pdf",
+       "what": "Client's own product overview 'The Cybersecurity News, Data and Prediction Market', Feb 2022 - context/problem framing",
+       "pages": 14,
+       "confidential": false
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/SecurityBulldogDiscovery.xlsx",
+       "what": "Discovery program plan spreadsheet"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/SecurityBulldogDesignPla.xlsx",
+       "what": "Design plan spreadsheet"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/UserInterviews/UserInterviewScript.docx",
+       "what": "User interview script"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/StakholderInterviews/StakeholdersInterviewScr.docx",
+       "what": "Stakeholder interview script"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/SharedDocumentation/SBDRoadmap20220624.xlsx",
+       "what": "Product roadmap dated 2022-06-24"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/Reports/SecurityBulldogDSWeeklyr.pdf",
+       "what": "Weekly progress report Jul 25-29 2022 (user interviews, HotJar CJM tracking, analytics review, hypothesis validation); 3 more weeklies in same folder"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/DiscoveryOutcome/CBLowFi.fig",
+       "what": "Low-fidelity wireframes Figma source (19MB) - re-exportable"
+      }
+     ],
+     "facts": [
+      "Client: The Security Bulldog, 'cybersecurity news, data and prediction market' platform; engagement Feb-Jul+ 2022",
+      "Full discovery program: stakeholder interviews + user interviews (named participants, e.g. 'User Interview (Keith)'), HotJar behavioral analytics, CJM tracking, hypothesis validation",
+      "Discovery outcomes packaged as two presentations (Discovery Results, Design Strategy) plus low-fi prototype",
+      "Weekly written progress reports to client (4 on disk)"
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/SecurityBulldog/DiscoveryOutcome/Prototype.mov",
+       "size_mb": 340.1,
+       "what": "Prototype walkthrough video (discovery outcome) - large, would need compression"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/Out/Concept.mp4",
+       "size_mb": 70.5,
+       "what": "Final concept video (edited deliverable, best video candidate)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/SecurityBulldog/In/cover.mov",
+       "size_mb": 0.7,
+       "what": "Short cover clip; In/ also holds raw takes 1st.mov (31.5MB), 2nd.mov (40.5MB), last.mov (47.7MB)"
+      }
+     ]
+    },
+    {
+     "name": "UXaudit (UX audit practice: Propvest/Exporo + ToolsGroup PromoPlanning, 2021)",
+     "site_case_guess": "NEW:ux-audit-practice",
+     "best_visuals": [],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/UXaudit/0Initiation/PropvestUXUIAudit.pdf",
+       "what": "Propvest (by Exporo, Germany's leading digital real-estate investment platform) UX/UI Audit, Feb 2021: exec summary, heuristic approach, accessibility, styles, per-flow issues - flagship audit artifact",
+       "pages": 65,
+       "confidential": false
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/UXaudit/0Initiation/ToolsGroupUXAudit.pdf",
+       "what": "ToolsGroup PromoPlanning UX Audit, Jan 2021 (overlaps supply-chain-program case): create/edit promo flow observations",
+       "pages": 28,
+       "confidential": false
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/UXaudit/3Design/Wireframes/ToolsGroupUXAudit.fig",
+       "what": "ToolsGroup audit wireframes Figma source (21MB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/UXaudit/0Initiation/uxdesignaudittemplates.pdf",
+       "what": "Adobe XD Ideas article 'What is a UX Design Audit?' - methodology reference, not own work"
+      }
+     ],
+     "facts": [
+      "Two full UX audits delivered Jan-Feb 2021: ToolsGroup PromoPlanning (28pp) and Propvest by Exporo (65pp)",
+      "Propvest context: Exporo launched 2014, brokered capital over EUR 500 million; audit motivated by weak value communication of the 'Bestand' product",
+      "Audit method: heuristic evaluation + best-practice references, issue statements with potential solutions and further-reading links, accessibility section",
+      "Propvest audit possibly relates to existing property-portal-mvp site case (same real-estate investment domain) - verify before creating a new case"
+     ],
+     "videos": []
+    },
+    {
+     "name": "Procon",
+     "site_case_guess": "unknown",
+     "best_visuals": [],
+     "decks": [],
+     "discovery_artifacts": [],
+     "facts": [
+      "Folder contains a single file: Screenshot20260303at1515.png (2.6MB, dated Mar 2026) - a messy full-desktop capture of a video call with spreadsheets and a settings UI; verified by opening, NOT portfolio-usable",
+      "No case can be built from this folder alone"
+     ],
+     "videos": []
+    },
+    {
+     "name": "AEDesignSystem (ADS - AgileEngine internal design system)",
+     "site_case_guess": "agileengine_design_system",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/RecentVersions/Screenshot20250428at1900.png",
+       "size_kb": 1198,
+       "what": "Figma project view 'ADS Internal - Design System' showing ~40 library files (AE 3D Illustration Library, sub-branding kits for Talent Ops, Leadership House, People Ops, Security Studio, GMP Team, Bootcamp...) - scale evidence (verified by opening); 3 sibling screenshots at 1859/1901/1902 in same folder"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/Demo/AEDSpresentation.pdf",
+       "what": "AE Design System presentation (single long page): MUI & Material Design Guidelines, color system with accessibility/contrast rationale",
+       "pages": 1,
+       "confidential": false
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/Backups/WorkshoptodefineDesignSt.pdf",
+       "what": "Workshop agenda: define design studio contact points + strategy so 'other departments receive design services with the best quality in time' - studio-as-a-service inception evidence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/Backups/Silqproductworkshop.pdf",
+       "what": "Silq persona workshop board (Investors & Firms personas, sentence-completion exercise for investment dashboard) - workshop facilitation evidence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/Backups/Silqproductplanning.pdf",
+       "what": "Silq requirements session board: competitor IA mapping (UKG, Sproutsocial, Hootsuite)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/Backups/Examplecompetitiveresear.pdf",
+       "what": "Competitive research board export (huge 124MB single-page: homepage/login/registration/license purchase pros-cons grid)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/Backups/CognierTimeline.pdf",
+       "what": "Cognier team capacity/timeline plan (resource planning evidence, named designers)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/RecentVersions/ADSDesignSystem.fig",
+       "what": "ADS Design System Figma source, 588MB (plus 242MB backup in Backups/) - re-exportable component visuals"
+      }
+     ],
+     "facts": [
+      "ADS is MUI/Material-based ('MUI for Figma v5' library zips on disk); color system designed around contrast/accessibility",
+      "System serves ~40 internal Figma libraries / sub-brand kits across AgileEngine departments (visible in Apr 2025 project screenshots)",
+      "Folder also evidences the studio's client workshops (Silq investment dashboard personas, Cognier resourcing) run under the ADS/design-studio umbrella",
+      "Demo video + presentation exist - ready-made media for the existing agileengine_design_system case"
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs/AEDesignSystem/Demo/AEDSdemo720p.mp4",
+       "size_mb": 12.2,
+       "what": "AE Design System demo video, 720p - compact, directly embeddable"
+      }
+     ]
+    }
+   ],
+   "summary": "Inventoried 7 folders under C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/01Programs (TvEyes/ToolsGroup skipped). No PDF contains the word \"Confidential\", but several files carry real names/emails (Edsembli email thread, eVerse links roster, SecurityBulldog interview names) - anonymize per NDA practice. Strongest NEW-case candidates: (1) SecurityBulldog - complete discovery-to-strategy arc with interview scripts, weekly reports, two outcome decks, low-fi Figma, plus a 70MB concept video and 340MB prototype video; (2) eVerse - tight 6-week UI-kit sprint with polished roadmap JPG, hi-fi mobile screen, 26pp client deck, 16 meeting notes and a client-enablement tutorial video; (3) Edsembli - program-owner evidence (priced phased proposals, strategy pptx, discovery plans) but almost no imagery; (4) UXaudit - two finished audit decks (Propvest/Exporo 65pp, ToolsGroup 28pp; the latter overlaps the supply-chain-program case, Propvest may overlap property-portal-mvp); (5) WaterFlex - Jan 2025 MUI design-system delivery with Jira epic evidence and a 39MB UX-testing .deck, visuals locked in .fig sources. AEDesignSystem maps to the existing agileengine_design_system case and adds a 12MB demo MP4, a presentation PDF, library-scale screenshots, and workshop artifacts. Procon is a dead end (one messy desktop screenshot). Most polished visuals overall are locked inside large .fig sources (WaterFlex 100MB, eVerse 36-79MB, ADS 588MB) - re-exporting from Figma would be needed for hero imagery."
+  },
+  "halliburton": {
+   "projects": [
+    {
+     "name": "Halliburton DecisionSpace Real-Time 365 (DSRT365) via Luxoft / DXC",
+     "site_case_guess": "oil-gas-monitoring",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/dsrt365home.png",
+       "size_kb": 1217,
+       "what": "Hero device mockup: desktop monitor + tablet showing live DSRT365 drilling dashboard (gamma res logs, magnetic TFO gauge, well trajectory). Verified, presentation grade"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/Halltablet1.png",
+       "size_kb": 1235,
+       "what": "iPad device mockup of Halliburton-branded DSRT365 sign-in screen with oilfield photo. Verified, polished"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/Hallpc.png",
+       "size_kb": 1023,
+       "what": "Desktop device mockup of DSRT365 app (companion to tablet shots, same curated set)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/Halltablet.png",
+       "size_kb": 162,
+       "what": "Second tablet mockup variant"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/Components.png",
+       "size_kb": 474,
+       "what": "Design system component sheet overview"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/ComponentsDropdownsLists.png",
+       "size_kb": 343,
+       "what": "Design system: dropdowns and lists spec sheet (plus ComponentsDropdownsList2.png 280KB, ComponentsButtons1.png 233KB, ComponentsButtons2.png 230KB, PrimaryColor1.png 112KB in same folder)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/DSRT365WebApplicationDia.png",
+       "size_kb": 133,
+       "what": "Polished IA diagram 'DSRT365 Web Application - IA', Halliburton-branded, versioned Design v14.01. Verified. This is the IA artifact (PNG, no separate IA PDF found)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/CJM.png",
+       "size_kb": 454,
+       "what": "Customer Journey Map board 'Support (RTO)': registration/OWAI, DSRT login, first-session well monitoring, emotion curve, opportunities. Verified"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/DashboardsManagementDSR2.png",
+       "size_kb": 94,
+       "what": "Dashboards Management screen hi-fi (plus DashboardsManagementPage.png 82KB, DashboardsManagementDSRT.png 37KB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/Application/Screenshot20220226at0730.png",
+       "size_kb": 5311,
+       "what": "Design system documentation page (Date Picker usage spec) framed in macOS window on purple backdrop; folder has 8 similar shots dated 2022-02-26, ~2-5.5MB each. Verified"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/BeforeRedesign/Screenshot20210826at1027.png",
+       "size_kb": 6871,
+       "what": "Legacy app BEFORE redesign; folder holds 9 screenshots dated 2021-08-26, 1.8-7MB each. Gold for before/after comparison with Application/ and mockups"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/BrandStyle/ds365tiles/explorationreservoirdeve.png",
+       "size_kb": 207,
+       "what": "DecisionSpace365 product family brand tiles (also production.png 176KB, petroleuinvestment.png 153KB, wellconstruction.png 147KB, informationmanagement.png 146KB, ds365generic.png 114KB; matching SVG domain icons in ds365domainiconscolor/)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365DecisionSpaceReal/UseCasesFeaturesPBIsBugs/OWAIintegrationInSiteMob/1Analysis/UXMObileAssets/Android/Resources/drawablexlargexhdpi/splash.png",
+       "size_kb": 767,
+       "what": "InSite Mobile splash screen design (Android xlarge; iOS portrait/landscape variants 513-528KB nearby). InSite Mobile design source: InSiteMobile/SplashScreens/DSRT365SplashScreens.xd (737KB)"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/CJM.png",
+       "what": "Customer Journey Map for RTO support flow with emotion curve, touchpoints, process ownership, opportunities"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/DSRT365WebApplicationDia.png",
+       "what": "Information Architecture diagram of entire web app (pages, subpages, tooltips, external links), design package v14.01"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/DSRT365Survey.xd",
+       "what": "User survey design file (248KB XD); paired with surveyemail.png, questmaintext.png and HTMLTemplates/index.html survey email template = evidence of a user survey program"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/ClusterAnalysis.xlsx",
+       "what": "Cluster analysis spreadsheet (30KB), likely survey/research data analysis"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/BeforeRedesign/",
+       "what": "9 legacy-app screenshots (Aug 2021) acting as the de-facto UX audit baseline; no standalone UX audit PDF exists in this area"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365DecisionSpaceReal/UseCasesFeaturesPBIsBugs/",
+       "what": "Per-feature UX process folders showing methodology stages: 1Analysis, 3EvaluationwithUsers, 4PrototypingPolishingDes (e.g. BUG128710 XY plot, PBI130303 single variable property, Managed dashboard, OWAI/InSite Mobile integration); includes working XD sources DecisionSpaceRealTime362.xd 41MB and DecisionSpaceRealTime365.xd 22MB"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/Notes/UXExpertiseUserInvitatio.docx",
+       "what": "User interview invitation template (structured 4-part session agenda); NOTE: content references a Bank product catalogue study, a reusable research template rather than Halliburton-specific"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/DSRT365.xd",
+       "what": "Case study master XD file (40MB) plus DSRT365DesignSystem.xd (32MB) design system source"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365DecisionSpaceReal/ProjectInformation/HalliburtonOnboardingpre.pdf",
+       "pages": 34,
+       "confidential": false,
+       "what": "Halliburton Digital Solutions onboarding deck 2020: Luxoft company overview, Halliburton facts (founded 1919, ~50k employees, 80 countries), program org chart, project portfolio (Edge 4.0, Optimus, Data Analytics, DX/Falcon), tech stacks"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365DecisionSpaceReal/ProjectInformation/DSRT365Review3521v21.pptx",
+       "confidential": false,
+       "what": "DSRT365 project review deck v2.1 dated 3/5/21 (782KB PPTX, not parsed per protocol)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/BrandStyle/ds365productfamily081920.pdf",
+       "pages": 1,
+       "confidential": false,
+       "what": "DecisionSpace365 Portfolio Branding sheet (primary/secondary palettes with hex/RGB, version 08/19/2020); marked FOR INTERNAL USE ONLY, Copyright Halliburton"
+      }
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365DesignSystem.mp4",
+       "size_mb": 151,
+       "what": "Design system walkthrough video"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365demo.mp4",
+       "size_mb": 115,
+       "what": "DSRT365 application demo"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/DSRT365.mp4",
+       "size_mb": 38,
+       "what": "Case study video (curated CaseStudies folder)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365DevTeamDemoVideos/DecisionSpaceRealTime365.mov",
+       "size_mb": 208,
+       "what": "Dev team demo recording of full product"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365DevTeamDemoVideos/DSRT365v72TreeViewWellbo.mp4",
+       "size_mb": 36,
+       "what": "v7.2 Tree View / Wellbore feature demo"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/DSRT365DevTeamDemoVideos/InSiteMobilev3.mp4",
+       "size_mb": 2,
+       "what": "InSite Mobile v3 demo (the InSite Mobile motion evidence)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/FEATURE109935UsersSugges.mp4",
+       "size_mb": 106,
+       "what": "Users Suggestions feature walkthrough (paired FEATURE109935UsersSugges.xd 33MB source)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Halliburton/In/DSRT365XYPlotFeatureEnha.mp4",
+       "size_mb": 75,
+       "what": "XY Plot feature enhancement demo (Premiere project source exists under ReleaseDemoTutorialsforE/Demo/)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft/01HalliburtonDSRT365/CaseStudies/Application/ScreenRecording20220226a.mov",
+       "size_mb": 36,
+       "what": "Screen recording of redesigned application, Feb 2022"
+      }
+     ],
+     "facts": [
+      "Product: DecisionSpace Real-Time 365 (DSRT365), Halliburton Digital Solutions real-time well/drilling monitoring; user worked via Luxoft (DXC Luxoft) Creative Labs, email oleksii.tsesliuk@dxc.com",
+      "Timeline evidence: onboarding deck 2020, brand sheet v08/2020, before-redesign audit shots Aug 2021, timesheet emails Aug 2021, design system v13.06 screenshots and app recording Feb 2022, IA labeled Design v14.01 (engagement spans roughly 2020-2022)",
+      "Role evidence from Aug 2021 timesheet PDF: UI/UX Activities (Design, Research) 14-28.5h/wk, plus Onboarding for newcomer (16h), Planning/Reporting, Client and team meetings; full 40h allocation on DSRT365",
+      "Program structure (onboarding deck p11-12): Halliburton DS Program in Luxoft Kyiv: Tatiana Golub Program Manager, Hanna Havrylenko SM/PM, Oleg Gorobchuk Director Engineering; sibling projects Edge 4.0, Optimus, Data Analytics, DX/Falcon",
+      "Client scale (deck p8): Halliburton founded 1919, ~50,000 employees, 80 countries, oilfield lifecycle services",
+      "Scope evidence: full design system (components, color, date picker specs, v13-14 iterations), IA for whole web app, CJM, user survey with email campaign + cluster analysis, per-PBI UX process (analysis, user evaluation, prototyping), InSite Mobile splash/app assets for iOS+Android, release demo tutorial videos produced by designer (Premiere projects on disk)",
+      "No document contains the word Confidential; brand PDF is marked FOR INTERNAL USE ONLY (Halliburton copyright), so treat brand assets and onboarding deck as internal-only when publishing",
+      "Requested 'UX audit PDF' and 'IA PDF' do not exist in this area as PDFs: the IA exists as PNG (DSRT365WebApplicationDia.png) and the audit exists as the BeforeRedesign screenshot set"
+     ]
+    }
+   ],
+   "summary": "Inventoried C:/Users/Admin/iCloudDrive/StorageA/Projects/Luxoft (Halliburton DSRT365) and Portfolio/forportfolio/Halliburton/In. Single project: DecisionSpace Real-Time 365 oil and gas monitoring, mapping to oil-gas-monitoring. Strongest assets: curated device mockups (dsrt365home.png monitor+tablet hero, Halltablet1/Hallpc sign-in mockups), verified CJM board and Halliburton-branded IA diagram, design system component sheets, before/after screenshot sets (Aug 2021 legacy vs Feb 2022 redesign), DecisionSpace365 brand tiles, InSite Mobile splash designs plus InSiteMobilev3.mp4. Decks: 34-page Halliburton onboarding PDF (org chart, client facts), DSRT365 review PPTX, 1-page brand sheet (FOR INTERNAL USE ONLY, no 'Confidential' found anywhere). Nine videos including design system walkthrough (151MB), product demo (115MB), case study cut (38MB), and two feature demos with XD/Premiere sources. Facts: 2020-2022 engagement via Luxoft Kyiv, 40h/wk on UI/UX design+research, newcomer onboarding and demo video production; program managed by Tatiana Golub (PM) and Hanna Havrylenko (SM/PM). Note: no standalone UX audit PDF or IA PDF exists; IA is a PNG and the audit is the BeforeRedesign screenshot set."
+  },
+  "spacelabs": {
+   "projects": [
+    {
+     "name": "SpaceLabs Healthcare patient monitors (GlobalLogic, Rainier program)",
+     "site_case_guess": "clinical-environment",
+     "facts": [
+      "Engagement 2014-2021 (~7 years), largest GlobalLogic project in archive (2.8 GB, ~3900 files) per Portfolio/02StrongCases README",
+      "Tsesliuk had a spacelabs.com email (Oleksii.Tsesliuk@spacelabs.com), was 'Service Owner' of designer onboarding, and personally ran the final design delivery/transfer of all designs and prototypes (email Nov 23, 2020 to SL engineering leads)",
+      "GL design team on the Jan 27 - Feb 7, 2020 onsite trip: 6 people (Oleksii Tsesliuk, Danylo Klochko, Dmytro Nushtaiev, Vasylyna Bes, Ostap Simchuk, Andrii Ryzhankov); SL side: David Lammi, Zach Orlowski, Lin Jiang, Vicki, Sepideh",
+      "Bi-weekly UX Design Sprint Demos: Rainier Design Sprint 19 (28 Oct - 9 Nov 2020) and Sprint 20 (11 Nov - 23 Nov 2020); designers Alexey, Danylo, Alina, Vasylyna on monitor, surveillance, and design system tracks",
+      "Product family: Rainier patient monitors (all-new UI replacing Qube/Qube Mini), CM3 Command Module, Bridge Monitor (RBM), Surveillance Monitoring, Clinical Management Portal (CMP desktop+mobile), legacy XPREZZON/Xhibit/Aria Tele",
+      "Design System for SL Monitors built in Adobe XD ('SL Monitors - Design System'), with use-case-driven component work (ECG waveforms, alarms, patient zones, neonate screens)",
+      "Process anchored in medical usability engineering standard IEC/AAMI TIR62366-2:2016 (107-page standard kept in project Documentation); design process: Research -> UI Design -> SNO Review -> CEC/Customer Testing -> Master Design",
+      "Personas, user groups and environments documented in Confluence + Airtable (SLS Users and Environments doc)",
+      "Spacelabs story hook: company since 1958, monitored Ed White's Gemini IV spacewalk and Apollo astronauts; 'Design led approach for healthcare telemetry and diagnostics products'",
+      "Confidential stamps on case study deck, history deck, and both sprint demo decks; sprint decks carry Spacelabs Healthcare branding"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/Workshop/plan.jpg",
+       "size_kb": 610,
+       "what": "Three-week onsite workshop calendar board (Jan 20 - Feb 7, 2020): color-coded sessions for kick-off, use-case worksessions, IA, lo-fi wireframing, usability inspections, final presentation"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/SpaceLabs/Screenshot20201006at1053.png",
+       "size_kb": 1585,
+       "what": "Adobe XD 'SL Monitors Design System' general components page (dark medical UI kit: forms, dropdowns, alerts, color tokens, typography) - desktop screenshot, needs cropping"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/SpaceLabs/Screenshot20201006at1046.png",
+       "size_kb": 3099,
+       "what": "MeisterTask use-case ticket 'Add or Remove Screen Workflows' assigned to Tsesliuk - process evidence of use-case-driven design workflow, needs cropping"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CreativeCloud/RainierProducts/DesignSystem/UseCases/ReferenceECGWaveform60bp/Prototype/SVG/MonitorWaveformsHomeECG6.png",
+       "size_kb": 155,
+       "what": "Rainier monitor home screen prototype render with reference ECG waveform at 60 bpm (clean hi-fi UI image)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CreativeCloud/ExistingProducts/IMG5017.jpg",
+       "size_kb": 9462,
+       "what": "High-res photo of existing Spacelabs monitor hardware (one of 345 field/product photos in ExistingProducts folder; good before-state and domain-credibility imagery)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/Concept/Wireframes/Rainier000.bmpr",
+       "size_kb": 18154,
+       "what": "Balsamiq wireframes source file for Rainier concept (needs Balsamiq to export; evidence of lo-fi concept stage)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CaseStudy/CaseStudySpaceLab.pdf",
+       "pages": 17,
+       "confidential": true,
+       "what": "GlobalLogic-branded case study deck: 'The Design led approach for healthcare telemetry and diagnostics products' - Lean Product Design diagrams, innovation/agile cells model, use-case and product-dependency matrices"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CaseStudy/CaseStudySpaceLab.pptx",
+       "confidential": true,
+       "what": "Source PPTX of the case study deck (23.9 MB, not parsed)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CaseStudy/SpaceLabsHistorypptx.pdf",
+       "pages": 41,
+       "confidential": true,
+       "what": "Extended 41-page 'SpaceLabs History' deck, same design-led narrative with full program history; richest single source for the case story"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CaseStudy/SpaceLabsHistory.pptx",
+       "confidential": true,
+       "what": "Source PPTX of history deck, 289 MB (likely contains embedded videos; not parsed)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ManagementReporting/RainierDesignActivitiesS.pdf",
+       "pages": 9,
+       "confidential": true,
+       "what": "Rainier Design Sprint 19 UX demo deck (Oct-Nov 2020), Spacelabs-branded: sprint scope table with assignees and statuses, design system layouts, monitor homescreen"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ManagementReporting/RainierDesignActivities2.pdf",
+       "pages": 9,
+       "confidential": true,
+       "what": "Rainier Design Sprint 20 UX demo deck (Nov 2020): bedside view, patient zone menu, neonate updates"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/Workshop/plan.pdf",
+       "what": "Onsite workshop plan, full-detail vector version of the 3-week calendar (also plan.psd, plan.png in same folder)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/Workshop/Workshopdoc.pdf",
+       "what": "Scanned flipchart sheets from the workshop: handwritten persona/role brainstorm with sketches (4 image pages)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ResearchesRequirementsan/AgendafortripinJan27Agen.pdf",
+       "what": "Hour-by-hour agenda for the Jan 27, 2020 onsite trip to Spacelabs with named SL and GL attendees (also .xlsx source)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ManagementReporting/SLSDesignProcess09112016.pdf",
+       "what": "Documented design process: Research/Examples -> UI Design -> SNO Review -> Phase 0 approval -> CEC/Customer Testing -> Master Design update"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ManagementReporting/SLSUsersandEnvironments0.pdf",
+       "what": "Users and Environments index: personas and user groups in Confluence, users and environments in Airtable"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ManagementReporting/SLSOnboardingfordesigner.pdf",
+       "what": "Designer onboarding playbook authored by Tsesliuk as Service Owner (SL e-learning, access, vocabulary)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ManagementReporting/SLS546435481091120162368.pdf",
+       "what": "UI/UX activities proposition until July/August 2019 - strategy/resourcing pitch"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ManagementReporting/SLSTeam0911201624694.pdf",
+       "what": "Lviv team roster with roles (engineering director, BA, QA manager, designers) - team-scale evidence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/ManagementReporting/DesignDeliveryTransferAl.pdf",
+       "what": "Design Delivery (Transfer) email, Nov 23 2020: formal handoff of all designs and prototypes to Spacelabs - clean program-closure evidence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CreativeCloud/Documentation/TIR6236621606SWDec2016.pdf",
+       "what": "AAMI/IEC TIR62366-2:2016 usability engineering standard for medical devices (107 pages) - regulated-domain credibility prop"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CreativeCloud/ReceivedfromSL/UX/UseCases/HelpkeyUseCaseformtempla.dotx",
+       "what": "Spacelabs use-case form template received from client - shows formal use-case methodology"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/Products/XhibitBrochure.pdf",
+       "what": "Official Spacelabs product brochures/ops manuals folder (Xhibit, Qube, XPREZZON, Aria Tele, ICS) - legacy product context, ~20 PDFs"
+      }
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/SpaceLabs/SLMonitorsDesignSystem16.mp4",
+       "size_mb": 26.8,
+       "what": "SL Monitors Design System 16:9 showcase video - already curated for portfolio, the strongest single asset (XD source: CreativeCloud/TEST/SLMonitorsDesignSystem16.xd)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/CreativeCloud/ExistingProducts/IMG4640.m4v",
+       "size_mb": 80.8,
+       "what": "Field video of existing Spacelabs monitor hardware (before-state / domain immersion footage)"
+      }
+     ]
+    }
+   ],
+   "summary": "SpaceLabs (GlobalLogic, 2014-2021) is the richest clinical-environment source on disk. Strongest assets: the curated Design System video in Portfolio/forportfolio/SpaceLabs, two Confidential-stamped GlobalLogic case-study decks (17p case study + 41p history, both with PPTX sources), two Spacelabs-branded sprint demo decks (Sprint 19/20, Oct-Nov 2020), and gold discovery evidence: a 3-week onsite workshop calendar (Jan-Feb 2020, plan.jpg/pdf), scanned workshop flipcharts, an hour-by-hour onsite trip agenda naming a 6-person GL design team, a documented design process (SNO review, CEC customer testing), persona/user-group index, designer onboarding playbook authored by Tsesliuk as Service Owner, and a formal design-transfer email (Nov 2020) closing the program. 345 high-res photos and a video of existing monitor hardware give before-state imagery; the IEC 62366 usability standard and official Spacelabs ops manuals anchor regulated-medical credibility. Caveats: nearly every deck carries a Confidential stamp; the 2020-10-06 portfolio screenshots are desktop process shots (XD design system, MeisterTask tickets) that need cropping, not clean monitor UI; the only clean hi-fi UI image found is the ECG waveform home-screen prototype PNG. Hi-fi UI lives mostly inside the decks and three Adobe XD sources in CreativeCloud/TEST."
+  },
+  "globallogic-rest": {
+   "projects": [
+    {
+     "name": "Mobile Health AG / Consilium Care (09MobileHealthAG)",
+     "site_case_guess": "mobile-health-app",
+     "facts": [
+      "Engagement: 'Next-Gen ePro SaaS Ecosystem' proposal for Mobile Health AG, June 2020; Consilium Care platform ('evidence-based care')",
+      "Joint GlobalLogic + Method London team: James Steiner (Design Director, Method London, 20 yrs, IDSA Award), Nataliia Kamysheva (PO Business Solutions, 20 yrs), Andrii Antilikatorov (Solution Architect, 15+ yrs), Iuliia Izonina, Nataliya Siromakha; client side Dr. Mark Lightowler",
+      "Hard deadline: deliver V3.1 by end of September 2020 for the SAKK Quality of Life clinical trial; transition started June 17, project start July 1, 2020",
+      "Regulated digital health: DiGA/DiGAV investigation reports (Dec 2020), formative usability tests for PRO Care App and Web",
+      "Releases R3.1 and R3.2 planned with prioritization workshop, design audit, epics backlog and October design transition/handover (UI Web + UI Mobile handover docs)"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/DesignArtifacts/UIMobileiOSMaster19a48a8.sketch",
+       "size_kb": 5233,
+       "what": "Final iOS UI master (Sketch source, exportable hi-fi screens)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/DesignArtifacts/UIMobileAndroidMaster19a.sketch",
+       "size_kb": 5090,
+       "what": "Final Android UI master (Sketch source)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/DesignArtifacts/UIWebMaster19a48a8.sketch",
+       "size_kb": 723,
+       "what": "Final Web UI master (Sketch source)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/08Graphic/ConsiliumlogoConsiliumOv.png",
+       "size_kb": 248,
+       "what": "Consilium logo / overview graphic"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/DesignOrganisationandPro/HomeResponsibilities.png",
+       "size_kb": 726,
+       "what": "Design org / responsibilities board"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/01ProposalPitch/CopyofMobileHealthGLprop.pdf",
+       "pages": 35,
+       "confidential": false,
+       "what": "GL proposal pitch: roadmap to V3.1, team bios, MedTech credentials, case studies"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/02MHAGBusinessPlan/TWCMobileHealthInfoDeck2.pdf",
+       "pages": 79,
+       "confidential": true,
+       "what": "Client business plan deck, stamped 'CONFIDENTIAL - DO NOT DISTRIBUTE'"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/03R32Planning/MHAGUsabilityFixes.pptx",
+       "confidential": false,
+       "what": "Usability fixes deck for R3.2 (5.4 MB pptx)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/03R32Planning/OctoberDesignTasksSummar.pptx",
+       "confidential": false,
+       "what": "October design tasks summary (11.9 MB pptx, likely screen-rich)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/08Graphic/Usermotivationpresentati.pdf",
+       "pages": 11,
+       "confidential": false,
+       "what": "User Motivation research deck for Consilium App v3.1, 03/2020 (German)"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/02R31Planning/DesignAuditMobileHealthA.xlsx",
+       "what": "Design audit spreadsheet"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/03R32Planning/32PrioritizationWorkshop.xlsx",
+       "what": "R3.2 prioritization workshop"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/07DiGAVreports/InvestigationReportDiGAV.docx",
+       "what": "DiGAV regulatory investigation report (plus second DiGA2 report in same folder)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/DesignOrganisationandPro/UX/UsabilityEngineering/FormativesTesten/FinalTasksforFormativeTe/FormativeTestsPROCareAPP.docx",
+       "what": "Formative usability test protocol (app; web variant alongside)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/DesignArtifacts/WireframesMobilefinal.sketch",
+       "what": "Final mobile wireframes, 25 MB Sketch (desktop variant alongside)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/09MobileHealthAG/Recived/06ProjectManagement/MHAGUIMobileHandoverLink.docx",
+       "what": "UI mobile handover links doc (web variant alongside)"
+      }
+     ],
+     "videos": []
+    },
+    {
+     "name": "Cambium Networks (07Cambium)",
+     "site_case_guess": "wireless-network-software",
+     "facts": [
+      "GlobalLogic Advisory pre-sale: UI + corporate identity audit of Cambium wireless gear interfaces, before/after redesign of login and configuration pages, proposal of bootstrap-based UI standards consistent with cambiumnetworks.com",
+      "Product scope: PMP 450 family, ePMP 1000/2000, Force radios (product book covers full access portfolio)",
+      "Second deliverable: printed product book/catalog design with custom illustrations (147 MB Illustrator master)"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/07Cambium/Book/Edit/BookPreview.psd",
+       "size_kb": 11607,
+       "what": "Product book cover/spread preview composition (PSD)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/07Cambium/App/Edit/indexcambium.sketch",
+       "size_kb": 1131,
+       "what": "App/interface redesign concept (Sketch source)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/07Cambium/Book/Edit/IllustrationsBackground.ai",
+       "size_kb": 68478,
+       "what": "Custom illustration set for product book (AI source)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/07Cambium/CambiumProposal.pdf",
+       "pages": 9,
+       "confidential": false,
+       "what": "Advisory proposal with before/after UI audit screens, the core case evidence"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/07Cambium/CambiumProposal.pdf",
+       "what": "Heuristic UI/brand audit with before/after comparisons (doubles as discovery evidence)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/07Cambium/Book/Cambiuminfo.rtf",
+       "what": "Product line research notes (PMP/ePMP portfolio breakdown)"
+      }
+     ],
+     "videos": []
+    },
+    {
+     "name": "JLL Property Hub 2.0 (13JLL)",
+     "site_case_guess": "property-portal-mvp",
+     "facts": [
+      "JLL Property Hub 2.0 MVP usability testing program: owned full method (recruiting emails to management, session agenda with questions, SUS questionnaire, user persona forms, results presentation invitation)",
+      "Test environment: MVP on Azure (jlluatph2web.azurewebsites.net), InVision prototype for design",
+      "Brand context: JLL Digital Guidelines v2.0, July 2017 (Jones Lang LaSalle)"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UserTesting/In/JLLPropertyHub20.sketch",
+       "size_kb": 30550,
+       "what": "Property Hub 2.0 full UI design (Sketch source, exportable hi-fi screens)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UserTesting/In/JLLWireframe.sketch",
+       "size_kb": 4277,
+       "what": "Property Hub wireframes (Sketch source)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UsabilityTestingMethod/StepbyStep.pptx",
+       "confidential": false,
+       "what": "Step-by-step usability testing method deck (3.4 MB) - strong process evidence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UserTesting/In/21JLLGuidelinesDigital2.pdf",
+       "pages": 85,
+       "confidential": false,
+       "what": "JLL Digital brand guidelines v2.0 (client input)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UserTesting/In/PH20ClientlogicalModelv2.pptx",
+       "confidential": false,
+       "what": "Property Hub 2.0 client logical model (IA evidence)"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UsabilityTestingMethod/3Agendawithquestions.docx",
+       "what": "Usability session agenda with questions"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UsabilityTestingMethod/GoogleFormsProfileSUS/SUSquestions.zip",
+       "what": "System Usability Scale questionnaire (Google Forms export)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UsabilityTestingMethod/GoogleFormsProfileSUS/UserPersonas.zip",
+       "what": "User persona forms (Google Forms export)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/13JLL/UsabilityTestingMethod/Emails",
+       "what": "4 recruiting/communication email templates (management info, resource request, session invite, results presentation invite)"
+      }
+     ],
+     "videos": []
+    },
+    {
+     "name": "ParkU smart parking (10ParkU)",
+     "site_case_guess": "NEW:parku-smart-parking",
+     "facts": [
+      "Two-person team, Kyiv: Oleksii Tsesliuk (Senior Designer, Usability and Design) + Vladyslav Kampov (Software Engineer) - internal UI/UX contest entry plus working POC",
+      "ParkU: IoT platform aggregating realtime data on private, public and roadside parking; mobile app to find and book parking",
+      "POC demoed Jan 17, 2018: implemented mobile MVP in Swift, InVision prototype, source in GL GitLab",
+      "Full design-process story in 14-page deck: problem, methodology, MVP definition, UX/UI, implemented MVP"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Design/ParkUScreens.pdf",
+       "size_kb": 6022,
+       "what": "Single-board export of all hi-fi mobile screens (splash, onboarding, map, search, booking)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Motion/Animation.gif",
+       "size_kb": 3869,
+       "what": "UI motion/animation GIF"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Prototype/assets/thumb71LoggedInHomeMap.png",
+       "size_kb": 290,
+       "what": "Logged-in home map screen (prototype thumb)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Design/ParkUSplash.pdf",
+       "size_kb": 132,
+       "what": "Splash screen art"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/ParkU.pdf",
+       "pages": 14,
+       "confidential": false,
+       "what": "Contest case-study deck: team, problem, methodology, MVP, UX/UI - ready-made case narrative"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/POC/Presenation/ParkU.pdf",
+       "pages": 9,
+       "confidential": false,
+       "what": "POC pitch deck (cities/parking problem, overview, technical review, app concept)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Design/ParkUCaseStudiesExportpp.pdf",
+       "pages": 6,
+       "confidential": true,
+       "what": "GlobalLogic IoT overview case-study export, marked Confidential"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Design/ParkUScheme.pdf",
+       "what": "Full app flow map / IA scheme board (1 large page)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/POC/PrototypeInvision/12794588.zip",
+       "what": "InVision prototype export"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Prototype/index.html",
+       "what": "Clickable HTML prototype"
+      }
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Promo.mp4",
+       "size_mb": 75.2,
+       "what": "Polished promo video of the app - strongest single asset"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/10ParkU/UIUXcontest/Motion/MenuAnimation.mov",
+       "size_mb": 4.7,
+       "what": "Menu animation clip"
+      }
+     ]
+    },
+    {
+     "name": "Volvo VSM log analyzer (04Volvo)",
+     "site_case_guess": "NEW:volvo-log-analyzer",
+     "facts": [
+      "VSM: Volvo internal web tool for analyzing vehicle log (.vsm) files, offline + online modes, with statistics/pie-chart views",
+      "Designed in light AND dark themes; versions v2.2 and v2.3 (VSM V.2.3 visible in footer)",
+      "InVision prototypes (invis.io/M4PVGUH3875), custom loader animation, branded Volvo Broad font",
+      "Agile delivery context: PI18 sprint 2 demo decks (SAFe program increments, ~2018)"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/04Volvo/Light/V23/VSM23.pdf",
+       "size_kb": 14445,
+       "what": "45-page image export of all VSM v2.3 light-theme screens"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/04Volvo/Dark/v2/VSMDark.pdf",
+       "size_kb": 10606,
+       "what": "36-page export of dark-theme screens"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/04Volvo/Iconsanimationandetc/PieChart/Statistic.png",
+       "size_kb": 225,
+       "what": "Statistics pie-chart UI component"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/04Volvo/Iconsanimationandetc/Loader/loaderDark2x.gif",
+       "size_kb": 33,
+       "what": "Custom loader animation GIF (light variant alongside)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/04Volvo/Light/V2/VSMLight.pdf",
+       "confidential": false,
+       "what": "v2.2 light-theme screens export (11.3 MB)"
+      }
+     ],
+     "discovery_artifacts": [],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/04Volvo/Light/V23/VSM23.mov",
+       "size_mb": 113.8,
+       "what": "Full VSM v2.3 UI walkthrough video"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/04Volvo/Iconsanimationandetc/Loading/loadingpreview.mov",
+       "size_mb": 0.9,
+       "what": "Loader animation preview"
+      }
+     ]
+    },
+    {
+     "name": "BMC ITSM suite: RemedyForce, Innovation Suite, ADAPT/DPL design systems (02BMC)",
+     "site_case_guess": "NEW:bmc-itsm-design-systems",
+     "facts": [
+      "Embedded in BMC product UX org (Mike Dolce, UX Manager at BMC); work tracked in BMC Jira (DRSKW tickets), 2016-2018 (Winter '17 and Summer 2018 releases)",
+      "Scope: RemedyForce (Salesforce Lightning ITSM) console/CMDB/administration/Self Service 3.0, Innovation Suite, IoT, chatbot animation",
+      "Design-system contribution: component libraries for BMC's ADAPT and DPL frameworks - Sketch sources for buttons, inputs, tables, accordions, notifications, color ramps, icon font",
+      "Research evidence: RemedyForce personas deck v3.1 and discovery analysis spreadsheet"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/RemedyForce/GeneralInfoFiles/Resources/SelfServiceBeta/Branding/SSbetabranding.png",
+       "size_kb": 226,
+       "what": "Self Service beta branding/theming screen"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/RemedyForce/GeneralInfoFiles/Resources/SelfServiceBeta/Branding/step1.png",
+       "size_kb": 274,
+       "what": "Branding configurator flow steps 1-3 (step2/step3 alongside)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/BMCguidelines/DPL/Sketchsources/MyITnavigation.png",
+       "size_kb": 293,
+       "what": "MyIT navigation pattern board"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/RemedyForce2/Administration/RFAdministration1.sketch",
+       "size_kb": 33214,
+       "what": "RemedyForce Administration master (Sketch source, biggest design file; Console/CMDB/SelfService masters alongside)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/RemedyForce/GeneralInfoFiles/Resources/RFAvinash/images/1ListView.png",
+       "size_kb": 189,
+       "what": "RemedyForce console screen sequence (17 numbered flow screens in folder)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/RemedyForce/GeneralInfoFiles/Resources/RFAvinash/RemedyforcePersonasv31.pptx",
+       "confidential": false,
+       "what": "RemedyForce personas deck v3.1"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/RemedyForce/Summer2018/RemedyForce/RFConsole/DRSKW89824RemedyforceDRS/DRSKW89824ActivityFeedUI.pdf",
+       "confidential": false,
+       "what": "Activity Feed UI spec for Summer 2018 release"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/RemedyForce/GeneralInfoFiles/Resources/RFuserresearch/RFDiscoveryAnalysis.xlsx",
+       "what": "RemedyForce user research discovery analysis"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/BMCguidelines/ADAPT/Listofcomponents.xlsx",
+       "what": "ADAPT design system component inventory"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/BMCguidelines/DPL/UXGroupInteractionDesign.pdf",
+       "what": "BMC UX Group interaction design guideline"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/BMCguidelines/DPL/Sketchsources",
+       "what": "DPL design system component library, 17 Sketch sources (ADAPT equivalent in ADAPT/Guidelines/Adaptsketchsources)"
+      }
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/02BMC/Chatbot/Render/animationChatBotDRSKW922.mp4",
+       "size_mb": 1.7,
+       "what": "Chatbot UI animation render (GIF variant alongside)"
+      }
+     ]
+    },
+    {
+     "name": "GLOW emergency-response tablet app (08GLOW)",
+     "site_case_guess": "NEW:glow-emergency-response",
+     "facts": [
+      "GLOW: Android tablet app concept for fire-crew commanders - order intake, emergency mode, routes with traffic-light preemption, fire-hydrant map overlay, operator screenshots, chat (user flows written for 'Commander' persona, Ukrainian source)",
+      "Kickoff questions doc lists 'Designer: Oleksii'; work-in-progress screenshots dated Sept 11, 2019",
+      "Designed in Adobe XD for desktop and tablet; research requirements and kickoff question sheets show structured discovery"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/08GLOW/Tablet/GLOW.xd",
+       "size_kb": 69961,
+       "what": "Tablet app design (XD source, main artifact; GLOWTablet.xd alongside)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/08GLOW/Desktop/GLOW.xd",
+       "size_kb": 69946,
+       "what": "Desktop design (XD source)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/08GLOW/Presentation/GLOW.psd",
+       "size_kb": 8952,
+       "what": "Presentation cover art composition (PSD; folder jpegs are stock references, skip)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/08GLOW/Desktop/GLOW/GlobalLogicGLOWDesign.pptx",
+       "confidential": false,
+       "what": "GLOW design deck (8.1 MB pptx)"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/08GLOW/Desktop/GLOW/GLOWDesignResearchRequir.xlsx",
+       "what": "Design research requirements: commander basic flow, screen-by-screen scenario - inception gold"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/08GLOW/Desktop/GLOW/GLOWKickOffQuestionsRequ.xlsx",
+       "what": "Kickoff questions/requirements sheet (note: overview text reuses Spacelabs Qube/Rainier template)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/08GLOW/Desktop/GLOW/ResearchRequirementsforG.xlsx",
+       "what": "Research requirements spreadsheet"
+      }
+     ],
+     "videos": []
+    },
+    {
+     "name": "Geeny.io IoT platform website (12Geenyio)",
+     "site_case_guess": "NEW:geeny-iot-website",
+     "facts": [
+      "Website design for Geeny.io (Telefonica's consumer IoT data platform): Home, Events, Business B2B, Partners, Developers B2D, B2C, About, Blog",
+      "Full process on disk: Balsamiq wireframes (mobile + tablet), Sketch wireframes, final UI (58 MB Sketch), 4 InVision prototype exports, ideation stickers board",
+      "Content coordinated via Google Docs with client-side Karoline"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/12Geenyio/UI/Edit/geenyiofinal.sketch",
+       "size_kb": 56735,
+       "what": "Final website UI (Sketch source, exportable hi-fi pages)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/12Geenyio/Wireframes/Edit/Wireframes.sketch",
+       "size_kb": 5042,
+       "what": "Wireframes (Sketch)"
+      }
+     ],
+     "decks": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/12Geenyio/Generalresources/stickersideation.sketch",
+       "what": "Ideation stickers/workshop board"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/12Geenyio/Wireframes/Edit/Mobile.bmpr",
+       "what": "Balsamiq lo-fi wireframes, mobile (Tablet.bmpr alongside)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/12Geenyio/Prototypes/11389870.zip",
+       "what": "InVision prototype exports (4 zips, 12-18 MB each)"
+      }
+     ],
+     "videos": []
+    },
+    {
+     "name": "Smart City automotive HMI pitch (05SmartCity)",
+     "site_case_guess": "NEW:smart-city-hmi-pitch",
+     "facts": [
+      "Pre-sale/pitch (~Aug 2017): V2X research (vehicle-to-everything), competitive review of Tesla/BMW i3/Leaf/Audi clusters, answers to client questions, clickable InVision prototype",
+      "CAUTION: cluster and entertainment renders are built on the free Luc van Loon 'car UX' Sketch template (Dutch labels, Tesla branding visible) - use only as pitch-process evidence, not as original UI craft"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/05SmartCity/Cluster/Out/contentelements.jpg",
+       "size_kb": 1405,
+       "what": "Cluster content elements board (template-derived)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/05SmartCity/Cluster/Out/dashboardagenda.jpg",
+       "size_kb": 554,
+       "what": "Dashboard agenda screen (template-derived; musicagenda, autopilotandcalling etc. alongside)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/05SmartCity/Cluster/Out/Entertainment2x.png",
+       "size_kb": 35850,
+       "what": "Entertainment system render board @2x"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/05SmartCity/Presentation/edit/presentationux22.png",
+       "size_kb": 1662,
+       "what": "UX process slide graphic for the pitch"
+      }
+     ],
+     "decks": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/05SmartCity/Info.rtf",
+       "what": "V2X field research notes with competitive cluster/infotainment review"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/05SmartCity/Answer.rtf",
+       "what": "Written answers to client pitch questions incl. own InVision prototype link"
+      }
+     ],
+     "videos": []
+    },
+    {
+     "name": "BD MedStation ES 2.0 discovery (15BDMedStationES20)",
+     "site_case_guess": "NEW:bd-medstation-discovery",
+     "facts": [
+      "BD (Becton Dickinson) MedStation ES 2.0 / Pyxis medication management: GlobalLogic discovery/advisory phase, 2020 (COVID-19 remote-work strategy explicitly planned)",
+      "Artifacts cover discovery plan with timeline and milestones, team structure and ramp-up, cross-geo collaboration plan, requirements analysis, advisory kickoff",
+      "Distinct from SpaceLabs (clinical-environment, covered separately) - this is medication dispensing logistics"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/15BDMedStationES20/PyxisLogisticsArchitectu.pdf",
+       "size_kb": 2738,
+       "what": "Pyxis Logistics architecture vision, 62 pages (diagram-rich, doc not image)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/15BDMedStationES20/BDES20DiscoveryPhasePlan.pdf",
+       "pages": 12,
+       "confidential": true,
+       "what": "Discovery phase plan, watermarked 'Internal Document' on every page"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/15BDMedStationES20/TPPProjectVanguardV15.pptx",
+       "confidential": true,
+       "what": "TPP Project Vanguard deck v15 (12.5 MB, treat as client-internal)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/15BDMedStationES20/VES20AdvisoryKickOffAgen.pptx",
+       "confidential": false,
+       "what": "ES 2.0 advisory kickoff agenda"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/15BDMedStationES20/CLEANES20RequirementsAna.docx",
+       "what": "ES 2.0 requirements analysis"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/15BDMedStationES20/ES20DistributedTeamRollu.xlsx",
+       "what": "Distributed team rollout plan"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/15BDMedStationES20/ES20AdvisoryAgenda.xlsx",
+       "what": "Advisory agenda"
+      }
+     ],
+     "videos": []
+    },
+    {
+     "name": "GL internal: brand, marketing, sales enablement (03Marketing, 11Style, 14Sales, 06UXUIcontest2017)",
+     "site_case_guess": "unknown",
+     "facts": [
+      "Supporting material, not standalone cases: GlobalLogic brand toolkit (Mar 2019), corporate overview deck, charity/HR email campaigns and event graphics, referral posters",
+      "14Sales/UXUIProcessFlow.pptx (7.7 MB) documents the GL UX/UI process - potentially reusable as process visuals for the design-program narrative",
+      "06UXUIcontest2017 contains only contest logo sources"
+     ],
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/14Sales/OfferningDiscussion/UXUIProcessFlow.pptx",
+       "size_kb": 7834,
+       "what": "UX/UI process flow deck - process diagram source for case storytelling"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/03Marketing/Branding/Mapwall/mapv3.jpg",
+       "size_kb": 4080,
+       "what": "Office map-wall graphic (sample of internal graphic work)"
+      }
+     ],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/14Sales/OfferningDiscussion/IdeaLabServices.pptx",
+       "confidential": false,
+       "what": "IdeaLab services offering deck (21.6 MB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/11Style/BrandToolkitMarch252019.pdf",
+       "confidential": false,
+       "what": "GlobalLogic brand toolkit, Mar 2019 (59.7 MB, reference only)"
+      }
+     ],
+     "discovery_artifacts": [],
+     "videos": []
+    }
+   ],
+   "summary": "GlobalLogic area fully inventoried (15 folders, 01SpaceLabs excluded). All expected projects found and mapped: Mobile Health/Consilium (mobile-health-app) with June 2020 proposal, GL+Method London team bios, SAKK clinical-trial deadline, DiGAV reports and final Sketch UI masters; Cambium (wireless-network-software) with 9-page advisory proposal showing before/after audit plus a product-book design; JLL (property-portal-mvp) with Property Hub 2.0 Sketch UI and a complete reusable usability-testing kit (method deck, SUS, personas, recruiting emails). Strong NEW-case candidates: ParkU (2-person team, 14-page case deck, hi-fi screens board, IA scheme, 75 MB promo video), Volvo VSM log analyzer (45-page light + 36-page dark screen exports, 114 MB walkthrough video), BMC (RemedyForce/Innovation Suite plus ADAPT and DPL design-system component libraries, personas, discovery analysis - fits the design-systems positioning), GLOW fire-commander tablet app (XD sources plus research-requirements gold), Geeny.io website (full wireframe-to-UI trail). Weaker: Smart City HMI pitch (renders are template-derived - flagged), BD MedStation ES 2.0 (discovery-only docs, watermarked Internal). Confidential flags: TWC Mobile Health 79-page deck, ParkU IoT case-study export, BD internal docs. Videos found: ParkU Promo.mp4 (75 MB), VSM23.mov (114 MB), BMC chatbot render, ParkU menu animation."
+  },
+  "portfolio-curated": {
+   "projects": [
+    {
+     "name": "TVEyes design program (Hero 02)",
+     "site_case_guess": "design-program",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/02TvEyes20222026AgileEng/extractedframes/frameds08.jpg",
+       "size_kb": 139,
+       "what": "Figma design-system frame from demo video (component/token docs)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/02TvEyes20222026AgileEng/extractedframes/frameds04.jpg",
+       "size_kb": 134,
+       "what": "Verified: Figma color-token/theme documentation screen, clean 1280px frame"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/02TvEyes20222026AgileEng/extractedframes/frameai08.jpg",
+       "size_kb": 143,
+       "what": "AI-features UI frame from demo video"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/02TvEyes20222026AgileEng/extractedframes/frameai05.jpg",
+       "size_kb": 110,
+       "what": "AI-features UI frame"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/02TvEyes20222026AgileEng/extractedframes/frameintro06.jpg",
+       "size_kb": 126,
+       "what": "Intro/product-overview frame from demo video"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/02TvEyes20222026AgileEng/casestudy.html",
+       "what": "Draft case-study page, title 'TVEyes - Design program - Oleksii Tsesliuk' (24KB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/02TvEyes20222026AgileEng/README.md",
+       "what": "Source map: primary materials at Projects/AgileEngine/01_Programs/TvEyes/ (1 GB), 7 phase folders + Architecture + demo video 720p"
+      }
+     ],
+     "facts": [
+      "2022-2026, AgileEngine, client TvEyes (media intelligence)",
+      "7-phase lifecycle: Pre-Discovery, Discovery, Prototyping, Hi-Fi & Hand-Off, Hand-Off project, AI Features, Release & Documentation",
+      "22 curated video frames already extracted in 3 series: intro (7), design system (8), AI features (7)"
+     ],
+     "videos": [],
+     "decks": []
+    },
+    {
+     "name": "AE Design System (Hero 01) - pointer only",
+     "site_case_guess": "agileengine_design_system",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/01AEDesignSystem20212026/README.md",
+       "what": "Pointer README: source at Projects/AgileEngine/01_Programs/AE Design System/ (1.2 GB) with Backups, Demo, Digests & Emails, Library, Recent Versions subfolders"
+      }
+     ],
+     "facts": [
+      "2021-2026 active multi-year program, owned/led by Oleksii",
+      "Adoption evidence exists in Digests & Emails subfolder (in Projects, not here)"
+     ],
+     "videos": [],
+     "decks": []
+    },
+    {
+     "name": "Halliburton DSRT365 (Hero 03) - pointer only",
+     "site_case_guess": "oil-gas-monitoring",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/03HalliburtonDSRT3652018/README.md",
+       "what": "Pointer README: source at Projects/Luxoft/01_Halliburton DSRT365/ (2.1 GB); ready artifacts named: DSRT365 Design System.mp4, DSRT365 demo.mp4, IA PDF, UX audit PDF; collected set at ./_collected_2020 referenced (221 MB, lives with Projects source)"
+      }
+     ],
+     "facts": [
+      "2018-2022 (~4 years), Luxoft, client Halliburton, enterprise oil & gas",
+      "Multi-platform: Desktop + InSite Mobile, own Design System from zero",
+      "UX audit with measured impact cited as key angle"
+     ],
+     "videos": [],
+     "decks": []
+    },
+    {
+     "name": "ToolsGroup (Hero 04) - pointer only",
+     "site_case_guess": "supply-chain-program",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/01HeroCases/04ToolsGroup20212023Agil/README.md",
+       "what": "Pointer README: source at Projects/AgileEngine/01_Programs/ToolsGroup/ (1.5 GB); evidence doc named 'Fwd Exit interview summary Toolsgroup.pdf'"
+      }
+     ],
+     "facts": [
+      "2021-2023, AgileEngine, client ToolsGroup (supply chain & retail planning SaaS)",
+      "Full lifecycle Discovery > Design Phase > Hand-Off, regular Meetings folder as process evidence",
+      "Exit Interview Summary PDF exists as outcome evidence (in Projects source)"
+     ],
+     "videos": [],
+     "decks": []
+    },
+    {
+     "name": "SpaceLabs (Strong) - pointer only",
+     "site_case_guess": "clinical-environment",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/SpaceLabs20142021GlobalL/README.md",
+       "what": "Pointer README: source at Projects/GlobalLogic/01_SpaceLabs/ (2.8 GB, 3905 files) with Case Study, Concept, Medical Documentation subfolders; collected set 'SL Monitors - Design System 16x9.mp4' + 10 monitor screenshots referenced"
+      }
+     ],
+     "facts": [
+      "2014-2021 (~7 years), GlobalLogic, client SpaceLabs medical patient monitors",
+      "Largest GL project; Design System video exists in _collected_2020 set"
+     ],
+     "videos": [],
+     "decks": []
+    },
+    {
+     "name": "Mobile Health AG (Strong) - pointer only",
+     "site_case_guess": "mobile-health-app",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/MobileHealthAG20202021Gl/README.md",
+       "what": "Pointer README: source at Projects/GlobalLogic/09_Mobile Health AG/ (197 MB, 46 files), subfolder 'Recived/' with client materials"
+      }
+     ],
+     "facts": [
+      "2020-2021, GlobalLogic, mobile + medical domain"
+     ],
+     "videos": [],
+     "decks": []
+    },
+    {
+     "name": "Concepts Look & Feel 2026 (unidentified AE discovery concepts)",
+     "site_case_guess": "unknown",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Concepts/21DiscoveryOutcomesLookF.fig",
+       "size_kb": 25862,
+       "what": "Figma source '2.1 DiscoveryOutcomes Look&Feel Concept' (26 MB) - needs Figma to render"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Concepts/22DiscoveryOutcomesLookF.fig",
+       "size_kb": 29578,
+       "what": "Figma source '2.2 DiscoveryOutcomes Look&Feel Concept' (30 MB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Concepts/23DiscoveryOutcomesLookF.fig",
+       "size_kb": 66249,
+       "what": "Figma source '2.3 DiscoveryOutcomes Look&Feel Concept' (68 MB)"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/ConceptsLookandFeel2026u/README.md",
+       "what": "README: 3 Look&Feel concept .fig files dated 2026-01-30, numbering matches AE Discovery phase style; project attribution TBD (WaterFlex suspected)"
+      }
+     ],
+     "facts": [
+      "Dated 2026-01-30, freshest design material on disk; user planned to verify which AE program these belong to (WaterFlex candidate)"
+     ],
+     "videos": [],
+     "decks": []
+    },
+    {
+     "name": "MetricInsights / BIG DATA (BI platform: web, mobile, watch, emails, slideshow)",
+     "site_case_guess": "bigdata",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MetricInsight/Mobile/Presentation.png",
+       "size_kb": 1400,
+       "what": "Verified: polished layered mobile-app mockup (feed, comments, alerts) on gradient backdrop - presentation grade"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MetricInsight/Mobile/SmallPartOfMobile.png",
+       "size_kb": 6182,
+       "what": "Large mobile screens board (6.3 MB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/emailsbigdata/export/emailsbigdata1.png",
+       "size_kb": 863,
+       "what": "Email digest design for BIG DATA (user-themable digest templates); also emailsbigdata2.png 893KB, emailsbigdata3.png 380KB"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/SlideshowmetricInsights/export/4slideshowpreview.png",
+       "size_kb": 1024,
+       "what": "Big-screen/tableau slideshow dashboard design; series 1-5 in same export folder"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/uistandards/export/uistandards.png",
+       "size_kb": 401,
+       "what": "UI standards / component standardization board for BIG DATA (Bootstrap-based) - early design-system evidence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/applewatchapp/export/applewatchapp1.jpg",
+       "size_kb": 452,
+       "what": "Apple Watch app design for BIG DATA alerts/notifications; applewatchapp2.png 323KB"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MetricInsight/Digest/DigestTemplate.png",
+       "size_kb": 969,
+       "what": "Digest template design"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MetricInsight/Editors/EditorPage.png",
+       "size_kb": 456,
+       "what": "Digest editor page UI"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MetricInsight/portfolioMI.pdf",
+       "what": "1-page process sheet: Balsamiq wireframes + Google Docs specs, Framer JS smartwatch and native-mobile prototypes - inception/process evidence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/MetricInsightsMobile/process/MIMAP.sketch",
+       "what": "Sketch source MIMAP.sketch (7 MB) - mobile app process/map file"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/uistandards/about.rtf",
+       "what": "Note: component standardization for design+development on Bootstrap base"
+      }
+     ],
+     "facts": [
+      "Tooling: Balsamiq wireframes, specs in Google Docs, Framer JS clickable prototypes",
+      "Scope spanned web app, native mobile, Apple Watch, email digests, big-screen slideshow, UI standards",
+      "Watch screenshots dated 2016"
+     ],
+     "videos": [],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/SlideshowmetricInsights/edit/allPages.pdf",
+       "pages": 7,
+       "confidential": false,
+       "what": "Slideshow design pages (Facebook DAU demo data)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MetricInsight/portfolioMI.pdf",
+       "pages": 1,
+       "confidential": false,
+       "what": "MetricInsights portfolio process one-pager"
+      }
+     ]
+    },
+    {
+     "name": "Hoop Messenger (UI/UX, onboarding, animation)",
+     "site_case_guess": "messenger",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/export/uianduxmessenger.png",
+       "size_kb": 7690,
+       "what": "Verified: full hi-fi UI flow board (chats, Vault, image preview, Settings) - contains Simpsons imagery (matches site banner nod)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/export/hoopuianduxexample.png",
+       "size_kb": 2672,
+       "what": "Verified: wireframe-to-UI flow board (Load, Onboarding, Sign in, Chats, New message) with gesture annotations"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/export/hoopanimationexample.png",
+       "size_kb": 301,
+       "what": "Animation example frames (SVG version 10.8 MB also present)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/export/hoopiconspreview.png",
+       "size_kb": 106,
+       "what": "Icon set preview"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/export/hoopuserflowsignupsignin.png",
+       "what": "User flow: sign up / sign in (385KB, SVG also present)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/export/hoopuserflowfirstlaunch.png",
+       "what": "User flow: first launch (208KB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/about.rtf",
+       "what": "Note: '5 pages of onboarding designed in consistency with the app' - this folder also covers the site's onboarding case"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/edit/HOOP.sketch",
+       "what": "Sketch source (12.5 MB)"
+      }
+     ],
+     "facts": [
+      "Product: Hoop messenger; 5-page onboarding designed in app-consistent style",
+      "Features visible: Vault (private storage), timed messages, animations and icon system",
+      "Same folder backs BOTH 'messenger' and 'onboarding' site cases"
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/MessengerApp/export/timedmessage.mp4",
+       "size_mb": 2.8,
+       "what": "Timed-message feature animation demo"
+      }
+     ],
+     "decks": []
+    },
+    {
+     "name": "Corsair audio / hardware UI framework (headphones, player, wireless drive, pro amp)",
+     "site_case_guess": "headphone_framework",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/CORSAIR/Dark/Player04.png",
+       "size_kb": 806,
+       "what": "Hi-fi dark-theme audio player UI; FoldersTab04.png 772KB, Setings04.png 543KB, Folders04.png 422KB in same folder"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/CORSAIR/Light/Corsar4.png",
+       "size_kb": 277,
+       "what": "Light-theme variant of the player UI"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/hardwareframework/export/headphoneframework.svg",
+       "size_kb": 528,
+       "what": "Headphone framework board (SVG; PNG 91KB also present) - direct match for site headphone_framework case"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/CorsairHID/IUelements.jpg",
+       "size_kb": 102,
+       "what": "HID UI elements sheet"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/ElementsforCorsairaudiod",
+       "size_kb": 76,
+       "what": "samples.png - UI elements for Corsair audio devices"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/hardwareframework/edit/index.sketch",
+       "what": "Sketch source of headphone framework (4 MB)"
+      }
+     ],
+     "facts": [
+      "uiforhardware.pdf shows pro-audio amp/network UI (VX800/8, DRC-200 Network Master) dated September 19, 2016",
+      "Corsar.ai is a 6-page mobile concept for a wireless-drive companion app (folders/media transfer, 'Connect Air')",
+      "No 'Confidential' marks detected in either PDF"
+     ],
+     "videos": [],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/uiforhardware.pdf",
+       "pages": 10,
+       "confidential": false,
+       "what": "Hardware UI screens: amp control, mixer presets, network master device UI"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Corsar.ai",
+       "pages": 6,
+       "confidential": false,
+       "what": "PDF (despite .ai extension): wireless-drive mobile app concept screens"
+      }
+     ]
+    },
+    {
+     "name": "VR shopping research interface (3D software UX)",
+     "site_case_guess": "NEW:vr-shopping-research",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/interfaceforUX3dsoftware/out/uiandux/14interface3d.png",
+       "size_kb": 2093,
+       "what": "Large UI/UX board for VR 3D interface"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/interfaceforUX3dsoftware/out/interface3dpreview.jpg",
+       "size_kb": 1002,
+       "what": "Interface preview render; rotation variant interface3dpreviewrotati.jpg 1006KB"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/interfaceforUX3dsoftware/out/interface3dhanddraw1.jpg",
+       "what": "Hand-drawn ideation sketch 1 (350KB); handdraw2.jpg 331KB - rare inception evidence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/interfaceforUX3dsoftware/about.rtf",
+       "what": "Brief: 'Shopping Research in VR Infinity uses full-shelf VR environments to understand shopper behaviour in-store' + user analysis questions"
+      }
+     ],
+     "facts": [
+      "Product: VR Infinity shopping research (full-shelf virtual store, pack/shelf/POSM testing)",
+      "Process artifacts: hand sketches > Sketch sources > preview video"
+     ],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/interfaceforUX3dsoftware/out/interface3dpreview.mp4",
+       "size_mb": 30,
+       "what": "Interface preview/walkthrough video"
+      }
+     ],
+     "decks": []
+    },
+    {
+     "name": "Early web/branding era (Developex and freelance, ~2012-2016)",
+     "site_case_guess": "unknown",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/ZigmaRPweb/out/home2.png",
+       "size_kb": 1370,
+       "what": "Zigma ERP website home design (PSD sources in edit/)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/txopt/alldevices.png",
+       "size_kb": 632,
+       "what": "Responsive e-commerce design on device mockups"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/BookMarket/BookMarketAllDevices.jpg",
+       "size_kb": 528,
+       "what": "Book market responsive design on devices"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/Developexcom/alldevices.png",
+       "size_kb": 482,
+       "what": "Developex.com responsive site (Joomla, designed + coded by user)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/GrabillaPro/alldevices.png",
+       "size_kb": 409,
+       "what": "Grabilla Pro site responsive design"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/DevelopexStyle/Developexsecondlogoandfi/brandbook.jpg",
+       "size_kb": 993,
+       "what": "Developex second logo brandbook page"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/COMPETEpreview/Просебе.txt",
+       "what": "Old self-description (cp1251 Ukrainian): designed AND hand-coded HTML5/CSS3/jQuery, ASP.NET cooperation, Joomla/WordPress/PrestaShop CMS - useful for early-career narrative"
+      }
+     ],
+     "facts": [
+      "Era evidence: user both designed and front-end coded (HTML5/CSS3/jQuery/Bootstrap, Joomla/WordPress/PrestaShop)",
+      "Includes Logitech AIR Speaker driver site, Outlook-Gmail sync tool (Office 2007 style), Rabota.ua pages, recipe sites, banners",
+      "COMPETEpreview/preview.sketch (500KB) is a collage/preview source for this whole set"
+     ],
+     "videos": [],
+     "decks": []
+    },
+    {
+     "name": "Remaining Strong-case pointers (WaterFlex, Edsembli, eVerse, Volvo, Geeny, ParkU, Commify, Design Program Framework)",
+     "site_case_guess": "unknown",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/WaterFlex20252026AgileEn/README.md",
+       "what": "WaterFlex 2025-2026 active, source Projects/AgileEngine/01_Programs/WaterFlex/ (240 MB), tracks: Deliverables, Epic Design System, Epic Development"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/Edsembli2023AgileEngine/README.md",
+       "what": "Edsembli 2023, source Projects/AgileEngine/01_Programs/Edsembli/ (24 MB): Discovery, Strategy, Design System, Research + proposal PDF"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/eVerse2022AgileEngine/README.md",
+       "what": "eVerse 2022, source Projects/AgileEngine/01_Programs/eVerse/ (164 MB) incl. eVerse_links.pdf"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/Volvo20182019GlobalLogic/README.md",
+       "what": "Volvo 2018-2019 automotive Light/Dark theming, source Projects/GlobalLogic/04_Volvo/ (346 MB) incl. Preview and Presentation Template folders"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/Geenyio2017GlobalLogic/README.md",
+       "what": "Geeny.io 2017 IoT platform, source Projects/GlobalLogic/12_Geeny.io/ (124 MB): Prototypes, UI, Wireframes"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/ParkU20172018GlobalLogic/README.md",
+       "what": "ParkU 2017-2018 parking app POC + UX/UI contest, source Projects/GlobalLogic/10_ParkU/ (173 MB); earlier prep in 06LiveSiteBackup2020 portfolio/ParkU"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/Commify20152021EPAM/README.md",
+       "what": "Commify 2015-2021 EPAM communications platform, source Projects/EPAM/01_Commify/ (587 MB): Brand Styles, Competitors, SCP"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/DesignProgramFramework20/README.md",
+       "what": "Design Program Framework 2022-2026 AE internal methodology, source Projects/AgileEngine/03_Frameworks/Design Program Framework/ (1.8 GB) - strongest NDA caution"
+      }
+     ],
+     "facts": [
+      "All 02StrongCases folders contain ONLY pointer READMEs; actual visuals live under Projects/... outside this Portfolio tree",
+      "Every README flags NDA review needed before publishing concrete interfaces"
+     ],
+     "videos": [],
+     "decks": []
+    }
+   ],
+   "summary": "Inventoried C:/Users/Admin/iCloudDrive/StorageA/Portfolio (01HeroCases, 02StrongCases, forportfolio minus Halliburton/SpaceLabs, COMPETEpreview). Key findings: (1) Hero/Strong case folders are mostly pointer READMEs to Projects/... source trees (1-2.8 GB each, not in this area) with rich facts on dates, phases and NDA cautions; the one exception is TVEyes, which has 22 curated demo-video frames (intro/DS/AI series, 19-147KB JPGs) plus a draft casestudy.html. (2) COMPETEpreview is a goldmine for the older site cases: bigdata (MetricInsights web/mobile/watch/emails/slideshow/UI-standards, polished mockups up to 6MB + a 1-page process PDF citing Balsamiq/Framer JS), messenger AND onboarding (Hoop: hi-fi flow boards incl. Simpsons imagery matching the site banner nod, user flows, icon set, 2.8MB timed-message video), headphone_framework (Corsair player dark/light themes, headphone framework SVG, 10-page hardware UI PDF and 6-page wireless-drive concept PDF, no Confidential marks found), plus an unmapped VR shopping-research case with hand-drawn sketches and a 30MB walkthrough video (suggested NEW:vr-shopping-research). (3) forportfolio holds the three 2026 'DiscoveryOutcomes Look&Feel' .fig sources (26-68MB, project attribution TBD, WaterFlex suspected) and the MetricInsights MIMAP.sketch. (4) Early-era Developex/freelance set (responsive device mockups, brandbook, self-description txt confirming design+code skills) could back an 'early works' strip. No Confidential flags detected in any parsed PDF."
+  },
+  "developex-era": {
+   "projects": [
+    {
+     "name": "MetricInsights / BIG DATA (bigdatagrids + blackthemeui + uistandards20)",
+     "site_case_guess": "bigdata",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/uistandards20/export/uistandards2maincontrols.png",
+       "size_kb": 2524,
+       "what": "UI Standards 2.0 master sheet of main controls, 2048x16668 long board, presentation-grade design-system artifact"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/uistandards20/export/uistandards2forms.png",
+       "size_kb": 1287,
+       "what": "UI Standards 2.0 forms section, 2048x10462"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/uistandards20/export/uistandards2popupsandtoo.png",
+       "size_kb": 508,
+       "what": "UI Standards 2.0 popups and tooltips sheet, 2048x3646"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/uistandards20/export/uistandards2messagesandh.png",
+       "size_kb": 447,
+       "what": "UI Standards 2.0 messages and hints sheet, 2048x2102"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/bigdatagrids/export/bigdatagridspreview.png",
+       "size_kb": 1307,
+       "what": "Big data grids redesign overview board, 2510x4640, bootstrap-based responsive grid framework screens"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/blackthemeui/export/themeableui3.png",
+       "size_kb": 977,
+       "what": "Themeable dark UI board 3 of 4, 5002px wide hi-fi screens of dark theme for web/mobile/emails"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/blackthemeui/export/themeableui2.png",
+       "size_kb": 900,
+       "what": "Themeable dark UI board 2 of 4, 5002px wide"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/blackthemeui/export/themeableui1.png",
+       "size_kb": 716,
+       "what": "Themeable dark UI board 1 of 4, 5002px wide (themeableui4.png 370KB also available; matching SVG exports of all boards exist alongside)"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/bigdatagrids/about.rtf",
+       "what": "First-person case note: BIG DATA grid framework redesign, design+code, hand drawing to Illustrator/Photoshop, HTML/CSS/jQuery/Git, Scrum+JIRA"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/blackthemeui/about.rtf",
+       "what": "First-person case note: dark theme switchable per instance from admin menu; responsibilities = management, business analysis and design; added SCSS and standardization; Sketch+InVision, Confluence"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MetricInsights/uistandards20/edit/index.sketch",
+       "what": "UI Standards 2.0 Sketch source (7.5MB); bigdatagrids and blackthemeui also keep edit/index.sketch sources"
+      }
+     ],
+     "facts": [
+      "Role on dark theme task: management, business analysis and design (own words in about.rtf)",
+      "Delivered design AND front-end code (HTML/CSS, SCSS, jQuery, Git) for big data framework",
+      "Process: Scrum, JIRA, Confluence; design tools Sketch, InVision, Illustrator, Photoshop, hand sketching",
+      "Dark theme covered Web, Mobile and Emails surfaces, theme switchable per customer instance"
+     ],
+     "decks": [],
+     "videos": []
+    },
+    {
+     "name": "Hoop Messenger onboarding",
+     "site_case_guess": "onboarding",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/export/onboardinghoop.png",
+       "size_kb": 2020,
+       "what": "Full onboarding flow board, 2450x2750, hi-fi screens (same board as onboardinghoop.jpg 1414KB; vector onboardinghoop.svg 297KB also present)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/export/onboardingiconexample.png",
+       "size_kb": 93,
+       "what": "Onboarding illustration/icon lineup strip, 1802x457"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/export/onboardingthumbnail2x.png",
+       "size_kb": 169,
+       "what": "Square case thumbnail 520x520 (plus hoopthumbnail.png/svg variants)"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/export/previewdrawing.jpg",
+       "what": "GOLD: paper notebook hand-drawn wireframes of 6 onboarding screens (Vault secure storage, stickers, audio/video calling) - perfect sketch-to-final story opener"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/export/onboardinghandsketch.mp4",
+       "what": "Video of hand-sketching the onboarding (process evidence, pairs with previewdrawing.jpg)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/edit/onboarding.sketch",
+       "what": "Sketch source file, 88MB"
+      }
+     ],
+     "facts": [
+      "Sketched onboarding concepts on paper first (notebook wireframes), then prototyped in both Flinto and Marvel - two competing prototype videos exist",
+      "Onboarding messaging pitched: secure Vault storage, stickers/emoji, audio and video calling, phone-number signup"
+     ],
+     "decks": [],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/export/flinto2.mp4",
+       "size_mb": 6.8,
+       "what": "Flinto interactive prototype walkthrough of onboarding"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/export/marvel.mp4",
+       "size_mb": 10.3,
+       "what": "Marvel prototype walkthrough of onboarding"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/HoopMessenger/OnboardingformobileMesse/export/onboardinghandsketch.mp4",
+       "size_mb": 10.2,
+       "what": "Hand-sketching process video"
+      }
+     ]
+    },
+    {
+     "name": "Mobile Web Application (BIG DATA mobile client)",
+     "site_case_guess": "bigdata",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MobileWebApp/MobileWebApplication/export/mobilewebapplicationprev.png",
+       "size_kb": 758,
+       "what": "Main preview board, 3230x2492, multiple mobile screens"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MobileWebApp/MobileWebApplication/export/mobilewebapplicationpre3.png",
+       "size_kb": 624,
+       "what": "Vertical screens board, 1529x2897"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MobileWebApp/MobileWebApplication/export/mobilewebapplicationpre2.png",
+       "size_kb": 329,
+       "what": "Wide screens strip, 3230x1450 (SVG vector versions of all three boards also present)"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MobileWebApp/MobileWebApplication/about.rtf",
+       "what": "First-person note: mobile web app for the BIG DATA project made to look/feel native without native code; did design + HTML/CSS coding; tools: hand drawing, Marvel, Illustrator, Sketch, Flinto"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MobileWebApp/MobileWebApplication/edit/onboarding.flinto",
+       "what": "Flinto prototype source (2.9MB) plus edit/index.sketch source"
+      }
+     ],
+     "facts": [
+      "Explicitly part of the BIG DATA project (same client as MetricInsights cases) - could merge into the bigdata case page as the mobile chapter",
+      "Native look-and-feel achieved in pure web stack; author did both design and HTML/CSS"
+     ],
+     "decks": [],
+     "videos": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/MobileWebApp/MobileWebApplication/export/mobilewebapplication.mp4",
+       "size_mb": 4.3,
+       "what": "Prototype/walkthrough video of the mobile web app"
+      }
+     ]
+    },
+    {
+     "name": "Corsair (Voyager Air media app + HID software controls)",
+     "site_case_guess": "headphone_framework",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Corsair/CorsairVoyagerAir/04b13025096c958b54f20844.png",
+       "size_kb": 367,
+       "what": "Composite of Voyager Air mobile media app screens: player, file browser, settings, video playback (verified by opening)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Corsair/screenshots2014/Screenshot20141030190110.png",
+       "size_kb": 524,
+       "what": "Real on-device screenshot 1080x1920 of Music/Songs list UI, dated 2014-10-30 (5 more sibling device screenshots 191-518KB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Corsair/screenshots2014/Screenshot20141030185942.png",
+       "size_kb": 518,
+       "what": "On-device app screenshot 1080x1920"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/DevelopexSelfBranding/UIDesignAssets/CorsairHIDSoftware/Controls.png",
+       "size_kb": 411,
+       "what": "Dark-theme control sheet for Corsair HID software (sliders, toggles, EQ-style widgets on hexagon background) - closest match to the headphone_framework case; note it lives under UIDesignAssets, not the Corsair folder"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/DevelopexSelfBranding/UIDesignAssets/CorsairVoyagerAirIconsfo/CorsairVoyagerAir.ai",
+       "what": "Illustrator source of Voyager Air icon set (653KB) plus AddFilterMetro.png Metro-style icon sheet"
+      }
+     ],
+     "facts": [
+      "Voyager Air app screenshots dated 2014-10-30 - anchors the Corsair work to 2014",
+      "WARNING: the six z*.jpg/x*.jpg files in Corsair/screenshots2014 are misfiled DevX Software website browser screenshots, not Corsair material - do not use them for the Corsair case"
+     ],
+     "decks": [],
+     "videos": []
+    },
+    {
+     "name": "Grabilla (screen-capture product site + installer UI)",
+     "site_case_guess": "NEW:grabilla",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Grabilla/GrabillaSoft/indexpage.png",
+       "size_kb": 1453,
+       "what": "Full landing page design, 1200x804"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Grabilla/GrabillaSoft/alldevices.png",
+       "size_kb": 913,
+       "what": "Responsive multi-device mockup of the site, 1361x767 - most presentation-ready single image"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Grabilla/GrabillaSoft/indexpageadaptive2.png",
+       "size_kb": 791,
+       "what": "Mobile adaptive version of landing, 687x1078"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Grabilla/grabillainterface/ResponsiveScreenMockupPa.psd",
+       "what": "PSD source of the responsive devices mockup (4.5MB)"
+      }
+     ],
+     "facts": [
+      "Includes desktop software UI bits too: grabillaistaller.png (installer) and grabillasoftint.png (tray UI), both small"
+     ],
+     "decks": [],
+     "videos": []
+    },
+    {
+     "name": "Comlead Mobile",
+     "site_case_guess": "NEW:comlead",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/ComleadMobile/ComleadMobileApp/detailspageall.png",
+       "size_kb": 326,
+       "what": "Single mobile details-page screen stack, 320x936 - the ONLY asset for this case; too thin to carry its own page, fits an old-works grid tile"
+      }
+     ],
+     "discovery_artifacts": [],
+     "facts": [],
+     "decks": [],
+     "videos": []
+    },
+    {
+     "name": "Developex self-branding (DevX Software, Developexgrammer, Prozedo, Nilex)",
+     "site_case_guess": "unknown",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/DevelopexSelfBranding/Devxsoftwareca/alldevices.png",
+       "size_kb": 352,
+       "what": "DevX Software site on multiple devices, 1361x767 (archive README says self-branding is NOT for portfolio)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Corsair/screenshots2014/z04a67b5b.jpg",
+       "size_kb": 214,
+       "what": "Browser screenshot of live devxsoftware.ca (2011) - misfiled under Corsair; useful only as a facts source"
+      }
+     ],
+     "discovery_artifacts": [],
+     "facts": [
+      "From live DevX Software site screenshot: company size >60 full-time specialists, 12 years on market, projects 1-162 man/month, offices Canada+Ukraine, Agile methodology",
+      "Main clients listed: Nilex, CB Engineering, Proxistep, Trend Micro, Logitech - corroborates the Logitech/Nilex client work in this era",
+      "Site copyright 2011; user designed and coded it (HTML5, CSS, jQuery, Illustrator icons) per about.txt"
+     ],
+     "decks": [],
+     "videos": []
+    },
+    {
+     "name": "Other small cases (bookmart, Insurancy, Android icons)",
+     "site_case_guess": "unknown",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/OtherSmallCases/bookmart/777.png",
+       "size_kb": 854,
+       "what": "Bookmart long homepage design, 1920x3076 - best of the small cases"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/OtherSmallCases/bookmart/homepage.png",
+       "size_kb": 657,
+       "what": "Bookmart homepage variant, 1281x1458"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/OtherSmallCases/Insurancy/card.png",
+       "size_kb": 273,
+       "what": "Insurancy card design 1110x638; folder also has two .swf Flash banners (era flavor, not embeddable)"
+      }
+     ],
+     "discovery_artifacts": [],
+     "facts": [],
+     "decks": [],
+     "videos": []
+    }
+   ],
+   "summary": "Inventoried C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201 (Developex era 2010-2017, ~160MB, 8 sub-areas, no PDFs/PPTX so no confidential decks). Strongest material: (1) MetricInsights/BIG DATA - three sub-cases with huge polished boards: UI Standards 2.0 control/forms/popups sheets (up to 2048x16668), big-data grids board, and four 5000px-wide dark \"Themeable UI\" boards, all with Sketch sources and first-person about.rtf notes stating role = \"management, business analysis and design\" plus hands-on HTML/SCSS; (2) Hoop Messenger onboarding - a complete sketch-to-ship story: paper wireframe photo (GOLD), hand-sketching video, Flinto AND Marvel prototype videos, and a 2450x2750 final flow board; (3) MobileWebApp is explicitly the BIG DATA mobile client per its about.rtf - merge into the bigdata case; (4) Corsair = Voyager Air media app (2014 on-device screenshots + composite) while the headphone_framework-style dark control sheet actually lives in DevelopexSelfBranding/UIDesignAssets/CorsairHIDSoftware/Controls.png; (5) Grabilla has a clean all-devices responsive mockup. Caveat: six z*/x*.jpg files inside Corsair/screenshots2014 are misfiled DevX Software website screenshots - one of them yields company facts (>60 specialists, 12 years, clients incl. Logitech and Trend Micro). Comlead has only one 320px screen - grid tile at best."
+  },
+  "dribbble-concepts": {
+   "projects": [
+    {
+     "name": "Discovery Outcomes Look&Feel Concepts 2026 (unverified, likely WaterFlex / AgileEngine)",
+     "site_case_guess": "unknown",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Concepts/21DiscoveryOutcomesLookF.fig",
+       "what": "Figma source: Discovery Outcomes Look&Feel Concept 2.1 (26 MB) — needs export to images"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Concepts/22DiscoveryOutcomesLookF.fig",
+       "what": "Figma source: Discovery Outcomes Look&Feel Concept 2.2 (30 MB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/forportfolio/Concepts/23DiscoveryOutcomesLookF.fig",
+       "what": "Figma source: Discovery Outcomes Look&Feel Concept 2.3 (68 MB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/02StrongCases/ConceptsLookandFeel2026u/README.md",
+       "what": "Prior inventory README: identifies these 3 .fig files, flags them STRONG priority pending verification"
+      }
+     ],
+     "facts": [
+      "Files dated 2026-01-30; numbering style (2.1/2.2/2.3 Discovery phases) matches AgileEngine program structure",
+      "README TODO suggests they may belong to WaterFlex (AE 2025-2026); not yet verified",
+      "No exported images exist — only .fig sources; would need Figma export to become usable visuals"
+     ]
+    },
+    {
+     "name": "Commify SCP white-label app (EPAM, 2015-2021)",
+     "site_case_guess": "messenger",
+     "best_visuals": [],
+     "decks": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/EPAM/01Commify/SCP/Concept/CommifyDS.pdf",
+       "pages": 34,
+       "confidential": false,
+       "what": "Concept deck: Information Architecture for White-Label App + hi-fi flows (auth/login, dashboard/reports, Send SMS, orders/products with export/print/create-order). 283 MB, image-heavy — good page-extraction source"
+      }
+     ],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/EPAM/01Commify/SCP/Concept/CommifyDS15.fig",
+       "what": "Figma source of the Commify design system / concept, v15 (128 MB)"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/EPAM/Trash/Commify/SCP/Concept/CommifyDS14.fig",
+       "what": "Older v14 of same Figma file, sits in Trash folder (108 MB) — duplicate, ignore"
+      }
+     ],
+     "facts": [
+      "PDF page 1 is an IA map: Start > Authentication > Home > Dashboard/Reports > Send SMS > Settings — IA/discovery evidence",
+      "Mockups embed real identity email alexey.tsesliuk@commify.co — confirms hands-on role on Commify",
+      "No 'Confidential' marking on any of the 34 pages",
+      "Strong-cases folder naming dates Commify engagement 2015-2021 at EPAM"
+     ]
+    },
+    {
+     "name": "SpaceLabs Rainier patient monitoring concept (GlobalLogic, 2014-2021)",
+     "site_case_guess": "clinical-environment",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/GlobalLogic/01SpaceLabs/Concept/Wireframes/Rainier000.bmpr",
+       "what": "Balsamiq wireframes project for Rainier patient monitor (18.6 MB) — needs Balsamiq export to view"
+      }
+     ],
+     "facts": [
+      "Concept subfolder named 'SW RFP Rainier Patient Monit' — RFP/pre-sale stage concept work for Spacelabs Rainier patient monitoring",
+      "Rest of Concept folder is IcoMoon icon-pack tooling (junk, skip)",
+      "Strong-cases folder naming dates SpaceLabs engagement 2014-2021 at GlobalLogic"
+     ]
+    },
+    {
+     "name": "Corsair Android music player (Developex archive era, 2014)",
+     "site_case_guess": "unknown",
+     "best_visuals": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Corsair/screenshots2014/Screenshot20141030190110.png",
+       "size_kb": 524,
+       "what": "On-device screenshot of Android music player UI (Music/Songs list), 2014 — documentary quality, not presentation-grade"
+      },
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Portfolio/03ArchiveDevelopexera201/Corsair/screenshots2014/Screenshot20141030185942.png",
+       "size_kb": 519,
+       "what": "On-device screenshot of same Android media app, another screen"
+      }
+     ],
+     "facts": [
+      "12 files total (PNG device screenshots + JPG promo-ish shots z*.jpg ~200 KB each), all dated 2014-10-30",
+      "Archive era material; low value for current strategist positioning"
+     ]
+    },
+    {
+     "name": "AgileEngine Evaluation Framework (internal design-program tooling)",
+     "site_case_guess": "design-program",
+     "best_visuals": [],
+     "discovery_artifacts": [
+      {
+       "path": "C:/Users/Admin/iCloudDrive/StorageA/Projects/AgileEngine/03Frameworks/EvaluationFramework/1Inspiration/Skillsmatrix1024x768.jpg",
+       "what": "Reference skills-matrix image (185 KB) used as inspiration for the designer evaluation framework — process evidence, not a showpiece"
+      }
+     ],
+     "facts": [
+      "Folder also holds a gov.uk 'interaction designer' guidance link file — shows benchmark sources used to build the AE evaluation framework",
+      "Evidence the design-program case included a formal designer evaluation framework with external benchmarks"
+     ]
+    }
+   ],
+   "summary": "Targeted scan of StorageA for dribbble/shots/concept/behance/inspiration folders (maxdepth 6, GAMES excluded) found 8 matches; 2 are empty shells (GlobalLogic/05SmartCity/.../smartfortwo2014onBehance is just a 57-byte URL file; EPAM/Trash duplicate ignored). No polished Dribbble-style exported imagery exists in these folders — the real value is sources and decks: (1) CommifyDS.pdf, a 34-page non-confidential IA+hi-fi concept deck for a white-label messaging app (best extraction candidate, maps to the messenger case, dates 2015-2021 EPAM); (2) three large 2026 'Discovery Outcomes Look&Feel Concept' .fig files, likely WaterFlex/AgileEngine per the sibling README, STRONG priority but need project verification and Figma export; (3) Balsamiq wireframes for Spacelabs Rainier patient monitor (clinical-environment discovery evidence, RFP stage); (4) 2014 Corsair Android player device screenshots (archive-grade only); (5) skills-matrix inspiration for the AE evaluation framework (design-program process evidence). Bonus fact source: Portfolio/02StrongCases folder names encode engagement timelines (Commify 2015-2021 EPAM; SpaceLabs 2014-2021, MobileHealth 2020-2021, Volvo 2018-2019, ParkU 2017-2018, Geeny.io 2017 GlobalLogic; eVerse 2022, Edsembli 2023, WaterFlex 2025-2026 AgileEngine). Note: on-disk names are stored truncated/sanitized (e.g. '21DiscoveryOutcomesLookF.fig'); paths above are the real ones."
+  }
+ }
+}
