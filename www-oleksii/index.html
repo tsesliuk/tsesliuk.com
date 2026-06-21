@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<script>document.documentElement.classList.add('js')</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Oleksii Tsesliuk · UI/UX Director · Product Owner · PhD Researcher</title>
 <meta name="description" content="Oleksii Tsesliuk: product discovery, system analysis, and redesign strategy for B2B SaaS and data-heavy platforms. 20+ years of experience. PhD researcher in AI-driven interface evaluation. Kyiv, remote worldwide.">
@@ -234,8 +235,9 @@ section{padding:5rem 2rem}
 
 footer{padding:2rem;border-top:1px solid var(--border);text-align:center;font-size:.75rem;color:var(--text-dim);letter-spacing:.04em}
 
-.fade-in{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.js .fade-in{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
 .fade-in.visible{opacity:1;transform:translateY(0)}
+@media (prefers-reduced-motion:reduce){.js .fade-in{opacity:1;transform:none;transition:none}nav{transition:none}}
 
 @media(max-width:900px){
   .hero-inner{grid-template-columns:1fr;text-align:center}
