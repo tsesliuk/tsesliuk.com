@@ -94,7 +94,7 @@ nav{
   border-bottom:1px solid rgba(42,42,46,.4);
   display:flex;align-items:center;justify-content:space-between;transition:transform .35s;
 }
-nav .logo{font-family:var(--serif);font-size:1.15rem;letter-spacing:.02em;color:var(--text)}
+nav .logo{font-family:var(--serif);font-size:clamp(1rem,3.5vw,1.15rem);letter-spacing:.02em;color:var(--text);white-space:nowrap}
 nav .links{display:flex;gap:2rem}
 nav .links a{font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text-dim);font-weight:500}
 nav .links a:hover{color:var(--accent)}
@@ -308,7 +308,7 @@ footer{padding:2rem;text-align:center;border-top:1px solid var(--border);color:v
 <body>
 
 <nav>
-  <div class="logo">OT</div>
+  <div class="logo">Олексій Цеслюк</div>
   <div class="links">
     <a href="https://tsesliuk.com/uk/">Роботи</a>
     <a href="#about" class="nav-sec">Про мене</a>
@@ -337,7 +337,6 @@ footer{padding:2rem;text-align:center;border-top:1px solid var(--border);color:v
       <div class="cta-row">
         <a href="#contact" class="btn btn-primary">Зв'язатись</a>
         <a href="https://tsesliuk.com/uk/" class="btn btn-outline">Портфоліо</a>
-        <a href="#research" class="btn btn-outline">PhD-дослідження</a>
       </div>
     </div>
     <div class="hero-photo fade-in">
@@ -663,7 +662,18 @@ footer{padding:2rem;text-align:center;border-top:1px solid var(--border);color:v
 </section>
 
 <footer>
-  <p>&copy; Олексій Цеслюк · Київ, Україна</p>
+  <div style="max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap;text-align:left">
+    <div>
+      <div style="font-family:var(--serif);font-size:1.15rem;color:var(--text);margin-bottom:.35rem">Олексій Цеслюк</div>
+      <div style="font-size:.82rem;color:var(--text-dim)">UI/UX Director &amp; Design Product Manager</div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:.45rem;text-align:right">
+      <a href="mailto:email@tsesliuk.com">email@tsesliuk.com</a>
+      <a href="https://linkedin.com/in/tsesliuk" target="_blank" rel="noopener">linkedin.com/in/tsesliuk</a>
+      <a href="https://tsesliuk.com/uk/">Портфоліо</a>
+    </div>
+  </div>
+  <div style="max-width:1200px;margin:1.6rem auto 0;font-size:.72rem;color:var(--text-dim)">&copy; Олексій Цеслюк. Київ, Україна.</div>
 </footer>
 
 <script>
