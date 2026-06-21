@@ -86,10 +86,12 @@ def scatter(i):
     return "\n".join(s)
 
 def doc(center, i):
+    # transparent canvas (borderless on the page); central object enlarged so the
+    # scatter reads as radiating outward from it
     return (f'<svg width="{W}" height="{H}" viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg">'
-            f'<rect width="{W}" height="{H}" fill="#ffffff"/>'
             f'{scatter(i)}'
-            f'<g fill="none" stroke="{INK}" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">{center}</g>'
+            f'<g transform="translate(200 150) scale(1.12) translate(-200 -150)" '
+            f'fill="none" stroke="{INK}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">{center}</g>'
             f'</svg>')
 
 # common helpers for center objects -------------------------------------------
