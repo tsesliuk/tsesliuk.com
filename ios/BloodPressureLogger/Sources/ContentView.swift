@@ -12,21 +12,48 @@ struct ContentView: View {
     @State private var banner: String?
     @State private var showCamera = false
     @State private var isRecognizing = false
+    @State private var exportFile: ExportFile?
 
     var body: some View {
         NavigationStack {
             Form {
                 inputSection
+                chartSection
                 historySection
             }
             .navigationTitle("Тиск")
             .safeAreaInset(edge: .bottom) { bannerView }
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        if let url = CSVExporter.makeFile(from: store.readings) {
+                            exportFile = ExportFile(url: url)
+                        }
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .disabled(store.readings.isEmpty)
+                }
+            }
             .fullScreenCover(isPresented: $showCamera) {
                 CameraPicker { image in
                     showCamera = false
                     Task { await recognize(from: image) }
                 }
                 .ignoresSafeArea()
+            }
+            .sheet(item: $exportFile) { file in
+                ShareSheet(items: [file.url])
+            }
+        }
+    }
+
+    // MARK: - Графік динаміки
+
+    @ViewBuilder private var chartSection: some View {
+        if store.readings.count >= 2 {
+            Section("Динаміка") {
+                HistoryChart(readings: store.readings)
             }
         }
     }
