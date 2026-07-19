@@ -5,7 +5,11 @@
 
 ## Що вміє
 
-- Форма з трьома полями: систолічний, діастолічний, пульс.
+- **📷 Сфотографувати показники** — знімає дисплей тонометра, розпізнає
+  числа **на пристрої** (фреймворк Vision, без інтернету) і підставляє
+  SYS/DIA/PUL у форму. Фото живе лише в пам'яті під час розпізнавання й
+  **ніде не зберігається** — ні в галерею, ні на диск.
+- Форма з трьома полями: систолічний, діастолічний, пульс (можна й вручну).
 - Кнопка «Зберегти» → вимір іде **одночасно**:
   - у локальну історію (JSON-файл на пристрої, не зникає між запусками);
   - у **Apple Health** (кров'яний тиск як кореляція SYS+DIA, плюс пульс).
@@ -13,6 +17,10 @@
   позначка ❤️ що вимір записано в Health.
 - Свайп ліворуч у списку — видалити запис із локальної історії
   (з Health при цьому не видаляється — це роблять у самому Health).
+
+> Розпізнані значення **не зберігаються автоматично** — вони лише
+> підставляються у форму, щоб ти їх звірив і натиснув «Зберегти».
+> OCR іноді помиляється, а це медичні дані.
 
 ## Файли
 
@@ -22,10 +30,12 @@ Sources/
   Reading.swift                  — модель виміру + категоризація тиску
   ReadingStore.swift             — локальна історія (JSON у Application Support)
   HealthKitManager.swift         — дозволи та запис у Apple Health
-  ContentView.swift              — форма + список історії
+  TextRecognizer.swift           — розпізнавання чисел з фото (Vision, на пристрої)
+  CameraPicker.swift             — обгортка камери (знімок лише в пам'яті)
+  ContentView.swift              — форма + камера + список історії
 Support/
   BloodPressureLogger.entitlements — вмикає HealthKit
-  Info-additions.plist             — 2 обов'язкові ключі-описи дозволів
+  Info-additions.plist             — ключі-описи дозволів (Health + камера)
 ```
 
 ---
@@ -45,10 +55,11 @@ Support/
    таргет → вкладка **Signing & Capabilities → + Capability → HealthKit**.
    Xcode сам створить `.entitlements`. (Файл `Support/BloodPressureLogger.entitlements`
    тут — як зразок; можеш узяти згенерований Xcode.)
-4. **Додай описи дозволів:** таргет → вкладка **Info** → додай два ключі з
+4. **Додай описи дозволів:** таргет → вкладка **Info** → додай три ключі з
    `Support/Info-additions.plist`:
    - `Privacy - Health Update Usage Description`
    - `Privacy - Health Share Usage Description`
+   - `Privacy - Camera Usage Description`
 5. **Підпис:** вкладка **Signing & Capabilities** → Team → обери свій Apple ID
    (безкоштовний «Personal Team» підходить). Bundle Identifier зроби
    унікальним, напр. `com.tsesliuk.bloodpressure`.

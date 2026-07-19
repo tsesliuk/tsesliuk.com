@@ -11,5 +11,8 @@
 
     <key>NSHealthShareUsageDescription</key>
     <string>Застосунок використовує дані здоров'я для збереження історії тиску.</string>
+
+    <key>NSCameraUsageDescription</key>
+    <string>Камера потрібна, щоб сфотографувати дисплей тонометра й розпізнати показники. Фото не зберігається.</string>
 </dict>
 </plist>
