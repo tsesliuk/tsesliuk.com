@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ці два ключі ОБОВ'ЯЗКОВІ, інакше застосунок впаде при спробі доступу
+     до Health. Додай їх у вкладці Info твого таргета (Xcode) або встав у
+     власний Info.plist. Значення — текст, який побачить користувач у
+     системному діалозі дозволу. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>Застосунок записує ваш артеріальний тиск і пульс у програму «Здоров'я».</string>
+
+    <key>NSHealthShareUsageDescription</key>
+    <string>Застосунок використовує дані здоров'я для збереження історії тиску.</string>
+</dict>
+</plist>
