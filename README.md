@@ -22,3 +22,7 @@ Each page is self-contained with its own inline `<style>`.
 See [SETUP.md](SETUP.md) for Mac/Windows preview and the two-site deployment boundary. Follow [AGENTS.md](AGENTS.md). Existing pages use both older shared styles and newer inline styles; inspect the page being changed. Preserve EN/UA parity, existing design tokens and client confidentiality.
 
 The AgileEngine case uses www/works/agileengine_design_system.html and www/images/ae_ds/. Its older handoff is retired; verify actual HTML/links and asset availability before changing the homepage or claiming publication approval.
+
+## Deployment boundary
+
+Git includes the project documentation and agent context for use on another computer. Hosting receives only website assets. Build a verified package from a reviewed commit with `tools/package_site.py`; follow [SETUP.md](SETUP.md) for macOS/Windows commands and the one-time migration from the legacy server checkout. Never deploy by cloning or pulling this repository on hosting. Creating the package does not upload it.

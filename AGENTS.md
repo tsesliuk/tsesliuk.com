@@ -18,3 +18,12 @@ Read SETUP.md for device restoration. These instructions are self-contained; acc
 ## Project-specific rules
 
 This repository is public. Do not add private indexes, corporate access routes, client research, credentials or personal configuration. Preserve both site roots, language parity and existing page-specific styling. Review client-named cases before publishing.
+
+## Repository and hosting boundary
+
+- Keep AGENTS.md, CLAUDE.md, README.md, SETUP.md and deployment tooling in Git so another development computer receives the full project context.
+- Hosting receives **only reviewed website assets**, never the repository, its history, agent instructions, documentation, local manifests, credentials, logs or development files. Do not clone, pull or fetch Git on hosting.
+- Prepare a package locally with `tools/package_site.py` from the exact reviewed commit. It exports only allowed files from `www/` and `www-oleksii/`; excluded and unknown files must not be added by copying the checkout instead. Changes to the allowlist require review.
+- The package ignores uncommitted changes. Review/commit intended website changes before packaging; never include unrelated work merely to deploy.
+- Upload only the verified `site.zip` payload after the concrete deployment is approved. Keep `manifest.local.json` on the development computer. Verify deployed bytes against it.
+- The legacy server currently contains a full checkout outside the public roots. Excluding files from a new package does not remove old server files. Plan and obtain approval for that migration before removing the checkout or changing the existing web-root links. Do not declare the host clean from public HTTP checks alone.
